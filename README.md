@@ -1,11 +1,10 @@
 # Simple Z-Image Workflow
 
-A workflow developed while experimenting with z-image, incorporating additional features beyond the base ComfyUI workflow.
-This repository includes three workflows optimized for different GPU VRAM capacities.
+A workflow developed while experimenting with [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image), incorporating additional features beyond the base ComfyUI workflow. Three versions utilizing different checkpoints optimized for varying GPU VRAM capacities are included.
 
 ## Features
 
-- Includes some configurable styles for testing and experimentation.
+- Eight configurable image styles for testing and experimentation.
 - Versions in both .safetensors and .gguf formats to support a range of GPUs.
 - Custom sigma values adjusted to my preference (subjectively better prompt adherence).
 - Includes a trick to enable CivitAI automatic prompt detection.
@@ -14,9 +13,9 @@ This repository includes three workflows optimized for different GPU VRAM capaci
 
 The repository contains three workflow files, each optimized for different GPU VRAM capacities:
 
- 1. **simple_zimage-GGUF.json**       : Recommended for GPUs with 12GB or less VRAM.
- 2. **simple_zimage-GGUFSMALL.json**  : For GPUs with less than 8GB VRAM.
- 3. **simple_zimage-SAFETENSORS.json**: Based directly on the ComfyUI example.
+ 1. **"simple_zimage-GGUF.json"**       : Recommended for GPUs with 12GB or less VRAM.
+ 2. **"simple_zimage-GGUFSMALL.json"**  : For GPUs with less than 8GB VRAM.
+ 3. **"simple_zimage-SAFETENSORS.json"**: Based directly on the ComfyUI example.
 
 ## Workflow Files and Checkpoints
 > [!NOTE]
