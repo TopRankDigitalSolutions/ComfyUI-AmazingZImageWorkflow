@@ -7,6 +7,7 @@ A workflow developed while experimenting with [Z-Image-Turbo](https://github.com
 - Eight configurable image styles for testing and experimentation.
 - Versions in both .safetensors and .gguf formats to support a range of GPUs.
 - Custom sigma values adjusted to my preference (subjectively better prompt adherence).
+- Generated images are stored within the "ZImage" folder, organized by date.
 - Includes a trick to enable CivitAI automatic prompt detection.
 
 ## Workflow Overview
