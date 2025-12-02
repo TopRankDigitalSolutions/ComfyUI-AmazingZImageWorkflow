@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/martin-rizzo/AmazingZImageWorkflow?label=license%3A&color=28A745)](#)
 [![Version](https://img.shields.io/github/v/tag/martin-rizzo/AmazingZImageWorkflow?label=version%3A&color=D07250)](#)
 [![Last](https://img.shields.io/github/last-commit/martin-rizzo/AmazingZImageWorkflow?label=last%20commit%3A)](#)  
-<img src="img/banner.png" width="75%"></img>
+<img src="files/banner.png" width="75%"></img>
 
 </div>
 
