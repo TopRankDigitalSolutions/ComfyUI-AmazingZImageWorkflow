@@ -316,7 +316,7 @@ def select_font_variation(font: ImageFont,
 
 def save_image(filepath        : str,
                image           : Image,
-               text_chunks     : dict[str, str] = [],
+               metadata        : dict[str, str] = [],
                should_make_dirs: bool           = False,
                ) -> None:
     """Save an image to a specified filepath with optional metadata.
@@ -343,9 +343,9 @@ def save_image(filepath        : str,
     else:
         # prepare text chunks to be saved together with the PNG image
         pnginfo = PngInfo()
-        for key in text_chunks:
-            pnginfo.add_text(key, text_chunks[key])
-        image.save(filepath, 'PNG', pnginfo=pnginfo, compress_level=9, optimize=True)
+        for key, value in metadata:
+            pnginfo.add_text(key, value)
+        image.save(filepath, format='PNG', pnginfo=pnginfo, compress_level=9)
 
 
 #-------------------------------- BOX CLASS --------------------------------#
@@ -866,7 +866,7 @@ def build_gallery(image_paths: list[str],
                   grid_size  : tuple[int, int],
                   scale      : float = 1.,
                   prompt     : str   = "",
-                  ) -> Image.Image:
+                  ) -> tuple[Image.Image, dict]:
     """
     Creates a large image containing multiple PNG images arranged in a grid.
 
@@ -875,7 +875,7 @@ def build_gallery(image_paths: list[str],
         grid_size   (tuple): Grid dimensions as (columns, rows)
         scale       (float): Scale factor for the images
     Returns:
-        A PIL.Image containing all input images arranged in a grid
+        A tuple containing the generated image and its PNG metadata.
     """
     number_of_images = len(image_paths)
 
@@ -914,15 +914,21 @@ def build_gallery(image_paths: list[str],
     gallery_height  = cell_height * rows
     gallery_image = Image.new('RGB', (gallery_width, gallery_height), color='black')
 
-    # place images in grid
+    # draw each image in a grid
+    metadata = None
     for i, path in enumerate(image_paths):
 
         # if the image for this style was not found then skip to the next one
         if not path or not os.path.isfile(path):
             continue
 
-        # load and resize the image to fit the cell size
+        # load image
+        # (if it's the first image then also load the PNG metadata)
         img = Image.open(path)
+        if not metadata:
+            metadata = img.info.items()
+
+        # if the image style is valid, add a label with the name of the style
         if i < len(style_list):
             style_name = style_list[i]
             if style_name.startswith("STYLE:"):
@@ -944,12 +950,9 @@ def build_gallery(image_paths: list[str],
         # paste image into the gallery
         gallery_image.paste(cell_img, (cell_width*col+xoffset, cell_height*row))
 
-    return gallery_image
+    return gallery_image, metadata
 
 
-#===========================================================================#
-#////////////////////////////////// MAIN ///////////////////////////////////#
-#===========================================================================#
 
 def main(args=None, parent_script=None):
     prog = None
@@ -1007,13 +1010,14 @@ def main(args=None, parent_script=None):
     gallery_index = 0
     for prompt, image_paths in grouped_images.items():
         print(f"\nPrompt: \"{prompt[:40]}...\"")
-        gallery_image = build_gallery(image_paths,
-                                      style_list,
-                                      grid_size  = (4,3),
-                                      scale      = scale,
-                                      prompt     = prompt
-                                      )
-        gallery_image.save( f"gallery{gallery_index}{extension}", quality=95)
+        gallery_image, metadata = build_gallery(image_paths,
+                                                style_list,
+                                                grid_size  = (4,3),
+                                                scale      = scale,
+                                                prompt     = prompt
+                                                )
+        filename=f"gallery{gallery_index}{extension}"
+        save_image( filename, gallery_image, metadata, should_make_dirs=False)
         gallery_index += 1
 
 
