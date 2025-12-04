@@ -31,6 +31,10 @@ A workflow developed while experimenting with [Z-Image-Turbo](https://github.com
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Includes a trick to enable automatic CivitAI prompt detection.
 
+### Predefined Styles in This Version
+
+<img src="files/styles.png" width="50%"></img>
+
 ## Workflow Overview
 
 The repository contains two workflow files:
