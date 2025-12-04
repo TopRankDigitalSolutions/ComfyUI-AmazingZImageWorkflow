@@ -2826,7 +2826,7 @@
         "Node name for S&R": "CLIPLoader"
       },
       "widgets_values": [
-        "qwen3_4b_fp8_scaled.safetensors",
+        "qwen_3_4b.safetensors",
         "lumina2",
         "default"
       ],
@@ -3752,9 +3752,9 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.913,
+      "scale": 0.9129999999999999,
       "offset": [
-        -934.9561883899235,
+        -934.9561883899233,
         -455
       ]
     },
