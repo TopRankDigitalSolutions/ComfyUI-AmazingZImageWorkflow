@@ -2375,7 +2375,7 @@
           ]
         }
       ],
-      "title": "Euler [ NOISY ]",
+      "title": "Euler: NOISY, TEXTURED",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2412,7 +2412,7 @@
           ]
         }
       ],
-      "title": "Euler Ancestral [ SOFT ]",
+      "title": "Euler Ancestral:  SOFT, CLEAN",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2441,13 +2441,13 @@
       "inputs": [
         {
           "dir": 3,
-          "name": "Euler [ NOISY ]",
+          "name": "Euler: NOISY, TEXTURED",
           "type": "*",
           "link": 284
         },
         {
           "dir": 3,
-          "name": "Euler Ancestral [ SOFT ]",
+          "name": "Euler Ancestral:  SOFT, CLEAN",
           "type": "*",
           "link": 285
         },
@@ -2581,7 +2581,7 @@
       "inputs": [
         {
           "dir": 3,
-          "name": "Euler [ NOISY ]",
+          "name": "Euler: NOISY, TEXTURED",
           "type": "*",
           "link": 292
         },
@@ -2600,7 +2600,7 @@
           "links": null
         }
       ],
-      "title": "SAMPLE SELECTOR",
+      "title": "SAMPLER SELECTOR",
       "properties": {
         "toggleRestriction": "always one"
       },
@@ -3752,9 +3752,9 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9129999999999999,
+      "scale": 0.913,
       "offset": [
-        -934.9561883899232,
+        -934.9561883899235,
         -455
       ]
     },
