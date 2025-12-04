@@ -40,9 +40,14 @@ The repository contains two workflow files:
 
 <sub>You'll often come across discussions about the best file format for ComfyUI. Based on my experience, GGUF quantized models offer a better balance between compactness and maintaining good prompt response compared to SafeTensors versions. However, it's also true that ComfyUI has internal speed enhancements that work more effectively with SafeTensors, which might lead you to prefer larger SafeTensors files. The reality is that this depends on several factors: your ComfyUI version, PyTorch setup, CUDA configuration, GPU type, and available VRAM and RAM. To help you out, I've included links below to various checkpoint versions so you can determine what works best for your specific system.</sub>
 
+## Required Custom Nodes
+
+These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or downloaded from their respective repositories.
+
+ - **[rgthree](https://github.com/rgthree/rgthree-comfy)**: Required for both workflows.
+ - **[ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)**: Required if you are using the workflow preconfigured for GGUF checkpoints.
+
 ## Required Checkpoints Files
-> [!NOTE]
-> The workflows may require some custom nodes; see below for more details.
 
 ### "amazing_zimage-GGUF.json"
 Works smoothly with 12GB of VRAM or less, it may handle around 8GB as well. \
@@ -76,13 +81,6 @@ Checkpoints used:
     Local Directory: __`ComfyUI/models/text_encoders/`__
   - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
     Local Directory: __`ComfyUI/models/vae/`__
-
-## Required Custom Nodes
-The workflows require the following custom nodes: \
-(which can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or downloaded from their respective repositories)
-
- - **rgthree** : __https://github.com/rgthree/rgthree-comfy__
- - **ComfyUI-GGUF**: __https://github.com/city96/ComfyUI-GGUF__
 
 ## License
 
