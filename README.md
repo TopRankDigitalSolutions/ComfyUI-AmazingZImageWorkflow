@@ -11,6 +11,16 @@
 
 A workflow developed while experimenting with [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image), incorporating additional features beyond the base ComfyUI workflow. Three versions utilizing different checkpoints optimized for varying GPU VRAM capacities are included.
 
+## Table of Contents
+1. [Features](#features)
+1. [Workflow Overview](#workflow-overview)
+2. [Required Checkpoints Files](#required-checkpoints-files)
+   - [For "amazing_zimage-GGUF.json"](#)
+   - [For "amazing_zimage-SAFETENSORS.json"](#)
+   - [For Low-VRAM Systems](#)
+3. [Required Custom Nodes](#)
+4. [License](#license)
+
 ## Features
 
 - Eight configurable image styles for testing and experimentation.
