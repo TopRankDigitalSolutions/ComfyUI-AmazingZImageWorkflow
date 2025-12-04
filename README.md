@@ -64,7 +64,7 @@ Using **Q5_K_S** quants, you will likely achieve the best balance between file s
 ### For "amazing_zimage-SAFETENSORS.json"
 
 Based directly on the official ComfyUI example. \
-While it may require 12GB or more of VRAM to run smoothly, ComfyUI includes optimizations that might allow it to work well on your system.
+<sub>While it may require more than 12GB of VRAM to run smoothly, ComfyUI's optimizations may allow it to work well on your system.</sub>
 
   - __[z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)__ <sub>(12.3 GB)</sub>\
     Local Directory: __`ComfyUI/models/diffusion_models/`__
