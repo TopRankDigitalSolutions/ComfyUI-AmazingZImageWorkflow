@@ -49,31 +49,22 @@ These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/
 
 ## Required Checkpoints Files
 
-### "amazing_zimage-GGUF.json"
-Works smoothly with 12GB of VRAM or less, it may handle around 8GB as well. \
-Checkpoints used:
+### For "amazing_zimage-GGUF.json"
 
- - __[z_image_turbo-Q5_K_M.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_M.gguf)__ <sub>(5.52 GB)</sub>\
+This is my recommended workflow. \
+Using **Q5_K_S** quants, you will likely achieve the best balance between file size and prompt response.
+
+ - __[z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf)__ <sub>(5.19 GB)</sub>\
    Local Directory: __`ComfyUI/models/diffusion_models/`__
- - __[Qwen3-4B.i1-Q5_K_M.gguf](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_M.gguf)__ <sub>(2.89 GB)</sub>\
+ - __[Qwen3-4B.i1-Q5_K_S.gguf](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf)__ <sub>(2.82 GB)</sub>\
    Local Directory: __`ComfyUI/models/text_encoders/`__
  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
    Local Directory: __`ComfyUI/models/vae/`__
 
-### "amazing_zimage-GGUFSMALL.json"
-Optimized for GPUs with limited VRAM (less than 8GB), though prompt accuracy might be affected. \
-Checkpoints used:
+### For "amazing_zimage-SAFETENSORS.json"
 
-  - __[z_image_turbo-Q3_K_M.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q3_K_M.gguf)__ <sub>(4.12 GB)</sub>\
-    Local Directory: __`ComfyUI/models/diffusion_models/`__
-  - __[Qwen3-4B.i1-Q2_K.gguf](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q2_K.gguf)__ <sub>(1.67 GB)</sub>\
-    Local Directory: __`ComfyUI/models/text_encoders/`__
-  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
-    Local Directory: __`ComfyUI/models/vae/`__
-
-### "amazing_zimage-SAFETENSORS.json"
-Based directly on the official ComfyUI example, suitable for GPUs with around 12GB of VRAM or more. \
-Checkpoints used:
+Based directly on the official ComfyUI example. \
+While it may require 12GB or more of VRAM to run smoothly, ComfyUI includes optimizations that might allow it to work well on your system.
 
   - __[z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)__ <sub>(12.3 GB)</sub>\
     Local Directory: __`ComfyUI/models/diffusion_models/`__
