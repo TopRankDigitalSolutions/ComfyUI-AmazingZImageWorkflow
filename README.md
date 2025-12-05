@@ -79,9 +79,20 @@ Based directly on the official ComfyUI example. \
 
 ### For Low-VRAM Systems
 
-If neither of the two versions nor their checkpoints function adequately on your system, you can find below links to several checkpoint files in GGUF and SafeTensors formats. Feel free to try these alternatives and see which one works best for you.
+If neither of the two provided versions nor their associated checkpoints perform adequately on your system, you can find links to several alternative checkpoint files below. Feel free to experiment with these options to determine which works best for you.
 
-- Links will be provided soon.
+#### Diffusion Models (ComfyUI/models/diffusion_models/)
+
+*   **[Z-Image-Turbo (GGUF Quantizations)](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/tree/main)**
+    This repository hosts various quantized versions of the `z_image_turbo` model (e.g., Q4_K_S, Q4_K_M, Q3_K_S). While some of these quantizations offer significantly reduced file sizes, this often comes at the expense of final output quality.
+
+*   **[Z-Image-Turbo (FP8 SafeTensors)](https://huggingface.co/T5B/Z-Image-Turbo-FP8/tree/main)**
+    Similar to the GGUF options, this repository provides two `z_image_turbo` models quantized to FP8 (8-bit floating point) in SafeTensors format. These can serve as replacements for the original SafeTensors model, but in my opinion, they degrade quality quite a bit.
+
+#### Text Encoders (ComfyUI/models/text_encoders/)
+
+*   **[Qwen3-4B (Various GGUF Quantizations)](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/tree/main)**
+    This repository offers various quantized versions of the `Qwen3-4B` text encoder in GGUF format (e.g., Q2_K, Q3_K_M). **Note:** Quantizations beginning with "IQ" might not work, as the GGUF node did not support them during my testing.
 
 ## License
 
