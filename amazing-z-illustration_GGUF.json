@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 53,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -606,7 +606,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 63,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -760,7 +760,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 69,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -938,7 +938,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1036,43 +1036,6 @@
       "shape": 1
     },
     {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1940
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 7,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            381
-          ]
-        }
-      ],
-      "title": "STYLE: Comic Cover",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Dark European-style adult comic book cover, with intense colors and lots of cleavages and sexual provocation, action scene featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 117,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -1086,7 +1049,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1123,7 +1086,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1160,7 +1123,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1198,7 +1161,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1274,7 +1237,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1312,7 +1275,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1350,7 +1313,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1388,7 +1351,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1426,7 +1389,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1464,7 +1427,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1502,7 +1465,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1540,7 +1503,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1578,7 +1541,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1616,7 +1579,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1692,7 +1655,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -1956,7 +1919,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -2011,7 +1974,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -2058,7 +2021,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2125,7 +2088,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -2170,7 +2133,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2197,7 +2160,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2243,7 +2206,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2285,7 +2248,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2327,7 +2290,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2352,7 +2315,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 14,
+      "order": 13,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2389,7 +2352,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2426,7 +2389,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -2464,7 +2427,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2624,7 +2587,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2661,7 +2624,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2697,7 +2660,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2734,7 +2697,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2768,7 +2731,7 @@
         106
       ],
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2832,7 +2795,7 @@
         120
       ],
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2869,7 +2832,7 @@
         120
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2907,7 +2870,7 @@
         66
       ],
       "flags": {},
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2953,8 +2916,8 @@
         180
       ],
       "flags": {},
-      "order": 23,
-      "mode": 0,
+      "order": 22,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -2988,7 +2951,7 @@
         180
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3023,7 +2986,7 @@
         180
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3058,7 +3021,7 @@
         180
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3095,7 +3058,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 26,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3132,7 +3095,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 27,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3169,7 +3132,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3194,6 +3157,43 @@
       ],
       "color": "#232",
       "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1590,
+        1940
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Comic Cover",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Illustration with intense colors and adult comic book cover style, with lots of cleavages and sexual provocation. Action scene featuring: {$@}"
+      ],
       "shape": 1
     }
   ],
@@ -3974,10 +3974,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9891709058757062,
+      "scale": 0.913,
       "offset": [
-        -888.4208164382466,
-        -623.9497598717528
+        -934.9561883899235,
+        -455
       ]
     },
     "frontendVersion": "1.32.10"
