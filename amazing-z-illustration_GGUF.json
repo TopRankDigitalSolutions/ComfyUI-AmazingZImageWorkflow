@@ -1,8 +1,8 @@
 {
   "id": "5b1925c4-10a9-4f49-84c6-9c2edf37c3f5",
   "revision": 0,
-  "last_node_id": 136,
-  "last_link_id": 405,
+  "last_node_id": 138,
+  "last_link_id": 415,
   "nodes": [
     {
       "id": 60,
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
+        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
       ]
     },
     {
@@ -587,7 +587,7 @@
       },
       "widgets_values": [
         true,
-        1,
+        2,
         "fixed",
         1
       ]
@@ -660,7 +660,7 @@
       },
       "widgets_values": [
         "enable",
-        1,
+        2,
         "randomize",
         8,
         1,
@@ -760,7 +760,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 68,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -938,7 +938,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -1165,13 +1165,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 388
+          "link": 412
         }
       ],
       "outputs": [
@@ -1203,13 +1203,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 389
+          "link": 411
         }
       ],
       "outputs": [
@@ -1241,13 +1241,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 390
+          "link": 415
         }
       ],
       "outputs": [
@@ -1393,13 +1393,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 399
+          "link": 414
         }
       ],
       "outputs": [
@@ -1437,7 +1437,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 393
+          "link": 409
         }
       ],
       "outputs": [
@@ -1469,13 +1469,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 392
+          "link": 410
         }
       ],
       "outputs": [
@@ -1507,7 +1507,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1542,7 +1542,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Sober Anime",
+          "name": "STYLE: Cool Anime",
           "type": "*",
           "link": 278
         },
@@ -1554,7 +1554,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Ilustration 2",
+          "name": "STYLE: Unsettling Comic",
           "type": "*",
           "link": 280
         },
@@ -1578,19 +1578,19 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Retro Pixel Art",
+          "name": "STYLE: Ilustration 2",
           "type": "*",
           "link": 313
         },
         {
           "dir": 3,
-          "name": "STYLE: Isometric Icon",
+          "name": "STYLE: Simple Vector Illustration",
           "type": "*",
           "link": 331
         },
         {
           "dir": 3,
-          "name": "STYLE: Simple Vector Illustration",
+          "name": "STYLE: LowRes Pixel Art",
           "type": "*",
           "link": 332
         },
@@ -1633,7 +1633,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1771,7 +1771,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1968,7 +1968,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
+        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
       ]
     },
     {
@@ -2012,7 +2012,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -2079,7 +2079,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        1,
+        2,
         "fixed"
       ],
       "color": "#432",
@@ -2580,7 +2580,7 @@
         "pinned": true
       },
       "order": 14,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -2691,7 +2691,7 @@
         "pinned": true
       },
       "order": 17,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2808,11 +2808,11 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            388
+            411
           ]
         }
       ],
-      "title": "STYLE: Sober Anime",
+      "title": "STYLE: Dark Anime",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2845,11 +2845,11 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            389
+            412
           ]
         }
       ],
-      "title": "STYLE: Dark Anime",
+      "title": "STYLE: Cool Anime",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2882,7 +2882,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            390
+            414
           ]
         }
       ],
@@ -3030,11 +3030,11 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            399
+            410
           ]
         }
       ],
-      "title": "STYLE: Retro Pixel Art",
+      "title": "STYLE: LowRes Pixel Art",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -3042,43 +3042,6 @@
       },
       "widgets_values": [
         "Videogame with 2D pixel art image in 16 colors, with blocky pixels and saturated colors. Featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1660,
-        2500
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 27,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            393
-          ]
-        }
-      ],
-      "title": "STYLE: Isometric Icon",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A detailed image with technical isometric vector bold lines, solid colors and white background. The image shows a square platform on which there is: {$@}"
       ],
       "shape": 1
     },
@@ -3096,7 +3059,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 27,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3104,7 +3067,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            392
+            409
           ]
         }
       ],
@@ -3116,6 +3079,43 @@
       },
       "widgets_values": [
         "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1660,
+        2500
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            415
+          ]
+        }
+      ],
+      "title": "STYLE: Unsettling Comic",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An illustration with stippling textures; intense side lighting with deep shadows, and hard edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}"
       ],
       "shape": 1
     },
@@ -3154,7 +3154,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
+        "Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head."
       ],
       "color": "#232",
       "bgcolor": "#353",
@@ -3779,58 +3779,10 @@
       "*"
     ],
     [
-      388,
-      41,
-      0,
-      46,
-      0,
-      "*"
-    ],
-    [
-      389,
-      124,
-      0,
-      48,
-      0,
-      "*"
-    ],
-    [
-      390,
-      93,
-      0,
-      64,
-      0,
-      "*"
-    ],
-    [
       391,
       101,
       0,
       131,
-      0,
-      "*"
-    ],
-    [
-      392,
-      63,
-      0,
-      127,
-      0,
-      "*"
-    ],
-    [
-      393,
-      122,
-      0,
-      126,
-      0,
-      "*"
-    ],
-    [
-      399,
-      45,
-      0,
-      121,
       0,
       "*"
     ],
@@ -3863,6 +3815,54 @@
       70,
       0,
       76,
+      0,
+      "*"
+    ],
+    [
+      409,
+      63,
+      0,
+      126,
+      0,
+      "*"
+    ],
+    [
+      410,
+      45,
+      0,
+      127,
+      0,
+      "*"
+    ],
+    [
+      411,
+      41,
+      0,
+      48,
+      0,
+      "*"
+    ],
+    [
+      412,
+      124,
+      0,
+      46,
+      0,
+      "*"
+    ],
+    [
+      414,
+      93,
+      0,
+      121,
+      0,
+      "*"
+    ],
+    [
+      415,
+      122,
+      0,
+      64,
       0,
       "*"
     ]
@@ -3932,10 +3932,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9129999999999999,
+      "scale": 0.913,
       "offset": [
-        -934.9561883899233,
-        -454.99999999999994
+        -934.9561883899235,
+        -455
       ]
     },
     "frontendVersion": "1.32.10"
