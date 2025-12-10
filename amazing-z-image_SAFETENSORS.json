@@ -1,15 +1,15 @@
 {
-  "id": "bc4fbd42-60ce-4a41-861b-fac771c5897a",
+  "id": "15b91ea7-1511-4333-a28f-b31b2030b31b",
   "revision": 0,
-  "last_node_id": 131,
-  "last_link_id": 359,
+  "last_node_id": 170,
+  "last_link_id": 489,
   "nodes": [
     {
       "id": 60,
       "type": "CLIPTextEncode",
       "pos": [
         2870,
-        1130
+        1150
       ],
       "size": [
         400,
@@ -51,7 +51,7 @@
       "type": "EmptyLatentImage",
       "pos": [
         2910,
-        1170
+        1190
       ],
       "size": [
         270,
@@ -89,7 +89,7 @@
       "type": "CLIPTextEncode",
       "pos": [
         2820,
-        1090
+        1110
       ],
       "size": [
         410,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 50,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -150,7 +150,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -187,7 +187,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -224,7 +224,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -261,7 +261,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 63,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -298,7 +298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -335,13 +335,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 205
+          "link": 405
         }
       ],
       "outputs": [
@@ -372,13 +372,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 207
+          "link": 376
         }
       ],
       "outputs": [
@@ -396,43 +396,6 @@
       }
     },
     {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        180
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 2,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            249
-          ]
-        }
-      ],
-      "title": "STYLE: Casual Mobile Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "# File Details\n * filename: DSC1000.JPG\n * source:  old Android phone\n\n# Photograph Details\n * Color  : vibrant\n * Style  : casual and amateur\n * Content: {$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 67,
       "type": "SamplerCustom",
       "pos": [
@@ -446,7 +409,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -519,7 +482,7 @@
       "type": "KSamplerAdvanced",
       "pos": [
         3110,
-        1060
+        1080
       ],
       "size": [
         304.748046875,
@@ -528,7 +491,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -594,211 +557,116 @@
       ]
     },
     {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
+      "id": 114,
+      "type": "Reroute",
       "pos": [
-        -1590,
-        400
+        270,
+        140
       ],
       "size": [
-        450,
-        180
+        75,
+        26
       ],
       "flags": {
         "pinned": true
       },
-      "order": 3,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            270
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Candid Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A gritty, candid vintage photograph from a disposable camera, dark shadows and vibrant warm colors, featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        620
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 4,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            325
-          ]
-        }
-      ],
-      "title": "STYLE: Classic Film Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A cinematic shot from a classic film with deep black shadows and warm earth tones. The film grain is visible. The scene, imbued with profound emotion, depicts: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        -40
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            271
-          ]
-        }
-      ],
-      "title": "STYLE: Lo-fi Mobile Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 6,
-      "type": "CLIPTextEncode",
-      "pos": [
-        430,
-        280
-      ],
-      "size": [
-        470,
-        350
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 65,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 300
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 54
+          "name": "",
+          "type": "*",
+          "link": 487
         }
       ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
+          "name": "",
+          "type": "MODEL",
           "links": [
-            199
+            298
           ]
         }
       ],
-      "title": "CLIP Text Encode (Positive Prompt)",
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
+        "showOutputText": false,
+        "horizontal": false
+      }
     },
     {
-      "id": 7,
-      "type": "CLIPTextEncode",
+      "id": 123,
+      "type": "Reroute",
       "pos": [
-        430,
-        320
+        270,
+        200
       ],
       "size": [
-        425.27801513671875,
-        180.6060791015625
+        75,
+        26
       ],
       "flags": {
-        "collapsed": true,
         "pinned": true
       },
-      "order": 58,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 301
+          "name": "",
+          "type": "*",
+          "link": 488
         }
       ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
+          "name": "",
+          "type": "VAE",
           "links": [
-            201
+            330
           ]
         }
       ],
-      "title": "CLIP Text Encode (Negative Prompt)",
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 115,
+      "type": "Reroute",
+      "pos": [
+        270,
+        270
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
       },
-      "widgets_values": [
-        ""
-      ]
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 489
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CLIP",
+          "links": [
+            300,
+            301
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     },
     {
       "id": 8,
@@ -814,7 +682,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -859,7 +727,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -883,450 +751,10 @@
       }
     },
     {
-      "id": 109,
-      "type": "Reroute",
-      "pos": [
-        1160,
-        1060
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 291
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "*",
-          "links": [
-            292
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 9,
-      "type": "SaveImage",
-      "pos": [
-        2160,
-        410
-      ],
-      "size": [
-        630,
-        1000
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 69,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 16
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75"
-      },
-      "widgets_values": [
-        "ZImage/%date:yyyy_MM_dd%/ZI"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        840
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 6,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            357
-          ]
-        }
-      ],
-      "title": "STYLE: B&W Darkroom",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A chiaroscuro darkroom, black and white high contrast, grainy photo with wide-angle vision, and vignette effect. This casual photo showcases: {$@}\n"
-      ]
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1060
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 7,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            356
-          ]
-        }
-      ],
-      "title": "STYLE: Cyberpunk Neon",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1280
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 8,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            354
-          ]
-        }
-      ],
-      "title": "STYLE: Retro Pixel Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1500
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 9,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            355
-          ]
-        }
-      ],
-      "title": "STYLE: Simple Vector Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
-      ],
-      "shape": 1
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1720
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 10,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            351
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Comic Panel",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        1940
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 11,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            350
-          ]
-        }
-      ],
-      "title": "STYLE: Comic Cover",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Dark European-style adult comic book cover, with intense colors and lots of cleavages and sexual provocation, action scene featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        2160
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 12,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            349
-          ]
-        }
-      ],
-      "title": "STYLE: Studio Anime",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Epic anime filmed by Studio Ghibli, Japanese animation and hand-painted, depicts: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        2600
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 13,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            347
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Sketchwash",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}. "
-      ],
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        2380
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            348
-          ]
-        }
-      ],
-      "title": "STYLE: Dark Anime",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Dark fantasy masterpiece of cel_shading, with detailed anime violent style, featuring: {$@}."
-      ],
-      "shape": 1
-    },
-    {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1590,
-        2820
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            344
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage EGA Monitor",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Photo of an old monitor displaying a EGA game for DOS. The monitor is on a wooden table, and light from a window is reflecting off the screen. The image has scanlines. The game features a retro pixel art design in 16-color EGA, with thick, low-resolution pixels.\n\nThe pixel-art illustration on the monitor includes all of the following:\n<begin>\n{$@}\n<end>\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 34,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1120
       ],
       "size": [
@@ -1336,13 +764,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 271
+          "link": 381
         }
       ],
       "outputs": [
@@ -1364,7 +792,7 @@
       "id": 35,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1160
       ],
       "size": [
@@ -1374,13 +802,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 249
+          "link": 382
         }
       ],
       "outputs": [
@@ -1402,7 +830,7 @@
       "id": 36,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1200
       ],
       "size": [
@@ -1412,13 +840,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 270
+          "link": 384
         }
       ],
       "outputs": [
@@ -1440,7 +868,7 @@
       "id": 42,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1240
       ],
       "size": [
@@ -1450,13 +878,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 325
+          "link": 421
         }
       ],
       "outputs": [
@@ -1478,7 +906,7 @@
       "id": 44,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1280
       ],
       "size": [
@@ -1488,13 +916,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 357
+          "link": 387
         }
       ],
       "outputs": [
@@ -1516,7 +944,7 @@
       "id": 46,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1320
       ],
       "size": [
@@ -1526,13 +954,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 356
+          "link": 478
         }
       ],
       "outputs": [
@@ -1554,7 +982,7 @@
       "id": 48,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1360
       ],
       "size": [
@@ -1564,13 +992,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 354
+          "link": 477
         }
       ],
       "outputs": [
@@ -1592,7 +1020,7 @@
       "id": 64,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1400
       ],
       "size": [
@@ -1602,13 +1030,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 355
+          "link": 465
         }
       ],
       "outputs": [
@@ -1630,7 +1058,7 @@
       "id": 94,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1440
       ],
       "size": [
@@ -1640,13 +1068,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 351
+          "link": 466
         }
       ],
       "outputs": [
@@ -1668,7 +1096,7 @@
       "id": 102,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1480
       ],
       "size": [
@@ -1678,13 +1106,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 350
+          "link": 404
         }
       ],
       "outputs": [
@@ -1706,7 +1134,7 @@
       "id": 118,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1520
       ],
       "size": [
@@ -1716,13 +1144,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 349
+          "link": 403
         }
       ],
       "outputs": [
@@ -1744,7 +1172,7 @@
       "id": 121,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1560
       ],
       "size": [
@@ -1754,13 +1182,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 348
+          "link": 467
         }
       ],
       "outputs": [
@@ -1782,7 +1210,7 @@
       "id": 126,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1600
       ],
       "size": [
@@ -1792,13 +1220,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 347
+          "link": 469
         }
       ],
       "outputs": [
@@ -1820,7 +1248,7 @@
       "id": 127,
       "type": "Reroute",
       "pos": [
-        -890,
+        -1090,
         1640
       ],
       "size": [
@@ -1830,13 +1258,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 344
+          "link": 475
         }
       ],
       "outputs": [
@@ -1855,11 +1283,272 @@
       }
     },
     {
+      "id": 131,
+      "type": "Reroute",
+      "pos": [
+        -1090,
+        1680
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 474
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            363,
+            364
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        1280,
+        840
+      ],
+      "size": [
+        350,
+        440
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "STYLE: Lo-fi Mobile Photo",
+          "type": "*",
+          "link": 287
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "max one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        2160,
+        410
+      ],
+      "size": [
+        630,
+        1020
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 16
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75"
+      },
+      "widgets_values": [
+        "ZImage/%date:yyyy_MM_dd%/ZI"
+      ],
+      "color": "#323",
+      "bgcolor": "#535",
+      "shape": 1
+    },
+    {
+      "id": 97,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        1280,
+        1320
+      ],
+      "size": [
+        350,
+        130
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 65,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 380
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "EXTRA OPTIONS (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        390,
+        270
+      ],
+      "size": [
+        470,
+        350
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 300
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 429
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            199
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        390,
+        310
+      ],
+      "size": [
+        425.27801513671875,
+        180.6060791015625
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 63,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 301
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            201
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Negative Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
       "id": 90,
       "type": "PrimitiveString",
       "pos": [
-        -900,
-        1710
+        -1100,
+        1750
       ],
       "size": [
         270,
@@ -1869,7 +1558,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 16,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1877,7 +1566,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            335
+            365
           ]
         }
       ],
@@ -1895,17 +1584,17 @@
       "id": 104,
       "type": "Node Collector (rgthree)",
       "pos": [
-        -640,
+        -840,
         1090
       ],
       "size": [
         380,
-        310
+        326
       ],
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1940,13 +1629,13 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Cyberpunk Neon",
+          "name": "STYLE: Noir Shadows",
           "type": "*",
           "link": 278
         },
         {
           "dir": 3,
-          "name": "STYLE: Retro Pixel Art",
+          "name": "STYLE: Cyberpunk Neon",
           "type": "*",
           "link": 279
         },
@@ -1976,7 +1665,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Dark Anime",
+          "name": "STYLE: Anime",
           "type": "*",
           "link": 313
         },
@@ -1988,9 +1677,15 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage EGA Monitor",
+          "name": "STYLE: Retro Pixel Art",
           "type": "*",
           "link": 332
+        },
+        {
+          "dir": 3,
+          "name": "STYLE: Vintage EGA Monitor",
+          "type": "*",
+          "link": 363
         },
         {
           "dir": 3,
@@ -2009,23 +1704,24 @@
           ]
         }
       ],
+      "title": "Style Collector (rgthree)",
       "properties": {}
     },
     {
       "id": 87,
       "type": "Any Switch (rgthree)",
       "pos": [
-        -640,
-        1440
+        -840,
+        1450
       ],
       "size": [
         380,
-        326
+        346
       ],
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -2116,10 +1812,17 @@
           "dir": 3,
           "name": "any_15",
           "type": "STRING",
-          "link": 335
+          "link": 364
         },
         {
+          "dir": 3,
           "name": "any_16",
+          "type": "STRING",
+          "link": 365
+        },
+        {
+          "dir": 3,
+          "name": "any_17",
           "type": "STRING",
           "link": null
         }
@@ -2143,104 +1846,285 @@
       "widgets_values": []
     },
     {
-      "id": 31,
-      "type": "StringReplace",
+      "id": 158,
+      "type": "PrimitiveNode",
       "pos": [
-        -150,
-        1420
+        -260,
+        640
       ],
       "size": [
-        450,
-        280
+        240,
+        90
       ],
       "flags": {
         "pinned": true
       },
-      "order": 61,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 232
-        },
-        {
-          "name": "replace",
-          "type": "STRING",
-          "widget": {
-            "name": "replace"
-          },
-          "link": 294
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            54
-          ]
-        }
-      ],
-      "title": "STYLE INTEGRATOR",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$@}",
-        ""
-      ]
-    },
-    {
-      "id": 13,
-      "type": "EmptySD3LatentImage",
-      "pos": [
-        760,
-        700
-      ],
-      "size": [
-        260,
-        120
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
-          "slot_index": 0,
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
           "links": [
-            207
+            455,
+            456
+          ]
+        }
+      ],
+      "title": "Width",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        944,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 159,
+      "type": "PrimitiveNode",
+      "pos": [
+        -260,
+        770
+      ],
+      "size": [
+        240,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "links": [
+            457,
+            458
+          ]
+        }
+      ],
+      "title": "Height",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        1408,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 149,
+      "type": "Reroute",
+      "pos": [
+        140,
+        1330
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 479
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            429
           ]
         }
       ],
       "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "EmptySD3LatentImage"
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 58,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        700
+      ],
+      "size": [
+        250,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "noise_seed"
+          },
+          "links": [
+            85,
+            193
+          ]
+        }
+      ],
+      "title": "SEED",
+      "properties": {
+        "Run widget replace on values": false
       },
       "widgets_values": [
-        944,
-        1408,
-        1
-      ]
+        1,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 59,
+      "type": "PrimitiveNode",
+      "pos": [
+        1380,
+        700
+      ],
+      "size": [
+        250,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "links": [
+            87,
+            194
+          ]
+        }
+      ],
+      "title": "STEPS (TURBO = 8)",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        8,
+        "fixed"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 135,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        730,
+        860
+      ],
+      "size": [
+        260,
+        110
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "LATENT",
+          "link": 374
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "LATENT",
+          "link": 375
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "LATENT",
+          "name": "*",
+          "shape": 3,
+          "type": "LATENT",
+          "links": [
+            376
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86"
+      },
+      "widgets_values": []
     },
     {
       "id": 70,
       "type": "KarrasScheduler",
       "pos": [
-        760,
-        520
+        730,
+        680
       ],
       "size": [
         260,
@@ -2249,7 +2133,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -2266,7 +2150,7 @@
           "name": "SIGMAS",
           "type": "SIGMAS",
           "links": [
-            205
+            405
           ]
         }
       ],
@@ -2286,8 +2170,8 @@
       "id": 96,
       "type": "Any Switch (rgthree)",
       "pos": [
-        760,
-        360
+        730,
+        520
       ],
       "size": [
         260,
@@ -2296,20 +2180,20 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
           "name": "any_01",
           "type": "SAMPLER",
-          "link": 258
+          "link": 372
         },
         {
           "dir": 3,
           "name": "any_02",
           "type": "SAMPLER",
-          "link": 259
+          "link": 373
         },
         {
           "dir": 3,
@@ -2349,48 +2233,11 @@
       "widgets_values": []
     },
     {
-      "id": 68,
-      "type": "KSamplerSelect",
-      "pos": [
-        430,
-        400
-      ],
-      "size": [
-        270,
-        70
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            258,
-            284
-          ]
-        }
-      ],
-      "title": "Euler: NOISY, TEXTURED",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
       "id": 95,
       "type": "KSamplerSelect",
       "pos": [
-        430,
-        510
+        390,
+        490
       ],
       "size": [
         270,
@@ -2399,7 +2246,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 7,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2407,12 +2254,12 @@
           "name": "SAMPLER",
           "type": "SAMPLER",
           "links": [
-            259,
-            285
+            372,
+            448
           ]
         }
       ],
-      "title": "Euler Ancestral:  SOFT, CLEAN",
+      "title": "Alternative Sampler",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2423,33 +2270,208 @@
       ]
     },
     {
-      "id": 106,
-      "type": "Node Collector (rgthree)",
+      "id": 68,
+      "type": "KSamplerSelect",
       "pos": [
-        760,
-        860
+        390,
+        610
       ],
       "size": [
-        260,
+        270,
         70
       ],
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            373
+          ]
+        }
+      ],
+      "title": "Default Euler Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 134,
+      "type": "EmptySD3LatentImage",
+      "pos": [
+        390,
+        720
+      ],
+      "size": [
+        270,
+        120
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 31,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 458
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 456
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            374,
+            450
+          ]
+        }
+      ],
+      "title": "Landscape Orientation",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "EmptySD3LatentImage"
+      },
+      "widgets_values": [
+        1408,
+        944,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "type": "EmptySD3LatentImage",
+      "pos": [
+        390,
+        880
+      ],
+      "size": [
+        270,
+        120
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 455
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 457
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            375
+          ]
+        }
+      ],
+      "title": "Default Portrait Orientation",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "EmptySD3LatentImage"
+      },
+      "widgets_values": [
+        944,
+        1408,
+        1
+      ]
+    },
+    {
+      "id": 111,
+      "type": "Note",
+      "pos": [
+        1220,
+        470
+      ],
+      "size": [
+        310,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Select \"EDITING AREA\" group\nand press '.' to automatic zoom-in"
+      ],
+      "color": "#222",
+      "bgcolor": "#000",
+      "shape": 1
+    },
+    {
+      "id": 136,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        730,
+        1320
+      ],
+      "size": [
+        190.071875,
+        86
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
-          "name": "Euler: NOISY, TEXTURED",
+          "name": "Alternative Sampler",
           "type": "*",
-          "link": 284
+          "link": 448
         },
         {
           "dir": 3,
-          "name": "Euler Ancestral:  SOFT, CLEAN",
+          "name": "Landscape Orientation",
           "type": "*",
-          "link": 285
+          "link": 450
         },
         {
           "dir": 3,
@@ -2464,18 +2486,757 @@
           "name": "Output",
           "type": "*",
           "links": [
-            291
+            380
           ]
         }
       ],
       "properties": {}
     },
     {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        -130
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Lo-fi Mobile Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        90
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 11,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            382
+          ]
+        }
+      ],
+      "title": "STYLE: Casual Mobile Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "# File Details\n * filename: DSC1000.JPG\n * source:  old Android phone\n\n# Photograph Details\n * Color  : vibrant\n * Style  : casual and amateur\n * Content: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        310
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            384
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Candid Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A gritty, candid vintage photograph from a disposable camera, dark shadows and vibrant warm colors, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        530
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            421
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A cinematic shot from a classic film with deep black shadows and warm earth tones. The film grain is visible. The scene, imbued with profound emotion, depicts: {$@}\n"
+      ]
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        750
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 14,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            387
+          ]
+        }
+      ],
+      "title": "STYLE: B&W Darkroom",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A chiaroscuro darkroom, black and white high contrast, grainy photo with wide-angle vision, and vignette effect. This casual photo showcases: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 15,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            465
+          ]
+        }
+      ],
+      "title": "STYLE: Simple Vector Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1630
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 16,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            466
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Comic Panel",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1850
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            404
+          ]
+        }
+      ],
+      "title": "STYLE: Comic Cover",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Dark European-style adult comic book cover, with intense colors and lots of cleavages and sexual provocation, action scene featuring: {$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2070
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            403
+          ]
+        }
+      ],
+      "title": "STYLE: Studio Anime",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Epic anime filmed by Studio Ghibli, Japanese animation and hand-painted, depicts: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            467
+          ]
+        }
+      ],
+      "title": "STYLE: Anime",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Dark fantasy masterpiece of cel_shading, with detailed anime violent style, featuring: {$@}."
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            469
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Sketchwash",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            478
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Shadows",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Intense side lighting with dramatic contrasts, deep shadows, and stark, defined edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro emphasizing the play of light and dark; color palette reminiscent of Ektachrome film, with muted yet vibrant hues and a slight warm tint; gobo patterns casting textured shadows for added depth and complexity; high resolution, sharp details, and a slightly desaturated look to evoke a timeless, cinematic feel; featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1190
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            477
+          ]
+        }
+      ],
+      "title": "STYLE: Cyberpunk Neon",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2730
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            475
+          ]
+        }
+      ],
+      "title": "STYLE: Retro Pixel Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2950
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            474
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage EGA Monitor",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Photo of an old monitor displaying a EGA game for DOS. The monitor is on a wooden table, and light from a window is reflecting off the screen. The image has scanlines. The game features a retro pixel art design in 16-color EGA, with thick, low-resolution pixels.\n\nThe pixel-art illustration on the monitor includes all of the following:\n<begin>\n{$@}\n<end>\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 170,
+      "type": "Note",
+      "pos": [
+        -1250,
+        120
+      ],
+      "size": [
+        900,
+        530
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "README",
+      "properties": {},
+      "widgets_values": [
+        "Amazing Z-Image Workflow v2.1\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree : https://github.com/rgthree/rgthree-comfy\n \n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo_bf16.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  qwen_3_4b.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 169,
+      "type": "UNETLoader",
+      "pos": [
+        -330,
+        170
+      ],
+      "size": [
+        380,
+        100
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            487
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "z_image_turbo_bf16.safetensors",
+        "default"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 167,
+      "type": "VAELoader",
+      "pos": [
+        -330,
+        310
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            488
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
+      "id": 168,
+      "type": "CLIPLoader",
+      "pos": [
+        -330,
+        440
+      ],
+      "size": [
+        380,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            489
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "qwen_3_4b.safetensors",
+        "lumina2",
+        "default"
+      ],
+      "color": "#322",
+      "bgcolor": "#533",
+      "shape": 1
+    },
+    {
       "id": 110,
       "type": "PrimitiveStringMultiline",
       "pos": [
-        2210,
-        1640
+        2410,
+        1550
       ],
       "size": [
         400,
@@ -2485,7 +3246,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 49,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -2517,502 +3278,59 @@
       ]
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
+      "id": 31,
+      "type": "StringReplace",
       "pos": [
-        1280,
-        840
+        -250,
+        1330
       ],
       "size": [
-        350,
-        390
+        230,
+        280
       ],
       "flags": {
         "pinned": true
       },
-      "order": 64,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
-          "dir": 3,
-          "name": "STYLE: Lo-fi Mobile Photo",
-          "type": "*",
-          "link": 287
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 232
         },
         {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "max one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 97,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        1280,
-        1270
-      ],
-      "size": [
-        350,
-        140
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 62,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Euler: NOISY, TEXTURED",
-          "type": "*",
-          "link": 292
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "SAMPLER SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 58,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        670
-      ],
-      "size": [
-        250,
-        130
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
+          "name": "replace",
+          "type": "STRING",
           "widget": {
-            "name": "noise_seed"
+            "name": "replace"
           },
-          "links": [
-            85,
-            193
-          ]
+          "link": 294
         }
       ],
-      "title": "SEED",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        1,
-        "fixed"
-      ],
-      "color": "#432",
-      "bgcolor": "#653",
-      "shape": 1
-    },
-    {
-      "id": 59,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        520
-      ],
-      "size": [
-        250,
-        110
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "links": [
-            87,
-            194
-          ]
-        }
-      ],
-      "title": "STEPS (TURBO = 8)",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        8,
-        "fixed"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159",
-      "shape": 1
-    },
-    {
-      "id": 111,
-      "type": "Note",
-      "pos": [
-        1230,
-        700
-      ],
-      "size": [
-        290,
-        88
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "Select \"EDITING AREA\" group\nand press '.' to automatic zoom-in"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 128,
-      "type": "UNETLoader",
-      "pos": [
-        -90,
-        140
-      ],
-      "size": [
-        360,
-        130
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            358
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "UNETLoader"
-      },
-      "widgets_values": [
-        "z_image_turbo_bf16.safetensors",
-        "default"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 17,
-      "type": "VAELoader",
-      "pos": [
-        -90,
-        310
-      ],
-      "size": [
-        360,
-        90
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            329
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "ae.safetensors"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 131,
-      "type": "CLIPLoader",
-      "pos": [
-        -90,
-        440
-      ],
-      "size": [
-        360,
-        140
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 25,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            359
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPLoader"
-      },
-      "widgets_values": [
-        "qwen_3_4b.safetensors",
-        "lumina2",
-        "default"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 114,
-      "type": "Reroute",
-      "pos": [
-        320,
-        140
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 358
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            298
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 123,
-      "type": "Reroute",
-      "pos": [
-        320,
-        200
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 329
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "VAE",
-          "links": [
-            330
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 115,
-      "type": "Reroute",
-      "pos": [
-        320,
-        270
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 48,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 359
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CLIP",
-          "links": [
-            300,
-            301
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 91,
-      "type": "Note",
-      "pos": [
-        -990,
-        90
-      ],
-      "size": [
-        880,
-        540
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 26,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "Amazing Z-Image Workflow v2\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager or from:\n\n  * rgthree     : https://github.com/rgthree/rgthree-comfy\n \n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo_bf16.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  qwen_3_4b.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
-      "shape": 1
-    },
-    {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        570
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 27,
-      "mode": 0,
-      "inputs": [],
       "outputs": [
         {
           "name": "STRING",
           "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
           "links": [
-            295,
-            296
+            479
           ]
         }
       ],
-      "title": "PROMPT",
+      "title": "STYLE INTEGRATOR",
       "properties": {
-        "Run widget replace on values": false
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "StringReplace"
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
+        "",
+        "{$@}",
+        ""
+      ]
     }
   ],
   "links": [
@@ -3023,14 +3341,6 @@
       9,
       0,
       "IMAGE"
-    ],
-    [
-      54,
-      31,
-      0,
-      6,
-      1,
-      "STRING"
     ],
     [
       78,
@@ -3153,28 +3463,12 @@
       "SAMPLER"
     ],
     [
-      205,
-      70,
-      0,
-      76,
-      0,
-      "*"
-    ],
-    [
       206,
       76,
       0,
       67,
       4,
       "SIGMAS"
-    ],
-    [
-      207,
-      13,
-      0,
-      77,
-      0,
-      "*"
     ],
     [
       208,
@@ -3265,14 +3559,6 @@
       "STRING"
     ],
     [
-      249,
-      93,
-      0,
-      35,
-      0,
-      "*"
-    ],
-    [
       257,
       96,
       0,
@@ -3281,44 +3567,12 @@
       "*"
     ],
     [
-      258,
-      68,
-      0,
-      96,
-      0,
-      "SAMPLER"
-    ],
-    [
-      259,
-      95,
-      0,
-      96,
-      1,
-      "SAMPLER"
-    ],
-    [
       266,
       102,
       0,
       87,
       9,
       "STRING"
-    ],
-    [
-      270,
-      92,
-      0,
-      36,
-      0,
-      "*"
-    ],
-    [
-      271,
-      47,
-      0,
-      34,
-      0,
-      "*"
     ],
     [
       272,
@@ -3401,22 +3655,6 @@
       "*"
     ],
     [
-      284,
-      68,
-      0,
-      106,
-      0,
-      "*"
-    ],
-    [
-      285,
-      95,
-      0,
-      106,
-      1,
-      "*"
-    ],
-    [
       287,
       107,
       0,
@@ -3429,22 +3667,6 @@
       104,
       0,
       107,
-      0,
-      "*"
-    ],
-    [
-      291,
-      106,
-      0,
-      109,
-      0,
-      "*"
-    ],
-    [
-      292,
-      109,
-      0,
-      97,
       0,
       "*"
     ],
@@ -3529,22 +3751,6 @@
       "STRING"
     ],
     [
-      325,
-      122,
-      0,
-      42,
-      0,
-      "*"
-    ],
-    [
-      329,
-      17,
-      0,
-      123,
-      0,
-      "*"
-    ],
-    [
       330,
       123,
       0,
@@ -3585,104 +3791,288 @@
       "STRING"
     ],
     [
-      335,
-      90,
+      363,
+      131,
+      0,
+      104,
+      14,
+      "*"
+    ],
+    [
+      364,
+      131,
       0,
       87,
       14,
       "STRING"
     ],
     [
-      344,
-      101,
+      365,
+      90,
       0,
-      127,
+      87,
+      15,
+      "STRING"
+    ],
+    [
+      372,
+      95,
+      0,
+      96,
+      0,
+      "SAMPLER"
+    ],
+    [
+      373,
+      68,
+      0,
+      96,
+      1,
+      "SAMPLER"
+    ],
+    [
+      374,
+      134,
+      0,
+      135,
       0,
       "*"
     ],
     [
-      347,
-      43,
+      375,
+      13,
       0,
-      126,
+      135,
+      1,
+      "LATENT"
+    ],
+    [
+      376,
+      135,
+      0,
+      77,
       0,
       "*"
     ],
     [
-      348,
-      124,
+      380,
+      136,
       0,
-      121,
-      0,
-      "*"
-    ],
-    [
-      349,
-      117,
-      0,
-      118,
+      97,
       0,
       "*"
     ],
     [
-      350,
+      381,
       125,
       0,
-      102,
+      34,
       0,
       "*"
     ],
     [
-      351,
+      382,
+      47,
+      0,
+      35,
+      0,
+      "*"
+    ],
+    [
+      384,
       37,
       0,
-      94,
+      36,
       0,
       "*"
     ],
     [
-      354,
-      45,
-      0,
-      48,
-      0,
-      "*"
-    ],
-    [
-      355,
-      63,
-      0,
-      64,
-      0,
-      "*"
-    ],
-    [
-      356,
-      41,
-      0,
-      46,
-      0,
-      "*"
-    ],
-    [
-      357,
-      38,
+      387,
+      117,
       0,
       44,
       0,
       "*"
     ],
     [
-      358,
-      128,
+      403,
+      92,
+      0,
+      118,
+      0,
+      "*"
+    ],
+    [
+      404,
+      130,
+      0,
+      102,
+      0,
+      "*"
+    ],
+    [
+      405,
+      70,
+      0,
+      76,
+      0,
+      "*"
+    ],
+    [
+      421,
+      38,
+      0,
+      42,
+      0,
+      "*"
+    ],
+    [
+      429,
+      149,
+      0,
+      6,
+      1,
+      "STRING"
+    ],
+    [
+      448,
+      95,
+      0,
+      136,
+      0,
+      "*"
+    ],
+    [
+      450,
+      134,
+      0,
+      136,
+      1,
+      "*"
+    ],
+    [
+      455,
+      158,
+      0,
+      13,
+      0,
+      "INT"
+    ],
+    [
+      456,
+      158,
+      0,
+      134,
+      1,
+      "INT"
+    ],
+    [
+      457,
+      159,
+      0,
+      13,
+      1,
+      "INT"
+    ],
+    [
+      458,
+      159,
+      0,
+      134,
+      0,
+      "INT"
+    ],
+    [
+      465,
+      93,
+      0,
+      64,
+      0,
+      "*"
+    ],
+    [
+      466,
+      43,
+      0,
+      94,
+      0,
+      "*"
+    ],
+    [
+      467,
+      45,
+      0,
+      121,
+      0,
+      "*"
+    ],
+    [
+      469,
+      122,
+      0,
+      126,
+      0,
+      "*"
+    ],
+    [
+      474,
+      63,
+      0,
+      131,
+      0,
+      "*"
+    ],
+    [
+      475,
+      124,
+      0,
+      127,
+      0,
+      "*"
+    ],
+    [
+      477,
+      41,
+      0,
+      48,
+      0,
+      "*"
+    ],
+    [
+      478,
+      101,
+      0,
+      46,
+      0,
+      "*"
+    ],
+    [
+      479,
+      31,
+      0,
+      149,
+      0,
+      "*"
+    ],
+    [
+      487,
+      169,
       0,
       114,
       0,
       "*"
     ],
     [
-      359,
-      131,
+      488,
+      167,
+      0,
+      123,
+      0,
+      "*"
+    ],
+    [
+      489,
+      168,
       0,
       115,
       0,
@@ -3691,36 +4081,23 @@
   ],
   "groups": [
     {
-      "id": 1,
-      "title": "MODELS",
+      "id": 2,
+      "title": "STYLES",
       "bounding": [
-        -100,
-        60,
-        380,
-        570
+        -2000,
+        -210,
+        470,
+        3350
       ],
-      "color": "#A88",
+      "color": "#b58b2a",
       "font_size": 24,
       "flags": {
         "pinned": true
       }
     },
     {
-      "id": 2,
-      "title": "STYLES",
-      "bounding": [
-        -1600,
-        -120,
-        470,
-        3130
-      ],
-      "color": "#b58b2a",
-      "font_size": 24,
-      "flags": {}
-    },
-    {
       "id": 3,
-      "title": "EDITING AREA",
+      "title": "EDITING AREA [v2.1]",
       "bounding": [
         1220,
         590,
@@ -3738,11 +4115,41 @@
       "title": "CIVITAI Compatibility",
       "bounding": [
         2800,
-        980,
+        1000,
         630,
         430
       ],
       "color": "#444",
+      "font_size": 24,
+      "flags": {
+        "pinned": true
+      }
+    },
+    {
+      "id": 6,
+      "title": "IMAGE SIZE",
+      "bounding": [
+        -340,
+        570,
+        400,
+        300
+      ],
+      "color": "#A88",
+      "font_size": 24,
+      "flags": {
+        "pinned": true
+      }
+    },
+    {
+      "id": 7,
+      "title": "SAFETENSORS MODELS",
+      "bounding": [
+        -340,
+        90,
+        400,
+        470
+      ],
+      "color": "#A88",
       "font_size": 24,
       "flags": {
         "pinned": true
@@ -3752,13 +4159,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9129999999999999,
+      "scale": 0.913,
       "offset": [
-        -934.9561883899233,
-        -455
+        -934.9561883899235,
+        -455.00000000000006
       ]
     },
-    "frontendVersion": "1.30.6"
+    "frontendVersion": "1.32.10"
   },
   "version": 0.4
 }

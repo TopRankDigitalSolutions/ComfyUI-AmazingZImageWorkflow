@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 48,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -298,7 +298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 59,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -335,7 +335,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -491,7 +491,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -764,7 +764,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -802,7 +802,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -840,7 +840,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -878,7 +878,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -916,7 +916,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -954,7 +954,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -992,7 +992,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1030,7 +1030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1068,7 +1068,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1106,7 +1106,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1144,7 +1144,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1182,7 +1182,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1220,7 +1220,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1258,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1296,7 +1296,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1319,43 +1319,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2950
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 2,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            391
-          ]
-        }
-      ],
-      "title": "STYLE: CGA Cyan-Magenta Monitor",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "On a wooden table sits an old white CRT PC monitor, reflecting light from a window. The monitor displays the following:\nonly black, intense cyan, intense magenta, and intense white.\nEverything should be replaced with those 4 colors, for example, skin should be magenta, plants should be cyan.\nThe background must always be black.\nPixel-Art 2D image from 1980 with solid colors and CGA Graphics using only black, cyan and magenta palette. Featuring: {$@}"
-      ],
-      "shape": 1
     },
     {
       "id": 88,
@@ -1498,7 +1461,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1535,7 +1498,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 4,
+      "order": 3,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1572,7 +1535,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 5,
+      "order": 4,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1609,7 +1572,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 6,
+      "order": 5,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1645,7 +1608,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 6,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1682,7 +1645,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1719,7 +1682,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1743,43 +1706,6 @@
       "shape": 1
     },
     {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1410
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 10,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            414
-          ]
-        }
-      ],
-      "title": "STYLE: Digital Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A detailed {$erotic} illustration in stylized line art {$with-adult-content}, rendered with vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact. Featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 43,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -1793,7 +1719,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 9,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1830,7 +1756,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 10,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1867,7 +1793,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 11,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1887,80 +1813,6 @@
       },
       "widgets_values": [
         "A realistically rendered {$erotic} concept-art {$with-adult-content}, done in ink. Like a very sharp photograph, but drawn. This colorful concept-art features large white areas and high contrast thanks to the varying density of the lines. Featuring: {$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2510
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            420
-          ]
-        }
-      ],
-      "title": "STYLE: Unsettling",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "An {$erotic} illustration {$with-adult-content}; the illustration includes stippling textures and intense side lighting with deep shadows, and hard edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2730
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            409
-          ]
-        }
-      ],
-      "title": "STYLE: Simple Vector Illustration",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "A stylized {$erotic} digital illustration {$with-adult-content} in iconography style. The illustration has a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}"
       ],
       "shape": 1
     },
@@ -2075,7 +1927,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 47,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2121,7 +1973,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 16,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2157,7 +2009,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2284,7 +2136,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -2422,7 +2274,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2464,7 +2316,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2817,6 +2669,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -2918,43 +2771,6 @@
       }
     },
     {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2290
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            410
-          ]
-        }
-      ],
-      "title": "STYLE: LowRes Pixel Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Pixel art {$erotic} image in low resolution {$with-adult-content}. 2D image with pixelated details in low resolution. 320x200 sharp image featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 57,
       "type": "PrimitiveNode",
       "pos": [
@@ -2968,7 +2784,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3009,7 +2825,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3051,7 +2867,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3159,7 +2975,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -3206,7 +3022,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -3272,7 +3088,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3309,7 +3125,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3345,7 +3161,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 41,
       "mode": 2,
       "inputs": [
         {
@@ -3402,7 +3218,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -3458,7 +3274,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3525,6 +3341,191 @@
       "properties": {}
     },
     {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            420
+          ]
+        }
+      ],
+      "title": "STYLE: Unsettling",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "An {$erotic} illustration {$with-adult-content}; the illustration includes stippling textures and intense side lighting with deep shadows, and hard edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro; horror graphic novel with dynamic composition, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            414
+          ]
+        }
+      ],
+      "title": "STYLE: Digital Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A detailed {$erotic} illustration in stylized line art {$with-adult-content}, rendered with vector graphics aesthetics. With black solid shadows and big negative space creating enigmatic stillness. Saturated highlights with glowing accents, emphasizing contrasts between obscurity and luminous for a vivid impact. Featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2950
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            391
+          ]
+        }
+      ],
+      "title": "STYLE: CGA Cyan-Magenta Monitor",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "On a wooden table sits an old white CRT PC monitor, reflecting light from a window. The monitor displays the following:\nonly black, intense cyan, intense magenta, and intense white.\nEverything should be replaced with those 4 colors, for example, skin should be magenta, plants should be cyan.\nThe background must always be black.\nPixel-Art 2D image from 1980 with solid colors and CGA Graphics using only black, cyan and magenta palette. Featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2730
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            410
+          ]
+        }
+      ],
+      "title": "STYLE: LowRes Pixel Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Pixel art {$erotic} image in low resolution {$with-adult-content}. 2D image with pixelated details in low resolution. 320x200 sharp image featuring {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            409
+          ]
+        }
+      ],
+      "title": "STYLE: Simple Vector Illustration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "A stylized {$erotic} digital illustration {$with-adult-content} in iconography style. The illustration has a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}"
+      ],
+      "shape": 1
+    },
+    {
       "id": 168,
       "type": "Note",
       "pos": [
@@ -3545,15 +3546,15 @@
       "title": "README",
       "properties": {},
       "widgets_values": [
-        "Amazing Z-Image Workflow v2.1\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree      : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF : https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
+        "Amazing Z-Image Workflow v2.1\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree : https://github.com/rgthree/rgthree-comfy\n \n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo_bf16.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  qwen_3_4b.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
       ],
       "color": "#322",
       "bgcolor": "#533",
       "shape": 1
     },
     {
-      "id": 165,
-      "type": "UnetLoaderGGUF",
+      "id": 167,
+      "type": "UNETLoader",
       "pos": [
         -330,
         170
@@ -3578,19 +3579,20 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "UnetLoaderGGUF"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "UNETLoader"
       },
       "widgets_values": [
-        "z_image_turbo-Q5_K_S.gguf"
+        "z_image_turbo_bf16.safetensors",
+        "default"
       ],
       "color": "#322",
       "bgcolor": "#533",
       "shape": 1
     },
     {
-      "id": 166,
+      "id": 165,
       "type": "VAELoader",
       "pos": [
         -330,
@@ -3628,15 +3630,15 @@
       "shape": 1
     },
     {
-      "id": 167,
-      "type": "CLIPLoaderGGUF",
+      "id": 166,
+      "type": "CLIPLoader",
       "pos": [
         -330,
         440
       ],
       "size": [
         380,
-        110
+        106
       ],
       "flags": {
         "pinned": true
@@ -3654,13 +3656,14 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-gguf",
-        "ver": "1.1.8",
-        "Node name for S&R": "CLIPLoaderGGUF"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPLoader"
       },
       "widgets_values": [
-        "Qwen3-4B.i1-Q5_K_S.gguf",
-        "lumina2"
+        "qwen_3_4b.safetensors",
+        "lumina2",
+        "default"
       ],
       "color": "#322",
       "bgcolor": "#533",
@@ -4462,7 +4465,7 @@
     ],
     [
       465,
-      165,
+      167,
       0,
       114,
       0,
@@ -4470,7 +4473,7 @@
     ],
     [
       466,
-      166,
+      165,
       0,
       123,
       0,
@@ -4478,7 +4481,7 @@
     ],
     [
       467,
-      167,
+      166,
       0,
       115,
       0,
@@ -4562,8 +4565,8 @@
       }
     },
     {
-      "id": 7,
-      "title": "GGUF MODELS",
+      "id": 8,
+      "title": "SAFETENSORS MODELS",
       "bounding": [
         -340,
         90,
@@ -4580,10 +4583,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9129999999999999,
+      "scale": 0.913,
       "offset": [
-        -934.9561883899232,
-        -454.9999999999999
+        -934.9561883899235,
+        -455
       ]
     },
     "frontendVersion": "1.32.10"
