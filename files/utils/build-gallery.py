@@ -113,22 +113,38 @@ def find_valid_png_images_in_dir(directory: str, valid_prefix: str = "") -> list
     return images
 
 
-def get_node(workflow: dict, /,*, title: str = None, type : str = None
+def get_node(workflow: dict, /,*,
+             type          : str = None,
+             title         : str = None,
+             title_contains: str = None,
              ) -> dict[str, any] | None:
-    """Retrieve a node from the workflow based on specified criteria.
+    """Retrieve a node from the workflow that matches the given criteria.
+
+    if more than one criteria are provided, the returned node
+    will fulfill all of them.
     Args:
-        workflow        : The workflow dictionary to search.
-        title (optional): The title of the desired node.
-        type_ (optional): The type of the desired node.
+        workflow                : The workflow dictionary to search.
+        type  (optional)        : The type of the desired node.
+        title (optional)        : The title of the desired node.
+        title_contains(optional): The desired node's title must contain this string.
     Returns:
         A dictionary with the desired node's details if found, otherwise None.
     """
+    type           = type.lower()           if type           else None
+    title          = title.lower()          if title          else None
+    title_contains = title_contains.lower() if title_contains else None
     nodes = workflow.get('nodes', [])
     for node in nodes:
-        if title and node.get('title','') == title:
-            return node
-        if type and node.get('type','') == type:
-            return node
+        node_type = node.get('type', '')
+        node_id   = node.get('id', 0)
+        if type and node_type.lower() != type:
+            continue
+
+        if title and node.get('title','').lower() != title:
+            continue
+        if title_contains and title_contains not in node.get('title','').lower():
+            continue
+        return node
     return None
 
 def is_node_enabled(workflow: dict, /,*, title: str = None, type : str = None
@@ -183,9 +199,13 @@ def extract_style_list(image_paths: list[str]) -> list[str] | None:
         workflow = get_workflow_from_image(image_path)
         if not workflow: continue
 
-        # search the "node collector (rgthree)"
-        node_collector = get_node(workflow, type="Node Collector (rgthree)")
-        if not isinstance(node_collector, dict): continue
+        # search the "node collector (rgthree)" with "style" in the title
+        node_collector = get_node(workflow, type="Node Collector (rgthree)", title_contains="style")
+        if not isinstance(node_collector, dict):
+            # fallback to any "node collector (rgthree)" (old workflow versions)
+            node_collector = get_node(workflow, type="Node Collector (rgthree)")
+            if not isinstance(node_collector, dict):
+                continue
 
         style_list = []
 
@@ -216,6 +236,8 @@ def group_images_by_prompt_and_style(image_paths: list[str],
         A dictionary where keys are prompts and values are lists containing image paths.
     """
     image_styles_by_prompt = { }
+    if not isinstance(style_list, list) or len(style_list)==0:
+        style_list = [ ]
 
     for image_path in image_paths:
         if not os.path.isfile(image_path):
@@ -899,8 +921,8 @@ def build_gallery(image_paths : list[str],
     cell_width  = 0
     cell_height = 0
     for path in image_paths:
-        img = Image.open(path)
-        if img.width > 0 and img.height > 0:
+        img = Image.open(path) if path and os.path.isfile(path) else None
+        if img and img.width > 0 and img.height > 0:
             cell_width  = int(image_scale*img.width )
             cell_height = int(image_scale*img.height)
             break

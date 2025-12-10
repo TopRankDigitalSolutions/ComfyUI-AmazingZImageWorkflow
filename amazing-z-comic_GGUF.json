@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 47,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "There are many magenta Minions in the playground."
+        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
       ]
     },
     {
@@ -150,7 +150,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 59,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -187,7 +187,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -261,7 +261,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -298,7 +298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -372,7 +372,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -472,7 +472,7 @@
       },
       "widgets_values": [
         true,
-        2,
+        1,
         "fixed",
         1
       ]
@@ -491,7 +491,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -545,7 +545,7 @@
       },
       "widgets_values": [
         "enable",
-        2,
+        1,
         "randomize",
         8,
         1,
@@ -570,7 +570,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -607,7 +607,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -644,7 +644,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -727,7 +727,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 63,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1030,7 +1030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1220,7 +1220,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1258,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1343,7 +1343,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1430,7 +1430,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        2,
+        1,
         "fixed"
       ],
       "color": "#432",
@@ -1557,7 +1557,7 @@
         "pinned": true
       },
       "order": 5,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -1593,7 +1593,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1841,7 +1841,7 @@
         "pinned": true
       },
       "order": 6,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2233,43 +2233,6 @@
       "shape": 1
     },
     {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2290
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            410
-          ]
-        }
-      ],
-      "title": "STYLE: LowRes Pixel Art",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Pixel art in low resolution for {$erotic} japanese videogame {$with-adult-content}. 2D image with pixelated background and pixelated characteres in low resolution. 320x200 sharp image featuring {$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 122,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -2283,7 +2246,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2320,7 +2283,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2341,47 +2304,6 @@
       "widgets_values": [
         "A stylized {$erotic} digital illustration {$with-adult-content} in iconography style. The illustration has a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}"
       ],
-      "shape": 1
-    },
-    {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        610
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "There are many magenta Minions in the playground."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
       "shape": 1
     },
     {
@@ -2451,7 +2373,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 61,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2494,7 +2416,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 19,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2531,7 +2453,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2567,7 +2489,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 50,
       "mode": 2,
       "inputs": [
         {
@@ -2624,7 +2546,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -2681,7 +2603,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 46,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -2709,7 +2631,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "There are many magenta Minions in the playground."
+        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
       ]
     },
     {
@@ -2727,7 +2649,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2763,7 +2685,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 55,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -2873,6 +2795,7 @@
           ]
         }
       ],
+      "title": "Style Collector (rgthree)",
       "properties": {}
     },
     {
@@ -2889,7 +2812,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2989,7 +2912,6 @@
           "link": 365
         },
         {
-          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -3027,7 +2949,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3054,7 +2976,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3092,7 +3014,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3130,7 +3052,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3169,7 +3091,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3211,7 +3133,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3293,7 +3215,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 64,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3442,7 +3364,7 @@
         "pinned": true
       },
       "order": 70,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "string",
@@ -3564,7 +3486,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -3664,6 +3585,84 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            410
+          ]
+        }
+      ],
+      "title": "STYLE: LowRes Pixel Art",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "Pixel art {$erotic} image in low resolution {$with-adult-content}. 2D image with pixelated details in low resolution. 320x200 sharp image featuring {$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
     }
   ],
   "links": [
@@ -4581,7 +4580,7 @@
     "ds": {
       "scale": 0.9129999999999999,
       "offset": [
-        -934.9561883899232,
+        -934.9561883899233,
         -455
       ]
     },
