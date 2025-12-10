@@ -14,7 +14,7 @@ A workflow developed while experimenting with [Z-Image-Turbo](https://github.com
 
 ## Table of Contents
 1. [Features](#features)
-2. [Workflow Overview](#workflow-overview)
+2. [Workflows Overview](#workflows-overview)
 3. [Required Custom Nodes](#required-custom-nodes)
 4. [Required Checkpoints Files]([#required-checkpoints-files)
    - [For "amazing_zimage-GGUF.json"](#for-amazing_zimage-ggufjson)
@@ -35,14 +35,20 @@ A workflow developed while experimenting with [Z-Image-Turbo](https://github.com
 
 <img src="files/styles.png" width="50%"></img>
 
-## Workflow Overview
+## Workflows Overview
 
-The repository contains two workflow files:
+The available styles are organized into workflows based on artistic focus:
 
- 1. **"amazing_zimage-GGUF.json"**       : Recommended for GPUs with 12GB or less VRAM.
- 2. **"amazing_zimage-SAFETENSORS.json"**: Based directly on the ComfyUI example.
+ * __`amazing-z-comic`__ : Includes comic, anime, and illustration styles.
+ * __`amazing-z-image`__ : The original general-purpose workflow with a variety of image styles.
 
-<sub>You'll often come across discussions about the best file format for ComfyUI. Based on my experience, GGUF quantized models offer a better balance between compactness and maintaining good prompt response compared to SafeTensors versions. However, it's also true that ComfyUI has internal speed enhancements that work more effectively with SafeTensors, which might lead you to prefer larger SafeTensors files. The reality is that this depends on several factors: your ComfyUI version, PyTorch setup, CUDA configuration, GPU type, and available VRAM and RAM. To help you out, I've included links below to various checkpoint versions so you can determine what works best for your specific system.</sub>
+Each of these workflows comes in two versions, one for GGUF checkpoints and another for SafeTensors. \
+This is reflected in the filenames:
+
+ * __`amazing-z-#####_GGUF.json`__ : Recommended for GPUs with 12GB or less VRAM.
+ * __`amazing_z-#####_SAFETENSORS.json`__ : Based directly on the ComfyUI example.
+
+<sub>When using ComfyUI, you may encounter debates about the best checkpoint format. From my experience, GGUF quantized models provide a better balance between size and prompt response quality compared to SafeTensors versions. However, it's worth noting that ComfyUI includes optimizations that work more efficiently with SafeTensors files, which might make them preferable for some users despite their larger size. The optimal choice depends on factors like your ComfyUI version, PyTorch setup, CUDA configuration, GPU model, and available VRAM and RAM. To help you find the best fit for your system, I've included links to various checkpoint versions below.</sub>
 
 ## Required Custom Nodes
 
