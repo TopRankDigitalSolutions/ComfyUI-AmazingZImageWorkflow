@@ -20,8 +20,8 @@ This workflow is designed for Z-Image-Turbo and extends the ComfyUI base workflo
 
 ## Workflows Overview
 The available styles are organized into workflows based on artistic focus:
-- `amazing-z-image`: The original general-purpose workflow with a variety of image styles.
-- `amazing-z-comic`: Includes comic, anime, and illustration styles.
+- `amazing-z-image` : The original general-purpose workflow with a variety of image styles.
+- `amazing-z-comics`: Includes comics, anime, and illustration styles.
 
 Each workflow comes in two versions, one for GGUF checkpoints and another for SafeTensors.
 The filenames reflect this:

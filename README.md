@@ -35,8 +35,8 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 ### The 15 Predefined Styles in "amazing-z-image"
 <img src="amazing-z-image_GGUF.png" width="25%"></img>
 
-### The 15 Predefined Styles in "amazing-z-comic"
-<img src="amazing-z-comic_GGUF.png" width="25%"></img>
+### The 15 Predefined Styles in "amazing-z-comics"
+<img src="amazing-z-comics_GGUF.png" width="25%"></img>
 
 
 
@@ -44,8 +44,8 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 
 The available styles are organized into workflows based on artistic focus:
 
- * __`amazing-z-comic`__ : Includes comic, anime, and illustration styles.
- * __`amazing-z-image`__ : The original general-purpose workflow with a variety of image styles.
+ * __`amazing-z-image`__  : The original general-purpose workflow with a variety of image styles.
+ * __`amazing-z-comics`__ : Includes comics, anime, and illustration styles.
 
 Each of these workflows comes in two versions, one for GGUF checkpoints and another for SafeTensors. \
 This is reflected in the filenames:
