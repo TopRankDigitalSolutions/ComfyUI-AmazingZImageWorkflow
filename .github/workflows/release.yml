@@ -28,16 +28,10 @@ jobs:
         with:
           submodules: true
 
-      - name: Zipping Amazing Z-Comics
+      - name: Zipping All Amazing Z-Image Packages
         run: |
-          source files/utils/release.sh 'z-comics' "${{ github.ref_name }}" "${{ github.workspace }}"
+          source files/utils/release.sh "${{ github.ref_name }}" "${{ github.workspace }}"
           echo "RELEASE_DIR=$RELEASE_DIR" >> $GITHUB_ENV
-
-      - name: Zipping Amazing Z-Image
-        run: |
-          source files/utils/release.sh 'z-image' "${{ github.ref_name }}" "${{ github.workspace }}"
-          echo "RELEASE_DIR=$RELEASE_DIR" >> $GITHUB_ENV
-
 
       - name: Print ZIP Path (debugging)
         run: |
@@ -46,9 +40,11 @@ jobs:
       - name: Upload ZIP Packages to Release
         uses: svenstaro/upload-release-action@2.11.3
         with:
-          repo_token : ${{ secrets.GITHUB_TOKEN }}
-          file       : ${{ env.RELEASE_DIR }}/* # the folder which has all the files that you want to release
-          tag        : ${{ github.ref }}
-          overwrite  : true
-          file_glob  : true
-          body       : "Automatic release generated for the tag ${{ github.ref_name }}"
+          release_name: "Amazing Z-Image release name"
+          body        : "Automatic release generated for the tag ${{ github.ref_name }}"
+          file        : ${{ env.RELEASE_DIR }}/*  #< the folder which has all the files to release
+          repo_token  : ${{ secrets.GITHUB_TOKEN }}
+          tag         : ${{ github.ref }}
+          overwrite   : true
+          file_glob   : true
+          draft       : true
