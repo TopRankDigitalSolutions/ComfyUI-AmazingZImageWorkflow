@@ -28,14 +28,20 @@ jobs:
         with:
           submodules: true
 
-      - name: Invoke release.sh
+      - name: Zipping Amazing Z-Comics
         run: |
-          source files/utils/release.sh 1 "${{ github.ref_name }}" "${{ github.workspace }}"
-          echo "ZIP_PATH=$ZIP1_PATH" >> $GITHUB_ENV
+          source files/utils/release.sh 'z-comics' "${{ github.ref_name }}" "${{ github.workspace }}"
+          echo "ZIP1_PATH=$ZIP_PATH" >> $GITHUB_ENV
 
-      - name: Print ZIP1 Name and Path
+      - name: Zipping Amazing Z-Image
+          source files/utils/release.sh 'z-image' "${{ github.ref_name }}" "${{ github.workspace }}"
+          echo "ZIP2_PATH=$ZIP_PATH" >> $GITHUB_ENV
+
+
+      - name: Print ZIP Path
         run: |
           echo "ZIP1_PATH=${{ env.ZIP1_PATH }}"
+          echo "ZIP2_PATH=${{ env.ZIP2_PATH }}"
 
       # - name: Create ZIP Archive
       #   run: |

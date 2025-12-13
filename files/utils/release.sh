@@ -11,22 +11,45 @@
 #_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 
-#===========================================================================#
-#////////////////////////////////// MAIN ///////////////////////////////////#
-#===========================================================================#
-main() {
-    local INDEX=${1:-1}
+zip_z_comics() {
+    local PACKAGE=${1:-1}
     local VERSION=${2:-v1.0.0}
     local TEMP_DIR=${3:-/tmp}
-    local OUTPUT_DIR="$TEMP_DIR/amazing-z-image-workflow"
+    local OUTPUT_DIR="$TEMP_DIR/amazing_release"
+
+    # este valor es retornado (no es local)
+    export ZIP_PATH="$OUTPUT_DIR/amazing-z-comics.zip"
 
     # busca amazing-z-comics_GGUF.json y amazin-z-comics_SAFETENSORS.json en el directorio actual
     # y los empaquete en un zip en el directorio OUTPUT_DIR
     mkdir -p "$OUTPUT_DIR"
-    zip -j "$OUTPUT_DIR/amazing-z-comics.zip" "amazing-z-comics_GGUF.json" "amazing-z-comics_SAFETENSORS.json"
-
-    # devuelve el path al archivo zip creado
-    ZIP_PATH="$OUTPUT_DIR/amazing-z-comics.zip"
+    zip -j "$ZIP_PATH" "amazing-z-comics_GGUF.json" "amazing-z-comics_SAFETENSORS.json"
 }
 
-main $1 $2 $3
+zip_z_image() {
+    local PACKAGE=${1:-1}
+    local VERSION=${2:-v1.0.0}
+    local TEMP_DIR=${3:-/tmp}
+    local OUTPUT_DIR="$TEMP_DIR/amazing_release"
+
+    # este valor es retornado (no es local)
+    export ZIP_PATH="$OUTPUT_DIR/amazing-z-image.zip"
+
+    # busca amazing-z-comics_GGUF.json y amazin-z-comics_SAFETENSORS.json en el directorio actual
+    # y los empaquete en un zip en el directorio OUTPUT_DIR
+    mkdir -p "$OUTPUT_DIR"
+    zip -j "$ZIP_PATH" "amazing-z-image_GGUF.json" "amazing-z-image_SAFETENSORS.json"
+}
+
+
+#===========================================================================#
+#////////////////////////////////// MAIN ///////////////////////////////////#
+#===========================================================================#
+
+if [[ "$1" == 'z-comics' ]]; then
+    zip_z_comics "$@"
+elif [[ "$1" == 'z-image' || -z "$1" ]]; then
+    zip_z_image "$@"
+else
+    echo "Usage: release.sh [z-comics|z-image] <version> <temp_dir>"
+fi
