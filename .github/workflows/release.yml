@@ -30,8 +30,8 @@ jobs:
 
       - name: Invoke release.sh
         run: |
-          ZIP1_PATH=$(files/utils/release.sh 1 "${{ github.ref_name }}" "${{ github.workspace }}")
-          echo "ZIP1_PATH=$ZIP1_PATH" >> $GITHUB_ENV
+          source files/utils/release.sh 1 "${{ github.ref_name }}" "${{ github.workspace }}"
+          echo "ZIP_PATH=$ZIP1_PATH" >> $GITHUB_ENV
 
       - name: Print ZIP1 Name and Path
         run: |

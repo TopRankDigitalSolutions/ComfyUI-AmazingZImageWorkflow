@@ -14,20 +14,19 @@
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
+main() {
+    local INDEX=${1:-1}
+    local VERSION=${2:-v1.0.0}
+    local TEMP_DIR=${3:-/tmp}
+    local OUTPUT_DIR="$TEMP_DIR/amazing-z-image-workflow"
 
-INDEX=${1:-1}
-VERSION=${2:-v1.0.0}
-TEMP_DIR=${3:-/tmp}
+    # busca amazing-z-comics_GGUF.json y amazin-z-comics_SAFETENSORS.json en el directorio actual
+    # y los empaquete en un zip en el directorio OUTPUT_DIR
+    mkdir -p "$OUTPUT_DIR"
+    zip -j "$OUTPUT_DIR/amazing-z-comics.zip" "amazing-z-comics_GGUF.json" "amazing-z-comics_SAFETENSORS.json"
 
-OUTPUT_DIR="$TEMP_DIR/amazing-z-image-workflow"
+    # devuelve el path al archivo zip creado
+    ZIP_PATH="$OUTPUT_DIR/amazing-z-comics.zip"
+}
 
-mkdir -
-
-# busca amazing-z-comics_GGUF.json y amazin-z-comics_SAFETENSORS.json en el directorio actual
-# y los empaquete en un zip en el directorio OUTPUT_DIR
-mkdir -p "$OUTPUT_DIR"
-zip -j "$OUTPUT_DIR/amazing-z-comics.zip" "amazing-z-comics_GGUF.json" "amazing-z-comics_SAFETENSORS.json"
-
-# devuelve el path al archivo zip creado
-echo "$OUTPUT_DIR/amazing-z-comics.zip"
-
+main $1 $2 $3
