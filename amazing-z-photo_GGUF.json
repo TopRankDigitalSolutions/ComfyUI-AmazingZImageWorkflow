@@ -1,8 +1,8 @@
 {
   "id": "95418ce2-5b62-4729-894f-ed7422bb5ec0",
   "revision": 0,
-  "last_node_id": 164,
-  "last_link_id": 464,
+  "last_node_id": 166,
+  "last_link_id": 467,
   "nodes": [
     {
       "id": 60,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 53,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
+        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
       ]
     },
     {
@@ -224,7 +224,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 79,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -409,7 +409,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 80,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -472,7 +472,7 @@
       },
       "widgets_values": [
         true,
-        1,
+        3,
         "fixed",
         1
       ]
@@ -491,7 +491,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -545,7 +545,7 @@
       },
       "widgets_values": [
         "enable",
-        1,
+        3,
         "randomize",
         8,
         1,
@@ -682,7 +682,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 81,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -764,7 +764,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -802,7 +802,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -840,7 +840,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -878,7 +878,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -916,7 +916,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -954,7 +954,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -992,7 +992,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1030,7 +1030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1068,7 +1068,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1106,7 +1106,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1144,7 +1144,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -1182,7 +1182,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1220,7 +1220,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1258,7 +1258,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1296,7 +1296,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1380,7 +1380,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 82,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -1462,7 +1462,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 78,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -1558,7 +1558,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1586,7 +1586,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
+        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
       ]
     },
     {
@@ -1640,7 +1640,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1669,7 +1669,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: B&W Darkroom",
+          "name": "STYLE: Flash 90s Photo",
           "type": "*",
           "link": 277
         },
@@ -1729,7 +1729,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: CGA Cyan-Magenta Monitor",
+          "name": "STYLE: Casual Photo",
           "type": "*",
           "link": 363
         },
@@ -1767,7 +1767,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1989,7 +1989,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 77,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -2072,52 +2072,6 @@
       ]
     },
     {
-      "id": 144,
-      "type": "StringReplace",
-      "pos": [
-        -160,
-        2020
-      ],
-      "size": [
-        310,
-        196.0000000000003
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 430
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            425
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$erotic}",
-        "erotic"
-      ]
-    },
-    {
       "id": 146,
       "type": "StringReplace",
       "pos": [
@@ -2161,54 +2115,6 @@
         "",
         "{$erotic}",
         ""
-      ]
-    },
-    {
-      "id": 145,
-      "type": "StringReplace",
-      "pos": [
-        160,
-        2020
-      ],
-      "size": [
-        310,
-        196.00000000000023
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 70,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 425
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            434,
-            453
-          ]
-        }
-      ],
-      "title": "Adult Content Inducer",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$with-adult-content}",
-        "with adult content and sexual provocation"
       ]
     },
     {
@@ -2314,7 +2220,7 @@
           "shape": 3,
           "type": "STRING",
           "links": [
-            460
+            466
           ]
         }
       ],
@@ -2375,7 +2281,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 75,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -2384,7 +2290,7 @@
           "widget": {
             "name": "value"
           },
-          "link": 460
+          "link": 467
         }
       ],
       "outputs": [
@@ -2392,7 +2298,8 @@
           "name": "",
           "type": "STRING",
           "links": [
-            461
+            461,
+            465
           ]
         }
       ],
@@ -2436,7 +2343,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        1,
+        3,
         "fixed"
       ],
       "color": "#432",
@@ -3073,117 +2980,6 @@
       "shape": 1
     },
     {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2950
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            391
-          ]
-        }
-      ],
-      "title": "STYLE: CGA Cyan-Magenta Monitor",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "On a wooden table sits an old white CRT PC monitor, reflecting light from a window. The monitor displays the following:\nonly black, intense cyan, intense magenta, and intense white.\nEverything should be replaced with those 4 colors, for example, skin should be magenta, plants should be cyan.\nThe background must always be black.\nPixel-Art 2D image from 1980 with solid colors and CGA Graphics using only black, cyan and magenta palette. Featuring: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        -130
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            381
-          ]
-        }
-      ],
-      "title": "STYLE: Phone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "Create a photo like the following.\nFor the style use: A raw documentary photograph taken with an old Android phone.\nFor the feel use: casual, low quality, amateur.\nFor the content use: {$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        750
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 16,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            387
-          ]
-        }
-      ],
-      "title": "STYLE: B&W Darkroom",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a dedicated darkroom practitioner who works with traditional silver‑gelatin black‑and‑white film, carefully developing each negative by hand.\nYour tastes encompass deep, dramatic contrast, pronounced grain, and subtle imperfections that add character and mood.\n---\nTake the following photograph:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 38,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3197,7 +2993,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3233,7 +3029,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 15,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3257,117 +3053,6 @@
       "shape": 1
     },
     {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        970
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            423
-          ]
-        }
-      ],
-      "title": "STYLE: Lomography",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an adventurous analogue experimental photographer with 35 mm gear loaded with saturated emulsions.  \n\nYour tastes encompass deliberately “imperfect” aesthetics with high Chromatic Aberration, motion blur, vignetting, soft focus, and experimental color tones.\n\n---  \nTake the following photograph:  \n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1190
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            424
-          ]
-        }
-      ],
-      "title": "STYLE: Tilt‑Shift / Toy Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses or post‑processing tricks to turn real‑world scenes into convincing miniature models, often shooting from a high or oblique angle with a very narrow focus plane.  \n\nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, soft pastel tones, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1410
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            420
-          ]
-        }
-      ],
-      "title": "STYLE: Drone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an aerial photographer who enjoys using wide-angle drone cams.\n\nYour tastes encompass sweeping, high‑resolution scenes captured from elevated perspectives, with rich colors.\n\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 130,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3381,7 +3066,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3418,7 +3103,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 17,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3442,43 +3127,6 @@
       "shape": 1
     },
     {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2510
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            409
-          ]
-        }
-      ],
-      "title": "STYLE: Intense Spot Lighting",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a master photographer who specializes in chiaroscuro, using a single hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with black shadows, and extreme contrast, with a theatrical, high‑contrast aesthetic.\n---\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 45,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3492,7 +3140,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3516,11 +3164,11 @@
       "shape": 1
     },
     {
-      "id": 47,
+      "id": 92,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        90
+        2070
       ],
       "size": [
         450,
@@ -3529,7 +3177,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 19,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3537,18 +3185,129 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            382
+            403
           ]
         }
       ],
-      "title": "STYLE: Cinematic",
+      "title": "STYLE: Noir Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "You are a professional filmmaker who enjoys capturing striking images in full-frame mode, with a 24mm lens and shallow depth of field.\nYour tastes range from dramatic cinematic shots to spontaneous moments.\n---\nCreate the following movie capture:\n{$@}"
+        "You are a seasoned cinematographer who works with mirrorless camera favoring intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\n\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n\n---\nTake the following indoors photo:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            420
+          ]
+        }
+      ],
+      "title": "STYLE: Drone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an aerial photographer who enjoys using wide-angle drone cams.\n\nYour tastes encompass sweeping, high‑resolution scenes captured from elevated perspectives, with rich colors.\n\nTake the following photograph:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2950
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            391
+          ]
+        }
+      ],
+      "title": "STYLE: Casual Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an amateur documentary photographer taking low quality photos.\n\nYour tastes encompass sharp backgrounds with large depth of field, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n\n---  \nTake the following photograph:  \n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        -130
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Phone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You're a photographer and you take photos with android phone-quality (low quality, low resolution, 480p).\n\nYour tastes lean towards surprising and unusual compositions with saturated colors and complex backgrounds.\n---  \nYou take the following photograph:  \n{$@}"
       ],
       "shape": 1
     },
@@ -3566,7 +3325,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3590,11 +3349,11 @@
       "shape": 1
     },
     {
-      "id": 92,
+      "id": 47,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        2070
+        90
       ],
       "size": [
         450,
@@ -3603,28 +3362,225 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
-      "mode": 0,
+      "order": 24,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
           "name": "STRING",
           "type": "STRING",
           "links": [
-            403
+            382
           ]
         }
       ],
-      "title": "STYLE: Noir Photo",
+      "title": "STYLE: Cinematic",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "You are a seasoned cinematographer who works with mirrorless camera favoring intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\n\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n\n---\nTake the following indoors photo:\n{$@}\n"
+        "You are a professional filmmaker who enjoys capturing striking images in full-frame mode, with a 24mm lens and shallow depth of field.\nYour tastes range from dramatic cinematic shots to spontaneous moments with professional cinematography style.\n---\nCreate the following movie shot:\n{$@}"
       ],
       "shape": 1
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        750
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            387
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a hobbyist photographer in the early 1990s using a compact digital point‑and‑shoot camera.  \nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---  \nTake the following photograph:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1190
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            424
+          ]
+        }
+      ],
+      "title": "STYLE: Tilt‑Shift / Toy Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models, often shooting from a high or oblique angle with a very narrow focus plane.  \n\nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n\nTake the following photograph:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 165,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        1550,
+        2030
+      ],
+      "size": [
+        550,
+        310
+      ],
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "source",
+          "type": "*",
+          "link": 465
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Display Any (rgthree)"
+      },
+      "widgets_values": [
+        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following photograph:\nA young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital.\n"
+      ]
+    },
+    {
+      "id": 166,
+      "type": "StringReplace",
+      "pos": [
+        730,
+        2230
+      ],
+      "size": [
+        400,
+        200.00000000000009
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 466
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            467
+          ]
+        }
+      ],
+      "title": "Fix Double Spaces",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "  ",
+        " "
+      ]
+    },
+    {
+      "id": 144,
+      "type": "StringReplace",
+      "pos": [
+        -160,
+        2020
+      ],
+      "size": [
+        310,
+        196.0000000000003
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 430
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            425
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$erotic}",
+        "erotic"
+      ]
     },
     {
       "id": 57,
@@ -3640,7 +3596,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3661,10 +3617,132 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A woman stands on the right side of the image on a path leading through a forest, in a fighting stance. Yellow balls are scattered along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and very sharp metal teeth. The woman has short, wavy, light brown hair and fair skin. She wears a fitted red hooded robe with a short skirt. The forest is dark with strange lights peeking through the tall trees. The path is dirt and lined with small plants."
+        "A young nurse stands beside a blue demon in a hospital setting, her facial expression one of surprise with her eyes wide open. She has fair and smooth skin, and her hair is short and straight, although it was initially described as long blue hair. She wears a fitted, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a ferocious expression, features long, pointed red horns and sharp teeth. It wears a loose, red and black robe and has one hand firmly grasping the nurse's waist, pulling her close to its side. The atmosphere of the image is dark and mysterious, with the nurse and demon positioned prominently against the backdrop of a hospital."
       ],
       "color": "#232",
       "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 145,
+      "type": "StringReplace",
+      "pos": [
+        160,
+        2020
+      ],
+      "size": [
+        310,
+        196.00000000000023
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 70,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 425
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            434,
+            453
+          ]
+        }
+      ],
+      "title": "Adult Content Inducer",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$with-adult-content}",
+        "with adult content, where women are porn stars sexually provocative"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 28,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            423
+          ]
+        }
+      ],
+      "title": "STYLE: Lomography",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an adventurous analogue experimental photographer with 35 mm gear loaded with saturated emulsions.  \n\nYour tastes encompass deliberately “imperfect” aesthetics with high chromatic aberration, long exposure motion blur, vignetting, soft focus, and experimental color tones.\n\n---  \nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            409
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Lighting",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following photograph:\n{$@}\n"
+      ],
       "shape": 1
     }
   ],
@@ -4446,14 +4524,6 @@
       "INT"
     ],
     [
-      460,
-      151,
-      0,
-      160,
-      0,
-      "*"
-    ],
-    [
       461,
       160,
       0,
@@ -4482,6 +4552,30 @@
       163,
       0,
       115,
+      0,
+      "*"
+    ],
+    [
+      465,
+      160,
+      0,
+      165,
+      0,
+      "*"
+    ],
+    [
+      466,
+      151,
+      0,
+      166,
+      0,
+      "STRING"
+    ],
+    [
+      467,
+      166,
+      0,
+      160,
       0,
       "*"
     ]
@@ -4581,10 +4675,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8264462809917354,
+      "scale": 0.42409761837248483,
       "offset": [
-        -870.6365157463052,
-        -205.26132616596468
+        226.0398833400748,
+        -112.15675244398639
       ]
     },
     "frontendVersion": "1.32.10"
