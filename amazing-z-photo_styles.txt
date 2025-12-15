@@ -1,0 +1,24 @@
+IMAGE1 PROMPT:
+Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
+
+IMAGE2 PROMPT:
+A young woman in a crowded subway station, next to her is an artificial Christmas tree.
+
+STYLES
+ * Phone Photo
+ * Casual Photo
+ * Flash 90s Photo
+ * Intense Spot Photo
+ * Production Photo
+ * Classic Film Photo
+ * Noir Photo
+ * Vintage Photo
+ * Lomography
+ * Drone Photo
+ * Minimalist Photo
+ * Pop Photo
+ * Light Painting Photo
+ * Neon City Photo
+ * Tilt Shift / Toy Photo
+
+
