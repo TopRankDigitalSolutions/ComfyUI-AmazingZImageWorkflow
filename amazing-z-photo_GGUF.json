@@ -1,8 +1,8 @@
 {
   "id": "95418ce2-5b62-4729-894f-ed7422bb5ec0",
   "revision": 0,
-  "last_node_id": 166,
-  "last_link_id": 469,
+  "last_node_id": 168,
+  "last_link_id": 560,
   "nodes": [
     {
       "id": 60,
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 51,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital, her expression one of surprise and her eyes wide. She has fair, smooth skin and long, blue hair. She wears a form-fitting, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a fierce expression, has long, pointed red horns and sharp teeth. He wears a loose, red and black robe, and with one hand, he firmly grasps the nurse's waist, pulling her toward him. The atmosphere of the image is dark and mysterious, with the nurse and the demon standing out against the backdrop of a hospital."
+        "A woman is captured mid-air above a highly polished marble floor of a bank, having just leapt from a round metal office chair positioned toward the right side of the frame. She is wearing a dark blue, sleeveless, form-fitting top accentuating her upper torso and a knee-length plaid skirt with black, white, and gray patterns. She is barefoot, with her legs bent at the knees and feet positioned outward and apart, arms raised in a thumbs-up gesture, and a broad smile on her face.\n\nBehind her, two hooded individuals are positioned near the counter. One is holding a large-caliber rifle. Several women in the background are kneeling on the marble floor, visibly restrained with ropes or duct tape binding their wrists and ankles. They are also wearing cloth strips over their mouths, indicating they are amordazadas. The scene is illuminated by the reflective marble flooring and institutional lighting, emphasizing the tense and alarming situation of a bank robbery with hostages."
       ]
     },
     {
@@ -729,7 +729,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -766,7 +766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -804,13 +804,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 382
+          "link": 472
         }
       ],
       "outputs": [
@@ -842,13 +842,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 384
+          "link": 509
         }
       ],
       "outputs": [
@@ -880,13 +880,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 421
+          "link": 560
         }
       ],
       "outputs": [
@@ -918,13 +918,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 387
+          "link": 510
         }
       ],
       "outputs": [
@@ -956,13 +956,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 423
+          "link": 492
         }
       ],
       "outputs": [
@@ -994,13 +994,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 424
+          "link": 497
         }
       ],
       "outputs": [
@@ -1032,13 +1032,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 420
+          "link": 559
         }
       ],
       "outputs": [
@@ -1070,13 +1070,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 402
+          "link": 538
         }
       ],
       "outputs": [
@@ -1108,13 +1108,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 404
+          "link": 550
         }
       ],
       "outputs": [
@@ -1146,13 +1146,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 403
+          "link": 552
         }
       ],
       "outputs": [
@@ -1184,13 +1184,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 414
+          "link": 555
         }
       ],
       "outputs": [
@@ -1222,13 +1222,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 409
+          "link": 557
         }
       ],
       "outputs": [
@@ -1260,13 +1260,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 410
+          "link": 556
         }
       ],
       "outputs": [
@@ -1298,13 +1298,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 391
+          "link": 513
         }
       ],
       "outputs": [
@@ -1336,7 +1336,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 69,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 50,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital, her expression one of surprise and her eyes wide. She has fair, smooth skin and long, blue hair. She wears a form-fitting, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a fierce expression, has long, pointed red horns and sharp teeth. He wears a loose, red and black robe, and with one hand, he firmly grasps the nurse's waist, pulling her toward him. The atmosphere of the image is dark and mysterious, with the nurse and the demon standing out against the backdrop of a hospital."
+        "A woman is captured mid-air above a highly polished marble floor of a bank, having just leapt from a round metal office chair positioned toward the right side of the frame. She is wearing a dark blue, sleeveless, form-fitting top accentuating her upper torso and a knee-length plaid skirt with black, white, and gray patterns. She is barefoot, with her legs bent at the knees and feet positioned outward and apart, arms raised in a thumbs-up gesture, and a broad smile on her face.\n\nBehind her, two hooded individuals are positioned near the counter. One is holding a large-caliber rifle. Several women in the background are kneeling on the marble floor, visibly restrained with ropes or duct tape binding their wrists and ankles. They are also wearing cloth strips over their mouths, indicating they are amordazadas. The scene is illuminated by the reflective marble flooring and institutional lighting, emphasizing the tense and alarming situation of a bank robbery with hostages."
       ]
     },
     {
@@ -1641,7 +1641,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1652,61 +1652,61 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Cinematic",
+          "name": "STYLE: Casual Photo",
           "type": "*",
           "link": 273
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage Photo",
+          "name": "STYLE: Flash 90s Photo",
           "type": "*",
           "link": 274
         },
         {
           "dir": 3,
-          "name": "STYLE: Classic Film Photo",
+          "name": "STYLE: Intense Spot Photo",
           "type": "*",
           "link": 276
         },
         {
           "dir": 3,
-          "name": "STYLE: Flash 90s Photo",
+          "name": "STYLE: Production Photo",
           "type": "*",
           "link": 277
         },
         {
           "dir": 3,
-          "name": "STYLE: Lomography",
+          "name": "STYLE: Classic Film Photo",
           "type": "*",
           "link": 278
         },
         {
           "dir": 3,
-          "name": "STYLE: Tilt Shift / Toy Photo",
+          "name": "STYLE: Noir Photo",
           "type": "*",
           "link": 279
         },
         {
           "dir": 3,
-          "name": "STYLE: Drone Photo",
+          "name": "STYLE: Vintage Photo",
           "type": "*",
           "link": 280
         },
         {
           "dir": 3,
-          "name": "STYLE: Minimalist Photo",
+          "name": "STYLE: Lomography",
           "type": "*",
           "link": 281
         },
         {
           "dir": 3,
-          "name": "STYLE: Light Painting Photo",
+          "name": "STYLE: Drone Photo",
           "type": "*",
           "link": 282
         },
         {
           "dir": 3,
-          "name": "STYLE: Noir Photo",
+          "name": "STYLE: Minimalist Photo",
           "type": "*",
           "link": 308
         },
@@ -1718,7 +1718,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Intense Spot Lighting",
+          "name": "STYLE: Light Painting Photo",
           "type": "*",
           "link": 331
         },
@@ -1730,7 +1730,7 @@
         },
         {
           "dir": 3,
-          "name": "STYLE: Casual Photo",
+          "name": "STYLE: Tilt Shift / Toy Photo",
           "type": "*",
           "link": 363
         },
@@ -1768,7 +1768,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -2030,7 +2030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2784,227 +2784,6 @@
       "shape": 1
     },
     {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        530
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            421
-          ]
-        }
-      ],
-      "title": "STYLE: Classic Film Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a professional cinematographer of iconic classic mid‑century cinema (1950s‑1960s Hollywood golden age).\n\nYour tastes encompass 35 mm film stock with a slightly warm color temperature and anamorphic lens at 50 mm focal length creating slightly oval bokeh and subtle lens imperfections.\n\nCreate the following image:\n{$@}"
-      ]
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        310
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            384
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a family member during the year 1980 who likes casual amateur photos.\nYour tastes encompass warm and spontaneous photographs, in a cozy environment, with warm tones.\n---\nTake the following photograph:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 130,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1850
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 16,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            404
-          ]
-        }
-      ],
-      "title": "STYLE: Light Painting Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an experimental photographer who enjoys crafting light‑painting pictures using long‑exposure settings, with LED sources.\n\nYour tastes encompass glowing trails, vivid colors, and abstract, high‑contrast compositions.  \n---  \nCreate the following image:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2070
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            403
-          ]
-        }
-      ],
-      "title": "STYLE: Noir Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a seasoned cinematographer who works with mirrorless camera favoring intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\n\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n\n---\nTake the following indoors photo:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1410
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            420
-          ]
-        }
-      ],
-      "title": "STYLE: Drone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an aerial photographer who enjoys using wide-angle drone cams.\n\nYour tastes encompass sweeping, high‑resolution scenes captured from elevated perspectives, with rich colors.\n\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2950
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            391
-          ]
-        }
-      ],
-      "title": "STYLE: Casual Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an amateur documentary photographer taking low quality photos.\n\nYour tastes encompass sharp backgrounds with large depth of field, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n\n---  \nTake the following photograph:  \n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 125,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -3018,7 +2797,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3042,80 +2821,6 @@
       "shape": 1
     },
     {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        750
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            387
-          ]
-        }
-      ],
-      "title": "STYLE: Flash 90s Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a hobbyist photographer in the early 1990s using a compact digital point‑and‑shoot camera.  \nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---  \nTake the following photograph:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1190
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            424
-          ]
-        }
-      ],
-      "title": "STYLE: Tilt Shift / Toy Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models, often shooting from a high or oblique angle with a very narrow focus plane.  \n\nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
       "id": 144,
       "type": "StringReplace",
       "pos": [
@@ -3129,7 +2834,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -3208,43 +2913,6 @@
         "{$with-adult-content}",
         "with adult content, where women are porn stars sexually provocative"
       ]
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2510
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            409
-          ]
-        }
-      ],
-      "title": "STYLE: Intense Spot Lighting",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
     },
     {
       "id": 156,
@@ -3412,7 +3080,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3486,7 +3154,7 @@
         "Node name for S&R": "Display Any (rgthree)"
       },
       "widgets_values": [
-        "You are an amateur documentary photographer taking low quality photos.\n\nYour tastes encompass sharp backgrounds with large depth of field, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic. \n\n--- \nTake the following photograph: \nA young nurse stands beside a blue demon in a hospital, her expression one of surprise and her eyes wide. She has fair, smooth skin and long, blue hair. She wears a form-fitting, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a fierce expression, has long, pointed red horns and sharp teeth. He wears a loose, red and black robe, and with one hand, he firmly grasps the nurse's waist, pulling her toward him. The atmosphere of the image is dark and mysterious, with the nurse and the demon standing out against the backdrop of a hospital.\n"
+        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models, often shooting from a high or oblique angle with a very narrow focus plane. \n\nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n\nTake the following photograph:\nA woman is captured mid-air above a highly polished marble floor of a bank, having just leapt from a round metal office chair positioned toward the right side of the frame. She is wearing a dark blue, sleeveless, form-fitting top accentuating her upper torso and a knee-length plaid skirt with black, white, and gray patterns. She is barefoot, with her legs bent at the knees and feet positioned outward and apart, arms raised in a thumbs-up gesture, and a broad smile on her face.\n\nBehind her, two hooded individuals are positioned near the counter. One is holding a large-caliber rifle. Several women in the background are kneeling on the marble floor, visibly restrained with ropes or duct tape binding their wrists and ankles. They are also wearing cloth strips over their mouths, indicating they are amordazadas. The scene is illuminated by the reflective marble flooring and institutional lighting, emphasizing the tense and alarming situation of a bank robbery with hostages.\n"
       ],
       "color": "#323",
       "bgcolor": "#535"
@@ -3505,7 +3173,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 15,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3513,7 +3181,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            410
+            556
           ]
         }
       ],
@@ -3525,43 +3193,6 @@
       },
       "widgets_values": [
         "You are an amateur filmmaker who captures violent scenes with a shallow depth of field.  \nYour tastes encompass neon‑saturated, atmospheric shots that emphasize intense red, green, blue colors, glowing signage, and selective focus.\n---\nTake the following photograph:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1630
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 25,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            402
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a contemporary visual artist who prefers shooting with a full‑frame mirrorless camera, at a wide aperture to highlight negative space.  \nYour tastes encompass clean, minimalist compositions that emphasize empty space while removing any distracting elements.\n---\nTake the following photograph:\n{$@}"
       ],
       "shape": 1
     },
@@ -3579,7 +3210,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3587,7 +3218,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            414
+            555
           ]
         }
       ],
@@ -3616,7 +3247,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3637,10 +3268,121 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A young nurse stands beside a blue demon in a hospital, her expression one of surprise and her eyes wide. She has fair, smooth skin and long, blue hair. She wears a form-fitting, sleeveless black and red dress with distinctive red trim that accentuates her figure. The blue demon, with a fierce expression, has long, pointed red horns and sharp teeth. He wears a loose, red and black robe, and with one hand, he firmly grasps the nurse's waist, pulling her toward him. The atmosphere of the image is dark and mysterious, with the nurse and the demon standing out against the backdrop of a hospital."
+        "A woman is captured mid-air above a highly polished marble floor of a bank, having just leapt from a round metal office chair positioned toward the right side of the frame. She is wearing a dark blue, sleeveless, form-fitting top accentuating her upper torso and a knee-length plaid skirt with black, white, and gray patterns. She is barefoot, with her legs bent at the knees and feet positioned outward and apart, arms raised in a thumbs-up gesture, and a broad smile on her face.\n\nBehind her, two hooded individuals are positioned near the counter. One is holding a large-caliber rifle. Several women in the background are kneeling on the marble floor, visibly restrained with ropes or duct tape binding their wrists and ankles. They are also wearing cloth strips over their mouths, indicating they are amordazadas. The scene is illuminated by the reflective marble flooring and institutional lighting, emphasizing the tense and alarming situation of a bank robbery with hostages."
       ],
       "color": "#232",
       "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        90
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            472
+          ]
+        }
+      ],
+      "title": "STYLE: Casual Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an amateur documentary photographer taking low quality photos.\n\nYour tastes encompass sharp backgrounds with large depth of field, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n\n---  \nTake the following photograph:  \n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        310
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            509
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a hobbyist photographer in the early 1990s using a compact digital point‑and‑shoot camera.  \nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---  \nTake the following photograph:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        530
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            560
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following photograph:\n{$@}\n"
+      ],
       "shape": 1
     },
     {
@@ -3648,7 +3390,265 @@
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        90
+        750
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            510
+          ]
+        }
+      ],
+      "title": "STYLE: Production Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a Hollywood filmmaker making a high-budget film.\n\nYour tastes encompass atmospheric shots that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nCreate the following movie shot:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            492
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a professional cinematographer of iconic classic mid‑century cinema (1950s‑1960s Hollywood golden age).\n\nYour tastes encompass 35 mm film stock with a slightly warm color temperature and anamorphic lens at 50 mm focal length creating slightly oval bokeh and subtle lens imperfections.\n\nCreate the following image:\n{$@}"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1190
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            497
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a seasoned cinematographer who works with mirrorless camera favoring intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\n\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n\n---\nTake the following indoors photo:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            559
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a family member during the year 1980 who likes casual amateur photos.\nYour tastes encompass warm and spontaneous photographs, in a cozy environment, with warm tones.\n---\nTake the following photograph:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1630
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            538
+          ]
+        }
+      ],
+      "title": "STYLE: Lomography",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an adventurous experimental photographer exploring the world through a lomographic lens.\n\nYour tastes encompass chromatic aberration, film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, always trying to capture emotions.\n---  \nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1850
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "STYLE: Drone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are an aerial photographer who enjoys using wide-angle drone cams.\n\nYour tastes encompass sweeping, high‑resolution scenes captured from elevated perspectives, with rich colors.\n\nTake the following photograph:\n{$@}\n"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2070
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            552
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "You are a contemporary visual artist who prefers shooting with a full‑frame mirrorless camera, at a wide aperture to highlight negative space.  \nYour tastes encompass clean, minimalist compositions that emphasize empty space while removing any distracting elements.\n---\nTake the following photograph:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
       ],
       "size": [
         450,
@@ -3665,27 +3665,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            382
+            557
           ]
         }
       ],
-      "title": "STYLE: Cinematic",
+      "title": "STYLE: Light Painting Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "You are a Hollywood filmmaker making a high-budget film.\n\nYour tastes encompass atmospheric shots that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nCreate the following movie shot:\n{$@}"
+        "You are an experimental photographer who enjoys crafting light‑painting pictures using long‑exposure settings, with LED sources.\n\nYour tastes encompass glowing trails, vivid colors, and abstract, high‑contrast compositions.  \n---  \nCreate the following image:\n{$@}\n"
       ],
       "shape": 1
     },
     {
-      "id": 41,
+      "id": 124,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        970
+        2950
       ],
       "size": [
         450,
@@ -3695,25 +3695,25 @@
         "pinned": true
       },
       "order": 29,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
           "name": "STRING",
           "type": "STRING",
           "links": [
-            423
+            513
           ]
         }
       ],
-      "title": "STYLE: Lomography",
+      "title": "STYLE: Tilt Shift / Toy Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "You are an adventurous experimental photographer exploring the world through a lomographic lens.\n\nYour tastes encompass chromatic aberration, film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, always trying to capture emotions.\n---  \nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
+        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models, often shooting from a high or oblique angle with a very narrow focus plane.  \n\nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n\nTake the following photograph:\n{$@}\n"
       ],
       "shape": 1
     }
@@ -4256,122 +4256,10 @@
       "*"
     ],
     [
-      382,
-      47,
-      0,
-      35,
-      0,
-      "*"
-    ],
-    [
-      384,
-      37,
-      0,
-      36,
-      0,
-      "*"
-    ],
-    [
-      387,
-      117,
-      0,
-      44,
-      0,
-      "*"
-    ],
-    [
-      391,
-      101,
-      0,
-      131,
-      0,
-      "*"
-    ],
-    [
-      402,
-      43,
-      0,
-      94,
-      0,
-      "*"
-    ],
-    [
-      403,
-      92,
-      0,
-      118,
-      0,
-      "*"
-    ],
-    [
-      404,
-      130,
-      0,
-      102,
-      0,
-      "*"
-    ],
-    [
       405,
       70,
       0,
       76,
-      0,
-      "*"
-    ],
-    [
-      409,
-      63,
-      0,
-      126,
-      0,
-      "*"
-    ],
-    [
-      410,
-      45,
-      0,
-      127,
-      0,
-      "*"
-    ],
-    [
-      414,
-      93,
-      0,
-      121,
-      0,
-      "*"
-    ],
-    [
-      420,
-      122,
-      0,
-      64,
-      0,
-      "*"
-    ],
-    [
-      421,
-      38,
-      0,
-      42,
-      0,
-      "*"
-    ],
-    [
-      423,
-      41,
-      0,
-      46,
-      0,
-      "*"
-    ],
-    [
-      424,
-      124,
-      0,
-      48,
       0,
       "*"
     ],
@@ -4542,6 +4430,118 @@
       165,
       0,
       "*"
+    ],
+    [
+      472,
+      101,
+      0,
+      35,
+      0,
+      "*"
+    ],
+    [
+      492,
+      38,
+      0,
+      46,
+      0,
+      "*"
+    ],
+    [
+      497,
+      92,
+      0,
+      48,
+      0,
+      "*"
+    ],
+    [
+      509,
+      117,
+      0,
+      36,
+      0,
+      "*"
+    ],
+    [
+      510,
+      47,
+      0,
+      44,
+      0,
+      "*"
+    ],
+    [
+      513,
+      124,
+      0,
+      131,
+      0,
+      "*"
+    ],
+    [
+      538,
+      41,
+      0,
+      94,
+      0,
+      "*"
+    ],
+    [
+      550,
+      122,
+      0,
+      102,
+      0,
+      "*"
+    ],
+    [
+      552,
+      43,
+      0,
+      118,
+      0,
+      "*"
+    ],
+    [
+      555,
+      93,
+      0,
+      121,
+      0,
+      "*"
+    ],
+    [
+      556,
+      45,
+      0,
+      127,
+      0,
+      "*"
+    ],
+    [
+      557,
+      130,
+      0,
+      126,
+      0,
+      "*"
+    ],
+    [
+      559,
+      37,
+      0,
+      64,
+      0,
+      "*"
+    ],
+    [
+      560,
+      63,
+      0,
+      42,
+      0,
+      "*"
     ]
   ],
   "groups": [
@@ -4652,10 +4652,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8460529753920661,
+      "scale": 0.3520010232491624,
       "offset": [
-        -939.8034761421222,
-        -451.7742802196652
+        3995.2328802244283,
+        -424.93502064230387
       ]
     },
     "frontendVersion": "1.32.10"
