@@ -6,7 +6,8 @@
 [![Version](https://img.shields.io/github/v/tag/martin-rizzo/AmazingZImageWorkflow?label=version%3A&color=D07250)](#)
 [![Last](https://img.shields.io/github/last-commit/martin-rizzo/AmazingZImageWorkflow?label=last%20commit%3A)](#) \
 [<img src="https://img.shields.io/badge/CivitAI%3A-Amazing_Z--Image-EEE?labelColor=1971C2&logo=c%2B%2B&logoColor=white" height="22">](https://civitai.com/models/2181458/amazing-z-image-workflow)
-[<img src="https://img.shields.io/badge/CivitAI%3A-Amazing_Z--Comics-EEE?labelColor=1971C2&logo=c%2B%2B&logoColor=white" height="22">](https://civitai.com/models/2213075/amazing-z-comics-workflow) \
+[<img src="https://img.shields.io/badge/CivitAI%3A-Amazing_Z--Comics-EEE?labelColor=1971C2&logo=c%2B%2B&logoColor=white" height="22">](https://civitai.com/models/2213075/amazing-z-comics-workflow)
+[<img src="https://img.shields.io/badge/CivitAI%3A-Amazing_Z--Photo-EEE?labelColor=1971C2&logo=c%2B%2B&logoColor=white" height="22">](https://civitai.com/models/2225379/amazing-z-photo-workflow) \
 <img src="files/banner.png" width="75%"></img>
 
 </div>
