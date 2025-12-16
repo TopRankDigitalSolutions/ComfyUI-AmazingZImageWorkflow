@@ -1,6 +1,6 @@
 <div align="center">
 
-# Amazing Z-Image Workflow v2.1
+# Amazing Z-Image Workflow v2.2
 [![Platform](https://img.shields.io/badge/platform%3A-ComfyUI-007BFF)](#)
 [![License](https://img.shields.io/github/license/martin-rizzo/AmazingZImageWorkflow?label=license%3A&color=28A745)](#)
 [![Version](https://img.shields.io/github/v/tag/martin-rizzo/AmazingZImageWorkflow?label=version%3A&color=D07250)](#)
@@ -34,40 +34,42 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
 ### The 15 Predefined Styles in "amazing-z-image"
-<img src="amazing-z-image_GGUF.png" width="25%"></img>
+<img src="amazing-z-image_styles1.jpg" width="25%"></img>
 
 ### The 15 Predefined Styles in "amazing-z-comics"
-<img src="amazing-z-comics_GGUF.png" width="25%"></img>
+<img src="amazing-z-comics_styles1.jpg" width="25%"></img>
 
-
+### The 15 Predefined Styles in "amazing-z-photo"
+<img src="amazing-z-photo_styles1.jpg" width="25%"></img>
 
 ## Workflows Overview
 
-The available styles are organized into workflows based on artistic focus:
+The available styles are organized into workflows based on their focus:
 
- * __`amazing-z-image`__  : The original general-purpose workflow with a variety of image styles.
- * __`amazing-z-comics`__ : Includes comics, anime, and illustration styles.
+* __`amazing-z-image`__ : The original general-purpose workflow with a variety of image styles.
+* __`amazing-z-comics`__: Workflow dedicated to illustration (comics, anime, pixel art, etc.).
+* __`amazing-z-photo`__ : Workflow dedicated to photographic images (phone, vintage, production photos, etc.).
 
-Each of these workflows comes in two versions, one for GGUF checkpoints and another for SafeTensors. \
+Each of these workflows comes in two versions, one for GGUF checkpoints and another for SafeTensors. 
+
 This is reflected in the filenames:
 
- * __`amazing-z-###_GGUF.json`__ : Recommended for GPUs with 12GB or less VRAM.
- * __`amazing_z-###_SAFETENSORS.json`__ : Based directly on the ComfyUI example.
+* __`amazing-z-###_GGUF.json`__       : Recommended for GPUs with 12GB or less VRAM.
+* __`amazing-z-###_SAFETENSORS.json`__: Based directly on the ComfyUI example.
 
-<sub>When using ComfyUI, you may encounter debates about the best checkpoint format. From my experience, GGUF quantized models provide a better balance between size and prompt response quality compared to SafeTensors versions. However, it's worth noting that ComfyUI includes optimizations that work more efficiently with SafeTensors files, which might make them preferable for some users despite their larger size. The optimal choice depends on factors like your ComfyUI version, PyTorch setup, CUDA configuration, GPU model, and available VRAM and RAM. To help you find the best fit for your system, I've included links to various checkpoint versions below.</sub>
+<sup>When using ComfyUI, you may encounter debates about the best checkpoint format. From my experience, GGUF quantized models provide a better balance between size and prompt response quality compared to SafeTensors versions. However, it's worth noting that ComfyUI includes optimizations that work more efficiently with SafeTensors files, which might make them preferable for some users despite their larger size. The optimal choice depends on factors like your ComfyUI version, PyTorch setup, CUDA configuration, GPU model, and available VRAM and RAM. To help you find the best fit for your system, I've included links to various checkpoint versions below.</sup>
 
 ## Required Custom Nodes
 
 These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) or downloaded from their respective repositories.
 
- - **[rgthree](https://github.com/rgthree/rgthree-comfy)**: Required for both workflows.
+ - **[rgthree-comfy](https://github.com/rgthree/rgthree-comfy)**: Required for both workflows.
  - **[ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)**: Required if you are using the workflow preconfigured for GGUF checkpoints.
 
 ## Required Checkpoints Files
 
 ### For "amazing-z-###_GGUF.json"
 
-Workflows with checkpoint in GGUF format. (recommended) \
 <sub>Using **Q5_K_S** quants, you will likely achieve the best balance between file size and prompt response.</sub>
 
  - __[z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf)__ <sub>(5.19 GB)</sub>\
@@ -79,8 +81,7 @@ Workflows with checkpoint in GGUF format. (recommended) \
 
 ### For "amazing-z-###_SAFETENSORS.json"
 
-Based directly on the official ComfyUI example. \
-<sub>While it may require more than 12GB of VRAM to run smoothly, ComfyUI's optimizations may allow it to work well on your system.</sub>
+<sub>While it may require 12GB of VRAM or more to run smoothly, ComfyUI's optimizations may allow it to work well on your system.</sub>
 
   - __[z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)__ <sub>(12.3 GB)</sub>\
     Local Directory: __`ComfyUI/models/diffusion_models/`__
