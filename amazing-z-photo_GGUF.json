@@ -1,7 +1,7 @@
 {
   "id": "95418ce2-5b62-4729-894f-ed7422bb5ec0",
   "revision": 0,
-  "last_node_id": 169,
+  "last_node_id": 170,
   "last_link_id": 562,
   "nodes": [
     {
@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 53,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A dark-haired woman wearing sunglasses holds a futuristic, heavy weapon resembling a grenade launcher. The weapon is metallic with two barrels but is wielded with one hand like a revolver. The woman is pointing it to the left and wears Iron Man-style armor covering her torso, shoulders, and arms. The armor has segmented red and black plates and appears to be form-fitting. The woman also wears a plaid miniskirt and knee-high, tight-fitting leather boots. The weapon seems disproportionately large in relation to her size. The scene shows the woman slightly behind the foreground elements. The background is a desert landscape with scattered Egyptian ruins of stone structures and barren, rocky mountains under a clear blue sky. The ground is sandy and uneven, with some broken bricks or stone debris in the foreground. In the background, there is a gigantic, silver and gold, spherical metal structure."
+        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
       ]
     },
     {
@@ -472,7 +472,7 @@
       },
       "widgets_values": [
         true,
-        2,
+        1,
         "fixed",
         1
       ],
@@ -493,7 +493,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -547,7 +547,7 @@
       },
       "widgets_values": [
         "enable",
-        2,
+        1,
         "randomize",
         8,
         1,
@@ -729,7 +729,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -766,7 +766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -804,7 +804,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -842,7 +842,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -994,7 +994,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1032,7 +1032,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1070,7 +1070,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1108,7 +1108,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1146,7 +1146,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1184,7 +1184,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1222,7 +1222,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1260,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1298,7 +1298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1336,7 +1336,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 69,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A dark-haired woman wearing sunglasses holds a futuristic, heavy weapon resembling a grenade launcher. The weapon is metallic with two barrels but is wielded with one hand like a revolver. The woman is pointing it to the left and wears Iron Man-style armor covering her torso, shoulders, and arms. The armor has segmented red and black plates and appears to be form-fitting. The woman also wears a plaid miniskirt and knee-high, tight-fitting leather boots. The weapon seems disproportionately large in relation to her size. The scene shows the woman slightly behind the foreground elements. The background is a desert landscape with scattered Egyptian ruins of stone structures and barren, rocky mountains under a clear blue sky. The ground is sandy and uneven, with some broken bricks or stone debris in the foreground. In the background, there is a gigantic, silver and gold, spherical metal structure."
+        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
       ]
     },
     {
@@ -1768,7 +1768,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1868,6 +1868,7 @@
           "link": 365
         },
         {
+          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -2029,7 +2030,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2143,7 +2144,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        2,
+        1,
         "fixed"
       ],
       "color": "#432",
@@ -2769,7 +2770,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -2799,54 +2800,6 @@
         "",
         "{$erotic}",
         "erotic"
-      ]
-    },
-    {
-      "id": 145,
-      "type": "StringReplace",
-      "pos": [
-        160,
-        2020
-      ],
-      "size": [
-        310,
-        196.00000000000023
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 70,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 425
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            434,
-            453
-          ]
-        }
-      ],
-      "title": "Adult Content Inducer (experimental)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.77",
-        "Node name for S&R": "StringReplace"
-      },
-      "widgets_values": [
-        "",
-        "{$with-adult-content}",
-        "with adult content, where women are porn stars sexually provocative"
       ]
     },
     {
@@ -2977,6 +2930,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -3014,7 +2968,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 65,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3057,449 +3011,6 @@
       ]
     },
     {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1410
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 13,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            559
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a family member during the year 1980 who likes casual amateur photos.\nYour tastes encompass warm and spontaneous photographs, in a cozy environment, with warm tones.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2070
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            552
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a contemporary visual artist who prefers shooting with a full‑frame mirrorless camera, at a wide aperture to highlight negative space.  \nYour tastes encompass clean, minimalist compositions that emphasize empty space while removing any distracting elements.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1850
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 15,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            550
-          ]
-        }
-      ],
-      "title": "STYLE: Drone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an aerial photographer who enjoys using wide-angle drone cams.\nYour tastes encompass sweeping, high‑resolution scenes captured from elevated perspectives, with rich colors.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}\n"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        530
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 16,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            560
-          ]
-        }
-      ],
-      "title": "STYLE: Intense Spot Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a master photographer who specializes in chiaroscuro, using a single intense hard white light source to generate dramatic light and shadow.\nYour tastes encompass brilliant glowing whites, with sharp black shadows, and extreme contrast with white burned areas.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        750
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 17,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            510
-          ]
-        }
-      ],
-      "title": "STYLE: Production Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a Hollywood filmmaker making a high-budget film.\nYour tastes encompass atmospheric shots that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nCreate the following {$erotic} movie shot {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        970
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            492
-          ]
-        }
-      ],
-      "title": "STYLE: Classic Film Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a professional cinematographer of iconic classic mid‑century cinema (1950s‑1960s Hollywood golden age).\nYour tastes encompass 35 mm film stock with a slightly warm color temperature and anamorphic lens at 50 mm focal length creating slightly oval bokeh and subtle lens imperfections.\n---\nCreate the following {$erotic} image {$with-adult-content}:\n{$@}"
-      ]
-    },
-    {
-      "id": 130,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2510
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 19,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            557
-          ]
-        }
-      ],
-      "title": "STYLE: Light Painting Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an experimental photographer who enjoys crafting light‑painting pictures using long‑exposure settings, with LED sources.\nYour tastes encompass glowing trails, vivid colors, and abstract, high‑contrast compositions.  \n---  \nCreate the following {$erotic} image {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2290
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 20,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            555
-          ]
-        }
-      ],
-      "title": "STYLE: Pop Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a contemporary pop‑art photographer who thrives on vibrant, oversaturated palettes and graphic with high‑energy compositions.\nYour tastes encompass bold and exaggerated colors with unconventional imagery that takes image composition to limits beyond the ordinary.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2730
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            556
-          ]
-        }
-      ],
-      "title": "STYLE: Neon City Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are an amateur filmmaker who captures violent scenes with a shallow depth of field.  \nYour tastes encompass neon‑saturated, atmospheric shots that emphasize intense red, green, blue colors, glowing signage, and selective focus.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        2950
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            513
-          ]
-        }
-      ],
-      "title": "STYLE: Tilt Shift / Toy Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a detail‑obsessed photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models, often shooting from a high or oblique angle with a very narrow focus plane.  \nYour tastes encompass crisp, high‑resolution images with exaggerated perspective, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        310
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            509
-          ]
-        }
-      ],
-      "title": "STYLE: Flash 90s Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a hobbyist photographer and you take photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---  \nTake the following {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1190
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            497
-          ]
-        }
-      ],
-      "title": "STYLE: Noir Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "You are a seasoned cinematographer who works with intense side lighting and gobo‑crafted patterns to sculpt deep, sharply defined shadows.\nYour aesthetic embraces a low‑key, high‑contrast chiaroscuro look: dramatic contrasts rendered in a muted‑yet‑vibrant Ektachrome‑inspired palette with a subtle warm tint, and a slightly desaturated finish that evokes timeless, cinematic noir.\n---\nTake the following indoors {$erotic} photograph {$with-adult-content}:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 164,
       "type": "Note",
       "pos": [
@@ -3513,7 +3024,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3558,47 +3069,10 @@
         "Node name for S&R": "Display Any (rgthree)"
       },
       "widgets_values": [
-        "CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\nA dark-haired woman wearing sunglasses holds a futuristic, heavy weapon resembling a grenade launcher. The weapon is metallic with two barrels but is wielded with one hand like a revolver. The woman is pointing it to the left and wears Iron Man-style armor covering her torso, shoulders, and arms. The armor has segmented red and black plates and appears to be form-fitting. The woman also wears a plaid miniskirt and knee-high, tight-fitting leather boots. The weapon seems disproportionately large in relation to her size. The scene shows the woman slightly behind the foreground elements. The background is a desert landscape with scattered Egyptian ruins of stone structures and barren, rocky mountains under a clear blue sky. The ground is sandy and uneven, with some broken bricks or stone debris in the foreground. In the background, there is a gigantic, silver and gold, spherical metal structure."
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit crisp, high‑resolution details with exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\nFrom an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
       ],
       "color": "#323",
       "bgcolor": "#535"
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -1990,
-        1630
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 26,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            538
-          ]
-        }
-      ],
-      "title": "STYLE: Lomography",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
     },
     {
       "id": 101,
@@ -3614,7 +3088,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3651,7 +3125,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 15,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3675,6 +3149,449 @@
       "shape": 1
     },
     {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        310
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 16,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            509
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a hobbyist photographer and you take photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour tastes encompass gritty, low‑resolution snapshots with washed‑out colors, harsh built‑in flash, grainy texture and overexposed highlights, capturing an ethereal atmosphere that feels nostalgic.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        530
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 17,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            560
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        750
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 18,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            510
+          ]
+        }
+      ],
+      "title": "STYLE: Production Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            492
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
+      ]
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1190
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 20,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            497
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs feature intense side lighting and patterns created with gobos that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1410
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 21,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            559
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour photographs feature a minimalist and amateur composition, with warm and desaturated tones, as well as grain texture and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1850
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 22,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "STYLE: Drone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs showcase panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        1630
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 23,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            538
+          ]
+        }
+      ],
+      "title": "STYLE: Lomography",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2070
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 24,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            552
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit high contrast with clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2290
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            555
+          ]
+        }
+      ],
+      "title": "STYLE: Pop Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs feature exaggerated colors with solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2730
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 26,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            556
+          ]
+        }
+      ],
+      "title": "STYLE: Neon City Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who likes dark and colorful neon scenes.\nYour photographs exhibit film grain, with dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2510
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 27,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            557
+          ]
+        }
+      ],
+      "title": "STYLE: Light Painting Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs feature luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
       "id": 57,
       "type": "PrimitiveNode",
       "pos": [
@@ -3688,7 +3605,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3709,11 +3626,96 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A dark-haired woman wearing sunglasses holds a futuristic, heavy weapon resembling a grenade launcher. The weapon is metallic with two barrels but is wielded with one hand like a revolver. The woman is pointing it to the left and wears Iron Man-style armor covering her torso, shoulders, and arms. The armor has segmented red and black plates and appears to be form-fitting. The woman also wears a plaid miniskirt and knee-high, tight-fitting leather boots. The weapon seems disproportionately large in relation to her size. The scene shows the woman slightly behind the foreground elements. The background is a desert landscape with scattered Egyptian ruins of stone structures and barren, rocky mountains under a clear blue sky. The ground is sandy and uneven, with some broken bricks or stone debris in the foreground. In the background, there is a gigantic, silver and gold, spherical metal structure."
+        "From an exaggeratedly high aerial perspective, Wonder Woman is captured mid-stride as she runs across a steep, dark rooftop at night, her body leaning forward sharply, with her face oriented directly toward the camera. Her posture is dynamic, with her legs extended behind her, lifting off the roof with each quick, deliberate step, and her toes barely touching the surface as she moves forward. Her attire consists of a fitted, sleeveless top that reveals her muscular arms and a short, form-fitting skirt that falls just above her knees, leaving her barefoot. Her long, dark hair is visible in motion, with visible waves and straight bangs falling over her forehead, slightly stirred by the wind. The roof beneath her is composed of evenly spaced, rectangular tiles, but the angle is so steep that it plunges dramatically into the darkness, creating a pronounced sense of depth and verticality.\n\nIn the background, a massive, dark gray creature—Godzilla—but with the head of Kermit the Frog, looms over the cityscape, towering above the buildings. Its segmented body casts a long shadow across the illuminated area, a stark contrast to the night sky. The cityscape is visible in the distance, lit by artificial lights that create a striking contrast with the surrounding darkness. The sloping roofline continues unaltered behind Wonder Woman, disappearing into the abyss of the city, emphasizing the height and the steepness of her position. Her facial expression is sharp, and she appears to be speaking directly to the camera, her mouth open as if to say, \"Bye! I’m out of here!\" The entire scene is rendered with great clarity, emphasizing the dynamic action and the stark contrast between the illuminated foreground and the dark background."
       ],
       "color": "#232",
       "bgcolor": "#353",
       "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        2950
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            513
+          ]
+        }
+      ],
+      "title": "STYLE: Tilt Shift / Toy Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit crisp, high‑resolution details with exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 145,
+      "type": "StringReplace",
+      "pos": [
+        160,
+        2020
+      ],
+      "size": [
+        310,
+        196.00000000000023
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 70,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 425
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            434,
+            453
+          ]
+        }
+      ],
+      "title": "Adult Content Inducer (experimental)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$with-adult-content}",
+        "with adult content, where women are porn stars sexually provocative"
+      ]
     }
   ],
   "links": [
@@ -4560,7 +4562,7 @@
     },
     {
       "id": 3,
-      "title": "EDITING AREA [v2.2]",
+      "title": "EDITING AREA [v2.3]",
       "bounding": [
         1220,
         590,
