@@ -99,7 +99,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 38,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +133,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
+        "A woman stands on the right side of the image on a path leading through a forest, her back to the viewer, in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a micro-skirt. The forest is dark. The path is dirt and lined with small plants."
       ]
     },
     {
@@ -493,7 +493,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 60,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -766,7 +766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -804,7 +804,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -842,7 +842,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -880,7 +880,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -918,7 +918,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -956,7 +956,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -994,7 +994,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1032,7 +1032,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1070,7 +1070,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1108,7 +1108,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1146,7 +1146,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -1184,7 +1184,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1222,7 +1222,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1260,7 +1260,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1298,7 +1298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1559,7 +1559,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 37,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
+        "A woman stands on the right side of the image on a path leading through a forest, her back to the viewer, in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a micro-skirt. The forest is dark. The path is dirt and lined with small plants."
       ]
     },
     {
@@ -1641,7 +1641,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 61,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -1768,7 +1768,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -1868,7 +1868,6 @@
           "link": 365
         },
         {
-          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -2597,47 +2596,6 @@
       "shape": 1
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        840
-      ],
-      "size": [
-        510,
-        610
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 14,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
-          "links": [
-            295,
-            296
-          ]
-        }
-      ],
-      "title": "PROMPT",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "This image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 146,
       "type": "StringReplace",
       "pos": [
@@ -2698,7 +2656,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2734,8 +2692,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 16,
-      "mode": 2,
+      "order": 15,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2771,7 +2729,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2808,7 +2766,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
+      "order": 17,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2845,7 +2803,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2882,7 +2840,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2919,7 +2877,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2956,7 +2914,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2993,7 +2951,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3030,7 +2988,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3067,7 +3025,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 24,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3104,7 +3062,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 25,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3141,7 +3099,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 26,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3178,7 +3136,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 27,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3215,8 +3173,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
-      "mode": 0,
+      "order": 28,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -3280,7 +3238,6 @@
           "link": null
         },
         {
-          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -3422,7 +3379,7 @@
         "Node name for S&R": "Display Any (rgthree)"
       },
       "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit attractive and spicy content, where women are sexy and showing provocative, with crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\nThis image is captured using an extreme overhead fisheye perspective, creating a highly exaggerated bird’s-eye view from directly above. The figure is seated inside the cockpit of a mecha suit, with her face and upper torso prominently displayed in the foreground. She has short, straight, white hair neatly cut and evenly distributed around her head, ending just above her shoulders. Her facial expression is pronounced, with a sarcastic, knowing smile revealing her vivid, deep red, full lips. She holds a cigarette between her fingers of her right hand, with visible smoke curling upward.\n\nHer legs are spread apart, revealing a metallic vibrating device positioned between her thighs. With her left hand, she firmly grips a joystick or control stick positioned in front of her, likely used for piloting the mecha. The cockpit interior features angular, metallic surfaces and various control panels. She is wearing a sleek, form-fitting bodysuit with orange and white panels, including a high collar with visible fastening mechanisms, a central chest panel with a small circular emblem, and white accents around the shoulders, chest, and wrists. The suit’s shiny, reflective material and visible seams are clearly visible.\n\nThe cockpit’s transparent viewport behind her shows a blurred, indistinct external environment, likely depicting a futuristic or sci-fi setting. Reinforced metal plates and additional control levers are visible around her, emphasizing the mechanical nature of the mecha suit. The exaggerated angle from the camera highlights her face, upper torso, the joystick, and the metallic device between her legs, creating a detailed and striking composition."
+        "YOUR CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\nA woman stands on the right side of the image on a path leading through a forest, her back to the viewer, in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a micro-skirt. The forest is dark. The path is dirt and lined with small plants."
       ]
     },
     {
@@ -3496,7 +3453,7 @@
         "pinned": true
       },
       "order": 68,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "string",
@@ -3622,6 +3579,47 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        1640,
+        840
+      ],
+      "size": [
+        510,
+        610
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 29,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman stands on the right side of the image on a path leading through a forest, her back to the viewer, in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow, Pac-Man-like monster is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a micro-skirt. The forest is dark. The path is dirt and lined with small plants."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
     }
   ],
   "links": [
