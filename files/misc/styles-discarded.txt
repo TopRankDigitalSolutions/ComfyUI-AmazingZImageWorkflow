@@ -32,4 +32,14 @@ Create the following movie shot:
 {$@}
 
 =========================================
+STYLE: COLORS & CONTRAST (??)
+
+YOUR CONTEXT:
+You are a photographer who loves using an intense white light source to generate dramatic light and shadow.
+Your photographs exhibit high definition, with areas of pitch black and areas of intense light, and vibrant colors.
+---
+YOUR PHOTO:
+{$@}
+
+=========================================
 
