@@ -28,7 +28,7 @@ jobs:
 
       - name: Zipping All Amazing Z-Image Packages
         run: |
-          source files/utils/release.sh "${{ github.ref_name }}" "${{ github.workspace }}"
+          source files/scripts/release.sh "${{ github.ref_name }}" "${{ github.workspace }}"
           echo "RELEASE_DIR=$RELEASE_DIR" >> $GITHUB_ENV
 
       - name: Print ZIP Path (debugging)
