@@ -66,9 +66,98 @@ def fatal_error(message: str, *info_messages: str, padding: int = 0, file=sys.st
     sys.exit(1)
 
 
+#---------------------------- HELPER FUNCTIONS -----------------------------#
+
+def add_var(vars: dict, action: str, content: str) -> None:
+    """
+    Adds a variable or style to the dictionary based on the action line.
+    Args:
+        vars    : The dictionary to update with variables and styles.
+        action  : The action line that defines how to handle the content.
+        content : The actual content associated with the action line.
+    Returns:
+        None, this function modifies the 'vars' dictionary in-place.
+    """
+    if not "styles" in vars:
+        vars["styles"] = []
+
+    # actions with format "{#VARNAME}" add a variable to the dictionary
+    if action.startswith("{#"):
+        varname = action[2:].strip().rstrip('}')
+        vars[varname] = content.strip()
+
+    # actions with format ">>STYLE NAME" add a style to the dictionary
+    elif action.startswith(">>"):
+        style_name = action[2:].strip()
+        style      = (style_name, content.strip())
+        vars["styles"].append( style )
+
+
+def read_vars_from_file(vars: dict, filepath : str) -> None:
+    """Reads a configuration file and populates the vars dictionary with its contents.
+
+    This function processes a file line by line, identifying actions and their
+    associated content. It uses the 'add_var' helper function to add either
+    variables or styles to the provided dictionary.
+
+    Args:
+        vars    : The dictionary to populate with variables and styles from the file.
+        filepath: The path to the configuration file to read.
+    Returns:
+        None, this function modifies the 'vars' dictionary in-place.
+
+    Note:
+        - Lines defined as "{#VARNAME}" or ">>STYLE_NAME" are treated as a action.
+        - Multi-line content is supported.
+    """
+    action  = None
+    content = ""
+
+    # necesito leer el archivo linea por linea
+    with open(filepath) as f:
+        for line in f.readlines():
+
+            act_candidate = line.strip()
+            if act_candidate.startswith("#!") or \
+               act_candidate.startswith("{#") or \
+               act_candidate.startswith(">>"):
+                if action:
+                    add_var(vars, action, content)
+                action  = act_candidate
+                content = ""
+            else:
+                content += line.rstrip() + "\n"
+
+
 #===========================================================================#
 #////////////////////////////////// MAIN ///////////////////////////////////#
 #===========================================================================#
+
+def make_workflow(template_path     : str,
+                  config_path       : str,
+                  global_config_path: str = None
+                 ) -> None:
+    """
+    Creates a workflow based on the provided template and configuration.
+
+    This function reads variables from the specified configuration files, and
+    creates a workflow using the given template.
+
+    Args:
+        template_path     : The path to the template file used for creating the workflow.
+        config_path       : The path to the specific configuration file.
+        global_config_path: Optional; the path to a global configuration file containing shared settings.
+    Returns:
+        None
+    """
+    vars = { }
+    if global_config_path:
+        read_vars_from_file(vars, global_config_path)
+    read_vars_from_file(vars, config_path)
+
+    print(vars)
+
+
 
 def main(args=None, parent_script=None):
     """
@@ -136,6 +225,10 @@ def main(args=None, parent_script=None):
         print(f"    - {os.path.basename(fullpath)}")
     print("")
 
+
+    for config_path in text_configs:
+        for template_path in json_templates:
+            make_workflow(template_path, config_path, global_config)
 
 
 
