@@ -1,8 +1,22 @@
->Lo-fi Mobile Photo
+#!ZCONFIG
+
+{#OUTPUT}
+amazing-z-image_{#WFNAME}.json
+
+
+{#PROMPT}
+A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
+
+
+{#PROMPT2}
+In a steampunk workshop, a cute redhead inventor wearing overalls is working on a mechanical spider. She has a glowing tattoo on the left arm.
+
+
+>>Lo-fi Mobile Photo
 A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}
 
 
->Casual Mobile Photo
+>>Casual Mobile Photo
 # File Details
  * filename: DSC1000.JPG
  * source:  old Android phone
@@ -13,55 +27,55 @@ A raw documentary photograph taken with an old Android phone. This casual, low q
  * Content: {$@}
 
 
->Vintage Candid Photo
+>>Vintage Candid Photo
 A gritty, candid vintage photograph from a disposable camera, dark shadows and vibrant warm colors, featuring: {$@}
 
 
->Classic Film Photo
+>>Classic Film Photo
 A cinematic shot from a classic film with deep black shadows and warm earth tones. The film grain is visible. The scene, imbued with profound emotion, depicts: {$@}
 
 
->B&W Darkroom
+>>B&W Darkroom
 A chiaroscuro darkroom, black and white high contrast, grainy photo with wide-angle vision, and vignette effect. This casual photo showcases: {$@}
 
 
->Noir Shadows
+>>Noir Shadows
 Intense side lighting with dramatic contrasts, deep shadows, and stark, defined edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro emphasizing the play of light and dark; color palette reminiscent of Ektachrome film, with muted yet vibrant hues and a slight warm tint; gobo patterns casting textured shadows for added depth and complexity; high resolution, sharp details, and a slightly desaturated look to evoke a timeless, cinematic feel; featuring: {$@}
 
 
->Cyberpunk Neon
+>>Cyberpunk Neon
 Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}
 
 
->Simple Vector Illustration
+>>Simple Vector Illustration
 A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style.
 
 
->Vintage Comic Panel
+>>Vintage Comic Panel
 An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}
 
 
->Comic Cover
+>>Comic Cover
 Dark European-style adult comic book cover, with intense colors and lots of cleavages and sexual provocation, action scene featuring: {$@}
 
 
->Studio Anime
+>>Studio Anime
 Epic anime filmed by Studio Ghibli, Japanese animation and hand-painted, depicts: {$@}
 
 
->Anime
+>>Anime
 Dark fantasy masterpiece of cel_shading, with detailed anime violent style, featuring: {$@}.
 
 
->Minimalist Sketchwash
+>>Minimalist Sketchwash
 A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}
 
 
->Retro Pixel Art
+>>Retro Pixel Art
 A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques
 
 
->Vintage EGA Monitor
+>>Vintage EGA Monitor
 Photo of an old monitor displaying a EGA game for DOS. The monitor is on a wooden table, and light from a window is reflecting off the screen. The image has scanlines. The game features a retro pixel art design in 16-color EGA, with thick, low-resolution pixels.
 
 The pixel-art illustration on the monitor includes all of the following:
