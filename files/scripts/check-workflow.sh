@@ -9,14 +9,15 @@
 #                           Amazing Z-Image Workflow
 #  Z-Image workflow with customizable image styles and GPU-friendly versions
 #_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-SCRIPT_NAME=$(basename "${BASH_SOURCE[0]}" .sh)           # script name without extension
-SCRIPT_DIR=$(realpath "$(dirname "${BASH_SOURCE[0]}")")   # script directory
-PYTHON_SCRIPT="${SCRIPT_DIR}/${SCRIPT_NAME}.py"           # path to python script to run
-REQUIREMENTS_FILE="${SCRIPT_DIR}/requirements.txt"        # path to requirements file
+SCRIPT_NAME=$(basename "${BASH_SOURCE[0]}" .sh)          # script name without extension
+SCRIPT_DIR=$(realpath "$(dirname "${BASH_SOURCE[0]}")")  # script directory
+PYTHON_SCRIPT="${SCRIPT_DIR}/${SCRIPT_NAME}.py"          # path to python script to run
+REQ_VARIANT=""                                           # allows specifying variants of requirements files (empty == default)
+REQUIREMENTS_FILE="${SCRIPT_DIR}/requirements${REQ_VARIANT}.txt"  # path to requirements file
 
 # VENV_DIR: specifies the directory for python virtual environment; default is `SCRIPT_DIR/venv`
 # PYTHON  : specifies the path to the Python interpreter; default is `python3`
-[[ "$VENV_DIR" ]] || VENV_DIR="${SCRIPT_DIR}/venv"
+[[ "$VENV_DIR" ]] || VENV_DIR="${SCRIPT_DIR}/venv${REQ_VARIANT}"
 [[ "$PYTHON"   ]] || PYTHON=python3
 
 # List of options that do not trigger any action by themselves
@@ -161,7 +162,13 @@ fi
 
 # handle the help option
 if [[ "$SHOW_HELP" == true ]]; then
-    python3 "$PYTHON_SCRIPT" --help
+    if [[ -f "$VENV_DIR/bin/activate" ]]; then
+        activate_venv
+        python3 "$PYTHON_SCRIPT" --help
+    else
+        echo
+        echo "Before using this command, you need to create a python virtual environment."
+    fi
     echo
     echo "wrapper options:"
     echo "  --create-venv      Create the python virtual environment"
@@ -171,17 +178,18 @@ if [[ "$SHOW_HELP" == true ]]; then
     exit 0
 fi
 
-# handle the extra options for removing the venv
-if [[ "$REMOVE_VENV" == true ]]; then
-    remove_venv
-    exit 0
-fi
-
 # handle the extra options for creating the venv
 if [[ "$CREATE_VENV" == true ]]; then
+    [[ "$REMOVE_VENV" == true ]] && remove_venv
     create_venv
     activate_venv
     install_dependencies "$REQUIREMENTS_FILE"
+    exit 0
+fi
+
+# handle the extra options for removing the venv
+if [[ "$REMOVE_VENV" == true ]]; then
+    remove_venv
     exit 0
 fi
 
