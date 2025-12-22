@@ -69,13 +69,14 @@ def fatal_error(message: str, *info_messages: str, padding: int = 0, file=sys.st
 
 #------------------------- CONFIGURATION VARIABLES -------------------------#
 
-class ConfigDict(dict):
+class ConfigVars(dict):
     """
-    A dictionary-like class that allows for variable and style management.
+    A dictionary-like class that stores configuration variables and styles.
+
     This class inherits from Python's built-in dict, extending its functionality
     to include a list of styles under the property `self.styles`.
     It also handles missing keys by returning the key itself, allowing safe use
-    in string.format_map().
+    in `string.format_map()`.
     """
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args,**kwargs)
@@ -85,14 +86,14 @@ class ConfigDict(dict):
         return key
 
 
-def add_var(config_dict: ConfigDict,
+def add_var(config_vars: ConfigVars,
             action     : str,
             content    : str
             ) -> None:
     """
     Adds a variable or style to the dictionary based on the action line.
     Args:
-        config_dict: The configuration dictionary to update with variables and styles.
+        config_vars: The destination configuration dictionary that will be updated.
         action     : The action line that defines how to handle the content.
         content    : The actual content associated with the action line.
     Returns:
@@ -101,16 +102,16 @@ def add_var(config_dict: ConfigDict,
     # actions with format "{#VARNAME}" add a variable to the dictionary
     if action.startswith("{#"):
         varname = action[1:].strip().rstrip('}')
-        config_dict[varname] = content.strip()
+        config_vars[varname] = content.strip()
 
     # actions with format ">>STYLE NAME" add a style to the dictionary
     elif action.startswith(">>"):
         style_name = action[2:].strip()
         style      = (style_name, content.strip())
-        config_dict.styles.append( style )
+        config_vars.styles.append( style )
 
 
-def read_vars_from_file(config_dict: ConfigDict,
+def read_vars_from_file(config_vars: ConfigVars,
                         filepath   : str
                         ) -> None:
     """
@@ -121,7 +122,7 @@ def read_vars_from_file(config_dict: ConfigDict,
     variables or styles to the provided dictionary.
 
     Args:
-        config_dict: The configuration dictionary to populate with variables
+        config_vars: The configuration dictionary to populate with variables
                      and styles from the file.
         filepath   : The path to the configuration file to read.
     Returns:
@@ -141,36 +142,138 @@ def read_vars_from_file(config_dict: ConfigDict,
             if act_candidate.startswith("#!") or \
                act_candidate.startswith("{#") or \
                act_candidate.startswith(">>"):
+                # a new action is detected, so the previous pending one is processed
                 if action:
-                    content = content.format_map(config_dict)
-                    add_var(config_dict, action, content)
-                action  = act_candidate
-                content = ""
+                    add_var(config_vars, action, content.format_map(config_vars))
+                # the new action is stored as pending
+                action, content  = act_candidate, ""
             else:
                 content += line.rstrip() + "\n"
+
+    # before ending, process any pending action
+    if action:
+        add_var(config_vars, action, content.format_map(config_vars))
 
 
 #----------------------------- JSON TEMPLATES ------------------------------#
 
 def resolve_vars_in_json(json_collection,
-                         config_dict: ConfigDict
+                         config_vars: ConfigVars
                          ) -> None:
+    """
+    Recursively resolves variables within a JSONstructure using `config_vars`.
 
+    This function traverses the provided collection and replaces any string
+    values that contain placeholders with their corresponding variable values
+    from `config_vars`.
+
+    Args:
+        json_collection : The JSON object (dict or list) to process recursively.
+        config_vars     : Dictionary of variables used for substitution in strings.
+    Note:
+        - This function modifies the original `json_collection` in place.
+        - It handles both dictionaries and lists within the collection, applying
+          variable resolution recursively.
+    """
     if isinstance(json_collection, dict):
         for key in json_collection.keys():
-            value = json_collection[key]
-            if isinstance(value, str):
-                json_collection[key] = value.format_map(config_dict)
-            elif isinstance(value, (list, dict)):
-                resolve_vars_in_json(value, config_dict)
+            jobject = json_collection[key]
+            if isinstance(jobject, str):
+                json_collection[key] = jobject.format_map(config_vars)
+            elif isinstance(jobject, (list, dict)):
+                resolve_vars_in_json(jobject, config_vars)
 
     elif isinstance(json_collection, list):
         for index in range(len(json_collection)):
-            value = json_collection[index]
-            if isinstance(value, str):
-                json_collection[index] = value.format_map(config_dict)
-            elif isinstance(value, (list, dict)):
-                resolve_vars_in_json(value, config_dict)
+            jobject = json_collection[index]
+            if isinstance(jobject, str):
+                json_collection[index] = jobject.format_map(config_vars)
+            elif isinstance(jobject, (list, dict)):
+                resolve_vars_in_json(jobject, config_vars)
+
+
+def get_group_rectangle(json: dict, group_name:str) -> list[int]:
+    """
+    Retrieves the bounding rectangle of a specific workflow group.
+    Args:
+        json      : The dictionary containing the full comfyui workflow.
+        group_name: The name of the group whose bounding rectangle is desired.
+    Returns:
+        A list [left, top, width, height] representing the group's bounding box,
+        or None if the group does not exist.
+    """
+    if not isinstance(json, dict)  or  "groups" not in json:
+        return None
+
+    groups = json["groups"]
+    for group in groups:
+
+        if not isinstance(group, dict) and "title" not in group:
+            continue
+
+        if group["title"] == group_name:
+            return group.get('bounding')
+
+    return None
+
+
+def find_nodes_in_rectangle(json: dict, rectangle: list[int]) -> list:
+    """
+    Identifies all nodes that fall within a given rectangular region from a workflow.
+    Args:
+        json      : The dictionary containing the full comfyui workflow.
+        rectangle : A list [left, top, width, height] defining the bounds to check against.
+    Returns:
+        A sorted list of nodes (dictionaries) that fall within the specified
+        rectangular area, ordered by their y-coordinate position. If no valid
+        nodes are found an empty list will be returned.
+    """
+    if not isinstance(json, dict):
+        return []
+
+    in_bounds_nodes = [ ]
+    for node in json.get("nodes", []):
+        if not isinstance(node, dict):
+            continue
+
+        pos = node.get("pos")
+        if not isinstance(pos, list) or len(pos) < 2:
+            continue
+
+        # discard nodes that are not inside the rectangle
+        x, y = pos[:2]
+        if x < rectangle[0] or y < rectangle[1]:
+            continue
+        if x > (rectangle[0] + rectangle[2]):
+            continue
+        if y > (rectangle[1] + rectangle[3]):
+            continue
+
+        # add the node to the list (including the 'y' coord)
+        in_bounds_nodes.append( (y,node) )
+
+    # sort the list by coord y (the first element of each tuple)
+    # and return only nodes
+    in_bounds_nodes.sort(key=lambda y_node: y_node[0])
+    return [node for _, node in in_bounds_nodes]
+
+
+def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> None:
+
+    # iterate over the nodes applying the style
+    for index, node in enumerate(nodes):
+        if not isinstance(node, dict):
+            continue
+
+        if index < len(styles) and isinstance(styles[index], tuple) and len(styles[index]) >= 2:
+            title          = styles[index][0]
+            template_value = styles[index][1]
+        else:
+            title           = ""
+            template_value = ""
+
+        node["title"]          = f"STYLE: {title}"
+        node["widgets_values"] = [template_value]
 
 
 #===========================================================================#
@@ -195,24 +298,24 @@ def make_workflow(template_filepath     : str,
     Returns:
         True if the workflow was successfully created.
     """
-    config_dict = ConfigDict()
+    config_vars = ConfigVars()
 
     template_name = os.path.basename(template_filepath).split(".")[0]
     if template_name.startswith("template"):
         template_name = template_name[9:].rstrip('_')
 
-    config_dict["#TEMPLATE_NAME"] = template_name
+    config_vars["#TEMPLATE_NAME"] = template_name
     if global_config_filepath:
-        read_vars_from_file( config_dict, global_config_filepath )
-    read_vars_from_file( config_dict, config_filepath )
+        read_vars_from_file( config_vars, global_config_filepath )
+    read_vars_from_file( config_vars, config_filepath )
 
     # always "{#OUTPUT}" must be defined in the configuration file
-    if not "#OUTPUT" in config_dict:
+    if not "#OUTPUT" in config_vars:
         error('The "{#OUTPUT}" variable is missing from the configuration file.')
         return False
 
     # get the output file path
-    output_filepath = config_dict["#OUTPUT"]
+    output_filepath = config_vars["#OUTPUT"]
 
     # verify if the output path already exists
     if os.path.exists( output_filepath ) and not overwrite:
@@ -233,11 +336,25 @@ def make_workflow(template_filepath     : str,
 
     # resolve all variables in any strings within the json
     resolve_vars_in_json(template_json,
-                         config_dict = config_dict)
+                         config_vars = config_vars)
+
+    # finds the coordinates of the "STYLES" group
+    style_rectangle = get_group_rectangle(template_json, group_name="STYLES")
+    if style_rectangle == None:
+        error("The 'STYLES' group is missing from the template.")
+        return False
+
+    # find all nodes within style_rectangle
+    nodes = find_nodes_in_rectangle(template_json, style_rectangle)
+    if not nodes:
+        error("No nodes found within the 'STYLES' group.")
+
+    # apply the styles to each node within style_rectangle
+    apply_style_to_nodes(nodes, config_vars.styles)
 
     # saves modified workflow in output_filepath
     with open(output_filepath, "w", encoding="utf-8") as file:
-        json.dump(template_json, file, ensure_ascii=False)
+        json.dump(template_json, file, ensure_ascii=False, indent=4)
 
     return True
 
