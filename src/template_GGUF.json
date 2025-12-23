@@ -1,23 +1,22 @@
 {
-  "id": "15b91ea7-1511-4333-a28f-b31b2030b31b",
+  "id": "43105107-a875-41f9-98d2-0d05379a7bc7",
   "revision": 0,
-  "last_node_id": 166,
-  "last_link_id": 486,
+  "last_node_id": 239,
+  "last_link_id": 718,
   "nodes": [
     {
       "id": 60,
       "type": "CLIPTextEncode",
       "pos": [
-        2870,
-        1150
+        4290,
+        1210
       ],
       "size": [
         400,
         200
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
       "order": 0,
       "mode": 0,
@@ -50,16 +49,15 @@
       "id": 56,
       "type": "EmptyLatentImage",
       "pos": [
-        2910,
-        1190
+        4330,
+        1250
       ],
       "size": [
         270,
         106
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
       "order": 1,
       "mode": 0,
@@ -88,18 +86,17 @@
       "id": 54,
       "type": "CLIPTextEncode",
       "pos": [
-        2820,
-        1110
+        4240,
+        1170
       ],
       "size": [
         410,
         90
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
-      "order": 49,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +130,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
+        "A blonde woman with disheveled hair tied in pigtails with a black ribbon, exhibiting characteristics of a zombie, stands amidst a terrifying atmosphere. Her pale skin and dark, smudged makeup around the eyes and lips contribute to a ghastly appearance. She is clad in a tattered, blood-stained costume consisting of a red, short-sleeved top with a white collar and ruffled white trim. A white skirt, similarly marked with bloodstains and edged in red, hangs low. Her attire is completed by long, torn white gloves and white thigh-high stockings with frayed lace tops. Her posture is unsettling, and she clutches a crude weapon, possibly a bloodied club, in her gloved hand. The background is shrouded in a thick, eerie mist, with tattered curtains hanging limply, enhancing the overall sense of dread and decay."
       ]
     },
     {
@@ -150,7 +147,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 58,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -164,7 +161,8 @@
           "name": "",
           "type": "MODEL",
           "links": [
-            196
+            196,
+            583
           ]
         }
       ],
@@ -187,7 +185,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 59,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -201,7 +199,8 @@
           "name": "",
           "type": "VAE",
           "links": [
-            198
+            198,
+            675
           ]
         }
       ],
@@ -224,7 +223,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 72,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -238,7 +237,8 @@
           "name": "",
           "type": "CONDITIONING",
           "links": [
-            200
+            200,
+            585
           ]
         }
       ],
@@ -261,7 +261,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 66,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -275,7 +275,8 @@
           "name": "",
           "type": "CONDITIONING",
           "links": [
-            202
+            202,
+            586
           ]
         }
       ],
@@ -298,7 +299,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -312,7 +313,8 @@
           "name": "",
           "type": "SAMPLER",
           "links": [
-            204
+            204,
+            587
           ]
         }
       ],
@@ -335,7 +337,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -372,7 +374,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 64,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -396,102 +398,18 @@
       }
     },
     {
-      "id": 67,
-      "type": "SamplerCustom",
-      "pos": [
-        1900,
-        220
-      ],
-      "size": [
-        250,
-        580
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 73,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 196
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 200
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 202
-        },
-        {
-          "name": "sampler",
-          "type": "SAMPLER",
-          "link": 204
-        },
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 206
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 208
-        },
-        {
-          "name": "noise_seed",
-          "type": "INT",
-          "widget": {
-            "name": "noise_seed"
-          },
-          "link": 193
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            189
-          ]
-        },
-        {
-          "name": "denoised_output",
-          "type": "LATENT",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "SamplerCustom"
-      },
-      "widgets_values": [
-        true,
-        1,
-        "fixed",
-        1
-      ]
-    },
-    {
       "id": 50,
       "type": "KSamplerAdvanced",
       "pos": [
-        3110,
-        1080
+        4530,
+        1140
       ],
       "size": [
         304.748046875,
         334
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 61,
+      "flags": {},
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -570,7 +488,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -607,7 +525,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 35,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -644,7 +562,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 36,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -669,51 +587,6 @@
       }
     },
     {
-      "id": 8,
-      "type": "VAEDecode",
-      "pos": [
-        2190,
-        220
-      ],
-      "size": [
-        220,
-        50
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 74,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 189
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 198
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            16
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAEDecode"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 107,
       "type": "Reroute",
       "pos": [
@@ -727,7 +600,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 67,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -764,7 +637,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -802,13 +675,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 382
+          "link": 472
         }
       ],
       "outputs": [
@@ -840,13 +713,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 384
+          "link": 509
         }
       ],
       "outputs": [
@@ -878,13 +751,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 421
+          "link": 560
         }
       ],
       "outputs": [
@@ -916,13 +789,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 387
+          "link": 510
         }
       ],
       "outputs": [
@@ -954,13 +827,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 478
+          "link": 492
         }
       ],
       "outputs": [
@@ -992,13 +865,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 477
+          "link": 497
         }
       ],
       "outputs": [
@@ -1030,13 +903,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 465
+          "link": 559
         }
       ],
       "outputs": [
@@ -1068,13 +941,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 466
+          "link": 538
         }
       ],
       "outputs": [
@@ -1106,13 +979,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 404
+          "link": 550
         }
       ],
       "outputs": [
@@ -1144,13 +1017,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 403
+          "link": 552
         }
       ],
       "outputs": [
@@ -1182,13 +1055,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 467
+          "link": 555
         }
       ],
       "outputs": [
@@ -1220,13 +1093,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 469
+          "link": 557
         }
       ],
       "outputs": [
@@ -1258,13 +1131,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 475
+          "link": 556
         }
       ],
       "outputs": [
@@ -1296,13 +1169,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 53,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 474
+          "link": 513
         }
       ],
       "outputs": [
@@ -1321,133 +1194,6 @@
       }
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        1280,
-        840
-      ],
-      "size": [
-        350,
-        440
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 69,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "STYLE: Lo-fi Mobile Photo",
-          "type": "*",
-          "link": 287
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "max one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 9,
-      "type": "SaveImage",
-      "pos": [
-        2160,
-        410
-      ],
-      "size": [
-        630,
-        1020
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 75,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 16
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75"
-      },
-      "widgets_values": [
-        "ZImage/%date:yyyy_MM_dd%/ZI"
-      ],
-      "color": "#323",
-      "bgcolor": "#535",
-      "shape": 1
-    },
-    {
-      "id": 97,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        1280,
-        1320
-      ],
-      "size": [
-        350,
-        130
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 65,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Alternative Sampler",
-          "type": "*",
-          "link": 380
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "EXTRA OPTIONS (default = all-no)",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 6,
       "type": "CLIPTextEncode",
       "pos": [
@@ -1462,7 +1208,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 71,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1514,7 +1260,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 60,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1594,96 +1340,96 @@
       "flags": {
         "pinned": true
       },
-      "order": 62,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
-          "name": "STYLE: Lo-fi Mobile Photo",
+          "name": "STYLE: Phone Photo",
           "type": "*",
           "link": 272
         },
         {
           "dir": 3,
-          "name": "STYLE: Casual Mobile Photo",
+          "name": "STYLE: Casual Photo",
           "type": "*",
           "link": 273
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage Candid Photo",
+          "name": "STYLE: Flash 90s Photo",
           "type": "*",
           "link": 274
         },
         {
           "dir": 3,
-          "name": "STYLE: Classic Film Photo",
+          "name": "STYLE: Intense Spot Photo",
           "type": "*",
           "link": 276
         },
         {
           "dir": 3,
-          "name": "STYLE: B&W Darkroom",
+          "name": "STYLE: Production Photo",
           "type": "*",
           "link": 277
         },
         {
           "dir": 3,
-          "name": "STYLE: Noir Shadows",
+          "name": "STYLE: Classic Film Photo",
           "type": "*",
           "link": 278
         },
         {
           "dir": 3,
-          "name": "STYLE: Cyberpunk Neon",
+          "name": "STYLE: Noir Photo",
           "type": "*",
           "link": 279
         },
         {
           "dir": 3,
-          "name": "STYLE: Simple Vector Illustration",
+          "name": "STYLE: Vintage Photo",
           "type": "*",
           "link": 280
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage Comic Panel",
+          "name": "STYLE: Lomography",
           "type": "*",
           "link": 281
         },
         {
           "dir": 3,
-          "name": "STYLE: Comic Cover",
+          "name": "STYLE: Drone Photo",
           "type": "*",
           "link": 282
         },
         {
           "dir": 3,
-          "name": "STYLE: Studio Anime",
+          "name": "STYLE: Minimalist Photo",
           "type": "*",
           "link": 308
         },
         {
           "dir": 3,
-          "name": "STYLE: Anime",
+          "name": "STYLE: Pop Photo",
           "type": "*",
           "link": 313
         },
         {
           "dir": 3,
-          "name": "STYLE: Minimalist Sketchwash",
+          "name": "STYLE: Light Painting Photo",
           "type": "*",
           "link": 331
         },
         {
           "dir": 3,
-          "name": "STYLE: Retro Pixel Art",
+          "name": "STYLE: Neon City Photo",
           "type": "*",
           "link": 332
         },
         {
           "dir": 3,
-          "name": "STYLE: Vintage EGA Monitor",
+          "name": "STYLE: Tilt Shift / Toy Photo",
           "type": "*",
           "link": 363
         },
@@ -1821,6 +1567,7 @@
           "link": 365
         },
         {
+          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -1879,11 +1626,9 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        944,
+        1088,
         "fixed"
       ],
-      "color": "#432",
-      "bgcolor": "#653",
       "shape": 1
     },
     {
@@ -1921,135 +1666,9 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        1408,
+        1600,
         "fixed"
       ],
-      "color": "#432",
-      "bgcolor": "#653",
-      "shape": 1
-    },
-    {
-      "id": 149,
-      "type": "Reroute",
-      "pos": [
-        140,
-        1330
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 479
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            429
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 58,
-      "type": "PrimitiveNode",
-      "pos": [
-        1640,
-        700
-      ],
-      "size": [
-        250,
-        100
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "widget": {
-            "name": "noise_seed"
-          },
-          "links": [
-            85,
-            193
-          ]
-        }
-      ],
-      "title": "SEED",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        1,
-        "fixed"
-      ],
-      "color": "#432",
-      "bgcolor": "#653",
-      "shape": 1
-    },
-    {
-      "id": 59,
-      "type": "PrimitiveNode",
-      "pos": [
-        1380,
-        700
-      ],
-      "size": [
-        250,
-        100
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "links": [
-            87,
-            194
-          ]
-        }
-      ],
-      "title": "STEPS (TURBO = 8)",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        8,
-        "fixed"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159",
       "shape": 1
     },
     {
@@ -2066,7 +1685,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 54,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -2112,6 +1731,7 @@
           ]
         }
       ],
+      "title": "Any Switch (latent)",
       "properties": {
         "cnr_id": "rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86"
@@ -2132,7 +1752,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 32,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -2153,6 +1773,7 @@
           ]
         }
       ],
+      "title": "Karras Scheduler (sigmas)",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
@@ -2179,7 +1800,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -2225,6 +1846,7 @@
           ]
         }
       ],
+      "title": "Any Switch (sampler)",
       "properties": {
         "cnr_id": "rgthree-comfy",
         "ver": "1.0.2511270846"
@@ -2245,7 +1867,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 5,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2282,7 +1904,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2318,7 +1940,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 34,
       "mode": 2,
       "inputs": [
         {
@@ -2356,8 +1978,8 @@
         "Node name for S&R": "EmptySD3LatentImage"
       },
       "widgets_values": [
-        1408,
-        944,
+        1600,
+        1088,
         1
       ]
     },
@@ -2375,7 +1997,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -2412,8 +2034,8 @@
         "Node name for S&R": "EmptySD3LatentImage"
       },
       "widgets_values": [
-        944,
-        1408,
+        1088,
+        1600,
         1
       ]
     },
@@ -2421,17 +2043,15 @@
       "id": 111,
       "type": "Note",
       "pos": [
-        1220,
+        2640,
         470
       ],
       "size": [
         310,
         100
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 9,
+      "flags": {},
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2441,81 +2061,6 @@
       ],
       "color": "#222",
       "bgcolor": "#000",
-      "shape": 1
-    },
-    {
-      "id": 136,
-      "type": "Node Collector (rgthree)",
-      "pos": [
-        730,
-        1320
-      ],
-      "size": [
-        190.071875,
-        86
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 55,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Alternative Sampler",
-          "type": "*",
-          "link": 448
-        },
-        {
-          "dir": 3,
-          "name": "Landscape Orientation",
-          "type": "*",
-          "link": 450
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "Output",
-          "type": "*",
-          "links": [
-            380
-          ]
-        }
-      ],
-      "properties": {}
-    },
-    {
-      "id": 164,
-      "type": "Note",
-      "pos": [
-        -1250,
-        120
-      ],
-      "size": [
-        900,
-        530
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 10,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "README",
-      "properties": {},
-      "widgets_values": [
-        "Amazing Z-Image Workflow v2.1\n\n## Workflow Prerequisites ##\n\n This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:\n\n  * rgthree      : https://github.com/rgthree/rgthree-comfy\n  * ComfyUI-GGUF : https://github.com/city96/ComfyUI-GGUF\n\n Additionally, ensure you have the following three models downloaded and placed in their respective\n directories within your ComfyUI installation:\n\n  z_image_turbo-Q5_K_S.gguf\n    * Download: https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/diffusion_models/`\n\n  Qwen3-4B.i1-Q5_K_S.gguf\n    * Download: https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/blob/main/Qwen3-4B.i1-Q5_K_S.gguf\n    * Local Directory: `ComfyUI/models/text_encoders/`\n\n  ae.safetensors\n    * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors\n    * Local Directory: `Comfyui/models/vae/`\n\n## More Info ##\n   - https://github.com/martin-rizzo/AmazingZImageWorkflow\n   - https://civitai.com/models/2181458/amazing-z-image-workflow\n\n\nCreated by Martin Rizzo  \n  GitHub : https://github.com/martin-rizzo\n  CivitAI: https://civitai.com/user/Photographer\n  Reddit : https://www.reddit.com/user/FotografoVirtual\n"
-      ],
-      "color": "#322",
-      "bgcolor": "#533",
       "shape": 1
     },
     {
@@ -2532,7 +2077,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2570,7 +2115,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2608,7 +2153,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2634,11 +2179,168 @@
       "shape": 1
     },
     {
-      "id": 125,
+      "id": 146,
+      "type": "StringReplace",
+      "pos": [
+        -160,
+        2260
+      ],
+      "size": [
+        310,
+        196
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 431
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            565
+          ]
+        }
+      ],
+      "title": "DEFAULT: No Spicy Inpact",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$spicy-content-with}",
+        ""
+      ]
+    },
+    {
+      "id": 38,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        -130
+        970
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 11,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            492
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
+      ]
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        310
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            509
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        530
+      ],
+      "size": [
+        450,
+        180
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            560
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -1990,
+        750
       ],
       "size": [
         450,
@@ -2648,34 +2350,34 @@
         "pinned": true
       },
       "order": 14,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
           "name": "STRING",
           "type": "STRING",
           "links": [
-            381
+            510
           ]
         }
       ],
-      "title": "STYLE: Lo-fi Mobile Photo",
+      "title": "STYLE: Production Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A raw documentary photograph taken with an old Android phone. This casual, low quality, amateur shot showcases {$@}"
+        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit {$spicy-content-with} atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 47,
+      "id": 37,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        90
+        1410
       ],
       "size": [
         450,
@@ -2692,27 +2394,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            382
+            559
           ]
         }
       ],
-      "title": "STYLE: Casual Mobile Photo",
+      "title": "STYLE: Vintage Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "# File Details\n * filename: DSC1000.JPG\n * source:  old Android phone\n\n# Photograph Details\n * Color  : vibrant\n * Style  : casual and amateur\n * Content: {$@}"
+        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 37,
+      "id": 92,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        310
+        1190
       ],
       "size": [
         450,
@@ -2729,27 +2431,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            384
+            497
           ]
         }
       ],
-      "title": "STYLE: Vintage Candid Photo",
+      "title": "STYLE: Noir Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A gritty, candid vintage photograph from a disposable camera, dark shadows and vibrant warm colors, featuring: {$@}"
+        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 38,
+      "id": 41,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        530
+        1630
       ],
       "size": [
         450,
@@ -2766,26 +2468,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            421
+            538
           ]
         }
       ],
-      "title": "STYLE: Classic Film Photo",
+      "title": "STYLE: Lomography",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A cinematic shot from a classic film with deep black shadows and warm earth tones. The film grain is visible. The scene, imbued with profound emotion, depicts: {$@}\n"
-      ]
+        "YOUR CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit {$spicy-content-with} film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
     },
     {
-      "id": 117,
+      "id": 122,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        750
+        1850
       ],
       "size": [
         450,
@@ -2802,27 +2505,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            387
+            550
           ]
         }
       ],
-      "title": "STYLE: B&W Darkroom",
+      "title": "STYLE: Drone Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A chiaroscuro darkroom, black and white high contrast, grainy photo with wide-angle vision, and vignette effect. This casual photo showcases: {$@}"
+        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs exhibit {$spicy-content-with} panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 93,
+      "id": 43,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        1410
+        2070
       ],
       "size": [
         450,
@@ -2839,27 +2542,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            465
+            552
           ]
         }
       ],
-      "title": "STYLE: Simple Vector Illustration",
+      "title": "STYLE: Minimalist Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A stylized digital illustration with a graphic design aesthetic, featuring flat, solid colors, no defined outlines, and a minimalist approach to composition, featuring: {$@}. Iconography style."
+        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit {$spicy-content-with} high contrast and clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 43,
+      "id": 93,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        1630
+        2290
       ],
       "size": [
         450,
@@ -2876,18 +2579,18 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            466
+            555
           ]
         }
       ],
-      "title": "STYLE: Vintage Comic Panel",
+      "title": "STYLE: Pop Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "An old sheet of paper with a vintage erotic comic strip from 1950 painted in white, red, blue and black with freehand outlines, a detailed and dirty image featuring: {$@}\n"
+        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
@@ -2896,7 +2599,7 @@
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        1850
+        2510
       ],
       "size": [
         450,
@@ -2913,27 +2616,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            404
+            557
           ]
         }
       ],
-      "title": "STYLE: Comic Cover",
+      "title": "STYLE: Light Painting Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "Dark European-style adult comic book cover, with intense colors and lots of cleavages and sexual provocation, action scene featuring: {$@}\n"
+        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 92,
+      "id": 45,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        2070
+        2730
       ],
       "size": [
         450,
@@ -2950,27 +2653,27 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            403
+            556
           ]
         }
       ],
-      "title": "STYLE: Studio Anime",
+      "title": "STYLE: Neon City Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "Epic anime filmed by Studio Ghibli, Japanese animation and hand-painted, depicts: {$@}"
+        "YOUR CONTEXT:\nYou are a photographer who likes dark colorful neon light scenes.\nYour photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 45,
+      "id": 124,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        2290
+        2950
       ],
       "size": [
         450,
@@ -2987,27 +2690,412 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            467
+            513
           ]
         }
       ],
-      "title": "STYLE: Anime",
+      "title": "STYLE: Tilt Shift / Toy Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "Dark fantasy masterpiece of cel_shading, with detailed anime violent style, featuring: {$@}."
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 122,
+      "id": 151,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        210,
+        2120
+      ],
+      "size": [
+        166.7203125,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "STRING",
+          "link": 563
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "STRING",
+          "link": 565
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "STRING",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "STRING",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "STRING",
+          "name": "*",
+          "shape": 3,
+          "type": "STRING",
+          "links": [
+            466
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 166,
+      "type": "StringReplace",
+      "pos": [
+        420,
+        2150
+      ],
+      "size": [
+        210,
+        196
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 466
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            468,
+            469
+          ]
+        }
+      ],
+      "title": "Fix Double Spaces",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "  ",
+        " "
+      ]
+    },
+    {
+      "id": 156,
+      "type": "Reroute",
+      "pos": [
+        510,
+        2020
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 564
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            562
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 31,
+      "type": "StringReplace",
+      "pos": [
+        -420,
+        2110
+      ],
+      "size": [
+        210,
+        550
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 232
+        },
+        {
+          "name": "replace",
+          "type": "STRING",
+          "widget": {
+            "name": "replace"
+          },
+          "link": 294
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            430,
+            431
+          ]
+        }
+      ],
+      "title": "STYLE INTEGRATOR",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$@}",
+        ""
+      ]
+    },
+    {
+      "id": 144,
+      "type": "StringReplace",
+      "pos": [
+        -160,
+        2020
+      ],
+      "size": [
+        310,
+        196.0000000000003
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 78,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "widget": {
+            "name": "string"
+          },
+          "link": 430
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            563,
+            564
+          ]
+        }
+      ],
+      "title": "Spicy Impact Booster (experimental)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "StringReplace"
+      },
+      "widgets_values": [
+        "",
+        "{$spicy-content-with}",
+        "attractive and spicy content, where women are sexy and showing provocative, with"
+      ]
+    },
+    {
+      "id": 136,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        710,
+        1320
+      ],
+      "size": [
+        280,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 448
+        },
+        {
+          "dir": 3,
+          "name": "Landscape Orientation",
+          "type": "*",
+          "link": 450
+        },
+        {
+          "dir": 3,
+          "name": "Spicy Impact Booster (experimental)",
+          "type": "*",
+          "link": 562
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            380
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 149,
+      "type": "Reroute",
+      "pos": [
+        170,
+        1310
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 88,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 468
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            429
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 165,
+      "type": "Display Any (rgthree)",
+      "pos": [
+        620,
+        2120
+      ],
+      "size": [
+        680,
+        540
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 89,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "source",
+          "type": "*",
+          "link": 469
+        }
+      ],
+      "outputs": [],
+      "title": "FINAL TEXT VIEWER",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Display Any (rgthree)"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\nA blonde woman with disheveled hair tied in pigtails with a black ribbon, exhibiting characteristics of a zombie, stands amidst a terrifying atmosphere. Her pale skin and dark, smudged makeup around the eyes and lips contribute to a ghastly appearance. She is clad in a tattered, blood-stained costume consisting of a red, short-sleeved top with a white collar and ruffled white trim. A white skirt, similarly marked with bloodstains and edged in red, hangs low. Her attire is completed by long, torn white gloves and white thigh-high stockings with frayed lace tops. Her posture is unsettling, and she clutches a crude weapon, possibly a bloodied club, in her gloved hand. The background is shrouded in a thick, eerie mist, with tattered curtains hanging limply, enhancing the overall sense of dread and decay."
+      ]
+    },
+    {
+      "id": 101,
       "type": "PrimitiveStringMultiline",
       "pos": [
         -1990,
-        2510
+        90
       ],
       "size": [
         450,
@@ -3024,31 +3112,31 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            469
+            472
           ]
         }
       ],
-      "title": "STYLE: Minimalist Sketchwash",
+      "title": "STYLE: Casual Photo",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A minimalist pencil sketch and watercolor painting, rendered with rough drawing style and pastel colors on a white background, featuring: {$@}"
+        "YOUR CONTEXT:\nYou are an amateur documentary photographer taking low quality photos.\nYour photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.  \n---\nYOUR PHOTO:\n{$@}"
       ],
       "shape": 1
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
       "pos": [
-        1640,
-        840
+        -1990,
+        -130
       ],
       "size": [
-        510,
-        610
+        450,
+        180
       ],
       "flags": {
         "pinned": true
@@ -3060,190 +3148,1708 @@
         {
           "name": "STRING",
           "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
           "links": [
-            295,
-            296
+            381
           ]
         }
       ],
-      "title": "PROMPT",
+      "title": "STYLE: Phone Photo",
       "properties": {
-        "Run widget replace on values": false
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
+        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\n{$@}"
       ],
-      "color": "#232",
-      "bgcolor": "#353",
       "shape": 1
     },
     {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
+      "id": 200,
+      "type": "Reroute",
       "pos": [
-        -1990,
-        970
+        3750,
+        2930
       ],
       "size": [
-        450,
-        180
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 74,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 620
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SAMPLER",
+          "links": [
+            621
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 201,
+      "type": "Reroute",
+      "pos": [
+        3750,
+        2900
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 622
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            623
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 202,
+      "type": "Reroute",
+      "pos": [
+        3750,
+        2870
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 624
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            625
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 181,
+      "type": "SamplerCustom",
+      "pos": [
+        3870,
+        2860
+      ],
+      "size": [
+        310,
+        630
+      ],
+      "flags": {},
+      "order": 112,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 627
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 625
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 623
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 621
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 678
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 677
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            580
+          ]
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "SamplerCustom"
+      },
+      "widgets_values": [
+        true,
+        1,
+        "fixed",
+        1
+      ]
+    },
+    {
+      "id": 177,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        2510,
+        3230
+      ],
+      "size": [
+        270,
+        200
+      ],
+      "flags": {},
+      "order": 100,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 606
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            575
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Image Resize (rgthree)"
+      },
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "nearest-exact"
+      ]
+    },
+    {
+      "id": 194,
+      "type": "ImageAddNoise",
+      "pos": [
+        2240,
+        3230
+      ],
+      "size": [
+        260,
+        200
+      ],
+      "flags": {},
+      "order": 97,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 634
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            606
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "ImageAddNoise"
+      },
+      "widgets_values": [
+        0,
+        "fixed",
+        0.04
+      ]
+    },
+    {
+      "id": 164,
+      "type": "Note",
+      "pos": [
+        -1250,
+        120
+      ],
+      "size": [
+        900,
+        530
       ],
       "flags": {
         "pinned": true
       },
       "order": 26,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            478
-          ]
-        }
-      ],
-      "title": "STYLE: Noir Shadows",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
+      "outputs": [],
+      "title": "README",
+      "properties": {},
       "widgets_values": [
-        "Intense side lighting with dramatic contrasts, deep shadows, and stark, defined edges; low key atmosphere with high contrast and minimal highlights; cinematic chiaroscuro emphasizing the play of light and dark; color palette reminiscent of Ektachrome film, with muted yet vibrant hues and a slight warm tint; gobo patterns casting textured shadows for added depth and complexity; high resolution, sharp details, and a slightly desaturated look to evoke a timeless, cinematic feel; featuring: {$@}"
+        "Amazing Z-Image Workflow {#VERSION}\n\n## Workflow Prerequisites ##\n\n{#GGUF_REQUIREMENTS}\n\n## More Info ##\n\n{#MORE_INFO}\n\n{#CREATED_BY_MR}\n"
       ],
+      "color": "#222",
+      "bgcolor": "#000",
       "shape": 1
     },
     {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
+      "id": 213,
+      "type": "Image Resize (rgthree)",
       "pos": [
-        -1990,
-        1190
+        2510,
+        3580
       ],
       "size": [
-        450,
-        180
+        270,
+        200
       ],
-      "flags": {
-        "pinned": true
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 641
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            643
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Image Resize (rgthree)"
       },
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "nearest-exact"
+      ]
+    },
+    {
+      "id": 211,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        2240,
+        3470
+      ],
+      "size": [
+        540,
+        70
+      ],
+      "flags": {},
       "order": 27,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
           "links": [
-            477
+            642
           ]
         }
       ],
-      "title": "STYLE: Cyberpunk Neon",
       "properties": {
         "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
+        "ver": "0.3.77",
+        "Node name for S&R": "UpscaleModelLoader"
       },
       "widgets_values": [
-        "Black cyberpunk landscape photograph with dark atmosphere and glowing neon lights with satured colors, featuring {$@}"
+        "4x_foolhardy_Remacri.pth"
       ],
       "shape": 1
     },
     {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
+      "id": 212,
+      "type": "ImageAddNoise",
       "pos": [
-        -1990,
-        2730
+        2240,
+        3580
       ],
       "size": [
-        450,
-        180
+        260,
+        200
       ],
-      "flags": {
-        "pinned": true
+      "flags": {},
+      "order": 98,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 644
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            641
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "ImageAddNoise"
       },
+      "widgets_values": [
+        0,
+        "fixed",
+        0
+      ]
+    },
+    {
+      "id": 203,
+      "type": "Reroute",
+      "pos": [
+        3750,
+        2840
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 626
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            627
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 183,
+      "type": "Reroute",
+      "pos": [
+        2130,
+        2840
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 583
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            626
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 185,
+      "type": "Reroute",
+      "pos": [
+        2130,
+        2870
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 585
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            624
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 186,
+      "type": "Reroute",
+      "pos": [
+        2130,
+        2900
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 586
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            622
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 187,
+      "type": "Reroute",
+      "pos": [
+        2130,
+        2930
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 587
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SAMPLER",
+          "links": [
+            620
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 223,
+      "type": "Reroute",
+      "pos": [
+        2250,
+        3000
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 99,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 679
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            680
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 175,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        2240,
+        3120
+      ],
+      "size": [
+        540,
+        70
+      ],
+      "flags": {},
       "order": 28,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
           "links": [
-            475
+            571
           ]
         }
       ],
-      "title": "STYLE: Retro Pixel Art",
       "properties": {
         "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
+        "ver": "0.3.77",
+        "Node name for S&R": "UpscaleModelLoader"
       },
       "widgets_values": [
-        "A detailed retro pixel art illustration in the style of Commodore 64 graphics, featuring {$@}. Chunky, low-resolution details, often with dithering techniques\n"
+        "4x_NickelbackFS_72000_G.pth"
       ],
       "shape": 1
     },
     {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
+      "id": 195,
+      "type": "KarrasScheduler",
       "pos": [
-        -1990,
-        2950
+        3250,
+        3070
       ],
       "size": [
-        450,
-        180
+        240,
+        140
       ],
-      "flags": {
-        "pinned": true
-      },
+      "flags": {},
       "order": 29,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
+          "name": "SIGMAS",
+          "type": "SIGMAS",
           "links": [
-            474
+            611
           ]
         }
       ],
-      "title": "STYLE: Vintage EGA Monitor",
+      "title": "Karras Scheduler (sigmas)",
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
+        "Node name for S&R": "KarrasScheduler"
       },
       "widgets_values": [
-        "Photo of an old monitor displaying a EGA game for DOS. The monitor is on a wooden table, and light from a window is reflecting off the screen. The image has scanlines. The game features a retro pixel art design in 16-color EGA, with thick, low-resolution pixels.\n\nThe pixel-art illustration on the monitor includes all of the following:\n<begin>\n{$@}\n<end>\n"
+        8,
+        0.85,
+        0.1,
+        0.2
+      ]
+    },
+    {
+      "id": 193,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        3390,
+        3260
       ],
-      "shape": 1
+      "size": [
+        240,
+        200
+      ],
+      "flags": {},
+      "order": 110,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 647
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            609
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
+        "Node name for S&R": "Image Resize (rgthree)"
+      },
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "bilinear"
+      ]
+    },
+    {
+      "id": 215,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        3200,
+        3260
+      ],
+      "size": [
+        170,
+        200
+      ],
+      "flags": {},
+      "order": 107,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "IMAGE",
+          "link": 645
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "IMAGE",
+          "link": 646
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "IMAGE",
+          "name": "*",
+          "shape": 3,
+          "type": "IMAGE",
+          "links": [
+            647
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 222,
+      "type": "Reroute",
+      "pos": [
+        2140,
+        3780
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 675
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            676
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 217,
+      "type": "Reroute",
+      "pos": [
+        3560,
+        3780
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 676
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            651,
+            652
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 218,
+      "type": "Reroute",
+      "pos": [
+        4100,
+        3780
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 81,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 652
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            653
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 206,
+      "type": "Reroute",
+      "pos": [
+        2140,
+        3810
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 96,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 633
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            634,
+            644,
+            679
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 189,
+      "type": "SplitSigmas",
+      "pos": [
+        3510,
+        3070
+      ],
+      "size": [
+        270,
+        140
+      ],
+      "flags": {},
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 611
+        }
+      ],
+      "outputs": [
+        {
+          "name": "high_sigmas",
+          "type": "SIGMAS",
+          "links": []
+        },
+        {
+          "name": "low_sigmas",
+          "type": "SIGMAS",
+          "links": [
+            678
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "SplitSigmas"
+      },
+      "widgets_values": [
+        6
+      ]
+    },
+    {
+      "id": 180,
+      "type": "VAEEncode",
+      "pos": [
+        3680,
+        3260
+      ],
+      "size": [
+        140,
+        50
+      ],
+      "flags": {},
+      "order": 111,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 609
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 651
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            677
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 172,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        2800,
+        3210
+      ],
+      "size": [
+        230,
+        90
+      ],
+      "flags": {},
+      "order": 103,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 571
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 575
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            645,
+            696
+          ]
+        }
+      ],
+      "title": "Upscale Image",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 214,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        2800,
+        3560
+      ],
+      "size": [
+        230,
+        90
+      ],
+      "flags": {},
+      "order": 104,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 642
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 643
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            646,
+            699
+          ]
+        }
+      ],
+      "title": "Upscale Image",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 182,
+      "type": "VAEDecode",
+      "pos": [
+        4220,
+        3310
+      ],
+      "size": [
+        150,
+        50
+      ],
+      "flags": {},
+      "order": 113,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 580
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 653
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            673,
+            698,
+            701
+          ]
+        }
+      ],
+      "title": "Photo Enhancer",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 231,
+      "type": "Reroute",
+      "pos": [
+        3200,
+        3720
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 108,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 699
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            700
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 230,
+      "type": "Reroute",
+      "pos": [
+        3190,
+        3590
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 106,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 696
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            697
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 221,
+      "type": "ImageScaleBy",
+      "pos": [
+        2800,
+        3000
+      ],
+      "size": [
+        230,
+        90
+      ],
+      "flags": {},
+      "order": 102,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 680
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            662,
+            702
+          ]
+        }
+      ],
+      "title": "Nothing",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "ImageScaleBy"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        1
+      ]
+    },
+    {
+      "id": 232,
+      "type": "Reroute",
+      "pos": [
+        3200,
+        3510
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 105,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 702
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            704
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 233,
+      "type": "Reroute",
+      "pos": [
+        4520,
+        3510
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 704
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            706
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 228,
+      "type": "Mute / Bypass Repeater (rgthree)",
+      "pos": [
+        4380,
+        3590
+      ],
+      "size": [
+        247.6578125,
+        66
+      ],
+      "flags": {},
+      "order": 115,
+      "mode": 2,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Upscale Image",
+          "type": "*",
+          "link": 697
+        },
+        {
+          "dir": 3,
+          "name": "Photo Enhancer",
+          "type": "*",
+          "link": 698
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "color_off": "#a80",
+          "color_on": "#Fc0",
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": [
+            707
+          ]
+        }
+      ],
+      "title": "Photographic Enhancer",
+      "properties": {}
+    },
+    {
+      "id": 229,
+      "type": "Mute / Bypass Repeater (rgthree)",
+      "pos": [
+        4380,
+        3710
+      ],
+      "size": [
+        247.6578125,
+        66
+      ],
+      "flags": {},
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Upscale Image",
+          "type": "*",
+          "link": 700
+        },
+        {
+          "dir": 3,
+          "name": "Photo Enhancer",
+          "type": "*",
+          "link": 701
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "color_off": "#a80",
+          "color_on": "#Fc0",
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": [
+            708
+          ]
+        }
+      ],
+      "title": "Illustration Enhancer",
+      "properties": {}
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        3610,
+        220
+      ],
+      "size": [
+        220,
+        50
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 189
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 198
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            633
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 207,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        4400,
+        3000
+      ],
+      "size": [
+        250.08046875000002,
+        106
+      ],
+      "flags": {},
+      "order": 114,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "IMAGE",
+          "link": 662
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "IMAGE",
+          "link": 673
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "IMAGE",
+          "name": "*",
+          "shape": 3,
+          "type": "IMAGE",
+          "links": [
+            713
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "e9d56181883d4e05c4236f09422582f49abdec86"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 237,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        5100,
+        440
+      ],
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 117,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 713
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            714
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 234,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        4780,
+        3620
+      ],
+      "size": [
+        360,
+        110
+      ],
+      "flags": {},
+      "order": 118,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Nothing",
+          "type": "*",
+          "link": 706
+        },
+        {
+          "dir": 3,
+          "name": "Photographic Enhancer",
+          "type": "*",
+          "link": 707
+        },
+        {
+          "dir": 3,
+          "name": "Illustration Enhancer",
+          "type": "*",
+          "link": 708
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            715
+          ]
+        }
+      ],
+      "properties": {}
     },
     {
       "id": 110,
       "type": "PrimitiveStringMultiline",
       "pos": [
-        2410,
-        1550
+        3980,
+        2530
       ],
       "size": [
         400,
         200
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
-      "order": 48,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -3271,74 +4877,468 @@
         "Node name for S&R": "PrimitiveStringMultiline"
       },
       "widgets_values": [
-        "A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs."
+        "A blonde woman with disheveled hair tied in pigtails with a black ribbon, exhibiting characteristics of a zombie, stands amidst a terrifying atmosphere. Her pale skin and dark, smudged makeup around the eyes and lips contribute to a ghastly appearance. She is clad in a tattered, blood-stained costume consisting of a red, short-sleeved top with a white collar and ruffled white trim. A white skirt, similarly marked with bloodstains and edged in red, hangs low. Her attire is completed by long, torn white gloves and white thigh-high stockings with frayed lace tops. Her posture is unsettling, and she clutches a crude weapon, possibly a bloodied club, in her gloved hand. The background is shrouded in a thick, eerie mist, with tattered curtains hanging limply, enhancing the overall sense of dread and decay."
       ]
     },
     {
-      "id": 31,
-      "type": "StringReplace",
+      "id": 238,
+      "type": "Reroute (rgthree)",
       "pos": [
-        -250,
-        1330
+        5660,
+        1550
       ],
       "size": [
-        230,
-        280
+        40,
+        30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 68,
+      "flags": {},
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
-          "name": "string",
-          "type": "STRING",
-          "widget": {
-            "name": "string"
-          },
-          "link": 232
-        },
-        {
-          "name": "replace",
-          "type": "STRING",
-          "widget": {
-            "name": "replace"
-          },
-          "link": 294
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 715
         }
       ],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
+          "dir": 3,
+          "label": " ",
+          "name": "Output",
+          "type": "*",
           "links": [
-            479
+            717
           ]
         }
       ],
-      "title": "STYLE INTEGRATOR",
+      "properties": {
+        "resizable": false,
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 239,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        2370,
+        1590
+      ],
+      "size": [
+        40,
+        30
+      ],
+      "flags": {},
+      "order": 121,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 717
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "Output",
+          "type": "*",
+          "links": [
+            718
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          40,
+          30
+        ],
+        "connections_layout": [
+          "Right",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "type": "PrimitiveNode",
+      "pos": [
+        3030,
+        470
+      ],
+      "size": [
+        250,
+        100
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "links": [
+            87,
+            194
+          ]
+        }
+      ],
+      "title": "STEPS (TURBO = 8)",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        8,
+        "fixed"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159",
+      "shape": 1
+    },
+    {
+      "id": 58,
+      "type": "PrimitiveNode",
+      "pos": [
+        3050,
+        700
+      ],
+      "size": [
+        250,
+        100
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "widget": {
+            "name": "noise_seed"
+          },
+          "links": [
+            85,
+            193
+          ]
+        }
+      ],
+      "title": "SEED",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        1,
+        "fixed"
+      ],
+      "color": "#432",
+      "bgcolor": "#653",
+      "shape": 1
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2690,
+        700
+      ],
+      "size": [
+        350,
+        430
+      ],
+      "flags": {},
+      "order": 80,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "STYLE: Phone Photo",
+          "type": "*",
+          "link": 287
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "max one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 97,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2690,
+        1170
+      ],
+      "size": [
+        350,
+        140
+      ],
+      "flags": {},
+      "order": 87,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 380
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "EXTRA OPTIONS (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 219,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2690,
+        1350
+      ],
+      "size": [
+        350,
+        150
+      ],
+      "flags": {},
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Nothing",
+          "type": "*",
+          "link": 718
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Z-IMAGE ENHANCER MODE",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 67,
+      "type": "SamplerCustom",
+      "pos": [
+        3310,
+        220
+      ],
+      "size": [
+        250,
+        580
+      ],
+      "flags": {},
+      "order": 92,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 196
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 200
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 202
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 204
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 206
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 208
+        },
+        {
+          "name": "noise_seed",
+          "type": "INT",
+          "widget": {
+            "name": "noise_seed"
+          },
+          "link": 193
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            189
+          ]
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null
+        }
+      ],
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.3.75",
-        "Node name for S&R": "StringReplace"
+        "Node name for S&R": "SamplerCustom"
       },
       "widgets_values": [
-        "",
-        "{$@}",
-        ""
-      ]
+        true,
+        1,
+        "fixed",
+        1
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        3050,
+        840
+      ],
+      "size": [
+        510,
+        660
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A blonde woman with disheveled hair tied in pigtails with a black ribbon, exhibiting characteristics of a zombie, stands amidst a terrifying atmosphere. Her pale skin and dark, smudged makeup around the eyes and lips contribute to a ghastly appearance. She is clad in a tattered, blood-stained costume consisting of a red, short-sleeved top with a white collar and ruffled white trim. A white skirt, similarly marked with bloodstains and edged in red, hangs low. Her attire is completed by long, torn white gloves and white thigh-high stockings with frayed lace tops. Her posture is unsettling, and she clutches a crude weapon, possibly a bloodied club, in her gloved hand. The background is shrouded in a thick, eerie mist, with tattered curtains hanging limply, enhancing the overall sense of dread and decay."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        3570,
+        440
+      ],
+      "size": [
+        640,
+        1060
+      ],
+      "flags": {},
+      "order": 119,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 714
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75"
+      },
+      "widgets_values": [
+        "ZImage/%date:yyyy_MM_dd%/ZI"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
     }
   ],
   "links": [
-    [
-      16,
-      8,
-      0,
-      9,
-      0,
-      "IMAGE"
-    ],
     [
       78,
       54,
@@ -3868,58 +5868,10 @@
       "*"
     ],
     [
-      382,
-      47,
-      0,
-      35,
-      0,
-      "*"
-    ],
-    [
-      384,
-      37,
-      0,
-      36,
-      0,
-      "*"
-    ],
-    [
-      387,
-      117,
-      0,
-      44,
-      0,
-      "*"
-    ],
-    [
-      403,
-      92,
-      0,
-      118,
-      0,
-      "*"
-    ],
-    [
-      404,
-      130,
-      0,
-      102,
-      0,
-      "*"
-    ],
-    [
       405,
       70,
       0,
       76,
-      0,
-      "*"
-    ],
-    [
-      421,
-      38,
-      0,
-      42,
       0,
       "*"
     ],
@@ -3929,6 +5881,22 @@
       0,
       6,
       1,
+      "STRING"
+    ],
+    [
+      430,
+      31,
+      0,
+      144,
+      0,
+      "STRING"
+    ],
+    [
+      431,
+      31,
+      0,
+      146,
+      0,
       "STRING"
     ],
     [
@@ -4004,74 +5972,602 @@
       "*"
     ],
     [
-      465,
-      93,
-      0,
-      64,
-      0,
-      "*"
-    ],
-    [
       466,
-      43,
+      151,
       0,
-      94,
+      166,
       0,
-      "*"
+      "STRING"
     ],
     [
-      467,
-      45,
+      468,
+      166,
       0,
-      121,
+      149,
       0,
       "*"
     ],
     [
       469,
-      122,
+      166,
       0,
-      126,
-      0,
-      "*"
-    ],
-    [
-      474,
-      63,
-      0,
-      131,
+      165,
       0,
       "*"
     ],
     [
-      475,
-      124,
-      0,
-      127,
-      0,
-      "*"
-    ],
-    [
-      477,
-      41,
-      0,
-      48,
-      0,
-      "*"
-    ],
-    [
-      478,
+      472,
       101,
+      0,
+      35,
+      0,
+      "*"
+    ],
+    [
+      492,
+      38,
       0,
       46,
       0,
       "*"
     ],
     [
-      479,
-      31,
+      497,
+      92,
       0,
-      149,
+      48,
+      0,
+      "*"
+    ],
+    [
+      509,
+      117,
+      0,
+      36,
+      0,
+      "*"
+    ],
+    [
+      510,
+      47,
+      0,
+      44,
+      0,
+      "*"
+    ],
+    [
+      513,
+      124,
+      0,
+      131,
+      0,
+      "*"
+    ],
+    [
+      538,
+      41,
+      0,
+      94,
+      0,
+      "*"
+    ],
+    [
+      550,
+      122,
+      0,
+      102,
+      0,
+      "*"
+    ],
+    [
+      552,
+      43,
+      0,
+      118,
+      0,
+      "*"
+    ],
+    [
+      555,
+      93,
+      0,
+      121,
+      0,
+      "*"
+    ],
+    [
+      556,
+      45,
+      0,
+      127,
+      0,
+      "*"
+    ],
+    [
+      557,
+      130,
+      0,
+      126,
+      0,
+      "*"
+    ],
+    [
+      559,
+      37,
+      0,
+      64,
+      0,
+      "*"
+    ],
+    [
+      560,
+      63,
+      0,
+      42,
+      0,
+      "*"
+    ],
+    [
+      562,
+      156,
+      0,
+      136,
+      2,
+      "*"
+    ],
+    [
+      563,
+      144,
+      0,
+      151,
+      0,
+      "STRING"
+    ],
+    [
+      564,
+      144,
+      0,
+      156,
+      0,
+      "*"
+    ],
+    [
+      565,
+      146,
+      0,
+      151,
+      1,
+      "STRING"
+    ],
+    [
+      571,
+      175,
+      0,
+      172,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      575,
+      177,
+      0,
+      172,
+      1,
+      "IMAGE"
+    ],
+    [
+      580,
+      181,
+      0,
+      182,
+      0,
+      "LATENT"
+    ],
+    [
+      583,
+      71,
+      0,
+      183,
+      0,
+      "*"
+    ],
+    [
+      585,
+      73,
+      0,
+      185,
+      0,
+      "*"
+    ],
+    [
+      586,
+      74,
+      0,
+      186,
+      0,
+      "*"
+    ],
+    [
+      587,
+      75,
+      0,
+      187,
+      0,
+      "*"
+    ],
+    [
+      606,
+      194,
+      0,
+      177,
+      0,
+      "IMAGE"
+    ],
+    [
+      609,
+      193,
+      0,
+      180,
+      0,
+      "IMAGE"
+    ],
+    [
+      611,
+      195,
+      0,
+      189,
+      0,
+      "SIGMAS"
+    ],
+    [
+      620,
+      187,
+      0,
+      200,
+      0,
+      "*"
+    ],
+    [
+      621,
+      200,
+      0,
+      181,
+      3,
+      "SAMPLER"
+    ],
+    [
+      622,
+      186,
+      0,
+      201,
+      0,
+      "*"
+    ],
+    [
+      623,
+      201,
+      0,
+      181,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      624,
+      185,
+      0,
+      202,
+      0,
+      "*"
+    ],
+    [
+      625,
+      202,
+      0,
+      181,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      626,
+      183,
+      0,
+      203,
+      0,
+      "*"
+    ],
+    [
+      627,
+      203,
+      0,
+      181,
+      0,
+      "MODEL"
+    ],
+    [
+      633,
+      8,
+      0,
+      206,
+      0,
+      "*"
+    ],
+    [
+      634,
+      206,
+      0,
+      194,
+      0,
+      "IMAGE"
+    ],
+    [
+      641,
+      212,
+      0,
+      213,
+      0,
+      "IMAGE"
+    ],
+    [
+      642,
+      211,
+      0,
+      214,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      643,
+      213,
+      0,
+      214,
+      1,
+      "IMAGE"
+    ],
+    [
+      644,
+      206,
+      0,
+      212,
+      0,
+      "IMAGE"
+    ],
+    [
+      645,
+      172,
+      0,
+      215,
+      0,
+      "*"
+    ],
+    [
+      646,
+      214,
+      0,
+      215,
+      1,
+      "IMAGE"
+    ],
+    [
+      647,
+      215,
+      0,
+      193,
+      0,
+      "IMAGE"
+    ],
+    [
+      651,
+      217,
+      0,
+      180,
+      1,
+      "VAE"
+    ],
+    [
+      652,
+      217,
+      0,
+      218,
+      0,
+      "*"
+    ],
+    [
+      653,
+      218,
+      0,
+      182,
+      1,
+      "VAE"
+    ],
+    [
+      662,
+      221,
+      0,
+      207,
+      0,
+      "IMAGE"
+    ],
+    [
+      673,
+      182,
+      0,
+      207,
+      1,
+      "IMAGE"
+    ],
+    [
+      675,
+      72,
+      0,
+      222,
+      0,
+      "*"
+    ],
+    [
+      676,
+      222,
+      0,
+      217,
+      0,
+      "*"
+    ],
+    [
+      677,
+      180,
+      0,
+      181,
+      5,
+      "LATENT"
+    ],
+    [
+      678,
+      189,
+      1,
+      181,
+      4,
+      "SIGMAS"
+    ],
+    [
+      679,
+      206,
+      0,
+      223,
+      0,
+      "*"
+    ],
+    [
+      680,
+      223,
+      0,
+      221,
+      0,
+      "IMAGE"
+    ],
+    [
+      696,
+      172,
+      0,
+      230,
+      0,
+      "*"
+    ],
+    [
+      697,
+      230,
+      0,
+      228,
+      0,
+      "*"
+    ],
+    [
+      698,
+      182,
+      0,
+      228,
+      1,
+      "*"
+    ],
+    [
+      699,
+      214,
+      0,
+      231,
+      0,
+      "*"
+    ],
+    [
+      700,
+      231,
+      0,
+      229,
+      0,
+      "*"
+    ],
+    [
+      701,
+      182,
+      0,
+      229,
+      1,
+      "*"
+    ],
+    [
+      702,
+      221,
+      0,
+      232,
+      0,
+      "*"
+    ],
+    [
+      704,
+      232,
+      0,
+      233,
+      0,
+      "*"
+    ],
+    [
+      706,
+      233,
+      0,
+      234,
+      0,
+      "*"
+    ],
+    [
+      707,
+      228,
+      0,
+      234,
+      1,
+      "*"
+    ],
+    [
+      708,
+      229,
+      0,
+      234,
+      2,
+      "*"
+    ],
+    [
+      713,
+      207,
+      0,
+      237,
+      0,
+      "*"
+    ],
+    [
+      714,
+      237,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ],
+    [
+      715,
+      234,
+      0,
+      238,
+      0,
+      "*"
+    ],
+    [
+      717,
+      238,
+      0,
+      239,
+      0,
+      "*"
+    ],
+    [
+      718,
+      239,
+      0,
+      219,
       0,
       "*"
     ]
@@ -4094,27 +6590,38 @@
     },
     {
       "id": 3,
-      "title": "EDITING AREA [{#VERSION}]",
+      "title": "Edition Area - AZIWF {#VERSION}",
       "bounding": [
-        1220,
+        2640,
         590,
         1270,
         730
       ],
       "color": "#3f789e",
-      "font_size": 48,
-      "flags": {
-        "pinned": true
-      }
+      "font_size": 44,
+      "flags": {}
     },
     {
       "id": 4,
       "title": "CIVITAI Compatibility",
       "bounding": [
-        2800,
-        1000,
+        4220,
+        1060,
         630,
         430
+      ],
+      "color": "#444",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "SPICY IMPACT BOOSTER",
+      "bounding": [
+        -170,
+        1950,
+        740,
+        520
       ],
       "color": "#444",
       "font_size": 24,
@@ -4131,7 +6638,7 @@
         400,
         300
       ],
-      "color": "#A88",
+      "color": "#444",
       "font_size": 24,
       "flags": {
         "pinned": true
@@ -4146,20 +6653,48 @@
         400,
         470
       ],
-      "color": "#A88",
+      "color": "#444",
       "font_size": 24,
       "flags": {
         "pinned": true
       }
+    },
+    {
+      "id": 8,
+      "title": "SAMPLER, SIGMAS & LATENT",
+      "bounding": [
+        380,
+        420,
+        620,
+        590
+      ],
+      "color": "#444",
+      "font_size": 24,
+      "flags": {
+        "pinned": true
+      }
+    },
+    {
+      "id": 9,
+      "title": "Z-IMAGE ENHANCER",
+      "bounding": [
+        2160,
+        2780,
+        3010,
+        1070
+      ],
+      "color": "#444",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9129999999999999,
+      "scale": 0.10152559799477055,
       "offset": [
-        -934.9561883899233,
-        -455
+        3512.954898924917,
+        3181.6005566870062
       ]
     },
     "frontendVersion": "1.32.10"
