@@ -1,12 +1,13 @@
 #!ZCONFIG
 
+{#TITLE}
+Amazing Z-Photo WF
+
 {#OUTPUT}
 amazing-z-photo_{#TEMPLATE_NAME}.json
 
-
 {#PROMPT}
 Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
-
 
 {#PROMPT2}
 A woman in a crowded subway station, next to her is an artificial Christmas tree.
