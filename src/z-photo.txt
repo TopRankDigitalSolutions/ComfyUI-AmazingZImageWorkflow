@@ -10,7 +10,7 @@ amazing-z-photo_
 Worn-down computer control panels surrounding an adult woman in dirty clothes sitting in a starship, creating a hyperpunk scene.
 
 {#PROMPT2}
-A woman in a crowded subway station, next to her is an artificial Christmas tree.
+Elon Musk meets an xenomorph alien in a shopping mall, jocking, funny faces, very happy.
 
 
 >>Phone Photo
@@ -61,8 +61,8 @@ YOUR PHOTO:
 
 >>Classic Film Photo
 YOUR CONTEXT:
-You are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.
-Your photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.
+You are a professional cinematographer of iconic classic mid‑century cinema (1950s‑1960s Hollywood golden age).
+Your photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates imperfections and blurry edges.
 ---
 YOUR PHOTO:
 {$@}
