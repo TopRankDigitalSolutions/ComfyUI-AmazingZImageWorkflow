@@ -27,10 +27,13 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 
 ## Features
 - **Style Selector**: Choose from fifteen customizable image styles.
+- **Z-Image Enhancer**: Improves final image quality by performing a double pass.
+- **Spicy Impact Booster**: Adds a subtle spicy condiment to the prompt (fully experimental).
 - **Alternative Sampler Switch**: Easily test generation with an alternative sampler. 
 - **Landscape Orientation Switch**: Change to horizontal image generation with a single click.
+- **Smaller Images Switch**: Generate smaller images, faster and consuming less VRAM.
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned to personal preference (100% subjective).
+- Custom sigma values fine-tuned to my personal preference (100% subjective).
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
