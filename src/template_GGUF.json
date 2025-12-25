@@ -1,8 +1,8 @@
 {
   "id": "66d0abae-2fae-4722-a207-3f31787dab7e",
   "revision": 0,
-  "last_node_id": 284,
-  "last_link_id": 882,
+  "last_node_id": 285,
+  "last_link_id": 884,
   "nodes": [
     {
       "id": 60,
@@ -1697,6 +1697,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SAMPLER",
           "link": null
@@ -2050,6 +2051,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -2124,7 +2126,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 137,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -2292,7 +2294,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 138,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -3463,7 +3465,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 139,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -3860,13 +3862,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 124,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 823
+          "link": 884
         }
       ],
       "outputs": [
@@ -3993,7 +3995,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 136,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -4109,7 +4111,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 140,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -5093,7 +5095,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 128,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -5326,7 +5328,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 130,
+      "order": 132,
       "mode": 2,
       "inputs": [
         {
@@ -5516,7 +5518,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 133,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -5544,6 +5546,7 @@
           "link": 878
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -5582,7 +5585,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 135,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -5619,7 +5622,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 132,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -5772,7 +5775,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            823
+            883
           ]
         }
       ],
@@ -6085,7 +6088,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 126,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -6299,7 +6302,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 134,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -6369,6 +6372,48 @@
           "Left"
         ]
       }
+    },
+    {
+      "id": 285,
+      "type": "ImageBlur",
+      "pos": [
+        2390,
+        3250
+      ],
+      "size": [
+        220,
+        90
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 124,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 883
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            884
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ImageBlur"
+      },
+      "widgets_values": [
+        2,
+        0.5
+      ]
     }
   ],
   "links": [
@@ -7549,14 +7594,6 @@
       "STRING"
     ],
     [
-      823,
-      172,
-      0,
-      193,
-      0,
-      "IMAGE"
-    ],
-    [
       824,
       268,
       0,
@@ -7873,6 +7910,22 @@
       223,
       0,
       284,
+      0,
+      "IMAGE"
+    ],
+    [
+      883,
+      172,
+      0,
+      285,
+      0,
+      "IMAGE"
+    ],
+    [
+      884,
+      285,
+      0,
+      193,
       0,
       "IMAGE"
     ]
