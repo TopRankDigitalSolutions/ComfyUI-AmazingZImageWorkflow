@@ -1003,6 +1003,7 @@ def main(args=None, parent_script=None):
     parser.add_argument('images'              , nargs="+",           help="Image files (or directories containing .png) to include in the gallery")
     parser.add_argument('-s', '--scale'       , type=float,          help="Scaling factor (max 1.0) to scale down the gallery images")
     parser.add_argument('-j', '--jpeg'        , action='store_true', help="Save gallery as JPEG instead of PNG")
+    parser.add_argument('--include-no-style'  , action='store_true', help="Include the no-style image in the gallery")
     # parser.add_argument('-p', '--write-prompt', action='store_true', help="Display the prompt of the first image in the gallery")
     # parser.add_argument('-t', '--text'        ,                      help="Text to write on the header of the gallery")
     # parser.add_argument('-n', '--no-label'    , action='store_true', help="Prevents labels from being added to any image.")
@@ -1039,7 +1040,7 @@ def main(args=None, parent_script=None):
 
     # get the list of styles directly from the workflow
     # and use that to group all images
-    style_list     = extract_style_list(images)
+    style_list     = extract_style_list(images, include_no_style=args.include_no_style)
     grouped_images = group_images_by_prompt_and_style(images, style_list)
 
     # generate the gallery image and save it
