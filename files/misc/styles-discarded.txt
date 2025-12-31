@@ -42,4 +42,10 @@ YOUR PHOTO:
 {$@}
 
 =========================================
+STYLE: Comic 1990 (??)
+
+YOUR CONTEXT:
+Your illustration is made with brightly colored bold lines and touches of cracked paint, while having a 1980s graphic design aesthetic.
+YOUR ILLUSTRATION:
+{$@}
 
