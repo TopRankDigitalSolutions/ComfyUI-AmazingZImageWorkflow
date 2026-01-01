@@ -1,23 +1,22 @@
 {
   "id": "66d0abae-2fae-4722-a207-3f31787dab7e",
   "revision": 0,
-  "last_node_id": 314,
-  "last_link_id": 946,
+  "last_node_id": 339,
+  "last_link_id": 997,
   "nodes": [
     {
       "id": 60,
       "type": "CLIPTextEncode",
       "pos": [
-        4290,
-        1210
+        4630,
+        1230
       ],
       "size": [
         400,
         200
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
       "order": 0,
       "mode": 0,
@@ -50,16 +49,15 @@
       "id": 56,
       "type": "EmptyLatentImage",
       "pos": [
-        4330,
-        1250
+        4670,
+        1270
       ],
       "size": [
         270,
         106
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
       "order": 1,
       "mode": 0,
@@ -88,18 +86,17 @@
       "id": 54,
       "type": "CLIPTextEncode",
       "pos": [
-        4240,
-        1170
+        4580,
+        1190
       ],
       "size": [
         410,
         90
       ],
       "flags": {
-        "collapsed": true,
-        "pinned": true
+        "collapsed": true
       },
-      "order": 63,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -140,15 +137,15 @@
       "id": 72,
       "type": "Reroute",
       "pos": [
-        1170,
-        -50
+        840,
+        -650
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 65,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -176,15 +173,15 @@
       "id": 73,
       "type": "Reroute",
       "pos": [
-        1170,
-        -20
+        840,
+        -620
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 117,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -212,17 +209,15 @@
       "id": 50,
       "type": "KSamplerAdvanced",
       "pos": [
-        4530,
-        1140
+        4870,
+        1160
       ],
       "size": [
         304.748046875,
         334
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 75,
+      "flags": {},
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -280,56 +275,18 @@
       ]
     },
     {
-      "id": 68,
-      "type": "KSamplerSelect",
-      "pos": [
-        120,
-        410
-      ],
-      "size": [
-        270,
-        70
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            373
-          ]
-        }
-      ],
-      "title": "Default Euler Sampler",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
       "id": 161,
       "type": "UnetLoaderGGUF",
       "pos": [
-        -450,
-        -310
+        -620,
+        -660
       ],
       "size": [
         380,
         100
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 3,
+      "flags": {},
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -358,17 +315,15 @@
       "id": 162,
       "type": "VAELoader",
       "pos": [
-        -450,
-        -170
+        -620,
+        -520
       ],
       "size": [
         380,
         90
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 4,
+      "flags": {},
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -406,7 +361,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 96,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -453,8 +408,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 5,
-      "mode": 2,
+      "order": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -489,7 +444,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 6,
+      "order": 5,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -526,7 +481,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 6,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -563,7 +518,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -600,7 +555,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -637,7 +592,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 10,
+      "order": 9,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -674,7 +629,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -711,7 +666,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 12,
+      "order": 11,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -748,7 +703,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -785,7 +740,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 14,
+      "order": 13,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -822,7 +777,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -859,7 +814,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 16,
+      "order": 15,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -896,7 +851,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -933,7 +888,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 103,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -970,7 +925,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 86,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1026,8 +981,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 18,
-      "mode": 0,
+      "order": 17,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -1063,7 +1018,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 118,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
@@ -1100,7 +1055,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 91,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
@@ -1137,7 +1092,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 80,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -1174,7 +1129,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1211,7 +1166,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1276,6 +1231,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -1344,6 +1300,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -1384,7 +1341,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 68,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -1440,7 +1397,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 69,
+      "order": 70,
       "mode": 2,
       "inputs": [
         {
@@ -1484,158 +1441,6 @@
       ]
     },
     {
-      "id": 70,
-      "type": "KarrasScheduler",
-      "pos": [
-        460,
-        480
-      ],
-      "size": [
-        260,
-        140
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "steps",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "link": 932
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            405
-          ]
-        }
-      ],
-      "title": "Karras Scheduler (sigmas)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KarrasScheduler"
-      },
-      "widgets_values": [
-        8,
-        0.99,
-        0.08,
-        0.3
-      ]
-    },
-    {
-      "id": 95,
-      "type": "KSamplerSelect",
-      "pos": [
-        120,
-        290
-      ],
-      "size": [
-        270,
-        80
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 21,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            372,
-            448
-          ]
-        }
-      ],
-      "title": "Alternative Sampler",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler_ancestral"
-      ]
-    },
-    {
-      "id": 96,
-      "type": "Any Switch (rgthree)",
-      "pos": [
-        460,
-        320
-      ],
-      "size": [
-        260,
-        120
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "any_01",
-          "type": "SAMPLER",
-          "link": 372
-        },
-        {
-          "dir": 3,
-          "name": "any_02",
-          "type": "SAMPLER",
-          "link": 373
-        },
-        {
-          "dir": 3,
-          "name": "any_03",
-          "type": "SAMPLER",
-          "link": null
-        },
-        {
-          "dir": 3,
-          "name": "any_04",
-          "type": "SAMPLER",
-          "link": null
-        },
-        {
-          "name": "any_05",
-          "type": "SAMPLER",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "label": "SAMPLER",
-          "name": "*",
-          "shape": 3,
-          "type": "SAMPLER",
-          "links": [
-            257
-          ]
-        }
-      ],
-      "title": "Any Switch (sampler)",
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "1.0.2511270846",
-        "aux_id": "rgthree/rgthree-comfy"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 250,
       "type": "Any Switch (rgthree)",
       "pos": [
@@ -1649,7 +1454,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 83,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -1677,6 +1482,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "LATENT",
           "link": null
@@ -1694,7 +1500,7 @@
           ]
         }
       ],
-      "title": "Any Empty Latent",
+      "title": "Latent Switcher",
       "properties": {
         "cnr_id": "rgthree-comfy",
         "ver": "e9d56181883d4e05c4236f09422582f49abdec86",
@@ -1706,17 +1512,15 @@
       "id": 163,
       "type": "CLIPLoaderGGUF",
       "pos": [
-        -450,
-        -40
+        -620,
+        -390
       ],
       "size": [
         380,
         110
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 22,
+      "flags": {},
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1756,7 +1560,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 101,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -1794,7 +1598,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 108,
+      "order": 115,
       "mode": 0,
       "inputs": [
         {
@@ -1842,7 +1646,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 104,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -1870,6 +1674,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -1908,7 +1713,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 113,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -1927,24 +1732,22 @@
         "aux_id": "rgthree/rgthree-comfy"
       },
       "widgets_values": [
-        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\nA woman of Argentinian appearance, with full, red lips and a smile, stands on the left side of the frame in a vibrant, slightly blurry, nighttime club scene. She is clad in a pink, bulky, industrial-style mecha armor, made of metal and covering her body, and in her hands, she holds a huge black gun. To her right, a tall and powerfully built polar bear, also wearing identical mecha armor but in black, is dancing alongside her, its massive paws raised in the air, and its eyes directly facing the camera with a wide, cheerful grin spreading across its face. The setting is a crowded nightclub with people in the background, surrounded by smoke, and colorful lights flashing everywhere. The atmosphere is lively, with the woman and the polar bear seemingly lost in the music, moving in sync as if dancing together, their mecha armor glistening under the flashing lights."
+        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, displaying a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\nA woman of Argentinian appearance, with full, red lips and a smile, stands on the left side of the frame in a vibrant, slightly blurry, nighttime club scene. She is clad in a pink, bulky, industrial-style mecha armor, made of metal and covering her body, and in her hands, she holds a huge black gun. To her right, a tall and powerfully built polar bear, also wearing identical mecha armor but in black, is dancing alongside her, its massive paws raised in the air, and its eyes directly facing the camera with a wide, cheerful grin spreading across its face. The setting is a crowded nightclub with people in the background, surrounded by smoke, and colorful lights flashing everywhere. The atmosphere is lively, with the woman and the polar bear seemingly lost in the music, moving in sync as if dancing together, their mecha armor glistening under the flashing lights.\n"
       ]
     },
     {
       "id": 237,
       "type": "Reroute (rgthree)",
       "pos": [
-        5310,
-        430
+        5650,
+        450
       ],
       "size": [
         40,
         30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 155,
+      "flags": {},
+      "order": 167,
       "mode": 0,
       "inputs": [
         {
@@ -1993,7 +1796,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 62,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -2038,7 +1841,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 114,
+      "order": 122,
       "mode": 0,
       "inputs": [
         {
@@ -2075,7 +1878,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 94,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -2102,17 +1905,15 @@
       "id": 239,
       "type": "Reroute (rgthree)",
       "pos": [
-        2580,
-        1540
+        2920,
+        1560
       ],
       "size": [
         40,
         30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 156,
+      "flags": {},
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -2161,7 +1962,7 @@
         "pinned": true
       },
       "order": 57,
-      "mode": 2,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -2194,67 +1995,7 @@
           ]
         }
       ],
-      "title": "Smaller Image (low vram, fast)",
-      "properties": {}
-    },
-    {
-      "id": 136,
-      "type": "Node Collector (rgthree)",
-      "pos": [
-        490,
-        770
-      ],
-      "size": [
-        280,
-        106
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 111,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Alternative Sampler",
-          "type": "*",
-          "link": 448
-        },
-        {
-          "dir": 3,
-          "name": "Landscape Orientation",
-          "type": "*",
-          "link": 783
-        },
-        {
-          "dir": 3,
-          "name": "Smaller Image (low vram, fast)",
-          "type": "*",
-          "link": 784
-        },
-        {
-          "dir": 3,
-          "name": "Spicy Impact Booster (experimental)",
-          "type": "*",
-          "link": 785
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "Output",
-          "type": "*",
-          "links": [
-            775
-          ]
-        }
-      ],
+      "title": "Generate Smaller Image",
       "properties": {}
     },
     {
@@ -2271,7 +2012,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 107,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -2319,7 +2060,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 52,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -2395,7 +2136,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2433,7 +2174,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2471,7 +2212,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 42,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2509,7 +2250,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -2547,7 +2288,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -2585,7 +2326,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2623,7 +2364,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 45,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -2661,7 +2402,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 46,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -2699,7 +2440,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 47,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -2737,7 +2478,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 48,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -2775,7 +2516,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 49,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -2813,7 +2554,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -2851,7 +2592,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 51,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -2889,7 +2630,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 73,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -2989,6 +2730,7 @@
           "link": 817
         },
         {
+          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -3027,7 +2769,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 72,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -3161,7 +2903,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 23,
+      "order": 21,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -3188,17 +2930,15 @@
       "id": 9,
       "type": "SaveImage",
       "pos": [
-        3570,
-        440
+        3910,
+        460
       ],
       "size": [
         640,
         1080
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 157,
+      "flags": {},
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -3232,8 +2972,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 24,
-      "mode": 2,
+      "order": 22,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3270,8 +3010,8 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
-      "mode": 2,
+      "order": 23,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3308,7 +3048,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 84,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -3345,7 +3085,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 70,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -3359,7 +3099,7 @@
           "name": "",
           "type": "*",
           "links": [
-            784
+            981
           ]
         }
       ],
@@ -3382,7 +3122,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 93,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -3419,7 +3159,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 85,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -3456,7 +3196,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 112,
+      "order": 119,
       "mode": 0,
       "inputs": [
         {
@@ -3507,7 +3247,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 143,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -3564,7 +3304,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 76,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -3601,7 +3341,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 132,
+      "order": 144,
       "mode": 0,
       "inputs": [
         {
@@ -3630,17 +3370,15 @@
       "id": 238,
       "type": "Reroute (rgthree)",
       "pos": [
-        5460,
-        1540
+        5800,
+        1560
       ],
       "size": [
         40,
         30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 154,
+      "flags": {},
+      "order": 166,
       "mode": 0,
       "inputs": [
         {
@@ -3678,21 +3416,21 @@
       "id": 74,
       "type": "Reroute",
       "pos": [
-        1170,
-        10
+        840,
+        -590
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 82,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 201
+          "link": 985
         }
       ],
       "outputs": [
@@ -3714,15 +3452,15 @@
       "id": 75,
       "type": "Reroute",
       "pos": [
-        1170,
-        40
+        840,
+        -560
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 66,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -3747,55 +3485,18 @@
       }
     },
     {
-      "id": 76,
-      "type": "Reroute",
-      "pos": [
-        1170,
-        70
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 74,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 405
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "SIGMAS",
-          "links": [
-            912
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 164,
       "type": "Note",
       "pos": [
-        -1370,
-        -360
+        -1540,
+        -710
       ],
       "size": [
         900,
         640
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 26,
+      "flags": {},
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3809,116 +3510,18 @@
       "shape": 1
     },
     {
-      "id": 6,
-      "type": "CLIPTextEncode",
-      "pos": [
-        130,
-        210
-      ],
-      "size": [
-        470,
-        350
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 115,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 845
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "widget": {
-            "name": "text"
-          },
-          "link": 762
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            199
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Positive Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": [
-        130,
-        250
-      ],
-      "size": [
-        425.27801513671875,
-        180.6060791015625
-      ],
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 67,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 846
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            201
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Negative Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 123,
       "type": "Reroute",
       "pos": [
-        -20,
-        -170
+        -190,
+        -520
       ],
       "size": [
         75,
         26
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 38,
+      "flags": {},
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -3945,16 +3548,14 @@
       "id": 273,
       "type": "Reroute",
       "pos": [
-        -20,
-        -40
+        -190,
+        -390
       ],
       "size": [
         75,
         26
       ],
-      "flags": {
-        "pinned": true
-      },
+      "flags": {},
       "order": 54,
       "mode": 0,
       "inputs": [
@@ -3969,8 +3570,7 @@
           "name": "",
           "type": "CLIP",
           "links": [
-            845,
-            846
+            845
           ]
         }
       ],
@@ -3983,17 +3583,15 @@
       "id": 114,
       "type": "Reroute",
       "pos": [
-        -20,
-        -310
+        -190,
+        -660
       ],
       "size": [
         75,
         26
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 37,
+      "flags": {},
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -4030,7 +3628,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 95,
+      "order": 102,
       "mode": 2,
       "inputs": [
         {
@@ -4078,7 +3676,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 128,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -4126,7 +3724,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 130,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -4174,7 +3772,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 129,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -4222,7 +3820,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 88,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -4261,7 +3859,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 120,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -4300,7 +3898,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 100,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -4339,7 +3937,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 90,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -4378,7 +3976,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 131,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -4416,7 +4014,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 78,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -4453,7 +4051,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 147,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -4527,7 +4125,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 99,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -4566,7 +4164,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 146,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -4640,7 +4238,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 138,
+      "order": 150,
       "mode": 0,
       "inputs": [
         {
@@ -4686,7 +4284,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 149,
+      "order": 161,
       "mode": 2,
       "inputs": [
         {
@@ -4732,7 +4330,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 148,
+      "order": 160,
       "mode": 2,
       "inputs": [
         {
@@ -4778,7 +4376,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 137,
+      "order": 149,
       "mode": 2,
       "inputs": [
         {
@@ -4835,7 +4433,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 151,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -4902,7 +4500,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 153,
+      "order": 165,
       "mode": 0,
       "inputs": [
         {
@@ -4939,7 +4537,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 150,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -4999,7 +4597,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 134,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -5073,7 +4671,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 139,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -5118,7 +4716,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 142,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -5175,7 +4773,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 140,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -5220,7 +4818,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 135,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -5277,7 +4875,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5312,7 +4910,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5348,7 +4946,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 136,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -5405,7 +5003,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 145,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -5449,7 +5047,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 144,
+      "order": 156,
       "mode": 0,
       "inputs": [
         {
@@ -5493,7 +5091,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 89,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -5581,7 +5179,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5620,7 +5218,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 152,
+      "order": 164,
       "mode": 0,
       "inputs": [
         {
@@ -5657,7 +5255,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 127,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -5705,7 +5303,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 141,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -5734,54 +5332,18 @@
       ]
     },
     {
-      "id": 291,
-      "type": "Reroute",
-      "pos": [
-        2690,
-        -470
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 77,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 905
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            885,
-            893
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 293,
       "type": "Reroute",
       "pos": [
-        2690,
-        -380
+        3130,
+        -590
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 92,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -5809,15 +5371,15 @@
       "id": 294,
       "type": "Reroute",
       "pos": [
-        2690,
-        -350
+        3130,
+        -560
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 81,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -5842,94 +5404,18 @@
       }
     },
     {
-      "id": 288,
-      "type": "SetFirstSigma",
-      "pos": [
-        2100,
-        10
-      ],
-      "size": [
-        220,
-        60
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 98,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 892
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            891
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "SetFirstSigma"
-      },
-      "widgets_values": [
-        0.906
-      ]
-    },
-    {
-      "id": 300,
-      "type": "Reroute",
-      "pos": [
-        2690,
-        -320
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 97,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 914
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "SIGMAS",
-          "links": [
-            913
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 292,
       "type": "Reroute",
       "pos": [
-        2690,
-        -410
+        3130,
+        -620
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 119,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -5954,91 +5440,18 @@
       }
     },
     {
-      "id": 302,
-      "type": "Reroute",
-      "pos": [
-        2690,
-        -440
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 79,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 917
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "VAE",
-          "links": [
-            918
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 71,
-      "type": "Reroute",
-      "pos": [
-        1170,
-        -80
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 64,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 298
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "MODEL",
-          "links": [
-            583,
-            905
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 286,
       "type": "SamplerCustom",
       "pos": [
-        3310,
-        220
+        3650,
+        240
       ],
       "size": [
         250,
         570
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 122,
+      "flags": {},
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -6064,7 +5477,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 928
+          "link": 979
         },
         {
           "name": "latent_image",
@@ -6109,172 +5522,6 @@
       "bgcolor": "#535"
     },
     {
-      "id": 77,
-      "type": "Reroute",
-      "pos": [
-        1170,
-        100
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 106,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 754
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "LATENT",
-          "links": [
-            915
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 290,
-      "type": "SplitSigmas",
-      "pos": [
-        1870,
-        -50
-      ],
-      "size": [
-        210,
-        80
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 87,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 912
-        }
-      ],
-      "outputs": [
-        {
-          "name": "high_sigmas",
-          "type": "SIGMAS",
-          "links": [
-            914
-          ]
-        },
-        {
-          "name": "low_sigmas",
-          "type": "SIGMAS",
-          "links": [
-            892
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "SplitSigmas"
-      },
-      "widgets_values": [
-        2
-      ]
-    },
-    {
-      "id": 287,
-      "type": "ExtendIntermediateSigmas",
-      "pos": [
-        2360,
-        -90
-      ],
-      "size": [
-        277.1353515625,
-        130
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 105,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 891
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            929
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "ExtendIntermediateSigmas"
-      },
-      "widgets_values": [
-        2,
-        1,
-        0.8,
-        "linear"
-      ]
-    },
-    {
-      "id": 301,
-      "type": "Reroute",
-      "pos": [
-        2560,
-        110
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 110,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 915
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "LATENT",
-          "links": [
-            916
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 101,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -6288,7 +5535,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 28,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -6312,61 +5559,18 @@
       "shape": 1
     },
     {
-      "id": 59,
-      "type": "PrimitiveNode",
-      "pos": [
-        3020,
-        480
-      ],
-      "size": [
-        280,
-        100
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 31,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "links": [
-            932
-          ]
-        }
-      ],
-      "title": "STEPS (TURBO = 8)",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        8,
-        "fixed"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159",
-      "shape": 1
-    },
-    {
       "id": 111,
       "type": "Note",
       "pos": [
-        2670,
-        480
+        3010,
+        500
       ],
       "size": [
         340,
         100
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 32,
+      "flags": {},
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6379,66 +5583,18 @@
       "shape": 1
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        2670,
-        690
-      ],
-      "size": [
-        350,
-        450
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 102,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 287
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 307,
       "type": "PrimitiveInt",
       "pos": [
-        3030,
-        690
+        3370,
+        710
       ],
       "size": [
         270,
         100
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 33,
+      "flags": {},
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6467,112 +5623,18 @@
       "shape": 1
     },
     {
-      "id": 219,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        2670,
-        1180
-      ],
-      "size": [
-        350,
-        150
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 158,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 718
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Z-IMAGE ENHANCER (none = fast)",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
-      "id": 97,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        2670,
-        1370
-      ],
-      "size": [
-        350,
-        160
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 116,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "Alternative Sampler",
-          "type": "*",
-          "link": 776
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "EXTRA OPTIONS (default = all-no)",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 296,
       "type": "Reroute",
       "pos": [
-        3800,
-        220
+        4140,
+        240
       ],
       "size": [
         75,
         26
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 123,
+      "flags": {},
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -6600,17 +5662,15 @@
       "id": 274,
       "type": "Reroute (rgthree)",
       "pos": [
-        5620,
-        220
+        5960,
+        240
       ],
       "size": [
         40,
         30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 125,
+      "flags": {},
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -6648,17 +5708,15 @@
       "id": 261,
       "type": "Reroute (rgthree)",
       "pos": [
-        5570,
-        290
+        5910,
+        310
       ],
       "size": [
         40,
         30
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 126,
+      "flags": {},
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -6696,17 +5754,15 @@
       "id": 298,
       "type": "VAEDecode",
       "pos": [
-        3960,
-        290
+        4300,
+        310
       ],
       "size": [
         220,
         50
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 124,
+      "flags": {},
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -6717,7 +5773,7 @@
         {
           "name": "vae",
           "type": "VAE",
-          "link": 918
+          "link": 977
         }
       ],
       "outputs": [
@@ -6749,7 +5805,7 @@
         140
       ],
       "flags": {},
-      "order": 34,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6786,7 +5842,7 @@
         58
       ],
       "flags": {},
-      "order": 61,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -6823,7 +5879,7 @@
         82
       ],
       "flags": {},
-      "order": 35,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6839,7 +5895,7 @@
         "Node name for S&R": "RandomNoise"
       },
       "widgets_values": [
-        427157932625623,
+        478953747578170,
         "randomize"
       ]
     },
@@ -6855,7 +5911,7 @@
         78
       ],
       "flags": {},
-      "order": 133,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -6897,7 +5953,7 @@
         110
       ],
       "flags": {},
-      "order": 71,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -6918,73 +5974,142 @@
       ]
     },
     {
-      "id": 57,
-      "type": "PrimitiveNode",
+      "id": 323,
+      "type": "SetFirstSigma",
       "pos": [
-        3030,
-        830
+        2020,
+        -390
       ],
       "size": [
-        530,
-        700
+        220,
+        60
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 36,
+      "flags": {},
+      "order": 76,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 957
+        }
+      ],
       "outputs": [
         {
-          "name": "STRING",
-          "type": "STRING",
-          "widget": {
-            "name": "value"
-          },
+          "name": "SIGMAS",
+          "type": "SIGMAS",
           "links": [
-            295,
-            296
+            958
           ]
         }
       ],
-      "title": "PROMPT",
+      "title": "Set First Sigma",
       "properties": {
-        "Run widget replace on values": false
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SetFirstSigma"
       },
       "widgets_values": [
-        "A woman of Argentinian appearance, with full, red lips and a smile, stands on the left side of the frame in a vibrant, slightly blurry, nighttime club scene. She is clad in a pink, bulky, industrial-style mecha armor, made of metal and covering her body, and in her hands, she holds a huge black gun. To her right, a tall and powerfully built polar bear, also wearing identical mecha armor but in black, is dancing alongside her, its massive paws raised in the air, and its eyes directly facing the camera with a wide, cheerful grin spreading across its face. The setting is a crowded nightclub with people in the background, surrounded by smoke, and colorful lights flashing everywhere. The atmosphere is lively, with the woman and the polar bear seemingly lost in the music, moving in sync as if dancing together, their mecha armor glistening under the flashing lights."
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
+        0.906
+      ]
     },
     {
-      "id": 305,
+      "id": 77,
       "type": "Reroute",
       "pos": [
-        2690,
-        -290
+        840,
+        -530
       ],
       "size": [
         75,
         26
       ],
       "flags": {},
-      "order": 109,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 929
+          "link": 754
         }
       ],
       "outputs": [
         {
           "name": "",
-          "type": "SIGMAS",
+          "type": "LATENT",
           "links": [
-            928
+            915
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 301,
+      "type": "Reroute",
+      "pos": [
+        3130,
+        -530
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 117,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 915
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LATENT",
+          "links": [
+            916
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 302,
+      "type": "Reroute",
+      "pos": [
+        3130,
+        -650
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 917
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            976
           ]
         }
       ],
@@ -6997,17 +6122,15 @@
       "id": 289,
       "type": "SamplerCustom",
       "pos": [
-        3310,
-        -390
+        3620,
+        -610
       ],
       "size": [
         250,
         570
       ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 121,
+      "flags": {},
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -7033,7 +6156,7 @@
         {
           "name": "sigmas",
           "type": "SIGMAS",
-          "link": 913
+          "link": 978
         },
         {
           "name": "latent_image",
@@ -7073,9 +6196,1357 @@
         871855089688853,
         "fixed",
         1
+      ]
+    },
+    {
+      "id": 330,
+      "type": "Reroute",
+      "pos": [
+        3690,
+        60
       ],
-      "color": "#323",
-      "bgcolor": "#535"
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 99,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 976
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            977
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 71,
+      "type": "Reroute",
+      "pos": [
+        840,
+        -680
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 67,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 298
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            583,
+            905
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 324,
+      "type": "ExtendIntermediateSigmas",
+      "pos": [
+        2270,
+        -390
+      ],
+      "size": [
+        277.1353515625,
+        130
+      ],
+      "flags": {},
+      "order": 91,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 958
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            952
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ExtendIntermediateSigmas"
+      },
+      "widgets_values": [
+        2,
+        1,
+        0.8,
+        "linear"
+      ]
+    },
+    {
+      "id": 321,
+      "type": "KarrasScheduler",
+      "pos": [
+        1510,
+        -410
+      ],
+      "size": [
+        260,
+        140
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            956
+          ]
+        }
+      ],
+      "title": "Karras Scheduler 8-Steps",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KarrasScheduler"
+      },
+      "widgets_values": [
+        8,
+        0.99,
+        0.08,
+        0.3
+      ]
+    },
+    {
+      "id": 325,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        2650,
+        -260
+      ],
+      "size": [
+        263.72841796875,
+        106
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "SIGMAS",
+          "link": 989
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "SIGMAS",
+          "link": 987
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "SIGMAS",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "SIGMAS",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "SIGMAS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "SIGMAS",
+          "name": "*",
+          "shape": 3,
+          "type": "SIGMAS",
+          "links": [
+            978
+          ]
+        }
+      ],
+      "title": "High Sigmas Switcher",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 333,
+      "type": "Reroute",
+      "pos": [
+        480,
+        1060
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 88,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 981
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "*",
+          "links": [
+            983
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 97,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        3010,
+        1360
+      ],
+      "size": [
+        350,
+        160
+      ],
+      "flags": {},
+      "order": 124,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 776
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "EXTRA OPTIONS (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 331,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        2170,
+        1200
+      ],
+      "size": [
+        280,
+        106
+      ],
+      "flags": {},
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "Only 7 Steps",
+          "type": "*",
+          "link": 982
+        },
+        {
+          "dir": 3,
+          "name": "Generate Smaller Image",
+          "type": "*",
+          "link": 983
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            984
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 136,
+      "type": "Node Collector (rgthree)",
+      "pos": [
+        420,
+        760
+      ],
+      "size": [
+        280,
+        106
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 118,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "Alternative Sampler",
+          "type": "*",
+          "link": 448
+        },
+        {
+          "dir": 3,
+          "name": "Landscape Orientation",
+          "type": "*",
+          "link": 783
+        },
+        {
+          "dir": 3,
+          "name": "Spicy Impact Booster (experimental)",
+          "type": "*",
+          "link": 785
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "Output",
+          "type": "*",
+          "links": [
+            775
+          ]
+        }
+      ],
+      "properties": {}
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        30,
+        -360
+      ],
+      "size": [
+        470,
+        350
+      ],
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 123,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 845
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 762
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            199,
+            985
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 95,
+      "type": "KSamplerSelect",
+      "pos": [
+        30,
+        -320
+      ],
+      "size": [
+        270,
+        80
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 34,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            372,
+            448
+          ]
+        }
+      ],
+      "title": "Alternative Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler_ancestral"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "KSamplerSelect",
+      "pos": [
+        30,
+        -200
+      ],
+      "size": [
+        270,
+        70
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            373
+          ]
+        }
+      ],
+      "title": "Default Euler Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 96,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        350,
+        -320
+      ],
+      "size": [
+        220,
+        190
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "SAMPLER",
+          "link": 372
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "SAMPLER",
+          "link": 373
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "SAMPLER",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "SAMPLER",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "SAMPLER",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "SAMPLER",
+          "name": "*",
+          "shape": 3,
+          "type": "SAMPLER",
+          "links": [
+            257
+          ]
+        }
+      ],
+      "title": "Sampler Switcher",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2511270846",
+        "aux_id": "rgthree/rgthree-comfy"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 322,
+      "type": "SplitSigmas",
+      "pos": [
+        1790,
+        -410
+      ],
+      "size": [
+        210,
+        80
+      ],
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 956
+        }
+      ],
+      "outputs": [
+        {
+          "name": "high_sigmas",
+          "type": "SIGMAS",
+          "links": [
+            986
+          ]
+        },
+        {
+          "name": "low_sigmas",
+          "type": "SIGMAS",
+          "links": [
+            957
+          ]
+        }
+      ],
+      "title": "Split Sigmas [2] + [6]",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SplitSigmas"
+      },
+      "widgets_values": [
+        2
+      ]
+    },
+    {
+      "id": 317,
+      "type": "ExtendIntermediateSigmas",
+      "pos": [
+        2270,
+        -150
+      ],
+      "size": [
+        277.1353515625,
+        130
+      ],
+      "flags": {},
+      "order": 95,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 953
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            951,
+            990
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "ExtendIntermediateSigmas"
+      },
+      "widgets_values": [
+        2,
+        1,
+        0.8,
+        "cosine"
+      ]
+    },
+    {
+      "id": 318,
+      "type": "SetFirstSigma",
+      "pos": [
+        2020,
+        -150
+      ],
+      "size": [
+        220,
+        60
+      ],
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 954
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            953,
+            992
+          ]
+        }
+      ],
+      "title": "Set First Sigma",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SetFirstSigma"
+      },
+      "widgets_values": [
+        0.87
+      ]
+    },
+    {
+      "id": 337,
+      "type": "Reroute",
+      "pos": [
+        2260,
+        60
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 96,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 992
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            993
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 336,
+      "type": "Reroute",
+      "pos": [
+        2570,
+        40
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 106,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 990
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            991
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 319,
+      "type": "SplitSigmas",
+      "pos": [
+        1790,
+        -170
+      ],
+      "size": [
+        210,
+        80
+      ],
+      "flags": {},
+      "order": 63,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 955
+        }
+      ],
+      "outputs": [
+        {
+          "name": "high_sigmas",
+          "type": "SIGMAS",
+          "links": [
+            988
+          ]
+        },
+        {
+          "name": "low_sigmas",
+          "type": "SIGMAS",
+          "links": [
+            954,
+            994
+          ]
+        }
+      ],
+      "title": "Split Sigmas [2] + [4]",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SplitSigmas"
+      },
+      "widgets_values": [
+        2
+      ]
+    },
+    {
+      "id": 338,
+      "type": "Reroute",
+      "pos": [
+        2020,
+        80
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 80,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 994
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            995
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 339,
+      "type": "Reroute",
+      "pos": [
+        1780,
+        100
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 64,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 996
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            997
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 335,
+      "type": "Reroute",
+      "pos": [
+        2000,
+        -260
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 988
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            989
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 334,
+      "type": "Reroute",
+      "pos": [
+        2090,
+        -240
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 75,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 986
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "SIGMAS",
+          "links": [
+            987
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 316,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        2650,
+        -110
+      ],
+      "size": [
+        263.72841796875,
+        106
+      ],
+      "flags": {},
+      "order": 105,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "any_01",
+          "type": "SIGMAS",
+          "link": 951
+        },
+        {
+          "dir": 3,
+          "name": "any_02",
+          "type": "SIGMAS",
+          "link": 952
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "SIGMAS",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "SIGMAS",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "SIGMAS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": "SIGMAS",
+          "name": "*",
+          "shape": 3,
+          "type": "SIGMAS",
+          "links": [
+            979
+          ]
+        }
+      ],
+      "title": "Low Sigmas Switcher",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 320,
+      "type": "KarrasScheduler",
+      "pos": [
+        1510,
+        -170
+      ],
+      "size": [
+        260,
+        140
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            955,
+            996
+          ]
+        }
+      ],
+      "title": "Karras Scheduler 6-Steps",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KarrasScheduler"
+      },
+      "widgets_values": [
+        6,
+        0.99,
+        0.08,
+        0.3
+      ]
+    },
+    {
+      "id": 315,
+      "type": "Mute / Bypass Repeater (rgthree)",
+      "pos": [
+        2720,
+        40
+      ],
+      "size": [
+        260.0787109375,
+        106
+      ],
+      "flags": {},
+      "order": 112,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "ExtendIntermediateSigmas",
+          "type": "*",
+          "link": 991
+        },
+        {
+          "dir": 3,
+          "name": "Set First Sigma",
+          "type": "*",
+          "link": 993
+        },
+        {
+          "dir": 3,
+          "name": "Split Sigmas [2] + [4]",
+          "type": "*",
+          "link": 995
+        },
+        {
+          "dir": 3,
+          "name": "Karras Scheduler 6-Steps",
+          "type": "*",
+          "link": 997
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "color_off": "#a80",
+          "color_on": "#Fc0",
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": [
+            982
+          ]
+        }
+      ],
+      "title": "Only 7 Steps",
+      "properties": {}
+    },
+    {
+      "id": 291,
+      "type": "Reroute",
+      "pos": [
+        3130,
+        -680
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 905
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            885,
+            893
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        3010,
+        710
+      ],
+      "size": [
+        350,
+        450
+      ],
+      "flags": {},
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 287
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 332,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        3010,
+        1200
+      ],
+      "size": [
+        350,
+        120
+      ],
+      "flags": {},
+      "order": 121,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "Only 7 Steps",
+          "type": "*",
+          "link": 984
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "ACCELERATION (default = all-no)",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 57,
+      "type": "PrimitiveNode",
+      "pos": [
+        3370,
+        850
+      ],
+      "size": [
+        530,
+        700
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "value"
+          },
+          "links": [
+            295,
+            296
+          ]
+        }
+      ],
+      "title": "PROMPT",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A woman of Argentinian appearance, with full, red lips and a smile, stands on the left side of the frame in a vibrant, slightly blurry, nighttime club scene. She is clad in a pink, bulky, industrial-style mecha armor, made of metal and covering her body, and in her hands, she holds a huge black gun. To her right, a tall and powerfully built polar bear, also wearing identical mecha armor but in black, is dancing alongside her, its massive paws raised in the air, and its eyes directly facing the camera with a wide, cheerful grin spreading across its face. The setting is a crowded nightclub with people in the background, surrounded by smoke, and colorful lights flashing everywhere. The atmosphere is lively, with the woman and the polar bear seemingly lost in the music, moving in sync as if dancing together, their mecha armor glistening under the flashing lights."
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 219,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        2680,
+        1920
+      ],
+      "size": [
+        350,
+        150
+      ],
+      "flags": {},
+      "order": 170,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 718
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Z-IMAGE ENHANCER (none = fast)",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
     }
   ],
   "links": [
@@ -7108,14 +7579,6 @@
       6,
       0,
       73,
-      0,
-      "*"
-    ],
-    [
-      201,
-      7,
-      0,
-      74,
       0,
       "*"
     ],
@@ -7204,14 +7667,6 @@
       125,
       0,
       34,
-      0,
-      "*"
-    ],
-    [
-      405,
-      70,
-      0,
-      76,
       0,
       "*"
     ],
@@ -7880,19 +8335,11 @@
       "*"
     ],
     [
-      784,
-      255,
-      0,
-      136,
-      2,
-      "*"
-    ],
-    [
       785,
       260,
       0,
       136,
-      3,
+      2,
       "*"
     ],
     [
@@ -8280,14 +8727,6 @@
       "CLIP"
     ],
     [
-      846,
-      273,
-      0,
-      7,
-      0,
-      "CLIP"
-    ],
-    [
       852,
       274,
       0,
@@ -8488,22 +8927,6 @@
       "LATENT"
     ],
     [
-      891,
-      288,
-      0,
-      287,
-      0,
-      "SIGMAS"
-    ],
-    [
-      892,
-      290,
-      1,
-      288,
-      0,
-      "SIGMAS"
-    ],
-    [
       893,
       291,
       0,
@@ -8600,30 +9023,6 @@
       "SAMPLER"
     ],
     [
-      912,
-      76,
-      0,
-      290,
-      0,
-      "SIGMAS"
-    ],
-    [
-      913,
-      300,
-      0,
-      289,
-      4,
-      "SIGMAS"
-    ],
-    [
-      914,
-      290,
-      0,
-      300,
-      0,
-      "SIGMAS"
-    ],
-    [
       915,
       77,
       0,
@@ -8646,38 +9045,6 @@
       302,
       0,
       "VAE"
-    ],
-    [
-      918,
-      302,
-      0,
-      298,
-      1,
-      "VAE"
-    ],
-    [
-      928,
-      305,
-      0,
-      286,
-      4,
-      "SIGMAS"
-    ],
-    [
-      929,
-      287,
-      0,
-      305,
-      0,
-      "SIGMAS"
-    ],
-    [
-      932,
-      59,
-      0,
-      70,
-      0,
-      "INT"
     ],
     [
       934,
@@ -8750,6 +9117,238 @@
       279,
       5,
       "LATENT"
+    ],
+    [
+      951,
+      317,
+      0,
+      316,
+      0,
+      "SIGMAS"
+    ],
+    [
+      952,
+      324,
+      0,
+      316,
+      1,
+      "SIGMAS"
+    ],
+    [
+      953,
+      318,
+      0,
+      317,
+      0,
+      "SIGMAS"
+    ],
+    [
+      954,
+      319,
+      1,
+      318,
+      0,
+      "SIGMAS"
+    ],
+    [
+      955,
+      320,
+      0,
+      319,
+      0,
+      "SIGMAS"
+    ],
+    [
+      956,
+      321,
+      0,
+      322,
+      0,
+      "SIGMAS"
+    ],
+    [
+      957,
+      322,
+      1,
+      323,
+      0,
+      "SIGMAS"
+    ],
+    [
+      958,
+      323,
+      0,
+      324,
+      0,
+      "SIGMAS"
+    ],
+    [
+      976,
+      302,
+      0,
+      330,
+      0,
+      "VAE"
+    ],
+    [
+      977,
+      330,
+      0,
+      298,
+      1,
+      "VAE"
+    ],
+    [
+      978,
+      325,
+      0,
+      289,
+      4,
+      "SIGMAS"
+    ],
+    [
+      979,
+      316,
+      0,
+      286,
+      4,
+      "SIGMAS"
+    ],
+    [
+      981,
+      255,
+      0,
+      333,
+      0,
+      "*"
+    ],
+    [
+      982,
+      315,
+      0,
+      331,
+      0,
+      "*"
+    ],
+    [
+      983,
+      333,
+      0,
+      331,
+      1,
+      "*"
+    ],
+    [
+      984,
+      331,
+      0,
+      332,
+      0,
+      "*"
+    ],
+    [
+      985,
+      6,
+      0,
+      74,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      986,
+      322,
+      0,
+      334,
+      0,
+      "SIGMAS"
+    ],
+    [
+      987,
+      334,
+      0,
+      325,
+      1,
+      "SIGMAS"
+    ],
+    [
+      988,
+      319,
+      0,
+      335,
+      0,
+      "SIGMAS"
+    ],
+    [
+      989,
+      335,
+      0,
+      325,
+      0,
+      "SIGMAS"
+    ],
+    [
+      990,
+      317,
+      0,
+      336,
+      0,
+      "SIGMAS"
+    ],
+    [
+      991,
+      336,
+      0,
+      315,
+      0,
+      "SIGMAS"
+    ],
+    [
+      992,
+      318,
+      0,
+      337,
+      0,
+      "SIGMAS"
+    ],
+    [
+      993,
+      337,
+      0,
+      315,
+      1,
+      "SIGMAS"
+    ],
+    [
+      994,
+      319,
+      1,
+      338,
+      0,
+      "SIGMAS"
+    ],
+    [
+      995,
+      338,
+      0,
+      315,
+      2,
+      "SIGMAS"
+    ],
+    [
+      996,
+      320,
+      0,
+      339,
+      0,
+      "SIGMAS"
+    ],
+    [
+      997,
+      339,
+      0,
+      315,
+      3,
+      "SIGMAS"
     ]
   ],
   "groups": [
@@ -8772,31 +9371,27 @@
       "id": 3,
       "title": "{#TITLE} {#VERSION}",
       "bounding": [
-        2640,
-        590,
+        2980,
+        610,
         1300,
         840
       ],
       "color": "#3f789e",
       "font_size": 44,
-      "flags": {
-        "pinned": true
-      }
+      "flags": {}
     },
     {
       "id": 4,
       "title": "CIVITAI Compatibility",
       "bounding": [
-        4220,
-        1060,
+        4560,
+        1080,
         630,
         430
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {
-        "pinned": true
-      }
+      "flags": {}
     },
     {
       "id": 5,
@@ -8817,25 +9412,23 @@
       "id": 7,
       "title": "GGUF MODELS",
       "bounding": [
-        -460,
-        -390,
+        -630,
+        -740,
         400,
         470
       ],
       "color": "#444",
       "font_size": 24,
-      "flags": {
-        "pinned": true
-      }
+      "flags": {}
     },
     {
       "id": 8,
-      "title": "PROMPT, SAMPLER & SIGMAS",
+      "title": "PROMPT & SAMPLER",
       "bounding": [
-        110,
-        130,
-        620,
-        510
+        20,
+        -440,
+        560,
+        320
       ],
       "color": "#444",
       "font_size": 24,
@@ -8872,15 +9465,28 @@
       "flags": {
         "pinned": true
       }
+    },
+    {
+      "id": 11,
+      "title": "Sigmas Generator",
+      "bounding": [
+        1500,
+        -490,
+        1500,
+        660
+      ],
+      "color": "#444",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7962209302325579,
+      "scale": 0.7238372093023253,
       "offset": [
-        -2235.0164293537787,
-        -436.66666666666663
+        -2475.2953632712665,
+        -445.61445783132524
       ]
     },
     "frontendVersion": "1.34.9",
