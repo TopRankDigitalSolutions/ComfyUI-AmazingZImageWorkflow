@@ -715,6 +715,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -781,6 +782,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -956,6 +958,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -1682,6 +1685,7 @@
           "link": 817
         },
         {
+          "dir": 3,
           "name": "any_17",
           "type": "STRING",
           "link": null
@@ -1852,7 +1856,7 @@
         "collapsed": true
       },
       "order": 17,
-      "mode": 0,
+      "mode": 2,
       "inputs": [],
       "outputs": [
         {
@@ -2642,6 +2646,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -2740,6 +2745,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SAMPLER",
           "link": null
@@ -3194,6 +3200,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -3436,6 +3443,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -4567,7 +4575,7 @@
       ],
       "flags": {},
       "order": 30,
-      "mode": 2,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -4672,7 +4680,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "Full-body portrait in deeply faded 1980s TSR Dungeons & Dragons illustration style of Marvel_Dazzler_80s her short blonde hair tousled in a messy, carefree cascade, tied back with a red sash that adds a pop of color to her rockstar vibe. She’s clad in a blue bodysuit that hugs her medium-breasted frame, a bold starburst emblazoned on her chest sparkling with her sound-to-light powers, topped with a brown cropped leather jacket that hangs open, exuding a gritty edge. Every detail—from the wild sweep of her hair to the retro gleam of her outfit—radiates the energy of a mutant performer, a disco queen turned superhero whose dazzle lights up both the stage and the battlefield, capturing the classic Larry Elmore and Jeff Easley golden-era aesthetic with meticulous hand-painted gouache detail and romantic fantasy heroism, heavily yellowed and aged paper texture with pronounced faint age spots, soft foxing discoloration, and subtle coffee-ring stains as if pulled from a well-thumbed 1983–1987 AD&D rulebook or module that has sat on a gamer’s shelf for decades, ultra-smooth airbrushed gradients for luminous depth and form on skin, armor, hair, and fabrics for epic TSR cover presence, extremely soft and heavily desaturated pastel color palette with muted earth tones, dramatic lighting with strong rim glow, washed-out faded blues and greens, gentle warm ochre highlights, and overall low saturation as if reproduced from original four-color offset printing of the era with visible color separation limitations, prominent subtle halftone dot patterns, faint cyan-magenta-yellow registration shifts, and slight ink bleed for authentic 1980s print reproduction, heavily worn rounded corners, multiple light creases, thumb smudges, and edge fraying evoking a cherished vintage manual repeatedly opened and loved, classic confident heroic stance with subtle dynamic tension and weight distribution for poised readiness, abstract ethereal background for mystical TSR atmosphere, deeply nostalgic 1983–1987 TSR golden era vibe with pronounced warm analog warmth, visible painterly brush textures, soft airbrush blending, and evocative high-fantasy realism reminiscent of iconic covers such as the 1st Edition Player’s Handbook, Dungeon Master’s Guide, or Fiend Folio. Include no props.\n"
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
       ]
     },
     {
@@ -4766,7 +4774,7 @@
         "Node name for S&R": "StringTrim"
       },
       "widgets_values": [
-        "Full-body portrait in deeply faded 1980s TSR Dungeons & Dragons illustration style of Marvel_Dazzler_80s her short blonde hair tousled in a messy, carefree cascade, tied back with a red sash that adds a pop of color to her rockstar vibe. She’s clad in a blue bodysuit that hugs her medium-breasted frame, a bold starburst emblazoned on her chest sparkling with her sound-to-light powers, topped with a brown cropped leather jacket that hangs open, exuding a gritty edge. Every detail—from the wild sweep of her hair to the retro gleam of her outfit—radiates the energy of a mutant performer, a disco queen turned superhero whose dazzle lights up both the stage and the battlefield, capturing the classic Larry Elmore and Jeff Easley golden-era aesthetic with meticulous hand-painted gouache detail and romantic fantasy heroism, heavily yellowed and aged paper texture with pronounced faint age spots, soft foxing discoloration, and subtle coffee-ring stains as if pulled from a well-thumbed 1983–1987 AD&D rulebook or module that has sat on a gamer’s shelf for decades, ultra-smooth airbrushed gradients for luminous depth and form on skin, armor, hair, and fabrics for epic TSR cover presence, extremely soft and heavily desaturated pastel color palette with muted earth tones, dramatic lighting with strong rim glow, washed-out faded blues and greens, gentle warm ochre highlights, and overall low saturation as if reproduced from original four-color offset printing of the era with visible color separation limitations, prominent subtle halftone dot patterns, faint cyan-magenta-yellow registration shifts, and slight ink bleed for authentic 1980s print reproduction, heavily worn rounded corners, multiple light creases, thumb smudges, and edge fraying evoking a cherished vintage manual repeatedly opened and loved, classic confident heroic stance with subtle dynamic tension and weight distribution for poised readiness, abstract ethereal background for mystical TSR atmosphere, deeply nostalgic 1983–1987 TSR golden era vibe with pronounced warm analog warmth, visible painterly brush textures, soft airbrush blending, and evocative high-fantasy realism reminiscent of iconic covers such as the 1st Edition Player’s Handbook, Dungeon Master’s Guide, or Fiend Folio. Include no props.\n",
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background.",
         "Both"
       ]
     },
@@ -4810,6 +4818,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "LATENT",
           "link": null
@@ -4958,98 +4967,6 @@
         "connections_layout": [
           "Right",
           "Top"
-        ]
-      }
-    },
-    {
-      "id": 238,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        5610,
-        1700
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 174,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 774
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "Output",
-          "type": "*",
-          "links": [
-            717
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Top",
-          "Left"
-        ]
-      }
-    },
-    {
-      "id": 237,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        5790,
-        430
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 173,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 772
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            714
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Top",
-          "Left"
         ]
       }
     },
@@ -5257,7 +5174,7 @@
         "aux_id": "rgthree/rgthree-comfy"
       },
       "widgets_values": [
-        "Full-body portrait in deeply faded 1980s TSR Dungeons & Dragons illustration style of Marvel_Dazzler_80s her short blonde hair tousled in a messy, carefree cascade, tied back with a red sash that adds a pop of color to her rockstar vibe. She’s clad in a blue bodysuit that hugs her medium-breasted frame, a bold starburst emblazoned on her chest sparkling with her sound-to-light powers, topped with a brown cropped leather jacket that hangs open, exuding a gritty edge. Every detail—from the wild sweep of her hair to the retro gleam of her outfit—radiates the energy of a mutant performer, a disco queen turned superhero whose dazzle lights up both the stage and the battlefield, capturing the classic Larry Elmore and Jeff Easley golden-era aesthetic with meticulous hand-painted gouache detail and romantic fantasy heroism, heavily yellowed and aged paper texture with pronounced faint age spots, soft foxing discoloration, and subtle coffee-ring stains as if pulled from a well-thumbed 1983–1987 AD&D rulebook or module that has sat on a gamer’s shelf for decades, ultra-smooth airbrushed gradients for luminous depth and form on skin, armor, hair, and fabrics for epic TSR cover presence, extremely soft and heavily desaturated pastel color palette with muted earth tones, dramatic lighting with strong rim glow, washed-out faded blues and greens, gentle warm ochre highlights, and overall low saturation as if reproduced from original four-color offset printing of the era with visible color separation limitations, prominent subtle halftone dot patterns, faint cyan-magenta-yellow registration shifts, and slight ink bleed for authentic 1980s print reproduction, heavily worn rounded corners, multiple light creases, thumb smudges, and edge fraying evoking a cherished vintage manual repeatedly opened and loved, classic confident heroic stance with subtle dynamic tension and weight distribution for poised readiness, abstract ethereal background for mystical TSR atmosphere, deeply nostalgic 1983–1987 TSR golden era vibe with pronounced warm analog warmth, visible painterly brush textures, soft airbrush blending, and evocative high-fantasy realism reminiscent of iconic covers such as the 1st Edition Player’s Handbook, Dungeon Master’s Guide, or Fiend Folio. Include no props."
+        "YOUR CONTEXT:\nYou are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour photographs exhibit a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.\n---\nYOUR PHOTO:\nA woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
       ]
     },
     {
@@ -5382,8 +5299,8 @@
       "id": 264,
       "type": "Reroute",
       "pos": [
-        4960,
-        -1930
+        5210,
+        -1950
       ],
       "size": [
         75,
@@ -5525,8 +5442,8 @@
       "id": 265,
       "type": "Reroute",
       "pos": [
-        4970,
-        -1220
+        5300,
+        -1230
       ],
       "size": [
         75,
@@ -6170,6 +6087,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -6389,328 +6307,6 @@
       }
     },
     {
-      "id": 274,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        5940,
-        220
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 149,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1122
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            852
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Left",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 276,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        5950,
-        -2340
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 150,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 852
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            853
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
-      }
-    },
-    {
-      "id": 407,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6240,
-        680
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 108,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1162
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1151
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Left",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 408,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6370,
-        880
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 109,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1163
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 1,
-          "label": " ",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            1152
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Left",
-          "Top"
-        ]
-      }
-    },
-    {
-      "id": 278,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -840,
-        -2350
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 151,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 853
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            1085
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
-      }
-    },
-    {
-      "id": 409,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6121.8366985758,
-        -2465.355328458736
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 115,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1151
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1153
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
-      }
-    },
-    {
-      "id": 410,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        6280,
-        -2610
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 116,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1152
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            1154
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Bottom",
-          "Left"
-        ]
-      }
-    },
-    {
       "id": 6,
       "type": "CLIPTextEncode",
       "pos": [
@@ -6841,52 +6437,6 @@
       "properties": {
         "showOutputText": false,
         "horizontal": false
-      }
-    },
-    {
-      "id": 411,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -965.4361295325134,
-        -2452.101967215647
-      ],
-      "size": [
-        80,
-        80
-      ],
-      "flags": {},
-      "order": 122,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1153
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            1156
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          80,
-          80
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
       }
     },
     {
@@ -7379,50 +6929,6 @@
       "shape": 1
     },
     {
-      "id": 88,
-      "type": "Fast Muter (rgthree)",
-      "pos": [
-        3010,
-        710
-      ],
-      "size": [
-        350,
-        450
-      ],
-      "flags": {},
-      "order": 93,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "none",
-          "type": "*",
-          "link": 1112
-        },
-        {
-          "dir": 3,
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "STYLE SELECTOR",
-      "properties": {
-        "toggleRestriction": "always one"
-      },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 97,
       "type": "Fast Muter (rgthree)",
       "pos": [
@@ -7499,7 +7005,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "Full-body portrait in deeply faded 1980s TSR Dungeons & Dragons illustration style of Marvel_Dazzler_80s her short blonde hair tousled in a messy, carefree cascade, tied back with a red sash that adds a pop of color to her rockstar vibe. She’s clad in a blue bodysuit that hugs her medium-breasted frame, a bold starburst emblazoned on her chest sparkling with her sound-to-light powers, topped with a brown cropped leather jacket that hangs open, exuding a gritty edge. Every detail—from the wild sweep of her hair to the retro gleam of her outfit—radiates the energy of a mutant performer, a disco queen turned superhero whose dazzle lights up both the stage and the battlefield, capturing the classic Larry Elmore and Jeff Easley golden-era aesthetic with meticulous hand-painted gouache detail and romantic fantasy heroism, heavily yellowed and aged paper texture with pronounced faint age spots, soft foxing discoloration, and subtle coffee-ring stains as if pulled from a well-thumbed 1983–1987 AD&D rulebook or module that has sat on a gamer’s shelf for decades, ultra-smooth airbrushed gradients for luminous depth and form on skin, armor, hair, and fabrics for epic TSR cover presence, extremely soft and heavily desaturated pastel color palette with muted earth tones, dramatic lighting with strong rim glow, washed-out faded blues and greens, gentle warm ochre highlights, and overall low saturation as if reproduced from original four-color offset printing of the era with visible color separation limitations, prominent subtle halftone dot patterns, faint cyan-magenta-yellow registration shifts, and slight ink bleed for authentic 1980s print reproduction, heavily worn rounded corners, multiple light creases, thumb smudges, and edge fraying evoking a cherished vintage manual repeatedly opened and loved, classic confident heroic stance with subtle dynamic tension and weight distribution for poised readiness, abstract ethereal background for mystical TSR atmosphere, deeply nostalgic 1983–1987 TSR golden era vibe with pronounced warm analog warmth, visible painterly brush textures, soft airbrush blending, and evocative high-fantasy realism reminiscent of iconic covers such as the 1st Edition Player’s Handbook, Dungeon Master’s Guide, or Fiend Folio. Include no props.\n"
+        "A woman wearing a dress with a sexy cleavage smiling on the dance floor of a dimly lit nightclub, while two Alien Xenomorphs dance in the background."
       ],
       "color": "#232",
       "bgcolor": "#353",
@@ -7569,6 +7075,510 @@
       "color": "#232",
       "bgcolor": "#353",
       "shape": 1
+    },
+    {
+      "id": 88,
+      "type": "Fast Muter (rgthree)",
+      "pos": [
+        3010,
+        710
+      ],
+      "size": [
+        350,
+        450
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "none",
+          "type": "*",
+          "link": 1112
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "STYLE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 411,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -970,
+        -2500
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1153
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1156
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 278,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -850,
+        -2440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 151,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 853
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1085
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 410,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6370,
+        -2560
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1152
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1154
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 407,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6290,
+        590
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 108,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1162
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1151
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 409,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6290,
+        -2500
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 115,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1151
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1153
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 276,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6220,
+        -2440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 852
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            853
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Bottom",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 274,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6220,
+        210
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 149,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1122
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            852
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 408,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6370,
+        680
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1163
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1152
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Left",
+          "Top"
+        ]
+      }
+    },
+    {
+      "id": 238,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        5940,
+        1690
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 174,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 774
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "Output",
+          "type": "*",
+          "links": [
+            717
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      }
+    },
+    {
+      "id": 237,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        6030,
+        440
+      ],
+      "size": [
+        80,
+        80
+      ],
+      "flags": {},
+      "order": 173,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 1,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 772
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            714
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          80,
+          80
+        ],
+        "connections_layout": [
+          "Top",
+          "Left"
+        ]
+      }
     }
   ],
   "links": [
@@ -9508,10 +9518,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7962209302325579,
+      "scale": 0.7962209302325577,
       "offset": [
-        -2575.0164293537787,
-        -456.66666666666663
+        -2575.016429353778,
+        -456.66666666666697
       ]
     },
     "frontendVersion": "1.34.9",
