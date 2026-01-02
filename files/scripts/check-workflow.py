@@ -59,34 +59,43 @@ def fatal_error(message: str, *info_messages: str) -> None:
 
 #--------------------------------- HELPERS ---------------------------------#
 
+class Node:
+    def __init__(self, name, x, y):
+        self.name = name
+        self.x = x
+        self.y = y
+
+
 def is_terminal_output() -> bool:
     """Check if the standard output is connected to a terminal."""
     return sys.stdout.isatty()
 
 
-def get_unpinned_nodes(workflow: dict) -> (list, int):
-    """Extracts unpinned nodes from a workflow
-
-    This function extracts all nodes that are not pinned.
+def get_unpinned_elements(workflow: dict, /,*, type: str) -> tuple[list[Node], int]:
+    """
+    Retrieve unpinned elements (nodes or groups) from a workflow.
 
     Args:
-        workflow (dict): A dictionary representing a workflow.
-
+        workflow (dict): A dictionary containing workflow data.
+        type      (str): The type of elements to process, either "nodes" or "groups".
     Returns:
-        list: A list of unpinned nodes, each represented as a namedtuple
-              with 'name', 'x', and 'y' attributes.
+        tuple[list[Node], int]: A tuple containing a list of unpinned Node objects
+                                and the total number of nodes/groups.
     """
-    unpinned_nodes = []
+    # verify type is either "nodes" or "groups"
+    if type != "nodes" and type != "groups":
+        raise ValueError("Invalid type. Expected either 'nodes' or 'groups'.")
 
-    nodes = workflow.get('nodes')
+    nodes = workflow.get(type)
     if not nodes:
-        return []
+        return [], 0
 
+    unpinned_nodes = []
     for node in nodes:
-        title       = node.get('title', node.get('type', '?'))
-        flags       = node.get('flags')
-        pinned_flag = flags and flags.get('pinned')
-        position    = node.get('pos')
+        title    = node.get('title', node.get('type', '?'))
+        flags    = node.get('flags')
+        pinned   = flags.get('pinned',False) if isinstance(flags, dict) else False
+        position = node.get('pos') or node.get('bounding')
 
         # extract 'x' and 'y' coordinates
         # the coordinates can be located using 'app.canvas.canvas_mouse'
@@ -97,12 +106,13 @@ def get_unpinned_nodes(workflow: dict) -> (list, int):
             x = position.get('0', x)
             y = position.get('1', y)
 
-        # append unpinned nodes
-        if not pinned_flag:
-            unpinned_node = type('Node', (), {'name': title, 'x': x, 'y': y})
+        # if the node isn't pinned, add it to the `unpinned_nodes` list
+        if not pinned:
+            unpinned_node = Node(title, x, y)
             unpinned_nodes.append(unpinned_node)
 
     return unpinned_nodes, len(nodes)
+
 
 def is_two_element_array_like(data):
     """Checks if the input data is a two-element array-like structure
@@ -249,7 +259,8 @@ def main(args=None, parent_script=None):
             print(f"{YELLOW} - Imposible leer el workflow del archivo.{RESET}")
             continue
 
-        unpinned_nodes, total_count   = get_unpinned_nodes(workflow)
+        unpinned_nodes , total_num_of_nodes  = get_unpinned_elements(workflow, type="nodes")
+        unpinned_groups, total_num_of_groups = get_unpinned_elements(workflow, type="groups")
         pos_bug_count, size_bug_count = check_node_dimensions(workflow);
         view_displaced_error, view_scaled_error = False, False
         if args.extra_checks:
@@ -257,8 +268,8 @@ def main(args=None, parent_script=None):
             view_displaced_error = view_x != 0 or view_y != 0
             view_scaled_error    = view_scale != 1
 
-        if not unpinned_nodes and not view_displaced_error and not view_scaled_error:
-            print(f"{GREEN}  - The {total_count} nodes are pinned and no errors found.{RESET}")
+        if not unpinned_nodes and not unpinned_groups and not view_displaced_error and not view_scaled_error:
+            print(f"{GREEN}  - The {total_num_of_nodes} nodes and {total_num_of_groups} groups are pinned and no errors found.{RESET}")
 
         if pos_bug_count > 0:
             print(f"{RED}  - Potential issues with 'pos' attribute : {pos_bug_count}{RESET}")
@@ -274,8 +285,12 @@ def main(args=None, parent_script=None):
         if unpinned_nodes:
             print(f"{RED}  - Found {len(unpinned_nodes)} unpinned nodes:{RESET}")
             for node in unpinned_nodes:
-                #print(f"       {node.name}  ({node.x}, {node.y})")
                 print(f"       ({node.x:>4},{node.y:>4}) {node.name}")
+
+        if unpinned_groups:
+            print(f"{RED}  - Found {len(unpinned_groups)} unpinned groups:{RESET}")
+            for group in unpinned_groups:
+                print(f"       ({group.x:>4},{group.y:>4}) {group.name}")
 
     print()
 
