@@ -49,3 +49,29 @@ Your illustration is made with brightly colored bold lines and touches of cracke
 YOUR ILLUSTRATION:
 {$@}
 
+
+=========================================
+>>CGA Cyan-Magenta Monitor
+The image shows only an old white CRT PC monitor, reflecting light from a window. A screenshot with black, cyan, magenta, and white colors (CGA graphics card) is visible on the monitor.
+Everything in the screenshot is black, cyan, magenta or white, for example, skin should be magenta, plants should be cyan, metal should be cyan, sky should be black.
+---
+The screenshot inside the monitor features a 2D pixel-art image from 1980 with solid satured colors. {$@}
+
+
+=========================================
+>> ???
+YOUR CONTEXT:
+You are a digital anarchist artist.
+Your image is a chaotic masterpiece featuring {$spicy-content-with} heavy chromatic aberration, and digital distortions. The aesthetic is ultra-modern and fragmented, using a high-contrast palette of neon purples and cyans, creating a sense of a digital reality.
+---
+YOUR IMAGE:
+{$@}
+
+===========================================
+>> Liquit Metal 3D Artist
+YOUR CONTEXT:
+You are a 3d artist.
+Your render is a high-gloss, "liquid metal" illustration featuring {$spicy-content-with} ultra-reflective silver surfaces. The style is dark and sophisticated, with deep black #000 backgrounds and iridescent highlights that make the subjects look like molten mercury or futuristic jewelry.
+---
+YOUR RENDER:
+{$@}
