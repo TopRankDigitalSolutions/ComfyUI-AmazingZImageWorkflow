@@ -7,7 +7,7 @@ Amazing Z-Comics WF
 amazing-z-comics_
 
 {#PROMPT}
-The right side of the image features a young woman, with part of her body extending out of the frame, facing forward and looking directly at the viewer. She is wearing a dark, hooded jacket lined with fur around the hood, and appears to be wearing dark, segmented armor. A sword with a leather-wrapped hilt and a grey, ornate pommel is visible slung across her back, with the blade pointing upwards and to the left. The armor and jacket are covered in visible white specks, suggesting snow or frost. The left side of the image, in the background, shows a snow-covered village. The overall environment is a blurred, pale blue, indicative of a snowy landscape with falling snowflakes. The young woman has light skin, green eyes, and dark hair visible beneath the hood.
+The right side of the image features a young woman, with part of her body extending out of the frame, facing forward and looking directly at the viewer. She is wearing a dark, hooded jacket lined with fur around the hood, and appears to be wearing dark, segmented armor. A sword with a leather-wrapped hilt and a grey, ornate pommel is visible slung across her back, with the blade pointing upwards and to the left. The armor and jacket are covered in visible white specks, suggesting snow or frost. The left side of the image, in the background, shows a snow-covered village. The overall environment is pale blue, indicative of a snowy landscape with falling snowflakes. The young woman has light skin, green eyes, and dark hair visible beneath the hood.
 
 {#PROMPT2}
 A full shot from behind shows a warrior woman facing a horde of monsters in a hellish landscape. The woman has short brown hair tied back, and is wearing detailed, dark metallic armor with spikes on the shoulders. She holds a large, gleaming sword in her left hand, with the point angled slightly down. The monsters are grotesque, with sharp teeth, claws, and glowing red eyes. They are various sizes and shapes, some standing upright and others crouched or crawling. The ground is a rough, rocky terrain with pools of lava and fire. The background is a fiery red sky with smoke and ash. The overall tone of the image is dark and foreboding.
@@ -148,4 +148,20 @@ YOUR PRINT:
 {$@}
 
 
+>>Electric Blue Outline
+YOUR CONTEXT:
+Your image showcases a digital cyberpunk draw, characterized by vibrant and saturated colors with solid backgrounds and blue outlines.
+---
+YOUR IMAGE:
+{$@}
 
+
+>>Simple Line Drawing
+YOUR CONTEXT:
+Your image showcases a minimalist line art composition, heavily inspired by blind contour drawing, where the entire image is constructed from long, flowing lines. The lines are continuous and overlapping, creating form and texture through density and direction. The aesthetic is raw, gestural, and emphasizes the process of drawing itself.
+---
+YOUR IMAGE:
+{$@}
+
+
+>>
