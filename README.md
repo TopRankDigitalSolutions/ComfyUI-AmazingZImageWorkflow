@@ -1,6 +1,6 @@
 <div align="center">
 
-# Amazing Z-Image Workflow v3.0
+# Amazing Z-Image Workflow v4.0
 [![Platform](https://img.shields.io/badge/platform%3A-ComfyUI-007BFF)](#)
 [![License](https://img.shields.io/github/license/martin-rizzo/AmazingZImageWorkflow?label=license%3A&color=28A745)](#)
 [![Version](https://img.shields.io/github/v/tag/martin-rizzo/AmazingZImageWorkflow?label=version%3A&color=D07250)](#)
@@ -23,6 +23,7 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
    - [For "amazing-z-###_GGUF.json"](#for-amazing-z-_ggufjson)
    - [For "amazing-z-###_SAFETENSORS.json"](#for-amazing-z-_safetensorsjson)
    - [For Low-VRAM Systems](#for-low-vram-systems)
+   - [For Version 3.x](#for-version-3x)
 5. [License](#license)
 
 ## Features
@@ -86,11 +87,6 @@ These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/
    Local Directory: __`ComfyUI/models/text_encoders/`__
  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>[335 MB]</sub>\
    Local Directory: __`ComfyUI/models/vae/`__
- - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
-   Local Directory: __`ComfyUI/models/upscale_models/`__
- - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
-   Local Directory: __`ComfyUI/models/upscale_models/`__
-   
 
 ### For "amazing-z-###_SAFETENSORS.json"
 
@@ -102,10 +98,6 @@ These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/
    Local Directory: __`ComfyUI/models/text_encoders/`__
  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
    Local Directory: __`ComfyUI/models/vae/`__
- - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
-   Local Directory: __`ComfyUI/models/upscale_models/`__
- - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
-   Local Directory: __`ComfyUI/models/upscale_models/`__
 
 ### For Low-VRAM Systems
 
@@ -123,6 +115,14 @@ If neither of the two provided versions nor their associated checkpoints perform
 
 *   **[Qwen3-4B (Various GGUF Quantizations)](https://huggingface.co/mradermacher/Qwen3-4B-i1-GGUF/tree/main)**
     This repository offers various quantized versions of the `Qwen3-4B` text encoder in GGUF format (e.g., Q2_K, Q3_K_M). **Note:** Quantizations beginning with "IQ" might not work, as the GGUF node did not support them during my testing.
+
+### For Version 3.x
+If, for some reason, you need to use the older version 3.x, you will also require the following additional files:
+
+ - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
+   Local Directory: __`ComfyUI/models/upscale_models/`__
+ - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
+   Local Directory: __`ComfyUI/models/upscale_models/`__
 
 ## License
 
