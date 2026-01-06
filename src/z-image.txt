@@ -15,6 +15,9 @@ Three people and a creature stand in front of shelves laden with various items. 
 >>:PIN
 *
 
+>>:PIN-GROUP
+*
+
 
 >>>Lo-fi Mobile Photo
 YOUR CONTEXT:

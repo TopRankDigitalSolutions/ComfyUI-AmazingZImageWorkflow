@@ -100,8 +100,9 @@ class ConfigVars(dict):
     """
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args,**kwargs)
-        self.styles             = []
-        self.node_modifications = []
+        self.styles              = []
+        self.node_modifications  = []
+        self.group_modifications = []
 
     def __missing__(self,key):
         return '{' + key + '}'
@@ -159,6 +160,24 @@ def process_action(config_vars: ConfigVars,
                 node_title = line.strip()
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"pinned":True}) )
+
+        elif action == ">>:UNPIN":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.node_modifications.append( (node_title, {"pinned":False}) )
+
+        elif action == ">>:PIN-GROUP":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.group_modifications.append( (node_title, {"pinned":True}) )
+
+        elif action == ">>:UNPIN-GROUP":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.group_modifications.append( (node_title, {"pinned":False}) )
 
         else:
             warning(f"Unknown command '{action}'")
@@ -338,24 +357,30 @@ def find_nodes_in_rectangle(json: dict, rectangle: list[int]) -> list:
 
 def apply_operation_to_node(workflow : dict,
                             title    : str,
-                            operation: Callable[[dict], None]
+                            operation: Callable[[dict], None],
+                            type     : str = "node"
                             ) -> int:
     """
     Applies a given operation to all nodes in the workflow with a matching title.
     Args:
-        workflow : The dictionary containing the full comfyui workflow.
-        title    : The title of the node(s) to which the operation should be applied
-                   Use "*" as a wildcard to apply the operation to all nodes.
-        operation: A callable function that takes a single argument (the node dictionary)
-                   and applies some modification or action to it.
+        workflow       : The dictionary containing the full comfyui workflow.
+        title          : The title of the node(s) to which the operation should be applied
+                         Use "*" as a wildcard to apply the operation to all nodes.
+        operation      : A callable function that takes a single argument (the node dictionary)
+                         and applies some modification or action to it.
+        type (optional): The type of elements to search. Either 'node' or 'group'.
+                         By default it is set to 'node'.
     Returns:
         An integer representing the number of nodes on which the operation was performed.
     """
+    if type != "node" and type != "group":
+        raise ValueError("Invalid type. Expected either 'node' or 'group'.")
+
     if not isinstance(workflow, dict):
         return 0
 
     count = 0
-    for node in workflow.get("nodes", []):
+    for node in workflow.get("groups" if type=="group" else "nodes", []):
         if not isinstance(node, dict):
             continue
 
@@ -380,15 +405,20 @@ def update_node_mode(workflow: dict, title: str, mode: int) -> int:
     return apply_operation_to_node(workflow, title, update_mode)
 
 
-def update_node_pin(workflow: dict, title: str, pinned: bool) -> int:
+def update_pin(workflow: dict, title: str, pinned: bool, type: str = "node") -> int:
     """
-    Modifies the pinned status of a node that matches a given title.
+    Modifies the pinned status of a node (or group) that matches a given title.
     Args:
         workflow: The dictionary containing the full comfyui workflow.
         title   : The title of the node(s) to which the operation should be applied
                   Use "*" as a wildcard to apply the operation to all nodes.
         pinned  : Boolean indicating whether the node should be pinned or not.
+        type (optional): The type of element to search. Either 'node' or 'group'.
+                         By default it is set to 'node'.
     """
+    if type != "node" and type != "group":
+        raise ValueError("Invalid type. Expected either 'node' or 'group'.")
+
     def update_pin(node: dict) -> None:
         if not pinned:
             flags = node.get('flags')
@@ -400,8 +430,8 @@ def update_node_pin(workflow: dict, title: str, pinned: bool) -> int:
                 flags = {}
             flags['pinned'] = True
             node['flags'] = flags
+    return apply_operation_to_node(workflow, title, update_pin, type=type)
 
-    return apply_operation_to_node(workflow, title, update_pin)
 
 
 def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> None:
@@ -556,18 +586,28 @@ def make_workflow(template_filepath     : str,
 
     #=== WORKFLOW NODE MODIFICATIONS ===#
 
-    for node_title, modification in config_vars.node_modifications:
-        if not isinstance(node_title, str) or not isinstance(modification, dict):
+    for title, modification in config_vars.node_modifications:
+        if not isinstance(title, str) or not isinstance(modification, dict):
             continue
 
         # changing the node's "mode" (enable=0, disable=2, bypass=4)
         if "mode" in modification:
-            update_node_mode(template_json, title=node_title, mode=modification["mode"])
+            update_node_mode(template_json, title=title, mode=modification["mode"])
 
         # changing the node's "pin" (pinned=true, unpinned=false)
         elif "pinned" in modification:
-            update_node_pin(template_json, title=node_title, pinned=modification["pinned"])
- 
+            update_pin(template_json, title=title, pinned=modification["pinned"], type="node")
+
+    #=== WORKFLOW GROUP MODIFICATIONS ===#
+
+    for title, modification in config_vars.group_modifications:
+        if not isinstance(title, str) or not isinstance(modification, dict):
+            continue
+
+        # changing the node's "pin" (pinned=true, unpinned=false)
+        elif "pinned" in modification:
+            update_pin(template_json, title=title, pinned=modification["pinned"], type="group")
+
     #=== STYLES.TXT ===#
 
     if styles_filename:

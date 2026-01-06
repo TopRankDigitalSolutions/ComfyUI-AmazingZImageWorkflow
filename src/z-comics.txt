@@ -21,6 +21,9 @@ A full shot from behind shows a warrior woman facing a horde of monsters in a he
 >>:PIN
 *
 
+>>:PIN-GROUP
+*
+
 
 >>>Comic
 YOUR CONTEXT:

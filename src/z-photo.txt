@@ -15,6 +15,9 @@ A fair-skinned young woman is depicted in profile, looking directly at the camer
 >>:PIN
 *
 
+>>:PIN-GROUP
+*
+
 
 >>>Phone Photo
 YOUR CONTEXT:
