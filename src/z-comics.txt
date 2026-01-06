@@ -18,6 +18,10 @@ A full shot from behind shows a warrior woman facing a horde of monsters in a he
 >>:DISABLE
 "PHOTO" Mode
 
+>>:PIN
+*
+
+
 >>>Comic
 YOUR CONTEXT:
 You are an american artist.

@@ -154,6 +154,12 @@ def process_action(config_vars: ConfigVars,
                 if node_title:
                     config_vars.node_modifications.append( (node_title, {"mode":2}) )
 
+        elif action == ">>:PIN":
+            for line in content.splitlines():
+                node_title = line.strip()
+                if node_title:
+                    config_vars.node_modifications.append( (node_title, {"pinned":True}) )
+
         else:
             warning(f"Unknown command '{action}'")
 
@@ -337,7 +343,7 @@ def apply_operation_to_node(workflow : dict,
     """
     Applies a given operation to all nodes in the workflow with a matching title.
     Args:
-        workflow : The dictionary representing the comfyui workflow.
+        workflow : The dictionary containing the full comfyui workflow.
         title    : The title of the node(s) to which the operation should be applied
                    Use "*" as a wildcard to apply the operation to all nodes.
         operation: A callable function that takes a single argument (the node dictionary)
@@ -364,14 +370,38 @@ def update_node_mode(workflow: dict, title: str, mode: int) -> int:
     """
     Modifies the mode of a node with a matching title in the workflow.
     Args:
-        workflow: The dictionary representing the comfyui workflow.
+        workflow: The dictionary containing the full comfyui workflow.
         title   : The title of the node(s) to which the operation should be applied
                   Use "*" as a wildcard to apply the operation to all nodes.
         mode    : The new mode value to set for the specified node.
     """
     def update_mode(node: dict) -> None:
         node["mode"] = mode
-    apply_operation_to_node(workflow, title, update_mode)
+    return apply_operation_to_node(workflow, title, update_mode)
+
+
+def update_node_pin(workflow: dict, title: str, pinned: bool) -> int:
+    """
+    Modifies the pinned status of a node that matches a given title.
+    Args:
+        workflow: The dictionary containing the full comfyui workflow.
+        title   : The title of the node(s) to which the operation should be applied
+                  Use "*" as a wildcard to apply the operation to all nodes.
+        pinned  : Boolean indicating whether the node should be pinned or not.
+    """
+    def update_pin(node: dict) -> None:
+        if not pinned:
+            flags = node.get('flags')
+            if isinstance(flags, dict) and 'pinned' in flags:
+                del flags['pinned']
+        else:
+            flags = node.get('flags')
+            if not isinstance(flags, dict):
+                flags = {}
+            flags['pinned'] = True
+            node['flags'] = flags
+
+    return apply_operation_to_node(workflow, title, update_pin)
 
 
 def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> None:
@@ -530,16 +560,13 @@ def make_workflow(template_filepath     : str,
         if not isinstance(node_title, str) or not isinstance(modification, dict):
             continue
 
-       # try to find the node that is being modified by the configuration
-        node = find_node(template_json, title=node_title)
-        if not node:
-            warning(f"The node with title '{node_title}' was not found.")
-            continue
-
-        # the only modification that is implemented so far is
         # changing the node's "mode" (enable=0, disable=2, bypass=4)
         if "mode" in modification:
             update_node_mode(template_json, title=node_title, mode=modification["mode"])
+
+        # changing the node's "pin" (pinned=true, unpinned=false)
+        elif "pinned" in modification:
+            update_node_pin(template_json, title=node_title, pinned=modification["pinned"])
  
     #=== STYLES.TXT ===#
 
