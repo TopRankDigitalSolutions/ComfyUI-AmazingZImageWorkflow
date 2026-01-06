@@ -136,7 +136,7 @@ def process_action(config_vars: ConfigVars,
 
     # actions with format ">>>STYLE NAME" add a style to the dictionary
     elif action.startswith(">>>"):
-        style_name = action[2:].strip()
+        style_name = action[3:].strip()
         style      = (style_name, content.strip())
         config_vars.styles.append( style )
 
