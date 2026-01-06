@@ -88,6 +88,8 @@ These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/
    Local Directory: __`ComfyUI/models/text_encoders/`__
  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>[335 MB]</sub>\
    Local Directory: __`ComfyUI/models/vae/`__
+ - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for illustration refining) [66.9 MB]</sub>\
+   Local Directory: __`ComfyUI/models/upscale_models/`__
 
 ### For "amazing-z-###_SAFETENSORS.json"
 
@@ -99,6 +101,8 @@ These nodes can be installed via [ComfyUI-Manager](https://github.com/Comfy-Org/
    Local Directory: __`ComfyUI/models/text_encoders/`__
  - __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ <sub>(335 MB)</sub>\
    Local Directory: __`ComfyUI/models/vae/`__
+ - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for illustration refining) [66.9 MB]</sub>\
+   Local Directory: __`ComfyUI/models/upscale_models/`__
 
 ### For Low-VRAM Systems
 
@@ -118,11 +122,9 @@ If neither of the two provided versions nor their associated checkpoints perform
     This repository offers various quantized versions of the `Qwen3-4B` text encoder in GGUF format (e.g., Q2_K, Q3_K_M). **Note:** Quantizations beginning with "IQ" might not work, as the GGUF node did not support them during my testing.
 
 ### For Version 3.x
-If, for some reason, you need to use the older version 3.x, you will also require the following additional files:
+If, for some reason, you need to use the older version 3.x, you will also require the following additional file:
 
- - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
-   Local Directory: __`ComfyUI/models/upscale_models/`__
- - __[4x_foolhardy_Remacri.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors)__ <sub>(for image enhancer) [66.9 MB]</sub>\
+ - __[4x_Nickelback_70000G.safetensors](https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors)__ <sub>[66.9 MB]</sub>\
    Local Directory: __`ComfyUI/models/upscale_models/`__
 
 ## License
