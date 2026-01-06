@@ -27,18 +27,19 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 5. [License](#license)
 
 ## Features
-- **Style Selector**: Choose from fifteen customizable image styles.
-- **Photo Refiner**: Improves final photo quality by performing a second pass.
-- **Photo Upscaler**: Increases the resolution of any generated photo by 50%.
-- Acceleration Panel:
+- **Style Selector**: Choose from eighteen customizable image styles.
+- **Refiner**: Improves final quality by performing a second pass.
+- **Upscaler**: Increases the resolution of any generated image by 50%.
+- **Refiner/Upscaler Mode**: Allows selecting between photo and illustration modes to optimize refinement and upscaling for specific image types.
+- Speed Options:
     - **7 Steps Switch**: Uses fewer steps while maintaining the quality.
     - **Smaller Image Switch**: Generates images at a lower resolution (1216 x 832 pixels).
 - Extra Options:
-    - **Landscape Switch**: Change to horizontal image generation with a single click.
     - **Alternative Sampler Switch**: Easily test generation with an alternative sampler.
+    - **Landscape Orientation Switch**: Change to horizontal image generation with a single click.
     - **Spicy Impact Booster Switch**: Adds a subtle spicy condiment to the prompt (fully experimental).
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned by hand according to my preference (100% subjective).
+- Custom sigma values fine-tuned by hand (version 4.0 utilizes a new set of experimental sigma values)
 - Generated images are saved in the "ZImage" folder, organized by date.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
