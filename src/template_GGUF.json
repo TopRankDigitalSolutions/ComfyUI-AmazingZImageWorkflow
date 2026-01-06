@@ -1,8 +1,8 @@
 {
-  "id": "d8f03674-49ec-4460-9c66-a496ea004e86",
+  "id": "49ba6399-03c2-414d-87b1-4cd9e8206bf2",
   "revision": 0,
-  "last_node_id": 544,
-  "last_link_id": 1437,
+  "last_node_id": 565,
+  "last_link_id": 1482,
   "nodes": [
     {
       "id": 60,
@@ -547,7 +547,7 @@
         106
       ],
       "flags": {},
-      "order": 140,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -575,6 +575,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "STRING",
           "link": null
@@ -1116,7 +1117,7 @@
         406
       ],
       "flags": {},
-      "order": 98,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -1337,7 +1338,7 @@
         196.0000000000004
       ],
       "flags": {},
-      "order": 128,
+      "order": 129,
       "mode": 2,
       "inputs": [
         {
@@ -1383,7 +1384,7 @@
         26
       ],
       "flags": {},
-      "order": 184,
+      "order": 187,
       "mode": 0,
       "inputs": [
         {
@@ -1418,7 +1419,7 @@
         26
       ],
       "flags": {},
-      "order": 177,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -1488,7 +1489,7 @@
         26
       ],
       "flags": {},
-      "order": 172,
+      "order": 175,
       "mode": 0,
       "inputs": [
         {
@@ -1705,6 +1706,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -1867,7 +1869,7 @@
         26
       ],
       "flags": {},
-      "order": 126,
+      "order": 127,
       "mode": 0,
       "inputs": [
         {
@@ -2090,7 +2092,7 @@
         106
       ],
       "flags": {},
-      "order": 137,
+      "order": 139,
       "mode": 2,
       "inputs": [
         {
@@ -2151,7 +2153,7 @@
         26
       ],
       "flags": {},
-      "order": 178,
+      "order": 181,
       "mode": 0,
       "inputs": [
         {
@@ -2187,7 +2189,7 @@
         26
       ],
       "flags": {},
-      "order": 187,
+      "order": 191,
       "mode": 0,
       "inputs": [
         {
@@ -2222,7 +2224,7 @@
         26
       ],
       "flags": {},
-      "order": 173,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -2258,7 +2260,7 @@
         26
       ],
       "flags": {},
-      "order": 183,
+      "order": 186,
       "mode": 0,
       "inputs": [
         {
@@ -2330,7 +2332,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 148,
+      "order": 150,
       "mode": 0,
       "inputs": [
         {
@@ -2376,7 +2378,7 @@
         26
       ],
       "flags": {},
-      "order": 159,
+      "order": 161,
       "mode": 0,
       "inputs": [
         {
@@ -2412,7 +2414,7 @@
         196.00000000000023
       ],
       "flags": {},
-      "order": 129,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -2617,7 +2619,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
+        "A city with its buildings and traffic. In the middle of the street, a bright red tandem go-kart is speeding along. The front passenger is dressed in a full Mario costume, including a red cap with the iconic white \"M,\" a red shirt, blue overalls, white gloves, and a fake mustache. The character's face, visible in profile, shows an angry expression, as if yelling insults at the traffic, with furrowed brows and a sneer. His hands are on the steering wheel. Just behind him, in the second seat, is a man wearing a white shirt, a dark vest over the shirt, blue jeans, and a red cap also adorned with a white \"M.\" The man's eyes are wide open, showing worry and fear. The go-kart is understated, with a large white \"M\" and \"UBER BROS\" emblazoned on the front. Its wheels are black with thin red details on the rim. The street is wet, and traffic is visible, including several cars and a truck in the distance. There are also tall city buildings with various signs and advertisements."
       ]
     },
     {
@@ -2632,7 +2634,7 @@
         26
       ],
       "flags": {},
-      "order": 139,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -2668,7 +2670,7 @@
         26
       ],
       "flags": {},
-      "order": 158,
+      "order": 160,
       "mode": 0,
       "inputs": [
         {
@@ -2918,7 +2920,7 @@
         26
       ],
       "flags": {},
-      "order": 174,
+      "order": 177,
       "mode": 0,
       "inputs": [
         {
@@ -2954,7 +2956,7 @@
         26
       ],
       "flags": {},
-      "order": 160,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -2990,7 +2992,7 @@
         80
       ],
       "flags": {},
-      "order": 132,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -3036,7 +3038,7 @@
         80
       ],
       "flags": {},
-      "order": 131,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -3082,7 +3084,7 @@
         80
       ],
       "flags": {},
-      "order": 196,
+      "order": 201,
       "mode": 0,
       "inputs": [
         {
@@ -3128,7 +3130,7 @@
         26
       ],
       "flags": {},
-      "order": 182,
+      "order": 185,
       "mode": 0,
       "inputs": [
         {
@@ -3163,7 +3165,7 @@
         26
       ],
       "flags": {},
-      "order": 186,
+      "order": 190,
       "mode": 0,
       "inputs": [
         {
@@ -3198,7 +3200,7 @@
         26
       ],
       "flags": {},
-      "order": 130,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -3233,7 +3235,7 @@
         26
       ],
       "flags": {},
-      "order": 190,
+      "order": 195,
       "mode": 0,
       "inputs": [
         {
@@ -3269,7 +3271,7 @@
         26
       ],
       "flags": {},
-      "order": 191,
+      "order": 196,
       "mode": 0,
       "inputs": [
         {
@@ -3305,7 +3307,7 @@
         26
       ],
       "flags": {},
-      "order": 141,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -3341,7 +3343,7 @@
         26
       ],
       "flags": {},
-      "order": 135,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -3376,7 +3378,7 @@
         26
       ],
       "flags": {},
-      "order": 164,
+      "order": 166,
       "mode": 0,
       "inputs": [
         {
@@ -3411,7 +3413,7 @@
         80
       ],
       "flags": {},
-      "order": 246,
+      "order": 257,
       "mode": 0,
       "inputs": [
         {
@@ -3485,6 +3487,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SAMPLER",
           "link": null
@@ -3557,7 +3560,7 @@
         26
       ],
       "flags": {},
-      "order": 168,
+      "order": 171,
       "mode": 0,
       "inputs": [
         {
@@ -3829,7 +3832,7 @@
         26
       ],
       "flags": {},
-      "order": 154,
+      "order": 156,
       "mode": 0,
       "inputs": [
         {
@@ -3867,7 +3870,7 @@
         600
       ],
       "flags": {},
-      "order": 153,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -3886,7 +3889,7 @@
         "aux_id": "rgthree/rgthree-comfy"
       },
       "widgets_values": [
-        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\nA young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
+        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\nA city with its buildings and traffic. In the middle of the street, a bright red tandem go-kart is speeding along. The front passenger is dressed in a full Mario costume, including a red cap with the iconic white \"M,\" a red shirt, blue overalls, white gloves, and a fake mustache. The character's face, visible in profile, shows an angry expression, as if yelling insults at the traffic, with furrowed brows and a sneer. His hands are on the steering wheel. Just behind him, in the second seat, is a man wearing a white shirt, a dark vest over the shirt, blue jeans, and a red cap also adorned with a white \"M.\" The man's eyes are wide open, showing worry and fear. The go-kart is understated, with a large white \"M\" and \"UBER BROS\" emblazoned on the front. Its wheels are black with thin red details on the rim. The street is wet, and traffic is visible, including several cars and a truck in the distance. There are also tall city buildings with various signs and advertisements."
       ]
     },
     {
@@ -3903,7 +3906,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 163,
+      "order": 165,
       "mode": 0,
       "inputs": [
         {
@@ -3952,7 +3955,7 @@
         26
       ],
       "flags": {},
-      "order": 157,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -3990,7 +3993,7 @@
         26
       ],
       "flags": {},
-      "order": 124,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -4025,7 +4028,7 @@
         106
       ],
       "flags": {},
-      "order": 125,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -4053,6 +4056,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "SIGMAS",
           "link": null
@@ -4090,7 +4094,7 @@
         26
       ],
       "flags": {},
-      "order": 138,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -4125,7 +4129,7 @@
         26
       ],
       "flags": {},
-      "order": 136,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -4160,7 +4164,7 @@
         26
       ],
       "flags": {},
-      "order": 144,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -4195,7 +4199,7 @@
         26
       ],
       "flags": {},
-      "order": 146,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -4230,7 +4234,7 @@
         26
       ],
       "flags": {},
-      "order": 193,
+      "order": 198,
       "mode": 0,
       "inputs": [
         {
@@ -4265,7 +4269,7 @@
         26
       ],
       "flags": {},
-      "order": 194,
+      "order": 199,
       "mode": 0,
       "inputs": [
         {
@@ -4300,7 +4304,7 @@
         26
       ],
       "flags": {},
-      "order": 169,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -4512,7 +4516,7 @@
         26
       ],
       "flags": {},
-      "order": 79,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -4620,7 +4624,7 @@
         406
       ],
       "flags": {},
-      "order": 99,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -4738,6 +4742,7 @@
           "link": 1276
         },
         {
+          "dir": 3,
           "name": "any_20",
           "type": "STRING",
           "link": null
@@ -4853,7 +4858,7 @@
         "Node name for S&R": "StringTrim"
       },
       "widgets_values": [
-        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed.",
+        "A city with its buildings and traffic. In the middle of the street, a bright red tandem go-kart is speeding along. The front passenger is dressed in a full Mario costume, including a red cap with the iconic white \"M,\" a red shirt, blue overalls, white gloves, and a fake mustache. The character's face, visible in profile, shows an angry expression, as if yelling insults at the traffic, with furrowed brows and a sneer. His hands are on the steering wheel. Just behind him, in the second seat, is a man wearing a white shirt, a dark vest over the shirt, blue jeans, and a red cap also adorned with a white \"M.\" The man's eyes are wide open, showing worry and fear. The go-kart is understated, with a large white \"M\" and \"UBER BROS\" emblazoned on the front. Its wheels are black with thin red details on the rim. The street is wet, and traffic is visible, including several cars and a truck in the distance. There are also tall city buildings with various signs and advertisements.",
         "Both"
       ]
     },
@@ -4909,7 +4914,7 @@
         560
       ],
       "flags": {},
-      "order": 195,
+      "order": 200,
       "mode": 0,
       "inputs": [
         {
@@ -4991,7 +4996,7 @@
         570
       ],
       "flags": {},
-      "order": 192,
+      "order": 197,
       "mode": 0,
       "inputs": [
         {
@@ -5073,7 +5078,7 @@
         26
       ],
       "flags": {},
-      "order": 147,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -5187,7 +5192,7 @@
         26
       ],
       "flags": {},
-      "order": 180,
+      "order": 183,
       "mode": 0,
       "inputs": [
         {
@@ -5223,7 +5228,7 @@
         26
       ],
       "flags": {},
-      "order": 189,
+      "order": 193,
       "mode": 0,
       "inputs": [
         {
@@ -5258,7 +5263,7 @@
         26
       ],
       "flags": {},
-      "order": 175,
+      "order": 178,
       "mode": 0,
       "inputs": [
         {
@@ -5294,7 +5299,7 @@
         26
       ],
       "flags": {},
-      "order": 185,
+      "order": 188,
       "mode": 0,
       "inputs": [
         {
@@ -5329,7 +5334,7 @@
         26
       ],
       "flags": {},
-      "order": 70,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -5353,40 +5358,6 @@
       }
     },
     {
-      "id": 471,
-      "type": "KSamplerSelect",
-      "pos": [
-        100,
-        4110
-      ],
-      "size": [
-        270,
-        70
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SAMPLER",
-          "type": "SAMPLER",
-          "links": [
-            1281
-          ]
-        }
-      ],
-      "title": "Default Euler Sampler",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KSamplerSelect"
-      },
-      "widgets_values": [
-        "euler"
-      ]
-    },
-    {
       "id": 472,
       "type": "Reroute",
       "pos": [
@@ -5398,7 +5369,7 @@
         26
       ],
       "flags": {},
-      "order": 161,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -5506,7 +5477,7 @@
         80
       ],
       "flags": {},
-      "order": 198,
+      "order": 203,
       "mode": 0,
       "inputs": [
         {
@@ -5552,7 +5523,7 @@
         80
       ],
       "flags": {},
-      "order": 143,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -5633,7 +5604,7 @@
         80
       ],
       "flags": {},
-      "order": 142,
+      "order": 144,
       "mode": 0,
       "inputs": [
         {
@@ -5668,145 +5639,6 @@
       }
     },
     {
-      "id": 512,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3410
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 181,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "NEG",
-          "name": "",
-          "type": "*",
-          "link": 1384
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 514,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3380
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 176,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "POS",
-          "name": "",
-          "type": "*",
-          "link": 1383
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CONDITIONING",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 515,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3350
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 162,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "MODEL",
-          "name": "",
-          "type": "*",
-          "link": 1382
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": []
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 436,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3130
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 222,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "IMAGE",
-          "name": "",
-          "type": "*",
-          "link": 1209
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1365,
-            1367
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 280,
       "type": "Reroute",
       "pos": [
@@ -5818,7 +5650,7 @@
         26
       ],
       "flags": {},
-      "order": 200,
+      "order": 205,
       "mode": 0,
       "inputs": [
         {
@@ -5892,7 +5724,7 @@
         26
       ],
       "flags": {},
-      "order": 206,
+      "order": 211,
       "mode": 0,
       "inputs": [
         {
@@ -5927,7 +5759,7 @@
         26
       ],
       "flags": {},
-      "order": 179,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -5963,7 +5795,7 @@
         50
       ],
       "flags": {},
-      "order": 203,
+      "order": 208,
       "mode": 0,
       "inputs": [
         {
@@ -6006,7 +5838,7 @@
         26
       ],
       "flags": {},
-      "order": 201,
+      "order": 206,
       "mode": 0,
       "inputs": [
         {
@@ -6030,41 +5862,6 @@
       }
     },
     {
-      "id": 513,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        3850
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 109,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1357
-        }
-      ],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            1380
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": true,
-        "horizontal": false
-      }
-    },
-    {
       "id": 71,
       "type": "Reroute",
       "pos": [
@@ -6076,7 +5873,7 @@
         26
       ],
       "flags": {},
-      "order": 155,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -6115,7 +5912,7 @@
         26
       ],
       "flags": {},
-      "order": 170,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -6154,7 +5951,7 @@
         26
       ],
       "flags": {},
-      "order": 171,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -6193,7 +5990,7 @@
         106
       ],
       "flags": {},
-      "order": 241,
+      "order": 252,
       "mode": 0,
       "inputs": [
         {
@@ -6221,6 +6018,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -6256,7 +6054,7 @@
         194
       ],
       "flags": {},
-      "order": 223,
+      "order": 217,
       "mode": 0,
       "inputs": [
         {
@@ -6311,7 +6109,7 @@
         80
       ],
       "flags": {},
-      "order": 227,
+      "order": 221,
       "mode": 0,
       "inputs": [
         {
@@ -6343,39 +6141,6 @@
       "widgets_values": []
     },
     {
-      "id": 483,
-      "type": "UpscaleModelLoader",
-      "pos": [
-        -20,
-        4230
-      ],
-      "size": [
-        360,
-        60
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "UPSCALE_MODEL",
-          "type": "UPSCALE_MODEL",
-          "links": [
-            1295
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "UpscaleModelLoader"
-      },
-      "widgets_values": [
-        "4x_foolhardy_Remacri.safetensors"
-      ]
-    },
-    {
       "id": 478,
       "type": "VAEEncode",
       "pos": [
@@ -6389,7 +6154,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 231,
+      "order": 227,
       "mode": 0,
       "inputs": [
         {
@@ -6431,7 +6196,7 @@
         210
       ],
       "flags": {},
-      "order": 229,
+      "order": 224,
       "mode": 0,
       "inputs": [
         {
@@ -6511,79 +6276,6 @@
       }
     },
     {
-      "id": 488,
-      "type": "KarrasScheduler",
-      "pos": [
-        500,
-        4150
-      ],
-      "size": [
-        270,
-        140
-      ],
-      "flags": {},
-      "order": 31,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            1286
-          ]
-        }
-      ],
-      "title": "Karras Scheduler (sigmas)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "KarrasScheduler"
-      },
-      "widgets_values": [
-        3,
-        0.22,
-        0.06,
-        0.5
-      ]
-    },
-    {
-      "id": 533,
-      "type": "Reroute",
-      "pos": [
-        1360,
-        4360
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 224,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "ORIG",
-          "name": "",
-          "type": "*",
-          "link": 1403
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1404
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 479,
       "type": "Reroute",
       "pos": [
@@ -6595,7 +6287,7 @@
         26
       ],
       "flags": {},
-      "order": 134,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -6630,7 +6322,7 @@
         26
       ],
       "flags": {},
-      "order": 239,
+      "order": 240,
       "mode": 0,
       "inputs": [
         {
@@ -6666,7 +6358,7 @@
         26
       ],
       "flags": {},
-      "order": 167,
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -6701,7 +6393,7 @@
         26
       ],
       "flags": {},
-      "order": 92,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -6725,52 +6417,6 @@
       }
     },
     {
-      "id": 530,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -110,
-        3890
-      ],
-      "size": [
-        60,
-        60
-      ],
-      "flags": {},
-      "order": 219,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1385
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1387
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          60,
-          60
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
-      }
-    },
-    {
       "id": 529,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -6782,7 +6428,7 @@
         60
       ],
       "flags": {},
-      "order": 217,
+      "order": 238,
       "mode": 0,
       "inputs": [
         {
@@ -6790,7 +6436,7 @@
           "label": " ",
           "name": "",
           "type": "*",
-          "link": 1386
+          "link": 1475
         }
       ],
       "outputs": [
@@ -6817,122 +6463,6 @@
       }
     },
     {
-      "id": 520,
-      "type": "Reroute",
-      "pos": [
-        1630,
-        3800
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 210,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1355
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            1388
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 517,
-      "type": "Reroute",
-      "pos": [
-        1630,
-        3400
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 214,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1427
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1386
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 381,
-      "type": "Reroute (rgthree)",
-      "pos": [
-        -100,
-        2570
-      ],
-      "size": [
-        60,
-        60
-      ],
-      "flags": {},
-      "order": 220,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": 1096
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 2,
-          "label": " ",
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1209
-          ]
-        }
-      ],
-      "properties": {
-        "resizable": false,
-        "size": [
-          60,
-          60
-        ],
-        "connections_layout": [
-          "Right",
-          "Bottom"
-        ]
-      }
-    },
-    {
       "id": 380,
       "type": "Reroute (rgthree)",
       "pos": [
@@ -6944,7 +6474,7 @@
         60
       ],
       "flags": {},
-      "order": 218,
+      "order": 225,
       "mode": 0,
       "inputs": [
         {
@@ -6990,7 +6520,7 @@
         26
       ],
       "flags": {},
-      "order": 216,
+      "order": 222,
       "mode": 0,
       "inputs": [
         {
@@ -7026,7 +6556,7 @@
         26
       ],
       "flags": {},
-      "order": 212,
+      "order": 218,
       "mode": 0,
       "inputs": [
         {
@@ -7097,7 +6627,7 @@
         60
       ],
       "flags": {},
-      "order": 209,
+      "order": 215,
       "mode": 2,
       "inputs": [
         {
@@ -7141,7 +6671,7 @@
         454
       ],
       "flags": {},
-      "order": 205,
+      "order": 210,
       "mode": 0,
       "inputs": [
         {
@@ -7213,7 +6743,7 @@
         26
       ],
       "flags": {},
-      "order": 188,
+      "order": 192,
       "mode": 0,
       "inputs": [
         {
@@ -7248,7 +6778,7 @@
         26
       ],
       "flags": {},
-      "order": 166,
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -7283,7 +6813,7 @@
         70
       ],
       "flags": {},
-      "order": 32,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7317,7 +6847,7 @@
         140
       ],
       "flags": {},
-      "order": 71,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -7361,7 +6891,7 @@
         26
       ],
       "flags": {},
-      "order": 202,
+      "order": 207,
       "mode": 0,
       "inputs": [
         {
@@ -7396,7 +6926,7 @@
         140
       ],
       "flags": {},
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7433,7 +6963,7 @@
         26
       ],
       "flags": {},
-      "order": 237,
+      "order": 250,
       "mode": 0,
       "inputs": [
         {
@@ -7458,41 +6988,6 @@
       }
     },
     {
-      "id": 525,
-      "type": "Reroute",
-      "pos": [
-        1290,
-        3120
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 226,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1367
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1366
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 181,
       "type": "SamplerCustom",
       "pos": [
@@ -7504,7 +6999,7 @@
         490
       ],
       "flags": {},
-      "order": 232,
+      "order": 245,
       "mode": 0,
       "inputs": [
         {
@@ -7576,7 +7071,7 @@
         26
       ],
       "flags": {},
-      "order": 133,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -7611,7 +7106,7 @@
         26
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -7646,7 +7141,7 @@
         26
       ],
       "flags": {},
-      "order": 165,
+      "order": 167,
       "mode": 0,
       "inputs": [
         {
@@ -7681,7 +7176,7 @@
         70
       ],
       "flags": {},
-      "order": 34,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7715,7 +7210,7 @@
         26
       ],
       "flags": {},
-      "order": 72,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -7750,7 +7245,7 @@
         140
       ],
       "flags": {},
-      "order": 35,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7789,7 +7284,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 230,
+      "order": 243,
       "mode": 0,
       "inputs": [
         {
@@ -7867,7 +7362,7 @@
         106
       ],
       "flags": {},
-      "order": 228,
+      "order": 241,
       "mode": 0,
       "inputs": [
         {
@@ -7909,7 +7404,7 @@
         194
       ],
       "flags": {},
-      "order": 225,
+      "order": 236,
       "mode": 0,
       "inputs": [
         {
@@ -8002,7 +7497,7 @@
         26
       ],
       "flags": {},
-      "order": 199,
+      "order": 204,
       "mode": 0,
       "inputs": [
         {
@@ -8038,7 +7533,7 @@
         80
       ],
       "flags": {},
-      "order": 149,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -8084,7 +7579,7 @@
         80
       ],
       "flags": {},
-      "order": 150,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -8130,7 +7625,7 @@
         80
       ],
       "flags": {},
-      "order": 244,
+      "order": 255,
       "mode": 0,
       "inputs": [
         {
@@ -8176,7 +7671,7 @@
         80
       ],
       "flags": {},
-      "order": 240,
+      "order": 251,
       "mode": 0,
       "inputs": [
         {
@@ -8222,7 +7717,7 @@
         80
       ],
       "flags": {},
-      "order": 197,
+      "order": 202,
       "mode": 0,
       "inputs": [
         {
@@ -8268,7 +7763,7 @@
         26
       ],
       "flags": {},
-      "order": 127,
+      "order": 128,
       "mode": 0,
       "inputs": [
         {
@@ -8304,7 +7799,7 @@
         110
       ],
       "flags": {},
-      "order": 152,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -8356,7 +7851,7 @@
         120
       ],
       "flags": {},
-      "order": 145,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -8403,7 +7898,7 @@
         120
       ],
       "flags": {},
-      "order": 245,
+      "order": 256,
       "mode": 0,
       "inputs": [
         {
@@ -8552,7 +8047,7 @@
         82
       ],
       "flags": {},
-      "order": 36,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8587,7 +8082,7 @@
         110
       ],
       "flags": {},
-      "order": 97,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -8615,6 +8110,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -8652,7 +8148,7 @@
         110
       ],
       "flags": {},
-      "order": 94,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -8680,6 +8176,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -8717,7 +8214,7 @@
         80
       ],
       "flags": {},
-      "order": 96,
+      "order": 95,
       "mode": 2,
       "inputs": [
         {
@@ -8766,7 +8263,7 @@
         70
       ],
       "flags": {},
-      "order": 95,
+      "order": 94,
       "mode": 2,
       "inputs": [
         {
@@ -8815,7 +8312,7 @@
         90
       ],
       "flags": {},
-      "order": 37,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8851,7 +8348,7 @@
         90
       ],
       "flags": {},
-      "order": 38,
+      "order": 35,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -8888,7 +8385,7 @@
         26
       ],
       "flags": {},
-      "order": 73,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -8923,7 +8420,7 @@
         26
       ],
       "flags": {},
-      "order": 77,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -8958,7 +8455,7 @@
         90
       ],
       "flags": {},
-      "order": 39,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8994,7 +8491,7 @@
         90
       ],
       "flags": {},
-      "order": 40,
+      "order": 37,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -9067,7 +8564,7 @@
         110
       ],
       "flags": {},
-      "order": 74,
+      "order": 73,
       "mode": 2,
       "inputs": [
         {
@@ -9095,6 +8592,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9133,7 +8631,7 @@
         110
       ],
       "flags": {},
-      "order": 78,
+      "order": 77,
       "mode": 2,
       "inputs": [
         {
@@ -9161,6 +8659,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9201,7 +8700,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -9229,6 +8728,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9266,7 +8766,7 @@
         110
       ],
       "flags": {},
-      "order": 75,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -9294,6 +8794,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "INT",
           "link": null
@@ -9320,43 +8821,6 @@
       "widgets_values": []
     },
     {
-      "id": 489,
-      "type": "Reroute",
-      "pos": [
-        -40,
-        4360
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 221,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "IMAGE",
-          "name": "",
-          "type": "*",
-          "link": 1387
-        }
-      ],
-      "outputs": [
-        {
-          "name": "*",
-          "type": "IMAGE",
-          "links": [
-            1301,
-            1403
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 522,
       "type": "Any Switch (rgthree)",
       "pos": [
@@ -9368,7 +8832,7 @@
         106
       ],
       "flags": {},
-      "order": 213,
+      "order": 219,
       "mode": 0,
       "inputs": [
         {
@@ -9396,6 +8860,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -9421,319 +8886,6 @@
       "widgets_values": []
     },
     {
-      "id": 540,
-      "type": "Any Switch (rgthree)",
-      "pos": [
-        1320,
-        3400
-      ],
-      "size": [
-        263.72841796875,
-        106
-      ],
-      "flags": {},
-      "order": 211,
-      "mode": 0,
-      "inputs": [
-        {
-          "dir": 3,
-          "name": "any_01",
-          "type": "IMAGE",
-          "link": 1426
-        },
-        {
-          "dir": 3,
-          "name": "any_02",
-          "type": "IMAGE",
-          "link": 1429
-        },
-        {
-          "dir": 3,
-          "name": "any_03",
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "dir": 3,
-          "name": "any_04",
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "any_05",
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "label": "IMAGE",
-          "name": "*",
-          "shape": 3,
-          "type": "IMAGE",
-          "links": [
-            1427
-          ]
-        }
-      ],
-      "title": "Image Chooser",
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 528,
-      "type": "VAEDecode",
-      "pos": [
-        70,
-        3790
-      ],
-      "size": [
-        220,
-        50
-      ],
-      "flags": {},
-      "order": 204,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 1379
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 1380
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            1381,
-            1428
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "VAEDecode"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 521,
-      "type": "Image Resize (rgthree)",
-      "pos": [
-        950,
-        3390
-      ],
-      "size": [
-        270,
-        194
-      ],
-      "flags": {},
-      "order": 207,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 1381
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1355,
-            1426
-          ]
-        },
-        {
-          "name": "WIDTH",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "HEIGHT",
-          "type": "INT",
-          "links": null
-        }
-      ],
-      "title": "No-Resize (nothing)",
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
-        "Node name for S&R": "Image Resize (rgthree)"
-      },
-      "widgets_values": [
-        "percentage",
-        100,
-        0,
-        "contain",
-        "nearest-exact"
-      ]
-    },
-    {
-      "id": 541,
-      "type": "Reroute",
-      "pos": [
-        1120,
-        3790
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 208,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1428
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            1429
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 475,
-      "type": "SamplerCustom",
-      "pos": [
-        1010,
-        4070
-      ],
-      "size": [
-        220,
-        480
-      ],
-      "flags": {},
-      "order": 233,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 1282
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 1283
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 1284
-        },
-        {
-          "name": "sampler",
-          "type": "SAMPLER",
-          "link": 1285
-        },
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 1286
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 1287
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            1430
-          ]
-        },
-        {
-          "name": "denoised_output",
-          "type": "LATENT",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "SamplerCustom"
-      },
-      "widgets_values": [
-        true,
-        969696,
-        "fixed",
-        1
-      ]
-    },
-    {
-      "id": 542,
-      "type": "VAEDecode",
-      "pos": [
-        1270,
-        4070
-      ],
-      "size": [
-        170,
-        60
-      ],
-      "flags": {},
-      "order": 235,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 1430
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 1431
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1432,
-            1433
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
-        "Node name for S&R": "VAEDecode"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 543,
       "type": "VAEDecode",
       "pos": [
@@ -9745,7 +8897,7 @@
         70
       ],
       "flags": {},
-      "order": 234,
+      "order": 247,
       "mode": 2,
       "inputs": [
         {
@@ -9788,7 +8940,7 @@
         110
       ],
       "flags": {},
-      "order": 236,
+      "order": 249,
       "mode": 0,
       "inputs": [
         {
@@ -9816,6 +8968,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -9853,7 +9006,7 @@
         66
       ],
       "flags": {},
-      "order": 215,
+      "order": 239,
       "mode": 2,
       "inputs": [
         {
@@ -9864,7 +9017,7 @@
         },
         {
           "dir": 3,
-          "name": "No-Resize (nothing)",
+          "name": "VAE Decode",
           "type": "*",
           "link": 1388
         },
@@ -9902,7 +9055,7 @@
         66
       ],
       "flags": {},
-      "order": 242,
+      "order": 253,
       "mode": 2,
       "inputs": [
         {
@@ -9952,7 +9105,7 @@
         110
       ],
       "flags": {},
-      "order": 238,
+      "order": 248,
       "mode": 2,
       "inputs": [
         {
@@ -9980,6 +9133,7 @@
           "link": null
         },
         {
+          "dir": 3,
           "name": "any_05",
           "type": "IMAGE",
           "link": null
@@ -10083,7 +9237,7 @@
         1030
       ],
       "flags": {},
-      "order": 248,
+      "order": 259,
       "mode": 0,
       "inputs": [
         {
@@ -10115,7 +9269,7 @@
         120
       ],
       "flags": {},
-      "order": 156,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -10160,7 +9314,7 @@
         26
       ],
       "flags": {},
-      "order": 247,
+      "order": 258,
       "mode": 0,
       "inputs": [
         {
@@ -10195,7 +9349,7 @@
         26
       ],
       "flags": {},
-      "order": 151,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -10219,29 +9373,6 @@
       }
     },
     {
-      "id": 544,
-      "type": "Note",
-      "pos": [
-        60,
-        3520
-      ],
-      "size": [
-        430,
-        88
-      ],
-      "flags": {},
-      "order": 41,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "Illustration refiner is not yet implemented.\nThis group serves as a placeholder for its future development."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 459,
       "type": "PrimitiveStringMultiline",
       "pos": [
@@ -10253,7 +9384,7 @@
         180
       ],
       "flags": {},
-      "order": 42,
+      "order": 38,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -10277,48 +9408,1393 @@
       "shape": 1
     },
     {
-      "id": 97,
-      "type": "Fast Muter (rgthree)",
+      "id": 111,
+      "type": "Note",
       "pos": [
-        4660,
-        1330
+        4130,
+        650
+      ],
+      "size": [
+        510,
+        100
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Notes",
+      "properties": {},
+      "widgets_values": [
+        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style quality and the upscaler's output.\n> The refiner and the upscaler can be optimized for photography or illustration using the MODE SELECTOR."
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    },
+    {
+      "id": 483,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        -20,
+        4230
       ],
       "size": [
         360,
-        200
+        60
       ],
       "flags": {},
-      "order": 249,
+      "order": 40,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            1295
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4x_foolhardy_Remacri.safetensors"
+      ]
+    },
+    {
+      "id": 475,
+      "type": "SamplerCustom",
+      "pos": [
+        1010,
+        4070
+      ],
+      "size": [
+        220,
+        480
+      ],
+      "flags": {},
+      "order": 230,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1282
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 1283
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 1284
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 1285
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 1286
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 1287
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            1430
+          ]
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "SamplerCustom"
+      },
+      "widgets_values": [
+        true,
+        969696,
+        "fixed",
+        1
+      ]
+    },
+    {
+      "id": 555,
+      "type": "Reroute",
+      "pos": [
+        830,
+        3380
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 189,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1453
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1472
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 515,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3350
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 164,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "MODEL",
+          "name": "",
+          "type": "*",
+          "link": 1382
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1452
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 514,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3380
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 179,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "POS",
+          "name": "",
+          "type": "*",
+          "link": 1383
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1453
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 512,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3410
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 184,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "NEG",
+          "name": "",
+          "type": "*",
+          "link": 1384
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1454
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 542,
+      "type": "VAEDecode",
+      "pos": [
+        1270,
+        4070
+      ],
+      "size": [
+        170,
+        60
+      ],
+      "flags": {},
+      "order": 235,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 1430
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1431
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1432,
+            1433
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 471,
+      "type": "KSamplerSelect",
+      "pos": [
+        100,
+        4110
+      ],
+      "size": [
+        270,
+        70
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            1281
+          ]
+        }
+      ],
+      "title": "Default Euler Sampler",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 488,
+      "type": "KarrasScheduler",
+      "pos": [
+        500,
+        4150
+      ],
+      "size": [
+        270,
+        140
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            1286
+          ]
+        }
+      ],
+      "title": "Karras Scheduler (sigmas)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "KarrasScheduler"
+      },
+      "widgets_values": [
+        3,
+        0.22,
+        0.06,
+        0.5
+      ]
+    },
+    {
+      "id": 557,
+      "type": "VAEDecode",
+      "pos": [
+        1290,
+        3430
+      ],
+      "size": [
+        170,
+        60
+      ],
+      "flags": {},
+      "order": 229,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 1470
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1464
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1456,
+            1460
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 540,
+      "type": "Any Switch (rgthree)",
+      "pos": [
+        1500,
+        3430
+      ],
+      "size": [
+        200,
+        130
+      ],
+      "flags": {},
+      "order": 233,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
-          "name": "Refiner",
-          "type": "*",
-          "link": 1312
+          "name": "any_01",
+          "type": "IMAGE",
+          "link": 1456
         },
         {
           "dir": 3,
-          "name": "",
-          "type": "*",
+          "name": "any_02",
+          "type": "IMAGE",
+          "link": 1429
+        },
+        {
+          "dir": 3,
+          "name": "any_03",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_04",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "dir": 3,
+          "name": "any_05",
+          "type": "IMAGE",
           "link": null
         }
       ],
       "outputs": [
         {
           "dir": 4,
-          "name": "OPT_CONNECTION",
+          "label": "IMAGE",
+          "name": "*",
+          "shape": 3,
+          "type": "IMAGE",
+          "links": [
+            1475
+          ]
+        }
+      ],
+      "title": "Image Chooser",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 550,
+      "type": "Reroute",
+      "pos": [
+        710,
+        3860
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 124,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
           "type": "*",
+          "link": 1442
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            1461,
+            1463
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 552,
+      "type": "VAEEncode",
+      "pos": [
+        820,
+        3640
+      ],
+      "size": [
+        150,
+        60
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 223,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 1462
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1461
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            1474
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.77",
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 556,
+      "type": "Reroute",
+      "pos": [
+        830,
+        3350
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 170,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1452
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1471
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 554,
+      "type": "Reroute",
+      "pos": [
+        830,
+        3410
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 194,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1454
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CONDITIONING",
+          "links": [
+            1473
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 547,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        420,
+        3480
+      ],
+      "size": [
+        200,
+        80
+      ],
+      "flags": {},
+      "order": 216,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 1438
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1439
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1440
+          ]
+        }
+      ],
+      "title": "Upscale Image *4",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 545,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        20,
+        3480
+      ],
+      "size": [
+        360,
+        60
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            1438
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "4x_foolhardy_Remacri.safetensors"
+      ]
+    },
+    {
+      "id": 513,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3860
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 109,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1357
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            1380,
+            1442
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": true,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 546,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        250,
+        3640
+      ],
+      "size": [
+        260,
+        210
+      ],
+      "flags": {},
+      "order": 213,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1444
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1439
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
           "links": null
         }
       ],
-      "title": "EXTRA OPTIONS (default = all-no)",
+      "title": "Resize Image 1/2",
       "properties": {
-        "toggleRestriction": "default"
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Node name for S&R": "Image Resize (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy"
       },
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "area"
+      ]
+    },
+    {
+      "id": 548,
+      "type": "Image Resize (rgthree)",
+      "pos": [
+        530,
+        3640
+      ],
+      "size": [
+        250,
+        210
+      ],
+      "flags": {},
+      "order": 220,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1440
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1462
+          ]
+        },
+        {
+          "name": "WIDTH",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "HEIGHT",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "title": "Resize Image 1/2",
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "8ff50e4521881eca1fe26aec9615fc9362474931",
+        "Node name for S&R": "Image Resize (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy"
+      },
+      "widgets_values": [
+        "percentage",
+        50,
+        0,
+        "contain",
+        "area"
+      ]
+    },
+    {
+      "id": 520,
+      "type": "Reroute",
+      "pos": [
+        1620,
+        3660
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 234,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1460
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CTRL",
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            1388
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 563,
+      "type": "KSamplerAdvanced",
+      "pos": [
+        990,
+        3330
+      ],
+      "size": [
+        252.353515625,
+        560
+      ],
+      "flags": {},
+      "order": 226,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1471
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 1472
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 1473
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 1474
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            1470
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
+        "Node name for S&R": "KSamplerAdvanced"
+      },
+      "widgets_values": [
+        "enable",
+        696969,
+        "fixed",
+        20,
+        1,
+        "euler",
+        "simple",
+        18,
+        20,
+        "disable"
+      ]
+    },
+    {
+      "id": 541,
+      "type": "Reroute",
+      "pos": [
+        1360,
+        3790
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 212,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1428
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            1429
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 561,
+      "type": "Reroute",
+      "pos": [
+        1250,
+        3860
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 136,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1463
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            1464
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 381,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -100,
+        2570
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "flags": {},
+      "order": 228,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1096
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1209,
+            1476
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          60,
+          60
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 564,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3110
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 232,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "DEFAULT",
+          "name": "",
+          "type": "*",
+          "link": 1476
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1477
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 436,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        3080
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 231,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "INPUT",
+          "name": "",
+          "type": "*",
+          "link": 1209
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1365
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 525,
+      "type": "Reroute",
+      "pos": [
+        1290,
+        3110
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 237,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1477
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1366
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 565,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        4450
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 244,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "DEFAULT",
+          "name": "",
+          "type": "*",
+          "link": 1481
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1479
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 489,
+      "type": "Reroute",
+      "pos": [
+        -40,
+        4420
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 214,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "INPUT",
+          "name": "",
+          "type": "*",
+          "link": 1482
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            1301
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 533,
+      "type": "Reroute",
+      "pos": [
+        1360,
+        4450
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 246,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "DEFAULT",
+          "name": "",
+          "type": "*",
+          "link": 1479
+        }
+      ],
+      "outputs": [
+        {
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1404
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 530,
+      "type": "Reroute (rgthree)",
+      "pos": [
+        -110,
+        3890
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "flags": {},
+      "order": 242,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": 1385
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 2,
+          "label": " ",
+          "name": "*",
+          "type": "IMAGE",
+          "links": [
+            1481
+          ]
+        }
+      ],
+      "properties": {
+        "resizable": false,
+        "size": [
+          60,
+          60
+        ],
+        "connections_layout": [
+          "Right",
+          "Bottom"
+        ]
+      }
+    },
+    {
+      "id": 528,
+      "type": "VAEDecode",
+      "pos": [
+        50,
+        3790
+      ],
+      "size": [
+        180,
+        60
+      ],
+      "flags": {},
+      "order": 209,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 1379
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 1380
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            1428,
+            1444,
+            1482
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
     },
     {
       "id": 57,
@@ -10332,7 +10808,7 @@
         640
       ],
       "flags": {},
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10353,35 +10829,55 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        "A young nurse with long blue hair, dressed in a sleeveless black and red dress with red trim, stands beside a blue demon with red horns and sharp teeth. The demon wears a red and black robe. The background is a hospital. The demon's expression is ferocious. The image has a dark and mysterious atmosphere. The woman's skin is fair and smooth. She has short, straight hair. Her dress is fitted and accentuates her figure. The demon's robe is loose. The demon's horns are long, red, and pointed."
+        "A city with its buildings and traffic. In the middle of the street, a bright red tandem go-kart is speeding along. The front passenger is dressed in a full Mario costume, including a red cap with the iconic white \"M,\" a red shirt, blue overalls, white gloves, and a fake mustache. The character's face, visible in profile, shows an angry expression, as if yelling insults at the traffic, with furrowed brows and a sneer. His hands are on the steering wheel. Just behind him, in the second seat, is a man wearing a white shirt, a dark vest over the shirt, blue jeans, and a red cap also adorned with a white \"M.\" The man's eyes are wide open, showing worry and fear. The go-kart is understated, with a large white \"M\" and \"UBER BROS\" emblazoned on the front. Its wheels are black with thin red details on the rim. The street is wet, and traffic is visible, including several cars and a truck in the distance. There are also tall city buildings with various signs and advertisements."
       ],
       "color": "#232",
       "bgcolor": "#353",
       "shape": 1
     },
     {
-      "id": 111,
-      "type": "Note",
+      "id": 500,
+      "type": "Fast Muter (rgthree)",
       "pos": [
-        4130,
-        650
+        4280,
+        1240
       ],
       "size": [
-        510,
-        100
+        360,
+        110
       ],
       "flags": {},
-      "order": 44,
+      "order": 254,
       "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Notes",
-      "properties": {},
-      "widgets_values": [
-        "> Select the yellow group and press '.' to automatically zoom in.\n> LoRAs can affect the style quality and the upscaler's output.\n> The refiner and the upscaler can be optimized for photography or illustration using the MODE SELECTOR."
+      "inputs": [
+        {
+          "dir": 3,
+          "label": "",
+          "name": "\"PHOTO\" Mode",
+          "type": "*",
+          "link": 1332
+        },
+        {
+          "dir": 3,
+          "name": "",
+          "type": "*",
+          "link": null
+        }
       ],
-      "color": "#223",
-      "bgcolor": "#335",
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "REFINER & UPSCALER MODE SELECTOR",
+      "properties": {
+        "toggleRestriction": "always one"
+      },
+      "color": "#232",
+      "bgcolor": "#353",
       "shape": 1
     },
     {
@@ -10429,26 +10925,25 @@
       "shape": 1
     },
     {
-      "id": 500,
+      "id": 97,
       "type": "Fast Muter (rgthree)",
       "pos": [
-        4280,
-        1240
+        4660,
+        1330
       ],
       "size": [
         360,
-        110
+        200
       ],
       "flags": {},
-      "order": 243,
+      "order": 260,
       "mode": 0,
       "inputs": [
         {
           "dir": 3,
-          "label": "",
-          "name": "\"PHOTO\" Mode",
+          "name": "Refiner",
           "type": "*",
-          "link": 1332
+          "link": 1312
         },
         {
           "dir": 3,
@@ -10465,9 +10960,9 @@
           "links": null
         }
       ],
-      "title": "REFINER & UPSCALER MODE SELECTOR",
+      "title": "EXTRA OPTIONS (default = all-no)",
       "properties": {
-        "toggleRestriction": "always one"
+        "toggleRestriction": "default"
       },
       "color": "#232",
       "bgcolor": "#353",
@@ -12516,14 +13011,6 @@
       "*"
     ],
     [
-      1355,
-      521,
-      0,
-      520,
-      0,
-      "IMAGE"
-    ],
-    [
       1357,
       391,
       0,
@@ -12569,14 +13056,6 @@
       0,
       524,
       1,
-      "IMAGE"
-    ],
-    [
-      1367,
-      436,
-      0,
-      525,
-      0,
       "IMAGE"
     ],
     [
@@ -12636,14 +13115,6 @@
       "VAE"
     ],
     [
-      1381,
-      528,
-      0,
-      521,
-      0,
-      "IMAGE"
-    ],
-    [
       1382,
       71,
       0,
@@ -12674,22 +13145,6 @@
       530,
       0,
       "*"
-    ],
-    [
-      1386,
-      517,
-      0,
-      529,
-      0,
-      "IMAGE"
-    ],
-    [
-      1387,
-      530,
-      0,
-      489,
-      0,
-      "IMAGE"
     ],
     [
       1388,
@@ -12736,14 +13191,6 @@
       532,
       0,
       454,
-      0,
-      "IMAGE"
-    ],
-    [
-      1403,
-      489,
-      0,
-      533,
       0,
       "IMAGE"
     ],
@@ -12876,22 +13323,6 @@
       "INT"
     ],
     [
-      1426,
-      521,
-      0,
-      540,
-      0,
-      "IMAGE"
-    ],
-    [
-      1427,
-      540,
-      0,
-      517,
-      0,
-      "IMAGE"
-    ],
-    [
       1428,
       528,
       0,
@@ -12968,6 +13399,206 @@
       543,
       0,
       438,
+      0,
+      "IMAGE"
+    ],
+    [
+      1438,
+      545,
+      0,
+      547,
+      0,
+      "UPSCALE_MODEL"
+    ],
+    [
+      1439,
+      546,
+      0,
+      547,
+      1,
+      "IMAGE"
+    ],
+    [
+      1440,
+      547,
+      0,
+      548,
+      0,
+      "IMAGE"
+    ],
+    [
+      1442,
+      513,
+      0,
+      550,
+      0,
+      "VAE"
+    ],
+    [
+      1444,
+      528,
+      0,
+      546,
+      0,
+      "IMAGE"
+    ],
+    [
+      1452,
+      515,
+      0,
+      556,
+      0,
+      "MODEL"
+    ],
+    [
+      1453,
+      514,
+      0,
+      555,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1454,
+      512,
+      0,
+      554,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1456,
+      557,
+      0,
+      540,
+      0,
+      "IMAGE"
+    ],
+    [
+      1460,
+      557,
+      0,
+      520,
+      0,
+      "IMAGE"
+    ],
+    [
+      1461,
+      550,
+      0,
+      552,
+      1,
+      "VAE"
+    ],
+    [
+      1462,
+      548,
+      0,
+      552,
+      0,
+      "IMAGE"
+    ],
+    [
+      1463,
+      550,
+      0,
+      561,
+      0,
+      "VAE"
+    ],
+    [
+      1464,
+      561,
+      0,
+      557,
+      1,
+      "VAE"
+    ],
+    [
+      1470,
+      563,
+      0,
+      557,
+      0,
+      "LATENT"
+    ],
+    [
+      1471,
+      556,
+      0,
+      563,
+      0,
+      "MODEL"
+    ],
+    [
+      1472,
+      555,
+      0,
+      563,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      1473,
+      554,
+      0,
+      563,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      1474,
+      552,
+      0,
+      563,
+      3,
+      "LATENT"
+    ],
+    [
+      1475,
+      540,
+      0,
+      529,
+      0,
+      "IMAGE"
+    ],
+    [
+      1476,
+      381,
+      0,
+      564,
+      0,
+      "IMAGE"
+    ],
+    [
+      1477,
+      564,
+      0,
+      525,
+      0,
+      "IMAGE"
+    ],
+    [
+      1479,
+      565,
+      0,
+      533,
+      0,
+      "IMAGE"
+    ],
+    [
+      1481,
+      530,
+      0,
+      565,
+      0,
+      "IMAGE"
+    ],
+    [
+      1482,
+      528,
+      0,
+      489,
       0,
       "IMAGE"
     ]
@@ -13133,10 +13764,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7693820224719099,
+      "scale": 0.76938202247191,
       "offset": [
         -4208.214676889375,
-        -481.66666666666663
+        -481.66666666666674
       ]
     },
     "frontendVersion": "1.35.9",
