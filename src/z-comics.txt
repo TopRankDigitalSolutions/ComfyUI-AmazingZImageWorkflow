@@ -1,4 +1,6 @@
 #!ZCONFIG
+>>:INCLUDE
+globals.txt
 
 {#TITLE}
 Amazing Z-Comics WF

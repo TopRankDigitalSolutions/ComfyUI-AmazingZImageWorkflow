@@ -16,9 +16,6 @@ import json
 import argparse
 from collections.abc import Callable
 
-# list of files that should be taken as global configuration
-GLOBAL_CONFIG_FILES = ["global.txt", "globals.txt"]
-
 # default directory where to look for source files
 DEFAULT_SOURCE_DIR = "src"
 
@@ -108,17 +105,22 @@ class ConfigVars(dict):
         return '{' + key + '}'
 
 
-def process_action(config_vars: ConfigVars,
-                   action     : str,
-                   content    : str
+def process_action(action     : str,
+                   content    : str,
+                   /,*,
+                   config_vars: ConfigVars,
+                   base_dir   : str,
+                   can_include: bool = True,
                    ) -> None:
     """
     Processes an action and updates the configuration dictionary accordingly.
 
     Args:
-        config_vars: The destination configuration dictionary that will be updated.
         action     : The action line that defines how to handle the content.
         content    : The actual content associated with the action line.
+        config_vars: The destination configuration dictionary that will be updated.
+        base_dir   : The base directory for relative paths.
+        can_include: Whether or not the ">>:INCLUDE" command is allowed.
 
     This function modifies 'config_vars' in-place based on the specified 'action':
      - Actions with "{#VARNAME}" format, add a variable to the dictionary.
@@ -143,7 +145,14 @@ def process_action(config_vars: ConfigVars,
     # actions with format ">>:COMMAND" are commands to modify nodes
     elif action.startswith(">>:"):
 
-        if action == ">>:ENABLE":
+        if action == ">>:INCLUDE" and can_include:
+            for line in content.splitlines():
+                file_to_include = line.strip()
+                if file_to_include:
+                    file_to_include = os.path.join(base_dir, file_to_include)
+                    read_vars_from_file( config_vars, file_to_include, can_include=False )
+
+        elif action == ">>:ENABLE":
             for line in content.splitlines():
                 node_title = line.strip()
                 if node_title:
@@ -184,7 +193,8 @@ def process_action(config_vars: ConfigVars,
 
 
 def read_vars_from_file(config_vars: ConfigVars,
-                        filepath   : str
+                        filepath   : str,
+                        can_include: bool = True
                         ) -> None:
     """
     Reads a configuration file and populates the vars dictionary with its contents.
@@ -197,14 +207,19 @@ def read_vars_from_file(config_vars: ConfigVars,
         config_vars: The configuration dictionary to populate with variables
                      and styles from the file.
         filepath   : The path to the configuration file to read.
+        can_include: Whether or not the ">>:INCLUDE" command is allowed.
     Returns:
         None, this function modifies the 'config_dict' in-place.
     Note:
         - Lines defined as "{#VARNAME}" or ">>STYLE_NAME" are treated as a action.
         - Multi-line content is supported.
     """
-    action  = None
-    content = ""
+    action   = None
+    content  = ""
+    base_dir = os.path.dirname(filepath) #< path to the directory where file was read from
+
+    if not os.path.isfile(filepath):
+        warning(f"File '{filepath}' does not exist.")
 
     with open(filepath) as f:
 
@@ -221,7 +236,12 @@ def read_vars_from_file(config_vars: ConfigVars,
                ):
                 # a new action is detected, so the previous pending one is processed
                 if action:
-                    process_action(config_vars, action, content.format_map(config_vars))
+                    process_action(action,
+                                   content.format_map(config_vars),
+                                   config_vars = config_vars,
+                                   base_dir    = base_dir,
+                                   can_include = can_include,
+                                   )
                 # the new action is stored as pending
                 action, content = line, ""
             else:
@@ -229,7 +249,12 @@ def read_vars_from_file(config_vars: ConfigVars,
 
     # before ending, process any pending action
     if action:
-        process_action(config_vars, action, content.format_map(config_vars))
+        process_action(action,
+                       content.format_map(config_vars),
+                       config_vars = config_vars,
+                       base_dir    = base_dir,
+                       can_include = can_include,
+                       )
 
 
 #----------------------------- JSON TEMPLATES ------------------------------#
@@ -491,7 +516,6 @@ def save_styles_txt(filepath: str,
 
 def make_workflow(template_filepath     : str,
                   config_filepath       : str,
-                  global_config_filepath: str  = None,
                   create_styles_txt     : bool = False,
                   overwrite             : bool = False
                  ) -> bool:
@@ -515,8 +539,6 @@ def make_workflow(template_filepath     : str,
         template_name = template_name[9:].rstrip('_')
 
     config_vars["#TEMPLATE_NAME"] = template_name
-    if global_config_filepath:
-        read_vars_from_file( config_vars, global_config_filepath )
     read_vars_from_file( config_vars, config_filepath )
 
     # always "{#FILEPREFIX}" must be defined in the configuration file
@@ -659,22 +681,17 @@ def main(args=None, parent_script=None):
     source_dir = os.path.join(os.getcwd(), source_dir)
     source_dir = os.path.realpath(source_dir)
 
-    # gather three types of files from the source directory:
+    # gather two types of files from the source directory:
     #   1. List of .json files (excluding temporary ~.json files)
     #   2. List of .txt files with "#!ZCONFIG" flag (zconfig files)
-    #   3. Specific global configuration file matching GLOBAL_CONFIG_FILES
     #
     json_templates = []  #< list to store paths of .json template files
     text_configs   = []  #< list to store paths of valid text config files
-    global_config  = ""  #< path to the global configuration file (if found)
     for filename in os.listdir(source_dir):
         if filename.endswith(".json") and not filename.endswith("~.json"):
             json_templates.append( os.path.join(source_dir, filename) )
         elif filename.endswith(".txt") and is_zconfig_file(os.path.join(source_dir, filename)):
-            if filename in GLOBAL_CONFIG_FILES:
-                global_config = os.path.join(source_dir, filename)
-            else:
-                text_configs.append( os.path.join(source_dir, filename) )
+            text_configs.append( os.path.join(source_dir, filename) )
 
     # display errors if no required files were found
     if not json_templates:
@@ -685,8 +702,6 @@ def main(args=None, parent_script=None):
     # show a report of the found files
     print("")
     print(" Configuration Files:")
-    if global_config:
-        print(f"    - {os.path.basename(global_config)}")
     for fullpath in text_configs:
         print(f"    - {os.path.basename(fullpath)}")
     print(" Template Files:")
@@ -699,7 +714,6 @@ def main(args=None, parent_script=None):
         for template_path in json_templates:
             make_workflow(template_filepath      = template_path,
                           config_filepath        = config_path,
-                          global_config_filepath = global_config,
                           overwrite              = args.overwrite,
                           create_styles_txt      = True,
                           )
