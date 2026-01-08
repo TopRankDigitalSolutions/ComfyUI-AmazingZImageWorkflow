@@ -1,0 +1,164 @@
+#!ZCONFIG
+>>:INCLUDE
+globals.txt
+
+{#TITLE}
+Amazing Z-Image (B) WF
+
+{#FILEPREFIX}
+amazing-z-image_b_
+
+{#PROMPT}
+A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
+
+{#PROMPT2}
+Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.
+
+>>:PIN
+*
+
+>>:PIN-GROUP
+*
+
+
+>>>80s Dark Fantasy Photo
+YOUR CONTEXT:
+You are a photographer working on the set of a dark fantasy film reminiscent of the 1980s (think *Excalibur*, *Legend*, or *Conan the Barbarian*).
+Your photograph showcases {$spicy-content-with} a heavily stylized composition with practical effects, matte paintings, and the dramatic lighting of that era. The image is shot with soft focus. Lighting is theatrical with saturated colors: deep blues, fiery oranges, and sickly greens. Emphasis is placed on creating a sense of scale and grandeur through forced perspective and miniature work. Post-processing involves adding subtle film grain, bloom effects around light sources, and a slight color shift.
+YOUR PHOTOGRAPHY:
+{$@}
+
+
+>>>Synthwave Photo
+YOUR CONTEXT:
+You are a photographer inspired by the retro-futuristic visuals of the 1980s.
+Your photograph showcases Synthwave aesthetic, characterized by neon colors and geometric shapes, it includes vibrant pinks, purples, and blues, with a glowing effect. Grids, scanlines, and a retro-futuristic atmosphere. The photograph feels like a scene from a classic 80s sci-fi film.
+Real people against a computer-generated background.
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Witchcore Atmospheric Photo
+YOUR CONTEXT:
+You are a photographer drawn to the mystical and earthy aesthetic of Witchcore.
+Your photograph showcases {$spicy-content-with} a moody, atmospheric scene steeped in natural elements. The image employs a natural color balance, with a focus on deep greens, browns, and blacks. Emphasis is placed on textures: moss, wood, crystals, and flowing fabrics. The photograph has a raw, organic feel, with mystical ambiance.
+YOUR PHOTOGRAPHY:
+{$@}
+
+
+>>>Quiet Luxury Photo
+YOUR CONTEXT:
+You are an editorial fashion photographer specializing in the Old Money aesthetic. 
+Your photograph showcases {$spicy-content-with} a sophisticated, clean composition using natural, soft morning light. The color palette is muted and neutral, focusing on beige, cream, navy blue, and forest green. The scene feels expensive and timeless, set in a luxury location. 
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Kawaii Pop Vibrant Photo
+YOUR CONTEXT:
+You are a fashion photographer specializing in the bright, playful aesthetic of Kawaii Pop.
+Your photograph showcases {$spicy-content-with} a high-key composition flooded with vibrant, saturated colors. The exposure is bright and cheerful, with a focus on pastel pinks, electric blues, and sunny yellows. Scene is styled in over-the-top Kawaii fashion with playful poses. The background is simple and colorful, with elements like balloons, confetti, or cartoonish graphics. 
+YOUR PHOTOGRAPHY:
+{$@}
+
+
+>>>Wide Angle / Peephole
+YOUR CONTEXT:
+Your peephole shows {$spicy-content-with} a shot from a high angle, inside a fisheye lens distortion glass circle, highly distorted with a wide angle.
+YOUR PEEPHOLE:
+{$@}
+
+
+>>>Simple 3D Render
+YOUR CONTEXT:
+You are a 3d artist.
+Your render is a high-gloss, illustration featuring {$spicy-content-with} ultra-reflective surfaces. The style is dark with dark backgrounds and iridescent highlights.
+YOUR RENDER:
+{$@}
+
+
+>>>Low-Poly Render
+YOUR CONTEXT:
+Your unity engine render shows {$spicy-content-with} a low-poly 3d platformer level made from low-poly meshes and low-quality textures.
+YOUR UNITY ENGINE RENDER:
+{$@}
+
+
+>>>Ink Draw
+YOUR CONTEXT:
+You are an ink drawing artist.
+Your illustration is a realistic ink drawing featuring {$spicy-content-with} fine cross-hatching and stippling techniques. These methods create deep shadows and highlights using only black lines. The image includes large areas of white space and Imagine the colors as all shades of gray.
+The colors mentioned are actually shades of gray.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Shadow Fantasy Illustration
+YOUR CONTEXT:
+You are a dark fantasy comic book artist.
+Your drawing is a high-contrast illustration characterized by {$spicy-content-with} massive areas of solid black ink and minimal white highlights. Inspired by "Mignola-esque" aesthetics, it uses chunky, angular silhouettes and geometric shadows to define form rather than internal lines. The atmosphere is ancient, heavy, and supernatural.
+YOUR DRAWING:
+{$@}
+
+>>>Gothic Engraving
+YOUR CONTEXT:
+You are an artist inspired by the macabre aesthetics of 19th-century gothic literature and medieval manuscripts.
+Your illustration is a Neo-Gothic engraving, executed with intricate linework. It features {$spicy-content-with} dramatic chiaroscuro and a sense of brooding mystery. The color palette is muted, favoring deep indigos, charcoal grays, and touches of crimson, evoking a sense of antique dread.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Folk‑Art Mosaic
+YOUR CONTEXT:
+You are a traditional artisan celebrating the vibrant colors and symbolic imagery of folk art.
+Your artwork is a Folk Art Mosaic, composed of {$spicy-content-with} small, tessellated pieces of vibrant, solid colors, forming bold patterns and stylized representations of everyday life or mythical creatures. The aesthetic is naive and handcrafted, with a rich texture and a joyful, earthy color palette.
+YOUR ARTWORK:
+{$@}
+
+
+>>>Paper‑Cut Diorama
+YOUR CONTEXT:
+You are a conceptual artist creating a tactile, handcrafted world.
+Your illustration is a digital "paper-cut" style including {$spicy-content-with} distinct layered shapes with subtle drop shadows to create depth. Each element looks like it was cut from different textures of colored construction paper. The style is geometric, clean, and vibrant, making the comic look like a 3D physical diorama.
+YOUR IMAGE:
+{$@}
+
+
+>>>Risograph Print
+YOUR CONTEXT:
+You are an underground indie press printer.
+Your illustration is a tactile Risograph-style print including {$spicy-content-with} characterized by vibrant fluorescent ink overlays, deliberate registration errors (misaligned colors), and a heavy grainy texture. It uses a limited but punchy palette of neon pink, sunflower yellow, and deep teal, mimicking the look of a self-published zine.
+YOUR PRINT:
+{$@}
+
+
+>>>Modern Ukiyo‑e Print
+YOUR CONTEXT:
+You are a master of traditional Japanese woodblock printing adapted to a modern narrative.
+Your illustration features {$spicy-content-with} bold, flowing outlines and flat areas of color with subtle wood-grain textures. The composition uses dramatic perspective typical of "Ukiyo-e" art, with stylized waves, clouds, or smoke, and a color palette of deep indigo, vermillion, and ochre on an aged washi paper background.
+YOUR DRAWING:
+{$@}
+
+
+>>>Vintage Polaroid Photo
+YOUR CONTEXT:
+You are a nostalgic photographer who embraces instant film’s tactile charm.
+Your Polaroid photograph is using vintage‑style film. The photograph features the iconic square format with a soft focus, a subtle vignetting, and the characteristic pastel color shift of instant film. Showing candid moments or intimate still‑lifes. The photograph retains the authentic border, emulsion texture, and occasional “film‑like” imperfections (light leaks, scratches).
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Glass‑Encased Advertising
+YOUR CONTEXT:
+An eye-level, realistic photo of a glass-encased advertising poster (mupi) located on a clean city sidewalk. There are subtle reflections of nearby buildings and trees on the glass surface. The lighting is natural overcast daylight.
+WHAT'S INSIDE THE POSTER FRAME:
+A high-quality printed advertisement featuring: {$@}
+
+
+>>>Vintage VGA Monitor
+YOUR CONTEXT:
+You have an old VGA CRT monitor sitting on a wooden desk, and a window is reflected on its screen. The monitor's casing has a raised black inscription in the upper left corner that reads "VGA". The screen has a slight curve and sweep lines typical of CRT displays.
+WHAT'S INSIDE YOUR MONITOR'S SCREEN:
+A low-resolution, 2D pixel art platform videogame form early 1990s, featuring: {$@}
+
+
