@@ -94,7 +94,7 @@
         334
       ],
       "flags": {},
-      "order": 100,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -150,390 +150,6 @@
         10000,
         "disable"
       ]
-    },
-    {
-      "id": 38,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        350
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            492
-          ]
-        }
-      ],
-      "title": "STYLE: Classic Film Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
-      ]
-    },
-    {
-      "id": 117,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        -310
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            509
-          ]
-        }
-      ],
-      "title": "STYLE: Flash 90s Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 63,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        -90
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            560
-          ]
-        }
-      ],
-      "title": "STYLE: Intense Spot Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 47,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        130
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            510
-          ]
-        }
-      ],
-      "title": "STYLE: Production Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit {$spicy-content-with} atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 37,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        790
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            559
-          ]
-        }
-      ],
-      "title": "STYLE: Vintage Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 92,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        570
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            497
-          ]
-        }
-      ],
-      "title": "STYLE: Noir Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 41,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        1010
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            538
-          ]
-        }
-      ],
-      "title": "STYLE: Lomography",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit {$spicy-content-with} film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 122,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        1230
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            550
-          ]
-        }
-      ],
-      "title": "STYLE: Drone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs exhibit {$spicy-content-with} panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 43,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        1450
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            552
-          ]
-        }
-      ],
-      "title": "STYLE: Minimalist Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit {$spicy-content-with} high contrast and clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 93,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        1670
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            555
-          ]
-        }
-      ],
-      "title": "STYLE: Pop Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 45,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2110
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            556
-          ]
-        }
-      ],
-      "title": "STYLE: Neon City Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who likes dark colorful neon light scenes.\nYour photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
     },
     {
       "id": 151,
@@ -613,7 +229,7 @@
         26
       ],
       "flags": {},
-      "order": 58,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -649,7 +265,7 @@
         26
       ],
       "flags": {},
-      "order": 56,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -685,7 +301,7 @@
         26
       ],
       "flags": {},
-      "order": 46,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -721,7 +337,7 @@
         26
       ],
       "flags": {},
-      "order": 47,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -757,7 +373,7 @@
         26
       ],
       "flags": {},
-      "order": 48,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -793,7 +409,7 @@
         26
       ],
       "flags": {},
-      "order": 45,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -829,7 +445,7 @@
         26
       ],
       "flags": {},
-      "order": 50,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -865,7 +481,7 @@
         26
       ],
       "flags": {},
-      "order": 49,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -901,7 +517,7 @@
         26
       ],
       "flags": {},
-      "order": 51,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -937,7 +553,7 @@
         26
       ],
       "flags": {},
-      "order": 52,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -973,7 +589,7 @@
         26
       ],
       "flags": {},
-      "order": 53,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -1009,7 +625,7 @@
         26
       ],
       "flags": {},
-      "order": 54,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -1045,7 +661,7 @@
         26
       ],
       "flags": {},
-      "order": 55,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -1081,7 +697,7 @@
         26
       ],
       "flags": {},
-      "order": 64,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -1117,7 +733,7 @@
         406
       ],
       "flags": {},
-      "order": 97,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -1268,7 +884,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 2,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -1513,41 +1129,6 @@
       }
     },
     {
-      "id": 101,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        -530
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            472
-          ]
-        }
-      ],
-      "title": "STYLE: Casual Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an amateur documentary photographer taking low quality photos.\nYour photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 323,
       "type": "SetFirstSigma",
       "pos": [
@@ -1641,7 +1222,7 @@
         140
       ],
       "flags": {},
-      "order": 15,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1744,7 +1325,7 @@
         80
       ],
       "flags": {},
-      "order": 57,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1904,7 +1485,7 @@
         80
       ],
       "flags": {},
-      "order": 68,
+      "order": 51,
       "mode": 2,
       "inputs": [
         {
@@ -1987,7 +1568,7 @@
         26
       ],
       "flags": {},
-      "order": 69,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -2284,41 +1865,6 @@
       }
     },
     {
-      "id": 125,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        -750
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            381
-          ]
-        }
-      ],
-      "title": "STYLE: Phone Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 166,
       "type": "StringReplace",
       "pos": [
@@ -2585,7 +2131,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -2705,7 +2251,7 @@
         70
       ],
       "flags": {},
-      "order": 17,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2739,7 +2285,7 @@
         80
       ],
       "flags": {},
-      "order": 18,
+      "order": 5,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -2774,7 +2320,7 @@
         100
       ],
       "flags": {},
-      "order": 19,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2811,7 +2357,7 @@
         110
       ],
       "flags": {},
-      "order": 20,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2849,7 +2395,7 @@
         90
       ],
       "flags": {},
-      "order": 21,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3459,7 +3005,7 @@
         190
       ],
       "flags": {},
-      "order": 59,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -3596,7 +3142,7 @@
         26
       ],
       "flags": {},
-      "order": 60,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -3702,7 +3248,7 @@
         26
       ],
       "flags": {},
-      "order": 61,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -3737,7 +3283,7 @@
         26
       ],
       "flags": {},
-      "order": 62,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -3772,7 +3318,7 @@
         26
       ],
       "flags": {},
-      "order": 63,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -3807,7 +3353,7 @@
         640
       ],
       "flags": {},
-      "order": 22,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4329,76 +3875,6 @@
       }
     },
     {
-      "id": 124,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2330
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 23,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            513
-          ]
-        }
-      ],
-      "title": "STYLE: Tilt Shift / Toy Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 130,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        1890
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            557
-          ]
-        }
-      ],
-      "title": "STYLE: Light Painting Photo",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 126,
       "type": "Reroute",
       "pos": [
@@ -4410,7 +3886,7 @@
         26
       ],
       "flags": {},
-      "order": 65,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -4435,76 +3911,6 @@
       }
     },
     {
-      "id": 460,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2770
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 25,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1269
-          ]
-        }
-      ],
-      "title": "STYLE: empty 17",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "{$@}"
-      ],
-      "shape": 1
-    },
-    {
-      "id": 461,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2990
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1270
-          ]
-        }
-      ],
-      "title": "STYLE: empty 18",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 462,
       "type": "Reroute",
       "pos": [
@@ -4516,7 +3922,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -4552,7 +3958,7 @@
         26
       ],
       "flags": {},
-      "order": 66,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -4588,7 +3994,7 @@
         26
       ],
       "flags": {},
-      "order": 67,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -4624,7 +4030,7 @@
         406
       ],
       "flags": {},
-      "order": 98,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -4779,7 +4185,7 @@
         60
       ],
       "flags": {},
-      "order": 101,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -4830,7 +4236,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -4874,7 +4280,7 @@
         100
       ],
       "flags": {},
-      "order": 27,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5113,7 +4519,7 @@
         140
       ],
       "flags": {},
-      "order": 28,
+      "order": 11,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -5334,7 +4740,7 @@
         26
       ],
       "flags": {},
-      "order": 79,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -6393,7 +5799,7 @@
         26
       ],
       "flags": {},
-      "order": 99,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -6813,7 +6219,7 @@
         70
       ],
       "flags": {},
-      "order": 29,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6847,7 +6253,7 @@
         140
       ],
       "flags": {},
-      "order": 70,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -6926,7 +6332,7 @@
         140
       ],
       "flags": {},
-      "order": 30,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7176,7 +6582,7 @@
         70
       ],
       "flags": {},
-      "order": 31,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7210,7 +6616,7 @@
         26
       ],
       "flags": {},
-      "order": 71,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -7245,7 +6651,7 @@
         140
       ],
       "flags": {},
-      "order": 32,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8047,7 +7453,7 @@
         82
       ],
       "flags": {},
-      "order": 33,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8312,7 +7718,7 @@
         90
       ],
       "flags": {},
-      "order": 34,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8348,7 +7754,7 @@
         90
       ],
       "flags": {},
-      "order": 35,
+      "order": 18,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -8385,7 +7791,7 @@
         26
       ],
       "flags": {},
-      "order": 72,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -8420,7 +7826,7 @@
         26
       ],
       "flags": {},
-      "order": 76,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -8455,7 +7861,7 @@
         90
       ],
       "flags": {},
-      "order": 36,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8491,7 +7897,7 @@
         90
       ],
       "flags": {},
-      "order": 37,
+      "order": 20,
       "mode": 2,
       "inputs": [],
       "outputs": [
@@ -8564,7 +7970,7 @@
         110
       ],
       "flags": {},
-      "order": 73,
+      "order": 56,
       "mode": 2,
       "inputs": [
         {
@@ -8631,7 +8037,7 @@
         110
       ],
       "flags": {},
-      "order": 77,
+      "order": 60,
       "mode": 2,
       "inputs": [
         {
@@ -8700,7 +8106,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -8766,7 +8172,7 @@
         110
       ],
       "flags": {},
-      "order": 74,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -9373,41 +8779,6 @@
       }
     },
     {
-      "id": 459,
-      "type": "PrimitiveStringMultiline",
-      "pos": [
-        -4740,
-        2550
-      ],
-      "size": [
-        450,
-        180
-      ],
-      "flags": {},
-      "order": 38,
-      "mode": 2,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1268
-          ]
-        }
-      ],
-      "title": "STYLE: Comic Book Cover",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.75",
-        "Node name for S&R": "PrimitiveStringMultiline"
-      },
-      "widgets_values": [
-        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by {$spicy-content-with} intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\n{$@}"
-      ],
-      "shape": 1
-    },
-    {
       "id": 111,
       "type": "Note",
       "pos": [
@@ -9419,7 +8790,7 @@
         100
       ],
       "flags": {},
-      "order": 39,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9444,7 +8815,7 @@
         60
       ],
       "flags": {},
-      "order": 40,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9735,7 +9106,7 @@
         70
       ],
       "flags": {},
-      "order": 41,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9769,7 +9140,7 @@
         140
       ],
       "flags": {},
-      "order": 42,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10107,7 +9478,7 @@
         60
       ],
       "flags": {},
-      "order": 43,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10808,7 +10179,7 @@
         640
       ],
       "flags": {},
-      "order": 44,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10966,6 +10337,635 @@
       },
       "color": "#232",
       "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 459,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        2660
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1268
+          ]
+        }
+      ],
+      "title": "STYLE: Comic Book Cover",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a celebrated comic book cover artist, renowned for hyper-realistic action and monumental heroics.\nYour cover art is a Dynamic Heroic Realism illustration, characterized by {$spicy-content-with} intricate anatomical accuracy, meticulously rendered textures (fabric, metal, skin), and an explosive sense of motion. The composition often features dramatic foreshortening and a heroic, powerful pose for the central figure, surrounded by dynamic environmental destruction or energy effects. Lighting is grand and directional, sculpting forms with sharp highlights and deep shadows, ensuring every detail contributes to an overwhelming sense of epic scale and immediate impact.\nYOUR ILLUSTRATION:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 124,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        2420
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            513
+          ]
+        }
+      ],
+      "title": "STYLE: Tilt Shift / Toy Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who enjoys using tilt‑shift lenses to turn real‑world scenes into miniature toy models.\nYour photographs exhibit {$spicy-content-with} crisp, high‑resolution details captured in an exaggerated perspective, with a very narrow focus plane, and a dreamy, toy‑like atmosphere that creates the classic “miniature” illusion.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 45,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        2180
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            556
+          ]
+        }
+      ],
+      "title": "STYLE: Neon City Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who likes dark colorful neon light scenes.\nYour photographs exhibit {$spicy-content-with} dark cinematic environments illuminated only by neon lights that emphasize vibrant reds, greens, and blues, presenting emotional scenes with saturated colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 130,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        1940
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            557
+          ]
+        }
+      ],
+      "title": "STYLE: Light Painting Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.\nYour photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 93,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        1700
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            555
+          ]
+        }
+      ],
+      "title": "STYLE: Pop Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a contemporary pop artist known for your vibrant, oversaturated palettes and energetic, graphic compositions.\nYour photographs exhibit {$spicy-content-with} exaggerated colors and solid backgrounds using Ben-Day dots, achieving an unconventional and clearly pop art effect.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 43,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        1460
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            552
+          ]
+        }
+      ],
+      "title": "STYLE: Minimalist Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who prefers serene and tranquil images.\nYour photographs exhibit {$spicy-content-with} high contrast and clean, minimalist compositions that emphasize empty space to highlight negative space.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 122,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        1220
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            550
+          ]
+        }
+      ],
+      "title": "STYLE: Drone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an aerial photographer who enjoys using wide-angle drone cams.\nYour photographs exhibit {$spicy-content-with} panoramic scenes captured from afar, high up with elevated perspectives and intense colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 41,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        980
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            538
+          ]
+        }
+      ],
+      "title": "STYLE: Lomography",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an adventurous experimental photographer exploring the world through a lomographic lens.\nYour photographs exhibit {$spicy-content-with} film grain, colorful lens flares, soft focus with motion blur, and analog filter effects, trying to capture emotions.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 37,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        740
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            559
+          ]
+        }
+      ],
+      "title": "STYLE: Vintage Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an 80s photographer who enjoys informal shots.\nYour worn vintage photographs exhibit {$spicy-content-with} a minimalist, amateurish composition, warm desaturated tones and a soft focus that creates a cozy atmosphere.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 92,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        500
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            497
+          ]
+        }
+      ],
+      "title": "STYLE: Noir Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a cinematographer who works in dark movies.\nYour photographs exhibit {$spicy-content-with} intense side lighting and light gobos patterns that create defined shadows, along with a muted Ektachrome palette with a warm tone that evokes film noir.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        260
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            492
+          ]
+        }
+      ],
+      "title": "STYLE: Classic Film Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a professional cinematographer of iconic classic mid‑century cinema, Hollywood años 1960s.\nYour photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates an oval bokeh effect and distortions at the edges.\n---\nYOUR PHOTO:\n{$@}\n"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        20
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            510
+          ]
+        }
+      ],
+      "title": "STYLE: Production Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a Hollywood filmmaker making a high-budget film.\nYour photographs exhibit {$spicy-content-with} atmospheric composition that emphasize intense emotions using selective focus, and warm and cold colors with high quality studio lighting.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 63,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        -220
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            560
+          ]
+        }
+      ],
+      "title": "STYLE: Intense Spot Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are a photographer who loves using an intense white light source to generate dramatic light and shadow.\nYour photographs exhibit {$spicy-content-with} high definition, brilliant glowing whites with sharp dark shadows, and vibrant colors.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 117,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        -460
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            509
+          ]
+        }
+      ],
+      "title": "STYLE: Flash 90s Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an amateur photographer, taking photos with point‑and‑shoot cam-quality, in the early 1990s.\nYour photographs exhibit {$spicy-content-with} a rough, low-resolution quality, washed-out colors, including a harsh built-in flash, grainy texture, and overexposed highlights, capturing a casual atmosphere that evokes nostalgia.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 101,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        -700
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            472
+          ]
+        }
+      ],
+      "title": "STYLE: Casual Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYou are an amateur documentary photographer taking low quality photos.\nYour photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.\n---\nYOUR PHOTO:\n{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 460,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        2900
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1269
+          ]
+        }
+      ],
+      "title": "STYLE: empty 17",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 461,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        3140
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1270
+          ]
+        }
+      ],
+      "title": "STYLE: empty 18",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "{$@}"
+      ],
+      "shape": 1
+    },
+    {
+      "id": 125,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        -5000,
+        -940
+      ],
+      "size": [
+        550,
+        200
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            381
+          ]
+        }
+      ],
+      "title": "STYLE: Phone Photo",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "YOUR CONTEXT:\nYour photographs has android phone cam-quality (low-resolution).\nYour photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.\nYour photographs are actual photographic background.\n---\nYOUR PHOTO:\n{$@}"
+      ],
       "shape": 1
     }
   ],
@@ -13608,13 +13608,13 @@
       "id": 2,
       "title": "STYLES",
       "bounding": [
-        -4750,
-        -830,
-        480,
-        4030
+        -5010,
+        -1020,
+        570,
+        4370
       ],
       "color": "#b58b2a",
-      "font_size": 24,
+      "font_size": 28,
       "flags": {}
     },
     {
@@ -13764,10 +13764,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.76938202247191,
+      "scale": 0.7693820224719099,
       "offset": [
         -4208.214676889375,
-        -481.66666666666674
+        -481.66666666666663
       ]
     },
     "frontendVersion": "1.35.9",
