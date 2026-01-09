@@ -129,7 +129,7 @@ YOUR PHOTOGRAPH:
 >>>Light and Airy Photo
 YOUR CONTEXT:
 You are a photographer who loves bright, ethereal, and romantic images.
-Your photograph is bathed in soft, diffused light, creating a bright and airy aesthetic. Colors are pastel and delicate, with a focus on whites, creams, and light blues. The image has a shallow depth of field, blurring the background and drawing attention to the subject. Post-processing emphasizes highlights and reduces shadows, resulting in a clean, luminous look.
+Your photograph is bathed in soft, diffused light, creating a bright and airy aesthetic. Colors are pastel and delicate, with a focus on whites, creams, and light blues. The image features {$spicy-content-with} a shallow depth of field, blurring the background and drawing attention to the subject. Post-processing emphasizes highlights and reduces shadows, resulting in a clean, luminous look.
 YOUR PHOTOGRAPH:
 {$@}
 
@@ -145,7 +145,7 @@ YOUR PHOTOGRAPH:
 >>>Portra Film Photo
 YOUR CONTEXT:
 You are a photographer who appreciates the classic aesthetic of Kodak Portra film.
-Your photograph emulates that look, known for its soft colors, fine grain, and natural skin tones. The image features a subtle warmth, with a focus on accurate color rendition and a gentle, diffused glow. Highlights are smooth and creamy, while shadows retain detail. Minimal post-processing is applied to preserve the organic, film-like quality.
+Your photograph emulates that look, known for its soft colors, fine grain, and natural skin tones. The image features {$spicy-content-with} a subtle warmth, with a focus on accurate color rendition and a gentle, diffused glow. Highlights are smooth and creamy, while shadows retain detail. Minimal post-processing is applied to preserve the organic, film-like quality.
 YOUR PHOTOGRAPH:
 {$@}
 
@@ -153,7 +153,7 @@ YOUR PHOTOGRAPH:
 >>>Street Documentary Photo
 YOUR CONTEXT:
 You are a documentary photographer chronicling urban life.
-Your photograph showcases candid moments in natural street environments. The image employs a natural color balance, modest contrast, and a shallow depth of field to isolate subjects within bustling scenes. Emphasis is placed on authentic emotion, body language, and the interplay of ambient city light (neon signs, street lamps). Minimal post‑processing preserves the raw, honest feel—only slight exposure adjustments and noise reduction are applied to maintain the immediacy of the moment.
+Your photograph showcases {$spicy-content-with} candid moments in natural street environments. The image employs a natural color balance, modest contrast, and a shallow depth of field to isolate subjects within bustling scenes. Emphasis is placed on authentic emotion, body language, and the interplay of ambient city light (neon signs, street lamps). Minimal post‑processing preserves the raw, honest feel—only slight exposure adjustments and noise reduction are applied to maintain the immediacy of the moment.
 YOUR PHOTOGRAPH:
 {$@}
 
@@ -161,9 +161,7 @@ YOUR PHOTOGRAPH:
 >>>Teal and Orange Photo
 YOUR CONTEXT:
 You are a color specialist photographer.
-Your photograph showcases a satured teal and orange colors. The image features cool teal tones in the shadows and highlights, balanced by warm orange tones in the midtones and skin tones, creating a vibrant photography with high contrast and vivid colors.
+Your photograph showcases {$spicy-content-with} a satured teal and orange colors. The image features cool teal tones in the shadows and highlights, balanced by warm orange tones in the midtones and skin tones, creating a vibrant photography with high contrast and vivid colors.
 YOUR PHOTOGRAPH:
 {$@}
-
-
 
