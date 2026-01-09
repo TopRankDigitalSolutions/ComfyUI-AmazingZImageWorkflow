@@ -1,6 +1,6 @@
 """
   File    : build-gallery.py
-  Purpose : Creates a image with a grid of images with labels.
+  Purpose : Creates a image with a grid of images showcasing each style.
   Author  : Martin Rizzo | <martinrizzo@gmail.com>
   Date    : Dec 1, 2025
   Repo    : https://github.com/martin-rizzo/AmazingZImageWorkflow
@@ -1001,6 +1001,7 @@ def main(args=None, parent_script=None):
         formatter_class=argparse.RawTextHelpFormatter
         )
     parser.add_argument('images'              , nargs="+",           help="Image files (or directories containing .png) to include in the gallery")
+    parser.add_argument('-g', '--grid-size'   , type=str,            help="Grid size for the gallery in format columns x rows, e.g., '-g 6x3'")
     parser.add_argument('-s', '--scale'       , type=float,          help="Scaling factor (max 1.0) to scale down the gallery images")
     parser.add_argument('-j', '--jpeg'        , action='store_true', help="Save gallery as JPEG instead of PNG")
     parser.add_argument('--include-no-style'  , action='store_true', help="Include the no-style image in the gallery")
@@ -1018,6 +1019,17 @@ def main(args=None, parent_script=None):
     scale              = 0.5
     extension          = '.png'
     valid_input_prefix = 'ZI'
+    grid_size          = (5, 4) # 5 x 4 grid size
+
+    # Parse grid size from command line arguments
+    if args.grid_size:
+        try:
+            cols, rows = map(int, args.grid_size.split('x'))
+            if cols <= 0 or rows <= 0:
+                fatal_error("Grid dimensions must be positive integers.")
+            grid_size = (cols, rows)
+        except Exception as e:
+            fatal_error(f"Invalid grid size: {args.grid_size}. Use format 'COLSxROWS'.")
 
     # change scale if requested by user
     if args.scale:
@@ -1049,7 +1061,7 @@ def main(args=None, parent_script=None):
         print(f"\nPrompt: \"{prompt[:40]}...\"")
         gallery_image, metadata = build_gallery(image_paths,
                                                 style_list,
-                                                grid_size   = (4,4),
+                                                grid_size   = grid_size,
                                                 image_scale = scale,
                                                 prompt      = prompt
                                                 )
