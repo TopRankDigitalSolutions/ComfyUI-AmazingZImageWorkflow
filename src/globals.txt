@@ -6,10 +6,10 @@ v4.0
 {#GGUF_REQUIREMENTS}
  This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:
 
-  * rgthree      : https://github.com/rgthree/rgthree-comfy
+  * rgthree-comfy: https://github.com/rgthree/rgthree-comfy
   * ComfyUI-GGUF : https://github.com/city96/ComfyUI-GGUF
 
- Additionally, ensure you have the following 5 models downloaded and placed in their respective
+ Additionally, ensure you have the following 4 models downloaded and placed in their respective
  directories within your ComfyUI installation:
 
   z_image_turbo-Q5_K_S.gguf
@@ -24,11 +24,7 @@ v4.0
     * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors
     * Local Directory: `Comfyui/models/vae/`
 
-  4x_Nickelback_70000G.safetensors (for image enhancer)
-    * Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors
-    * Local Directory: `ComfyUI/models/upscale_models/`
-    
-  4x_foolhardy_Remacri.safetensors (for image enhancer)
+  4x_foolhardy_Remacri.safetensors (for illustration refining)
     * Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors
     * Local Directory: `ComfyUI/models/upscale_models/`
 
@@ -36,9 +32,9 @@ v4.0
 {#SAFETENSORS_REQUIREMENTS}
  This workflow requires the following custom nodes, which can be obtained via ComfyUI-Manager:
 
-  * rgthree : https://github.com/rgthree/rgthree-comfy
+  * rgthree-comfy: https://github.com/rgthree/rgthree-comfy
  
- Additionally, ensure you have the following 5 models downloaded and placed in their respective
+ Additionally, ensure you have the following 4 models downloaded and placed in their respective
  directories within your ComfyUI installation:
 
   z_image_turbo_bf16.safetensors
@@ -53,11 +49,7 @@ v4.0
     * Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors
     * Local Directory: `Comfyui/models/vae/`
 
-  4x_Nickelback_70000G.safetensors (for image enhancer)
-    * Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors
-    * Local Directory: `ComfyUI/models/upscale_models/`
-    
-  4x_foolhardy_Remacri.safetensors (for image enhancer)
+  4x_foolhardy_Remacri.safetensors (for illustration refining)
     * Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors
     * Local Directory: `ComfyUI/models/upscale_models/`
 
