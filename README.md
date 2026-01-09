@@ -12,8 +12,7 @@
 
 </div>
 
-A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and ease of use. The repository includes pre-configured workflows for GGUF and SAFETENSORS formats.
-
+A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) that expands the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and user-friendly functionality, while also integrating an image refiner and a simple upscaler. The package includes pre-configured setups for both GGUF and SAFETENSORS formats.
 
 ## Table of Contents
 1. [Features](#features)
@@ -30,7 +29,7 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 - **Style Selector**: Choose from eighteen customizable image styles.
 - **Refiner**: Improves final quality by performing a second pass.
 - **Upscaler**: Increases the resolution of any generated image by 50%.
-- **Refiner/Upscaler Mode**: Allows selecting between photo and illustration modes to optimize refinement and upscaling for specific image types.
+- **Refiner & Upscaler Mode Selector**: Allows selecting between photo and illustration modes to optimize refinement and upscaling for specific image types.
 - Speed Options:
     - **7 Steps Switch**: Uses fewer steps while maintaining the quality.
     - **Smaller Image Switch**: Generates images at a lower resolution (1216 x 832 pixels).
@@ -41,22 +40,27 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) extending 
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
 - Custom sigma values fine-tuned by hand (version 4.0 utilizes a new set of experimental sigma values)
 - Generated images are saved in the "ZImage" folder, organized by date.
+- Includes the "Power Lora Loader" node for loading multiple LoRAs.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
-### The 15 Predefined Styles in "amazing-z-image"
+### The 18 Predefined Styles in "amazing-z-image" (a)
 <img src="amazing-z-image_styles1.jpg" width="25%"></img>
 
-### The 15 Predefined Styles in "amazing-z-comics"
+### The 18 Predefined Styles in "amazing-z-image" (b)
+<img src="amazing-z-image_styles1.jpg" width="25%"></img>
+
+### The 18 Predefined Styles in "amazing-z-comics"
 <img src="amazing-z-comics_styles1.jpg" width="25%"></img>
 
-### The 15 Predefined Styles in "amazing-z-photo"
+### The 18 Predefined Styles in "amazing-z-photo"
 <img src="amazing-z-photo_styles1.jpg" width="25%"></img>
 
 ## Workflows Overview
 
 The available styles are organized into workflows based on their focus:
 
-* __`amazing-z-image`__ : The original general-purpose workflow with a variety of image styles.
+* __`amazing-z-image-a`__ : The original general-purpose workflow with a variety of image styles.
+* __`amazing-z-image-b`__ : Workflow featuring interesting styles that could not fit into the main 'a' group.
 * __`amazing-z-comics`__: Workflow dedicated to illustration (comics, anime, pixel art, etc.).
 * __`amazing-z-photo`__ : Workflow dedicated to photographic images (phone, vintage, production photos, etc.).
 
