@@ -3,7 +3,7 @@
 globals.txt
 
 {#TITLE}
-Amazing Z-Image A WF
+Amazing Z-Image WF
 
 {#FILEPREFIX}
 amazing-z-image-a_
