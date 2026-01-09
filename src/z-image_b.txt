@@ -32,13 +32,13 @@ YOUR PHOTOGRAPHY:
 >>>Synthwave Photo
 YOUR CONTEXT:
 You are a photographer inspired by the retro-futuristic visuals of the 1980s.
-Your photograph showcases Synthwave aesthetic, characterized by neon colors and geometric shapes, it includes vibrant pinks, purples, and blues, with a glowing effect. Grids, scanlines, and a retro-futuristic atmosphere. The photograph feels like a scene from a classic 80s sci-fi film.
+Your photograph showcases {$spicy-content-with} Synthwave aesthetic, characterized by neon colors and geometric shapes, it includes vibrant pinks, purples, and blues, with a glowing effect. Grids, scanlines, and a retro-futuristic atmosphere. The photograph feels like a scene from a classic 80s sci-fi film.
 Real people against a computer-generated background.
 YOUR PHOTOGRAPH:
 {$@}
 
 
->>>Witchcore Atmospheric Photo
+>>>Witchcore Photo
 YOUR CONTEXT:
 You are a photographer drawn to the mystical and earthy aesthetic of Witchcore.
 Your photograph showcases {$spicy-content-with} a moody, atmospheric scene steeped in natural elements. The image employs a natural color balance, with a focus on deep greens, browns, and blacks. Emphasis is placed on textures: moss, wood, crystals, and flowing fabrics. The photograph has a raw, organic feel, with mystical ambiance.
@@ -46,15 +46,15 @@ YOUR PHOTOGRAPHY:
 {$@}
 
 
->>>Quiet Luxury Photo
+>>>Light Painting Photo
 YOUR CONTEXT:
-You are an editorial fashion photographer specializing in the Old Money aesthetic. 
-Your photograph showcases {$spicy-content-with} a sophisticated, clean composition using natural, soft morning light. The color palette is muted and neutral, focusing on beige, cream, navy blue, and forest green. The scene feels expensive and timeless, set in a luxury location. 
-YOUR PHOTOGRAPH:
+You are an experimental photographer who enjoys creating light painting images with long exposures and LED sources.
+Your photographs exhibit {$spicy-content-with} luminous trails, vibrant colors, and elements that are strikingly illuminated by the long exposure.
+YOUR PHOTO:
 {$@}
 
 
->>>Kawaii Pop Vibrant Photo
+>>>Kawaii Pop Photo
 YOUR CONTEXT:
 You are a fashion photographer specializing in the bright, playful aesthetic of Kawaii Pop.
 Your photograph showcases {$spicy-content-with} a high-key composition flooded with vibrant, saturated colors. The exposure is bright and cheerful, with a focus on pastel pinks, electric blues, and sunny yellows. Scene is styled in over-the-top Kawaii fashion with playful poses. The background is simple and colorful, with elements like balloons, confetti, or cartoonish graphics. 
@@ -62,18 +62,19 @@ YOUR PHOTOGRAPHY:
 {$@}
 
 
->>>Wide Angle / Peephole
+>>>Spotlight Stage Photo
 YOUR CONTEXT:
-Your peephole shows {$spicy-content-with} a shot from a high angle, inside a fisheye lens distortion glass circle, highly distorted with a wide angle.
-YOUR PEEPHOLE:
+You are a professional stage and theater photographer capturing dramatic performances.
+Your photographs exhibit {$spicy-content-with} a single, high-intensity overhead spotlight that creates a sharp circular pool of light, dramatic chiaroscuro contrast that isolates the subject against a pitch-black background, and visible volumetric light beams with subtle dust motes for an authentic theatrical atmosphere.
+YOUR PHOTO:
 {$@}
 
 
->>>Simple 3D Render
+>>>Post‑Processed Artistry
 YOUR CONTEXT:
-You are a 3d artist.
-Your render is a high-gloss, illustration featuring {$spicy-content-with} ultra-reflective surfaces. The style is dark with dark backgrounds and iridescent highlights.
-YOUR RENDER:
+You are a digital artist.
+Your image is a masterpiece featuring {$spicy-content-with} heavy chromatic aberration, and digital intense color. The aesthetic is ultra-modern and fragmented, using a high-contrast palette of neon purples and cyans, creating a sense of a digital reality.
+YOUR IMAGE:
 {$@}
 
 
@@ -100,6 +101,7 @@ Your drawing is a high-contrast illustration characterized by {$spicy-content-wi
 YOUR DRAWING:
 {$@}
 
+
 >>>Gothic Engraving
 YOUR CONTEXT:
 You are an artist inspired by the macabre aesthetics of 19th-century gothic literature and medieval manuscripts.
@@ -124,6 +126,7 @@ YOUR IMAGE:
 {$@}
 
 
+
 >>>Risograph Print
 YOUR CONTEXT:
 You are an underground indie press printer.
@@ -143,7 +146,7 @@ YOUR DRAWING:
 >>>Vintage Polaroid Photo
 YOUR CONTEXT:
 You are a nostalgic photographer who embraces instant film’s tactile charm.
-Your Polaroid photograph is using vintage‑style film. The photograph features the iconic square format with a soft focus, a subtle vignetting, and the characteristic pastel color shift of instant film. Showing candid moments or intimate still‑lifes. The photograph retains the authentic border, emulsion texture, and occasional “film‑like” imperfections (light leaks, scratches).
+Your Polaroid photograph is using vintage‑style film. The photograph features the iconic square format including {$spicy-content-with} a soft focus, a subtle vignetting, and the characteristic pastel color shift of instant film. Showing candid moments or intimate still‑lifes. The photograph retains the authentic border, emulsion texture, and occasional “film‑like” imperfections (light leaks, scratches).
 YOUR PHOTOGRAPH:
 {$@}
 
@@ -151,8 +154,8 @@ YOUR PHOTOGRAPH:
 >>>Glass‑Encased Advertising
 YOUR CONTEXT:
 An eye-level, realistic photo of a glass-encased advertising poster (mupi) located on a clean city sidewalk. There are subtle reflections of nearby buildings and trees on the glass surface. The lighting is natural overcast daylight.
-WHAT'S INSIDE THE POSTER FRAME:
-A high-quality printed advertisement featuring: {$@}
+WHAT'S BEHIND THE REFLECTIVE GLASS:
+A faded and sun-faded, low quality printed advertisement, showing: {$@}
 
 
 >>>Vintage VGA Monitor
@@ -160,5 +163,6 @@ YOUR CONTEXT:
 You have an old VGA CRT monitor sitting on a wooden desk, and a window is reflected on its screen. The monitor's casing has a raised black inscription in the upper left corner that reads "VGA". The screen has a slight curve and sweep lines typical of CRT displays.
 WHAT'S INSIDE YOUR MONITOR'S SCREEN:
 A low-resolution, 2D pixel art platform videogame form early 1990s, featuring: {$@}
+
 
 

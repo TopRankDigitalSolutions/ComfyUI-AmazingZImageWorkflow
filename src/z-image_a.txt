@@ -1,0 +1,165 @@
+#!ZCONFIG
+>>:INCLUDE
+globals.txt
+
+{#TITLE}
+Amazing Z-Image WF
+
+{#FILEPREFIX}
+amazing-z-image_a_
+
+{#PROMPT}
+A woman with short, spiky blonde hair is depicted from the chest up, aiming a large, dark gray firearm. Her hair is tousled and appears to be catching the light. She has blue eyes and shadow on her cheeks. She is wearing a white tank top with one strap visibly off her right shoulder. The firearm she holds is dark gray and appears to be a heavy weapon. A dark ancient castle is visible in the background on the right side. Her attire includes dark, torn shorts and ripped, dark stockings or tights on her legs.
+
+{#PROMPT2}
+Three people and a creature stand in front of shelves laden with various items. On the left, a brown-haired woman smiles, wearing a light brown tank top. Next to her is a humanoid figure with a body made of dark, rocky material and pronounced musculature, resembling onyx. This figure has a large head with sharp features. To the right of this figure is a muscular man with a light skin tone, wearing a necklace and with shoulder-length green hair; he wears a white crop top with a pink unicorn painted on it. The last individual, on the far right of the image, is a dark-haired woman wearing a black T-shirt. In the foreground are several plates of food: a white bowl with a creamy dish covered in red seasoning, a rectangular container filled with what appear to be strips of meat, a white bowl with fried and breaded pieces, and a white plate with several round, light brown cookies. Also in the foreground is a light blue object resembling a human head.
+
+>>:PIN
+*
+
+>>:PIN-GROUP
+*
+
+
+>>>Phone Photo
+YOUR CONTEXT:
+Your photographs has android phone cam-quality.
+Your photographs exhibit {$spicy-content-with} surprising compositions, sharp complex backgrounds, natural lighting, and candid moments that feel immediate and authentic.
+Your photographs are actual gritty candid photographic background.
+YOUR PHOTO:
+{$@}
+
+
+>>>Casual Photo
+YOUR CONTEXT:
+You are an amateur documentary photographer taking low quality photos.
+Your photographs exhibit {$spicy-content-with} sharp backgrounds, unpolished realism with natural lighting, and candid friendship‑level moments that feel immediate and authentic.
+YOUR PHOTO:
+{$@}
+
+
+>>>Nostalgic 90s Photo
+YOUR CONTEXT:
+You are a street photographer capturing the raw, rebellious energy of the 1990s underground scene. 
+Your photograph showcases {$spicy-content-with} a low-fidelity, grainy analog film aesthetic. The exposure features harsh camera flash, slight motion blur, and light leaks. The colors are slightly de-saturated with warm skin tones and heavy shadows, giving it a candid, "snapshot" feel. 
+YOUR PHOTOGRAPHY:
+{$@}
+
+
+>>>Cottagecore Pastoral Photo
+YOUR CONTEXT:
+You are a lifestyle photographer capturing the "Cottagecore" aesthetic, celebrating a nostalgic, rural life. 
+Your photograph showcases {$spicy-content-with} a soft-focus, romantic composition bathed in warm, hazy afternoon light. The color palette is soft and organic, featuring sage green, dried rose, lavender, and warm ochre. The atmosphere is cozy and rustic, filled with natural textures like linen, dried flowers, and weathered wood in a peaceful countryside setting. 
+YOUR PHOTOGRAPHY:
+{$@}
+
+
+>>>Quiet Luxury Photo
+YOUR CONTEXT:
+You are an editorial fashion photographer specializing in the Old Money aesthetic. 
+Your photograph showcases {$spicy-content-with} a sophisticated, clean composition using natural, soft morning light. The color palette is muted and neutral, focusing on beige, cream, navy blue, and forest green. The scene feels expensive and timeless, set in a luxury location. 
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Classic Film Photo
+YOUR CONTEXT:
+You are a professional cinematographer of iconic classic mid‑century cinema (1950s‑1960s Hollywood golden age).
+Your photographs are on 35mm film with grain, displaying {$spicy-content-with} a warm color temperature, and an anamorphic lens that creates imperfections and blurry edges.
+YOUR PHOTO:
+{$@}
+
+
+>>>Cyberpunk Rain Photo
+YOUR CONTEXT:
+You are a cinematic photographer specializing in the Neon Noir aesthetic of a futuristic night city. 
+Your photograph showcases {$spicy-content-with} high-contrast lighting with deep shadows and glowing neon accents. The color palette is dominated by electric cyan, hot magenta, and deep violet. The atmosphere is moody and atmospheric, featuring wet surfaces, rain reflections, and hazy mist. 
+YOUR PHOTOGRAPH:
+{$@}
+
+
+>>>Wide Angle / Peephole
+YOUR CONTEXT:
+Your peephole shows {$spicy-content-with} a shot from a high angle, inside a fisheye lens distortion glass circle, highly distorted with a wide angle.
+YOUR PEEPHOLE:
+{$@}
+
+
+>>>Simple 3D Render
+YOUR CONTEXT:
+You are a 3d artist.
+Your render is a high-gloss, illustration featuring {$spicy-content-with} ultra-reflective surfaces. The style is dark with dark backgrounds and iridescent highlights.
+YOUR RENDER:
+{$@}
+
+
+>>>Anime
+YOUR CONTEXT:
+You are a Japanese anime artist.
+Your Japanese animation includes {$spicy-content-with} an ominous atmosphere, clean lines, and dramatic facial expressions. The artwork uses cool and dark tones along with dramatic lighting and shadows that emphasize the central figure and create a somber, intense mood.
+YOUR DRAWING:
+{$@}
+
+
+>>>Comics
+YOUR CONTEXT:
+You are an American artist.
+Your illustration has a comic book cover style, with vibrant colors and outlined shapes, featuring {$spicy-content-with} realistic and epic details in the style of modern comics.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Retro 80s Illustration
+YOUR CONTEXT:
+Your illustration is made with brightly colored bold lines and touches of cracked paint, while having {$spicy-content-with} a 1980s graphic design aesthetic.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Vintage Comic
+YOUR CONTEXT:
+You are a 1950s artist.
+Your illustration in a worn sheet of paper features {$spicy-content-with} a vintage 1950s comic book style made with hand-drawn lines and painted in solid white, red, blue, and black.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Vintage Illustration
+YOUR CONTEXT:
+You are a sci-fi pulp magazine illustrator from the 1940s.
+Your drawing is a lush, painted-style comic cover including {$spicy-content-with} dramatic, heroic lighting and a vivid "Technicolor" palette of saturated oranges, deep teals, and bright yellows. It features soft airbrushed textures, muscular anatomy, and a grainy film-stock finish that evokes a sense of retro-futuristic adventure.
+YOUR DRAWING:
+{$@}
+
+
+>>>Modern Impressionism
+YOUR CONTEXT:
+Your image showcases {$spicy-content-with} a loose and highly expressive brushstroke, characterized by a rich texture created through visible layers of paint and quick, broad strokes reminiscent of modern Impressionism. This technique employing a limited yet impactful color palette with strong contrasts of light and shadow and a focus on warm and cool tones to create a dynamic and energetic feel.
+YOUR IMAGE:
+{$@}
+
+
+>>>Epic Greg
+YOUR CONTEXT:
+You are a master digital painter of heroic sagas.
+Your illustration is a grand-scale digital oil painting that includes {$spicy-content-with} characterized by masterful, sweeping brushwork and thick impasto textures. It features dramatic, cinematic lighting with intense chiaroscuro, where light sources like embers or magical energy pierce through atmospheric haze, smoke, and swirling clouds. The composition is heroic and classically inspired, using a rich, moody palette of deep earth tones accented by vibrant, glowing highlights for a legendary and immersive feel.
+YOUR PAINTING:
+{$@}
+
+
+>>>Whimsical_Watercolor
+YOUR CONTEXT:
+You are an illustrator specializing in gentle, enchanting narratives for children's books.
+Your drawing is a whimsical watercolor image, featuring {$spicy-content-with} loose, fluid watercolor washes, delicate linework, and playful, anthropomorphic elements within a lush natural setting. The style is soft and inviting, with a vibrant yet gentle color palette that captures the magic of innocence.
+YOUR DRAWING:
+{$@}
+
+
+>>>LowRes Pixel Art
+YOUR CONTEXT:
+You are a pixel artist.
+Your illustration is a low-resolution pixel art featuring {$spicy-content-with} chunky pixels and vibrant intense colors, arcade game style.
+YOUR ILLUSTRATION:
+{$@}
+
+
