@@ -484,12 +484,12 @@ def apply_style_to_nodes(nodes: list[dict], styles: list[tuple[str,str]]) -> Non
         node["widgets_values"] = [template_value]
 
 
-#------------------------------- STYLES.TXT --------------------------------#
+#------------------------------- GALLERY.TXT -------------------------------#
 
-def save_styles_txt(filepath: str,
-                    styles  : list[tuple[str,str]],
-                    prompts : list[str]
-                    ) -> None:
+def save_style_gallery(filepath: str,
+                       styles  : list[tuple[str,str]],
+                       prompts : list[str]
+                       ) -> None:
     """
     Saves the style list (and example prompts) to a text file.
     Args:
@@ -548,9 +548,9 @@ def make_workflow(template_filepath     : str,
 
     # generate the name of the output files
     workflow_filename = config_vars["#FILEPREFIX"] + template_name + ".json"
-    styles_filename   = config_vars["#FILEPREFIX"] + "styles.txt"
+    gallery_filename  = config_vars["#FILEPREFIX"] + "gallery.txt"
     if not create_styles_txt:
-        styles_filename = None
+        gallery_filename = None
 
     # if overwrite is disabled, check if output files already exist
     if not overwrite:
@@ -558,8 +558,8 @@ def make_workflow(template_filepath     : str,
             error(f'The output path "{workflow_filename}" already exists.',
                    "Use the '--overwrite' flag to overwrite any existing file.")
             return False
-        if styles_filename and os.path.exists( styles_filename ):
-            error(f'The output path "{styles_filename}" already exists.',
+        if gallery_filename and os.path.exists( gallery_filename ):
+            error(f'The output path "{gallery_filename}" already exists.',
                    "Use the '--overwrite' flag to overwrite any existing file.")
             return False
 
@@ -630,15 +630,15 @@ def make_workflow(template_filepath     : str,
         elif "pinned" in modification:
             update_pin(template_json, title=title, pinned=modification["pinned"], type="group")
 
-    #=== STYLES.TXT ===#
+    #=== GALLERY.TXT ===#
 
-    if styles_filename:
+    if gallery_filename:
         prompts = []
         if "#PROMPT" in config_vars:
             prompts.append( config_vars["#PROMPT"] )
         if "#PROMPT2" in config_vars:
             prompts.append( config_vars["#PROMPT2"] )
-        save_styles_txt( styles_filename, styles=config_vars.styles, prompts=prompts )
+        save_style_gallery( gallery_filename, styles=config_vars.styles, prompts=prompts )
 
     # saves modified workflow in output_filepath
     with open(workflow_filename, "w", encoding="utf-8") as file:

@@ -44,16 +44,16 @@ A workflow for [Z-Image-Turbo](https://github.com/Tongyi-MAI/Z-Image) that expan
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
 ### The 18 Predefined Styles in "amazing-z-image" (a)
-<img src="amazing-z-image-a_styles1.jpg" width="25%"></img>
+<img src="amazing-z-image-a_gallery1.jpg" width="25%"></img>
 
 ### The 18 Predefined Styles in "amazing-z-image" (b)
-<img src="amazing-z-image-b_styles1.jpg" width="25%"></img>
+<img src="amazing-z-image-b_gallery1.jpg" width="25%"></img>
 
 ### The 18 Predefined Styles in "amazing-z-comics"
-<img src="amazing-z-comics_styles1.jpg" width="25%"></img>
+<img src="amazing-z-comics_gallery1.jpg" width="25%"></img>
 
 ### The 18 Predefined Styles in "amazing-z-photo"
-<img src="amazing-z-photo_styles1.jpg" width="25%"></img>
+<img src="amazing-z-photo_gallery1.jpg" width="25%"></img>
 
 ## Workflows Overview
 
