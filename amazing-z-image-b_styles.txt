@@ -11,16 +11,16 @@ STYLES
  * Light Painting Photo
  * Kawaii Pop Photo
  * Spotlight Stage Photo
- * Post‑Processed Artistry
+ * Post-Processed Artistry
  * Low-Poly Render
  * Ink Draw
  * Shadow Fantasy Illustration
  * Gothic Engraving
- * Folk‑Art Mosaic
- * Paper‑Cut Diorama
+ * Folk-Art Mosaic
+ * Paper-Cut Diorama
  * Risograph Print
- * Modern Ukiyo‑e Print
+ * Modern Ukiyo-e Print
  * Vintage Polaroid Photo
- * Glass‑Encased Advertising
+ * Glass Encased Advertising
  * Vintage VGA Monitor
 

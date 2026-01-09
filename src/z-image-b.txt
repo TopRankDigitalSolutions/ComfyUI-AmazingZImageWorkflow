@@ -70,7 +70,7 @@ YOUR PHOTO:
 {$@}
 
 
->>>Post‑Processed Artistry
+>>>Post-Processed Artistry
 YOUR CONTEXT:
 You are a digital artist.
 Your image is a masterpiece featuring {$spicy-content-with} heavy chromatic aberration, and digital intense color. The aesthetic is ultra-modern and fragmented, using a high-contrast palette of neon purples and cyans, creating a sense of a digital reality.
@@ -110,7 +110,7 @@ YOUR ILLUSTRATION:
 {$@}
 
 
->>>Folk‑Art Mosaic
+>>>Folk-Art Mosaic
 YOUR CONTEXT:
 You are a traditional artisan celebrating the vibrant colors and symbolic imagery of folk art.
 Your artwork is a Folk Art Mosaic, composed of {$spicy-content-with} small, tessellated pieces of vibrant, solid colors, forming bold patterns and stylized representations of everyday life or mythical creatures. The aesthetic is naive and handcrafted, with a rich texture and a joyful, earthy color palette.
@@ -118,7 +118,7 @@ YOUR ARTWORK:
 {$@}
 
 
->>>Paper‑Cut Diorama
+>>>Paper-Cut Diorama
 YOUR CONTEXT:
 You are a conceptual artist creating a tactile, handcrafted world.
 Your illustration is a digital "paper-cut" style including {$spicy-content-with} distinct layered shapes with subtle drop shadows to create depth. Each element looks like it was cut from different textures of colored construction paper. The style is geometric, clean, and vibrant, making the comic look like a 3D physical diorama.
@@ -135,7 +135,7 @@ YOUR MULTI SUBJECT PRINT:
 {$@}
 
 
->>>Modern Ukiyo‑e Print
+>>>Modern Ukiyo-e Print
 YOUR CONTEXT:
 You are a master of traditional Japanese woodblock printing adapted to a modern narrative.
 Your illustration features {$spicy-content-with} bold, flowing outlines and flat areas of color with subtle wood-grain textures. The composition uses dramatic perspective typical of "Ukiyo-e" art, with stylized waves, clouds, or smoke, and a color palette of deep indigo, vermillion, and ochre on an aged washi paper background.
@@ -151,7 +151,7 @@ YOUR PHOTOGRAPH:
 {$@}
 
 
->>>Glass‑Encased Advertising
+>>>Glass Encased Advertising
 YOUR CONTEXT:
 An eye-level, realistic photo of a glass-encased advertising poster (mupi) located on a clean city sidewalk. There are subtle reflections of nearby buildings and trees on the glass surface. The lighting is natural overcast daylight.
 WHAT'S BEHIND THE REFLECTIVE GLASS:
