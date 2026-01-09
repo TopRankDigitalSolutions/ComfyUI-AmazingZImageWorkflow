@@ -1,23 +1,26 @@
 IMAGE1 PROMPT:
-The right side of the image features a young woman, with part of her body extending out of the frame, facing forward and looking directly at the viewer. She is wearing a dark, hooded jacket lined with fur around the hood, and appears to be wearing dark, segmented armor. A sword with a leather-wrapped hilt and a grey, ornate pommel is visible slung across her back, with the blade pointing upwards and to the left. The armor and jacket are covered in visible white specks, suggesting snow or frost. The left side of the image, in the background, shows a snow-covered village. The overall environment is a blurred, pale blue, indicative of a snowy landscape with falling snowflakes. The young woman has light skin, green eyes, and dark hair visible beneath the hood.
+In a steampunk workshop, a red-haired inventor, wearing overalls with a white top underneath, works on a mechanical spider. She has a black tattoo on her left arm.
 
 IMAGE2 PROMPT:
-A full shot from behind shows a warrior woman facing a horde of monsters in a hellish landscape. The woman has short brown hair tied back, and is wearing detailed, dark metallic armor with spikes on the shoulders. She holds a large, gleaming sword in her left hand, with the point angled slightly down. The monsters are grotesque, with sharp teeth, claws, and glowing red eyes. They are various sizes and shapes, some standing upright and others crouched or crawling. The ground is a rough, rocky terrain with pools of lava and fire. The background is a fiery red sky with smoke and ash. The overall tone of the image is dark and foreboding.
+A woman stands on the right side of the image, on a path leading through the woods. Her back is to the viewer, and she is in a fighting stance. Yellow balls are lined up along the dirt path. In the distance, through the mist, a yellow monster, resembling Pac-Man, is visible. The monster is spherical, with large black eyes and sharp, metallic teeth. The woman has short, wavy, light brown hair and fair skin. She is barefoot and wears a tight-fitting red hooded robe and a miniskirt. The path is dirt and lined with small plants.
 
 STYLES
- * Comic
- * European Comic
- * Vintage Comic
+ * Comic 1
+ * Comic 2
+ * Comic 3
+ * Comic Book Cover
  * Pop-Art
- * Studio Anime
- * Anime
+ * Vintage Comic
+ * Vintage Illustration
  * Manga
+ * Anime
+ * Studio Anime
+ * Digital Cyberpunk
+ * Electric Blue Outline
+ * Ink Frenzy
  * Unsettling
- * Minimalist Sketchwash
- * Ink Draw
- * Hand-Drawn Illustration
- * Digital Illustration
- * Simple Vector Illustration
+ * Epic Greg
+ * Minimalist Digital Illustration
+ * Whimsical Watercolor
  * LowRes Pixel Art
- * CGA Cyan-Magenta Monitor
 

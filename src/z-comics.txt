@@ -60,6 +60,14 @@ YOUR ILLUSTRATION:
 {$@}
 
 
+>>>Pop-Art
+YOUR CONTEXT:
+You are a bold artist.
+Your illustration features {$spicy-content-with} Pop Art style, characterized by bold vibrant colors. The colors are executed using the pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters. The scene has a flat, two-dimensional appearance typical of pop art aesthetics.
+YOUR ILLUSTRATION:
+{$@}
+
+
 >>>Vintage Comic
 YOUR CONTEXT:
 You are a 1950s artist.
@@ -73,14 +81,6 @@ YOUR CONTEXT:
 You are a sci-fi pulp magazine illustrator from the 1940s.
 Your drawing is a lush, painted-style comic cover including {$spicy-content-with} dramatic, heroic lighting and a vivid "Technicolor" palette of saturated oranges, deep teals, and bright yellows. It features soft airbrushed textures, muscular anatomy, and a grainy film-stock finish that evokes a sense of retro-futuristic adventure.
 YOUR DRAWING:
-{$@}
-
-
->>>Pop-Art
-YOUR CONTEXT:
-You are a bold artist.
-Your illustration features {$spicy-content-with} Pop Art style, characterized by bold vibrant colors. The colors are executed using the pointillist technique, where dots of color come together to create the overall picture. Dazzling patterns and comic style characters. The scene has a flat, two-dimensional appearance typical of pop art aesthetics.
-YOUR ILLUSTRATION:
 {$@}
 
 
@@ -108,54 +108,6 @@ YOUR DRAWING:
 {$@}
 
 
->>>Unsettling
-YOUR CONTEXT:
-You are an illustrator of dark and disturbing themes.
-Your illustration includes {$spicy-content-with} stippling textures, dramatic raking side lighting, and a dread-filled atmosphere that is oppressive and claustrophobic. High contrast emphasizes form and shadow, employing cinematic chiaroscuro for depth.
-YOUR DRAWING:
-{$@}
-
-
->>>Whimsical Watercolor
-YOUR CONTEXT:
-You are an illustrator specializing in gentle, enchanting narratives for children's books.
-Your drawing is a whimsical watercolor image, featuring {$spicy-content-with} loose, fluid watercolor washes, delicate linework, and playful, anthropomorphic elements within a lush natural setting. The style is soft and inviting, with a vibrant yet gentle color palette that captures the magic of innocence.
-YOUR DRAWING:
-{$@}
-
-
->>>Epic Greg
-YOUR CONTEXT:
-You are a master digital painter of heroic sagas.
-Your illustration is a grand-scale digital oil painting that includes {$spicy-content-with} characterized by masterful, sweeping brushwork and thick impasto textures. It features dramatic, cinematic lighting with intense chiaroscuro, where light sources like embers or magical energy pierce through atmospheric haze, smoke, and swirling clouds. The composition is heroic and classically inspired, using a rich, moody palette of deep earth tones accented by vibrant, glowing highlights for a legendary and immersive feel.
-YOUR PAINTING:
-{$@}
-
-
->>>Ink Frenzy
-YOUR CONTEXT:
-You are an underground street-art comic illustrator.
-Your image is a high-energy, chaotic ink drawing featuring {$spicy-content-with} aggressive brush strokes, intentional ink splatters, and "controlled mess" textures. It combines thick, variable-width outlines with vibrant, clashing spray-paint colors. The style is rebellious, modern, and feels like it’s vibrating with motion and urban grit.
-YOUR IMAGE:
-{$@}
-
-
->>>Minimalist Digital Illustration
-YOUR CONTEXT:
-You are a cover artist known for powerful, minimalist designs.
-Your cover art is a bold graphic iconography piece, featuring {$spicy-content-with} stark, impactful silhouettes and clean, sharp lines that define forms with absolute clarity. The color palette is vibrant, employing large fields of solid color with subtle gradients. Most importantly, the proportions are exaggerated, and the perspective is extremely distorted, creating a sense of vertigo and action.
-YOUR ILLUSTRATION:
-{$@}
-
-
->>>LowRes Pixel Art
-YOUR CONTEXT:
-You are a pixel artist.
-Your illustration is a low-resolution pixel art featuring {$spicy-content-with} chunky pixels and vibrant intense colors, arcade game style.
-YOUR ILLUSTRATION:
-{$@}
-
-
 >>> Digital Cyberpunk
 YOUR CONTEXT:
 You are a digital artist working in a dystopian, technologically advanced future.
@@ -168,5 +120,53 @@ YOUR ILLUSTRATION:
 YOUR CONTEXT:
 Your image showcases {$spicy-content-with} a digital cyberpunk draw, characterized by vibrant and saturated colors with solid backgrounds and blue outlines.
 YOUR IMAGE:
+{$@}
+
+
+>>>Ink Frenzy
+YOUR CONTEXT:
+You are an underground street-art comic illustrator.
+Your image is a high-energy, chaotic ink drawing featuring {$spicy-content-with} aggressive brush strokes, intentional ink splatters, and "controlled mess" textures. It combines thick, variable-width outlines with vibrant, clashing spray-paint colors. The style is rebellious, modern, and feels like it’s vibrating with motion and urban grit.
+YOUR IMAGE:
+{$@}
+
+
+>>>Unsettling
+YOUR CONTEXT:
+You are an illustrator of dark and disturbing themes.
+Your illustration includes {$spicy-content-with} stippling textures, dramatic raking side lighting, and a dread-filled atmosphere that is oppressive and claustrophobic. High contrast emphasizes form and shadow, employing cinematic chiaroscuro for depth.
+YOUR DRAWING:
+{$@}
+
+
+>>>Epic Greg
+YOUR CONTEXT:
+You are a master digital painter of heroic sagas.
+Your illustration is a grand-scale digital oil painting that includes {$spicy-content-with} characterized by masterful, sweeping brushwork and thick impasto textures. It features dramatic, cinematic lighting with intense chiaroscuro, where light sources like embers or magical energy pierce through atmospheric haze, smoke, and swirling clouds. The composition is heroic and classically inspired, using a rich, moody palette of deep earth tones accented by vibrant, glowing highlights for a legendary and immersive feel.
+YOUR PAINTING:
+{$@}
+
+
+>>>Minimalist Digital Illustration
+YOUR CONTEXT:
+You are a cover artist known for powerful, minimalist designs.
+Your cover art is a bold graphic iconography piece, featuring {$spicy-content-with} stark, impactful silhouettes and clean, sharp lines that define forms with absolute clarity. The color palette is vibrant, employing large fields of solid color with subtle gradients. Most importantly, the proportions are exaggerated, and the perspective is extremely distorted, creating a sense of vertigo and action.
+YOUR ILLUSTRATION:
+{$@}
+
+
+>>>Whimsical Watercolor
+YOUR CONTEXT:
+You are an illustrator specializing in gentle, enchanting narratives for children's books.
+Your drawing is a whimsical watercolor image, featuring {$spicy-content-with} loose, fluid watercolor washes, delicate linework, and playful, anthropomorphic elements within a lush natural setting. The style is soft and inviting, with a vibrant yet gentle color palette that captures the magic of innocence.
+YOUR DRAWING:
+{$@}
+
+
+>>>LowRes Pixel Art
+YOUR CONTEXT:
+You are a pixel artist.
+Your illustration is a low-resolution pixel art featuring {$spicy-content-with} chunky pixels and vibrant intense colors, arcade game style.
+YOUR ILLUSTRATION:
 {$@}
 
