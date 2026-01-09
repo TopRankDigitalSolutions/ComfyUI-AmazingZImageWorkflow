@@ -1,6 +1,6 @@
-# Amazing Z-Image Workflow v3.0
+# Amazing Z-Image Workflow v4.0
 
-A workflow for "Z-Image-Turbo" extending the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and ease of use. The package includes pre-configured workflows for GGUF and SAFETENSORS formats.
+A workflow for 'Z-Image-Turbo' that expands the ComfyUI base workflow with additional features, particularly focused on high-quality image styles and user-friendly functionality, while also integrating an image refiner and a simple upscaler. The package includes pre-configured setups for both GGUF and SAFETENSORS formats.
 
 ## Table of Contents
 1. Features
@@ -10,22 +10,29 @@ A workflow for "Z-Image-Turbo" extending the ComfyUI base workflow with addition
 5. License
 
 ## Features
-- Style Selector: Choose from fifteen customizable image styles.
-- Z-Image Enhancer: Improves final image quality by performing a double pass.
-- Spicy Impact Booster: Adds a subtle spicy condiment to the prompt (fully experimental).
-- Alternative Sampler Switch: Easily test generation with an alternative sampler.
-- Landscape Orientation Switch: Change to horizontal image generation with a single click.
-- Smaller Images Switch: Generate smaller images, faster and consuming less VRAM.
+- Style Selector: Choose from eighteen customizable image styles.
+- Refiner: Improves final quality by performing a second pass.
+- Upscaler: Increases the resolution of any generated image by 50%.
+- Refiner & Upscaler Mode Selector: Allows selecting between photo and illustration modes to optimize refinement and upscaling for specific image types.
+- Speed Options:
+   - 7 Steps Switch: Uses fewer steps while maintaining the quality.
+   - Smaller Image Switch: Generates images at a lower resolution (1216 x 832 pixels).
+- Extra Options:
+   - Alternative Sampler Switch: Easily test generation with an alternative sampler.
+   - Landscape Orientation Switch: Change to horizontal image generation with a single click.
+   - Spicy Impact Booster Switch: Adds a subtle spicy condiment to the prompt (fully experimental).
 - Preconfigured workflows for each checkpoint format (GGUF / SAFETENSORS).
-- Custom sigma values fine-tuned to my personal preference (100% subjective).
+- Custom sigma values fine-tuned by hand (version 4.0 utilizes a new set)
 - Generated images are saved in the "ZImage" folder, organized by date.
+- Includes the "Power Lora Loader" node for loading multiple LoRAs.
 - Incorporates a trick to enable automatic CivitAI prompt detection.
 
 ## Workflows Overview
 The available styles are organized into workflows based on their focus:
-- `amazing-z-image` : The original general-purpose workflow with a variety of image styles.
-- `amazing-z-comics`: Workflow dedicated to illustration (comics, anime, pixel art, etc.).
-- `amazing-z-photo` : Workflow dedicated to photographic images (phone, vintage, production photos, etc.).
+- `amazing-z-image-a` : The original general-purpose workflow with a variety of image styles.
+- `amazing-z-image-b` : Workflow featuring interesting styles that could not fit into the main 'a' group.
+- `amazing-z-comics`  : Workflow dedicated to illustration (comics, anime, pixel art, etc.).
+- `amazing-z-photo`   : Workflow dedicated to photographic images (phone, vintage, production photos, etc.).
 
 Each workflow comes in two versions, one for GGUF checkpoints and another for SafeTensors.
 This is reflected in the filenames:
@@ -56,11 +63,7 @@ Workflows with checkpoint in GGUF format. (recommended)
   Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors 
   Local Directory: `ComfyUI/models/vae/`
 
-- "4x_Nickelback_70000G.safetensors" (for image enhancer) [66.9 MB]
-  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors 
-  Local Directory: `ComfyUI/models/upscale_models/`
-  
-- "4x_foolhardy_Remacri.safetensors" (for image enhancer) [66.9 MB]
+- "4x_foolhardy_Remacri.safetensors" (for illustration refining) [66.9 MB]
   Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors 
   Local Directory: `ComfyUI/models/upscale_models/`
 
@@ -80,11 +83,7 @@ Based directly on the official ComfyUI example.
   Download: https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors
   Local Directory: `ComfyUI/models/vae/`
   
-- "4x_Nickelback_70000G.safetensors" (for image enhancer) [66.9 MB]
-  Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_Nickelback_70000G.safetensors 
-  Local Directory: `ComfyUI/models/upscale_models/`
-  
-- "4x_foolhardy_Remacri.safetensors" (for image enhancer) [66.9 MB]
+- "4x_foolhardy_Remacri.safetensors" (for illustration refining) [66.9 MB]
   Download: https://huggingface.co/martin-rizzo/ESRGAN-4x/blob/main/4x_foolhardy_Remacri.safetensors 
   Local Directory: `ComfyUI/models/upscale_models/`
   
@@ -115,3 +114,4 @@ See the "LICENSE" file for details.
 - https://civitai.com/models/2181458/amazing-z-image-workflow
 - https://civitai.com/models/2213075/amazing-z-comics-workflow
 - https://civitai.com/models/2225379/amazing-z-photo-workflow
+
