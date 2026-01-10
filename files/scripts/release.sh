@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # File    : release.sh
-# Purpose : Release script for the AmazingZImageWorkflow project
+# Purpose : Release script for the Amazing Z-Image Workflow project
 # Author  : Martin Rizzo | <martinrizzo@gmail.com>
 # Date    : Dec 12, 2025
 # Repo    : https://github.com/martin-rizzo/AmazingZImageWorkflow
@@ -14,80 +14,114 @@
 # Builds a zip file containing specific workflow files and associated images.
 #
 # Usage:
-#   build_zip_file <ZIP_FILE> <WORKFLOW>
+#   build_zip_file ZIP_FILE WORKFLOW
 #
 # Parameters:
 #   ZIP_FILE: The path to the output zip file.
 #   WORKFLOW: The base name of the workflow (e.g., "amazing-z-image").
 #
-# The function collects the following files:
-#   - "${workflow}_GGUF.json"
-#   - "${workflow}_SAFETENSORS.json"
-#   - "LICENSE"
-#   - The file "files/amazing-z-readme.txt          (renamed to "README.TXT")
-#   - The file "${workflow}_styles.txt"             (renamed to "styles.txt")
-#   - All files matching "${workflow}_styles*.jpg"  (renamed to "styles*.jpg")
+# This function collects several types of files and organizes them into a single
+# zip archive. It includes general files like LICENSE, README.TXT, and various
+# workflows and galleries with different suffixes and potential variations.
 #
-# Example:
-#   build_zip_file workflow.zip amazing-z-image
+# Specifically, it looks for:
+#   - "LICENSE"
+#   - "files/amazing-z-readme.txt"  (renamed to "README.TXT")
+#   - Workflow files           : "${WORKFLOW}<V>_<FORMAT>.json"
+#   - Gallery description files: "${WORKFLOW}<V>_gallery.txt"    (renamed to "gallery<V>.txt")
+#   - And gallery image files  : "${WORKFLOW}<V>_gallery<N>.jpg" (renamed to "gallery<V><N>.jpg")
+#  where:
+#    <FORMAT> can be "_GGUF" or "_SAFETENSORS"
+#    <V> is a variant (e.g., "-a", "-b")
+#    <N> is an integer representing different gallery images (e.g. 1, 2, 3, etc.)
+#
+# The function creates temporary copies of certain files (like README.TXT and
+# gallery files) with appropriate names to archive them within the final zip.
+# After creating the zip file, it removes those temporary copies.
+#
+# Example usage:
+#    build_zip_file workflow.zip amazing-z-image
+#
 #
 build_zip_file() {
     local zip_file="$1"
     local workflow="$2"
-    local temp_files=() #< to keep track of temporary files
-    local gallery="${workflow}_styles"
+    local temp_files_=() #< to keep track of temporary files
     local gallery_ext=".jpg"
-    local filename
 
     # file name suffixes regarding the format of the checkpoint file
     local formats=( "_GGUF" "_SAFETENSORS" )
 
     # file name suffixes relating to different variants of the same workflow
-    local variations=( "" "-a" "-b" "-c" "-d" "-e" "-f" )
+    local possible_variations=( "" "-a" "-b" "-c" "-d" "-e" "-f" )
+    local found_variations=( )
 
     # in this array, we collect all the files that are part of the release package
-    local zip_content=(
-        "LICENSE"
-    )
+    local zip_content=( )
 
-    # loop through all variations that the workflow can have (adding the available suffixes)
-    for variation in "${variations[@]}"; do
+    # collect the file "LICENSE" and "files/amazing-z-readme.txt"
+    zip_content+=( LICENSE )
+    cp "files/amazing-z-readme.txt" "README.TXT"
+    zip_content+=( "README.TXT" )
+    temp_files_+=( "README.TXT" )
+
+    # loop through all possible variations that the workflow can have,
+    for variation in "${possible_variations[@]}"; do
+        local found=
         for format in "${formats[@]}"; do
-            filename="${workflow}${variation}${format}.json"
-            [[ -f "$filename" ]] && zip_content+=( "${filename}" )
+            local workflow_file="${workflow}${variation}${format}.json"
+            [[ ! -f "$workflow_file" ]] && continue
+
+            # if the workflow file exists, then add it to the zip content
+            # and mark the variation as found
+            zip_content+=( "${workflow_file}" )
+            found=true
+        done
+
+        # if variation was found, then add it to the list
+        if [[ $found == true ]]; then
+            found_variations+=( "${variation}" )
+        fi
+    done
+
+    # for each found variation, creates the temporary gallery files
+    # ${variation} is empty string in workflows that don't have variations
+    for variation in "${found_variations[@]}"; do
+
+        # ${va} is ${variation} but without prefix '-'
+        #local va="${variation#-}"
+        #[[ -n "${va}" ]] && va="${va}_"
+        local va="${variation}"
+
+        # check if the file "${workflow}_gallery.txt" exists
+        gallery_file="${workflow}${variation}_gallery.txt"
+        new_file="gallery${va}.txt"
+        [[ ! -f "$gallery_file" ]] && continue
+
+        # create the file "$gallery${va}.txt" and add it to the zip content
+        cp "$gallery_file" "$new_file"
+        zip_content+=( "$new_file" )
+        temp_files_+=( "$new_file" )
+
+        # search for files that match "${workflow}_gallery<N>.jpg" pattern,
+        # where N is a number between 0 and 9 and {gallery_ext} is always ".jpg"
+        for idx in {0..9}; do
+            gallery_file="${workflow}${variation}_gallery${idx}${gallery_ext}"
+            new_file="gallery${va}${idx}${gallery_ext}"
+            [[ ! -f "$gallery_file" ]] && continue
+
+            # create the file "$gallery${va}<N>.jpg" and add it to the zip content
+            cp "$gallery_file" "$new_file"
+            zip_content+=( "$new_file" )
+            temp_files_+=( "$new_file" )
         done
     done
 
-    # copy temporarily "README.TXT" file from /files directory
-    cp "files/amazing-z-readme.txt" "README.TXT"
-    temp_files+=( "README.TXT" )
+    # create the zip archive with the collected files
+    zip -j "$zip_file" "${zip_content[@]}"
 
-    # copy "styles.txt" file
-    cp "${gallery}.txt" "styles.txt"
-    temp_files+=( "styles.txt" )
-
-    echo "release.sh is under development."  #< placeholder until the function is implemented properly
-    exit 1
-
-    # # collect gallery images renaming them to "styles1.jpg", "styles2.jpg", etc.
-    # for file in "${gallery}"*"${gallery_ext}"; do
-    #     [[ -f "$file" ]] || continue  #< ensure it's a valid file
-
-    #     # extract the numeric suffix from the filename
-    #     index=${file#"$gallery"}
-    #     index=${index%"$gallery_ext"}
-
-    #     # create temporary image file (e.g., "styles1.jpg")
-    #     image="styles${index}.jpg"
-    #     cp "$file" "$image"
-    #     temp_files+=( "$image" )
-    # done
-
-    # # create the zip archive with the collected files
-    # zip -j "$zip_file" "${zip_content[@]}" "${temp_files[@]}"
-
-    # # remove temporary files
-    # rm "${temp_files[@]}"
+    # remove temporary files
+    rm "${temp_files_[@]}"
 }
 
 
